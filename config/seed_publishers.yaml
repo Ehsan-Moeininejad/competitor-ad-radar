@@ -1,0 +1,81 @@
+# لیست اولیهٔ تاپ‌سایت‌های ایرانی که سیستم خودش نگه می‌دارد (جدا از شیت شما).
+# سیستم این لیست را هفتگی با رنکینگ Tranco و لینک‌های بین پابلیشرها گسترش می‌دهد
+# و نتیجه را در data/publishers.json نگه می‌دارد. برای حذف دائمی یک سایت، آن را در exclude بنویسید.
+
+sites:
+  news:
+    - khabaronline.ir
+    - tabnak.ir
+    - asriran.com
+    - hamshahrionline.ir
+    - isna.ir
+    - irna.ir
+    - mehrnews.com
+    - tasnimnews.com
+    - farsnews.ir
+    - yjc.ir
+    - entekhab.ir
+    - khabarfoori.com
+    - fararu.com
+    - mashreghnews.ir
+    - akharinkhabar.ir
+    - shahrekhabar.com
+    - bartarinha.ir
+    - didbaniran.ir
+    - rokna.net
+    - tejaratnews.com
+  economy_finance:
+    - eghtesadnews.com
+    - donya-e-eqtesad.com
+    - arzdigital.com
+    - ramzarz.news
+    - tgju.org
+    - alanchand.com
+  tech:
+    - zoomit.ir
+    - digiato.com
+    - zoomg.ir
+    - vigiato.net
+    - gadgetnews.net
+    - itiran.com
+    - techrato.com
+    - sakhtafzarmag.com
+    - mobile.ir
+  sports:
+    - varzesh3.com
+    - tarafdari.com
+    - footballi.net
+    - khabarvarzeshi.com
+    - varzeshi.com
+  lifestyle_women_family:
+    - beytoote.com
+    - namnak.com
+    - setare.com
+    - delgarm.com
+    - chetor.com
+    - ninisite.com
+    - niniban.com
+    - roozaneh.net
+    - modireweb.com
+  download_apps:
+    - soft98.ir
+    - p30download.ir
+    - sarzamindownload.com
+    - downloadha.com
+    - yasdl.com
+    - mobile.download.ir
+  entertainment_culture:
+    - filimo.com
+    - namava.ir
+    - cinematicket.org
+    - kojaro.com
+    - pedal.ir
+    - filmzi.com
+  education_jobs:
+    - e-estekhdam.com
+    - jobinja.ir
+    - sanjesh.org
+    - abadis.ir
+    - vajehyab.com
+
+exclude: []

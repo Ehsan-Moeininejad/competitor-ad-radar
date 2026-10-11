@@ -1,0 +1,130 @@
+name: ad-radar
+
+on:
+  # پشتیبان. تریگر اصلی cron-job.org است (ساعت 09:03، 14:03 و 20:03 تهران)
+  schedule:
+    - cron: "33 5 * * *"    # 09:03 Tehran
+    - cron: "33 10 * * *"   # 14:03 Tehran
+    - cron: "33 16 * * *"   # 20:03 Tehran → گزارش و ایمیل
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "auto = اسکن (+ گزارش در اجرای عصر) | scan | report"
+        type: choice
+        options: [auto, scan, report]
+        default: auto
+      force_report:
+        description: "همین الان گزارش بساز و ایمیل کن"
+        type: boolean
+        default: false
+      force_scan:
+        description: "اسکن حتی اگر اسکن قبلی تازه است"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  models: read          # GitHub Models (free LLM, uses the workflow token)
+  pages: write          # publish the report on GitHub Pages
+  id-token: write
+
+concurrency:
+  group: ad-radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 175
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      # raw scans (3 days), screenshots, report archive: kept in the Actions cache so git history stays small
+      - name: Restore state
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/raw
+            data/shots
+            data/landing_cache.json
+            docs
+          key: radar-state-${{ github.run_id }}
+          restore-keys: radar-state-
+
+      - name: Run radar
+        timeout-minutes: 145
+        env:
+          MODE: ${{ inputs.mode || 'auto' }}
+          FORCE_REPORT: ${{ inputs.force_report }}
+          FORCE_SCAN: ${{ inputs.force_scan }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          LLM_CHAIN: ${{ vars.LLM_CHAIN }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+          PAGE_URL: ${{ vars.PAGE_URL }}
+          PUBLISH_PAGES: ${{ vars.PUBLISH_PAGES }}
+        run: |
+          rm -f docs/.built
+          python radar/main.py
+
+      - name: Save state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/raw
+            data/shots
+            data/landing_cache.json
+            docs
+          key: radar-state-${{ github.run_id }}
+
+      - name: Commit summaries
+        if: always()
+        run: |
+          git config user.name  "ad-radar-bot"
+          git config user.email "ad-radar-bot@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "radar: $(TZ=Asia/Tehran date '+%F %H:%M')"
+          for i in 1 2 3; do
+            git fetch -q origin main
+            if git rebase -q -X theirs origin/main; then git push -q origin HEAD:main && exit 0
+            else git rebase --abort || true; git merge -q -X ours origin/main -m "merge" && git push -q origin HEAD:main && exit 0; fi
+            sleep 5
+          done
+          exit 1
+
+      - name: Check report
+        id: built
+        if: always()
+        run: echo "yes=$([ -f docs/.built ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Upload Pages
+        if: always() && steps.built.outputs.yes == 'true' && vars.PUBLISH_PAGES != 'false'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy Pages
+        if: always() && steps.built.outputs.yes == 'true' && vars.PUBLISH_PAGES != 'false'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4

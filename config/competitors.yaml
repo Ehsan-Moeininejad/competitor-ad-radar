@@ -1,0 +1,59 @@
+# رقبای شناخته‌شده (seed). رقبای جدید را سیستم خودش پیدا و دسته‌بندی می‌کند
+# و در data/advertisers.json نگه می‌دارد؛ این فایل فقط برای «قطعی کردن» است.
+#
+# level:
+#   own       → گروه دیجی‌کالا (برای سنجش حضور خودمان)
+#   core      → رقیب مستقیم و همه‌کاره (مارکت‌پلیس/فروشگاه عمومی)
+#   vertical  → رقیب در یک ورتیکال مشخص
+# domains: اگر دامنه را دقیق نمی‌دانید خالی بگذارید؛ نام‌ها (names) در متن کریتیو هم جست‌وجو می‌شوند.
+
+verticals:
+  marketplace:   {fa: "مارکت‌پلیس و فروشگاه عمومی", core: true}
+  electronics:   {fa: "موبایل، دیجیتال و لوازم الکترونیکی", core: true}
+  appliances:    {fa: "لوازم خانگی", core: true}
+  fashion:       {fa: "مد و پوشاک", core: false}
+  grocery:       {fa: "سوپرمارکت و کوییک‌کامرس", core: false}
+  gold:          {fa: "طلا و جواهر / طلای آنلاین", core: false}
+  fintech:       {fa: "فین‌تک، پرداخت و BNPL/اقساط", core: false}
+  beauty:        {fa: "آرایشی، بهداشتی و سلامت", core: false}
+  books:         {fa: "کتاب و لوازم‌التحریر", core: false}
+  telecom:       {fa: "اپراتور و اینترنت", core: false}
+  crypto:        {fa: "رمزارز و سرمایه‌گذاری", core: false}
+  travel:        {fa: "سفر و گردشگری", core: false}
+  auto:          {fa: "خودرو", core: false}
+  education:     {fa: "آموزش", core: false}
+  services:      {fa: "خدمات و اپلیکیشن‌ها", core: false}
+  other:         {fa: "سایر", core: false}
+
+brands:
+  # ---- گروه دیجی‌کالا
+  - {name: "دیجی‌کالا", en: "Digikala", level: own, vertical: marketplace,
+     domains: [digikala.com, dgkala.com], names: ["دیجی کالا", "دیجی‌کالا", "digikala"]}
+  - {name: "دیجی‌استایل", en: "Digistyle", level: own, vertical: fashion, domains: [digistyle.com], names: ["دیجی استایل", "دیجی‌استایل"]}
+  - {name: "دیجی‌پی", en: "Digipay", level: own, vertical: fintech, domains: [mydigipay.com, digipay.ir], names: ["دیجی پی", "دیجی‌پی"]}
+  - {name: "دیجی‌کالا جت", en: "Digikala Jet", level: own, vertical: grocery, domains: [digikalajet.com], names: ["دیجی کالا جت", "دیجی‌کالا جت"]}
+
+  # ---- رقبای اعلام‌شده
+  - {name: "اسنپ‌شاپ", en: "Snappshop", level: core, vertical: marketplace, domains: [snappshop.ir], names: ["اسنپ شاپ", "اسنپ‌شاپ", "snappshop"]}
+  - {name: "اسنپ‌پی", en: "SnappPay", level: vertical, vertical: fintech, domains: [snapppay.ir], names: ["اسنپ پی", "اسنپ‌پی", "snapppay"]}
+  - {name: "تکنولایف", en: "Technolife", level: vertical, vertical: electronics, domains: [technolife.com, technolife.ir], names: ["تکنولایف", "technolife"]}
+  - {name: "اکالا", en: "Okala", level: vertical, vertical: grocery, domains: [okala.com], names: ["اکالا", "okala"]}
+  - {name: "تی‌سی‌شاپ", en: "TCShop", level: vertical, vertical: electronics, domains: [], names: ["تی سی شاپ", "تی‌سی‌شاپ", "tcshop"]}
+  - {name: "میلی گلد", en: "Milli Gold", level: vertical, vertical: gold, domains: [milli.gold], names: ["میلی گلد", "میلی", "milligold", "milli gold"]}
+  - {name: "ملی گلد", en: "Melli Gold", level: vertical, vertical: gold, domains: [melligold.com], names: ["ملی گلد", "melligold", "melli gold"]}
+
+  # ---- رقبای شناخته‌شدهٔ دیگر (قابل ویرایش)
+  - {name: "باسلام", en: "Basalam", level: core, vertical: marketplace, domains: [basalam.com], names: ["باسلام", "basalam"]}
+  - {name: "تیمچه", en: "Timcheh", level: core, vertical: marketplace, domains: [timcheh.com], names: ["تیمچه", "timcheh"]}
+  - {name: "ترب", en: "Torob", level: core, vertical: marketplace, domains: [torob.com], names: ["ترب", "torob"]}
+  - {name: "اسنپ‌مارکت", en: "SnappMarket", level: vertical, vertical: grocery, domains: [snapp.market], names: ["اسنپ مارکت", "اسنپ‌مارکت"]}
+  - {name: "مدیسه", en: "Modiseh", level: vertical, vertical: fashion, domains: [modiseh.com], names: ["مدیسه"]}
+  - {name: "بانی‌مد", en: "Banimode", level: vertical, vertical: fashion, domains: [banimode.com], names: ["بانی مد", "بانی‌مد"]}
+
+# حداقل چیزی که برای «رقیب» حساب شدن یک تبلیغ‌دهندهٔ ناشناخته لازم است (سیستم خودکار)
+auto_detect:
+  # هر تبلیغ‌دهنده‌ای که در این ورتیکال‌ها کالا/خدمات آنلاین بفروشد رقیب ورتیکالی حساب می‌شود
+  competitor_verticals: [marketplace, electronics, appliances, fashion, grocery, gold, fintech, beauty, books]
+  # پروفایل «گرم» برای ریتارگتینگ: از این برندها بازدید می‌شود (همهٔ core و vertical با دامنهٔ مشخص)
+  warm_from_levels: [core, vertical]
+  warm_max_sites: 8

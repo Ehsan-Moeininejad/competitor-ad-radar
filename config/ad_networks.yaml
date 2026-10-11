@@ -1,0 +1,121 @@
+# امضای شبکه‌های تبلیغاتی. سیستم دامنه‌های ناشناختهٔ تبلیغاتی را هم ثبت می‌کند
+# (بخش «شبکه‌های کشف‌شده» در گزارش) تا بتوانید اینجا اضافه‌شان کنید.
+#
+# hosts:     دامنه‌هایی که درخواست‌های شبکه به آن‌ها می‌رود
+# selectors: سلکتورهای CSS ظرف تبلیغ در صفحه
+# api:       الگوی آدرس API که پاسخش شامل لینک لندینگ/عنوان تبلیغ است
+
+networks:
+  yektanet:
+    fa: "یکتانت"
+    hosts: [yektanet.com, yektanet.ir, ynet.click, cdn.yektanet.com, ua.yektanet.com, cdn.yektanet.ir, yn-cdn.com]
+    selectors: ['[id^="pos-article"]', '[id^="pos-sticky"]', '[id^="pos-video"]', '[id*="yektanet"]', '[class*="yektanet"]', '[class*="yn-"]', '[id^="yn-"]']
+    api: ["yektanet"]
+  mediaad_tapsell:
+    fa: "مدیااد / تپسل"
+    hosts: [mediaad.org, mediaffic.ir, tapsell.ir, tapsell.io, mediaad.ir]
+    selectors: ['[id^="mediaad-"]', '[data-ma-widget-container]', '[class*="tapsell"]', '[id*="tapsell"]', 'article.ma-recomad']
+    api: ["api.mediaad.org/v1/", "/serve"]
+  adivery:
+    fa: "ادیوری"
+    hosts: [adivery.com]
+    selectors: ['[id*="adivery"]', '[class*="adivery"]']
+    api: ["adivery"]
+  sabavision:
+    fa: "صباویژن"
+    hosts: [sabavision.com, saba.ir, sabaidea.com]
+    selectors: ['[id*="sabavision"]', '[class*="sabavision"]', '[id^="saba"]']
+    api: ["sabavision"]
+  anetwork:
+    fa: "انتورک"
+    hosts: [anetwork.ir]
+    selectors: ['[id*="anetwork"]', '[class*="anetwork"]']
+    api: ["anetwork"]
+  deema:
+    fa: "دیما"
+    hosts: [deema.agency, deemanetwork.com]
+    selectors: ['[id*="deema"]', '[class*="deema"]']
+    api: ["deema"]
+  daartads:
+    fa: "دارت"
+    hosts: [daartads.com, daart.ir]
+    selectors: ['[id*="daart"]', '[class*="daart"]']
+    api: ["daart"]
+  adro:
+    fa: "ادرو"
+    hosts: [adro.co, adro.ir]
+    selectors: ['[id*="adro"]', '[class*="adro-"]']
+    api: ["adro"]
+  kaprila:
+    fa: "کاپریلا"
+    hosts: [kaprila.com]
+    selectors: ['[id*="kaprila"]', '[class*="kaprila"]']
+    api: ["kaprila"]
+  digiad:
+    fa: "دیجی‌اد"
+    hosts: [digiad.ir, digiad.com, dkads.ir]
+    selectors: ['[id*="digiad"]', '[class*="digiad"]']
+    api: ["digiad"]
+  najva:
+    fa: "نجوا (پوش)"
+    hosts: [najva.com]
+    selectors: ['[id*="najva"]', '[class*="najva"]']
+    api: []
+    push: true
+  pushe:
+    fa: "پوشه (پوش)"
+    hosts: [pushe.co]
+    selectors: ['[id*="pushe"]']
+    api: []
+    push: true
+  google:
+    fa: "گوگل ادز"
+    hosts: [googlesyndication.com, doubleclick.net, googleadservices.com, adservice.google.com]
+    selectors: ['ins.adsbygoogle', '[id^="div-gpt-ad"]', '[id^="google_ads_iframe"]']
+    api: []
+  criteo:
+    fa: "کرایتو"
+    hosts: [criteo.com, criteo.net]
+    selectors: ['[id*="criteo"]']
+    api: []
+
+# دامنه‌هایی که قطعاً تبلیغ نیستند (آنالیتیکس، CDN عمومی، شبکه اجتماعی)
+not_ads:
+  - google-analytics.com
+  - googletagmanager.com
+  - analytics.google.com
+  - yandex.ru
+  - yandex.com
+  - gstatic.com
+  - googleapis.com
+  - cloudflare.com
+  - cdnjs.cloudflare.com
+  - jsdelivr.net
+  - hotjar.com
+  - clarity.ms
+  - sentry.io
+  - fonts.googleapis.com
+  - t.me
+  - telegram.me
+  - instagram.com
+  - twitter.com
+  - x.com
+  - linkedin.com
+  - aparat.com
+  - youtube.com
+  - facebook.com
+  - whatsapp.com
+  - e-rasaneh.ir
+  - enamad.ir
+  - samandehi.ir
+  - logo.samandehi.ir
+  - trustseal.enamad.ir
+  - eitaa.com
+  - bale.ai
+  - rubika.ir
+
+# برچسب‌هایی که کنار تبلیغ نوشته می‌شوند
+labels: ["تبلیغات", "تبلیغ", "آگهی", "رپورتاژ", "رپرتاژ", "محتوای حمایت‌شده", "محتوای حمایت شده", "اسپانسر", "پیشنهاد ویژه", "Sponsored", "Advertisement", "Ads", "AD"]
+
+# پارامترهای ردیابی که از لینک لندینگ حذف می‌شوند (قبل از بازدید و در شمارش)
+tracking_params: [utm_source, utm_medium, utm_campaign, utm_content, utm_term, utm_id, mtm_campaign, mtm_kwd, mtm_source, mtm_medium, gclid, fbclid, yclid, ref, icode, clickid, click_id, ynclid, ma_click]

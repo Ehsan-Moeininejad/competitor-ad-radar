@@ -1,0 +1,7 @@
+# Heavy / short-lived state lives in the Actions cache, not in git history
+data/raw/
+data/shots/
+data/landing_cache.json
+docs/
+__pycache__/
+*.pyc
