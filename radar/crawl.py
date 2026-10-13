@@ -468,6 +468,6 @@ def _save_thumb(png: bytes, folder: Path):
     h = hashlib.md5(small.tobytes()).hexdigest()[:14]   # near-duplicate creatives share a hash
     path = folder / f"{h}.jpg"
     if not path.exists():
-        im.thumbnail((420, 420))
-        im.save(path, "JPEG", quality=62, optimize=True)
+        im.thumbnail((640, 640))
+        im.save(path, "JPEG", quality=72, optimize=True, progressive=True)
     return f"{folder.name}/{h}.jpg"

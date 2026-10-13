@@ -53,7 +53,7 @@ def prune():
         for f in daily.glob("*.json"):
             if f.stem < daily_from:
                 f.unlink()
-    for name in ("creatives.json", "inventory.json", "pairs.json"):
+    for name in ("creatives.json", "inventory.json", "pairs.json", "utm_registry.json"):
         reg = read_json(DATA / name, {}) or {}
         reg2 = {k: v for k, v in reg.items() if (v.get("last_seen") or today()) >= daily_from}
         if len(reg2) != len(reg):

@@ -46,6 +46,10 @@ def _images(D, cap=220):
     for r in pri:
         if r["sh"] and r["sh"] not in keys:
             keys.append(r["sh"])
+    for c in D.get("campaigns", []):
+        for k in c.get("shots", [])[:1]:
+            if k and k not in keys:
+                keys.append(k)
     for x in D.get("long_running", []):
         k = (x.get("shot") or "").split("/")[-1].split(".")[0]
         x["shot_key"] = k
@@ -137,7 +141,8 @@ def build(D: dict, M: dict, I: dict, publishers: dict, llm_summary: str, nets_cf
         "catmeta": {k: {"fa": v.get("fa", k), "core": v.get("core", False), "group": v.get("group", "other")} for k, v in vdefs.items()},
         "angles": ANGLE, "colors": colors, "kpis": _kpis(D), "I": I, "M": M or {}, "pubs": pubs,
         **{k: D.get(k) for k in ("competitors", "categories", "sites", "media_plan", "networks", "discovery", "long_running", "messaging",
-                                 "dayparts", "alerts", "coverage", "geo_suspect", "gaps", "format_share", "rows")},
+                                 "dayparts", "alerts", "coverage", "geo_suspect", "gaps", "format_share", "rows",
+                                 "campaigns", "utm", "offer_bench")},
     }
     data_js = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     img_js = json.dumps(IMGS, separators=(",", ":"))

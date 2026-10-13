@@ -42,7 +42,10 @@ def digest_for_llm(D: dict, M: dict) -> str:
              "media_plan_top": [{k: p[k] for k in ("site", "category", "format", "placement", "device", "route", "bid", "angle", "objective", "competitors")}
                                 for p in D.get("media_plan", [])[:8]],
              "messaging": {k: D.get("messaging", {}).get(k) for k in ("market", "own", "gaps")},
-             "networks": {k: {x: v[x] for x in ("ads", "competitor_share", "bid_climate", "top_competitors")} for k, v in D.get("networks", {}).items()}}
+             "networks": {k: {x: v[x] for x in ("ads", "competitor_share", "bid_climate", "top_competitors")} for k, v in D.get("networks", {}).items()},
+             "utm_campaigns": [{k: c[k] for k in ("brand", "campaign", "tags", "mediums", "sources", "sites", "ads", "days", "new")}
+                               for c in D.get("campaigns", []) if c["level"] != "own"][:15],
+             "offer_benchmark": {k: {x: v[x] for x in ("discount", "months", "no_prepay", "free_shipping", "own")} for k, v in list(D.get("offer_bench", {}).items())[:8]}}
     return json.dumps({**extra, "date": D["date"], "runs": D["runs"], "coverage_pct": D["coverage_pct"], "competitors": comps,
                        "sites_top_opportunity": sites, "presence_gaps": D["gaps"],
                        "discovery": disc, "campaign_mix": D["campaign_mix"], "network_share": D["network_share"],
@@ -96,6 +99,9 @@ def fallback(D, M):
         summary.append("کم‌تراکم‌ترین فرصت‌ها: " + "، ".join(f"{d} (فشار {D['sites'][d]['pressure']})" for d in best))
     if D["gaps"]:
         summary.append("شکاف حضور (رقبا هستند، دیجی‌کالا نیست): " + "، ".join(D["gaps"][:5]))
+    newc = [c for c in D.get("campaigns", []) if c["new"] and c["level"] != "own"]
+    if newc:
+        summary.append("کمپین‌های تازهٔ رقبا (از UTM): " + "، ".join(f"{c['brand']} «{c['campaign']}»" for c in newc[:3]))
     n_new = len(D["discovery"]["new_units"])
     if n_new:
         summary.append(f"{n_new} جایگاه/فرمت تازه نسبت به روزهای قبل دیده شد")

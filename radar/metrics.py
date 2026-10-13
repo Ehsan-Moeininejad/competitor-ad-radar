@@ -211,7 +211,10 @@ def build(runs: list, publishers: dict, adv_reg: dict) -> dict:
     D["discovery"] = _discovery(obs, pages, cov, adv_reg)
 
     # ---------------- creatives registry (lifetime)
-    D["long_running"] = _creatives(obs)
+    vel = {}
+    D["long_running"] = _creatives(obs, vel)
+    for b, c in D["competitors"].items():
+        c["cr_active"], c["cr_new"] = vel.get(b, {}).get("active", 0), vel.get(b, {}).get("new", 0)
 
     # ---------------- messages / offers / campaigns
     D["campaign_mix"] = dict(collections.Counter(t for o in ident if o["level"] != "own" for t in o.get("campaign_types", [])).most_common())
@@ -228,6 +231,9 @@ def build(runs: list, publishers: dict, adv_reg: dict) -> dict:
     D["dayparts"] = _dayparts(ident)
     D["messaging"] = _messaging(ident)
     D["media_plan"] = _media_plan(D, publishers, obs)
+    import campaigns as _cp
+    D.update(_cp.build(obs))
+    D["offer_bench"] = _cp.offer_bench(obs)
     D["rows"] = _rows(obs)
     D["alerts"] = _alerts(D)
     return D
@@ -457,6 +463,7 @@ def _rows(obs):
                     "n": o["network"], "f": o["format"], "p": o["placement"], "d": o["session"].split("_")[0], "w": o["session"].endswith("warm"),
                     "dp": o.get("daypart", ""), "t": (o.get("title") or "")[:110], "sh": (o.get("shot") or "").split("/")[-1].split(".")[0],
                     "ct": o.get("campaign_types", []), "lt": o.get("landing_type", ""), "u": (o.get("utm") or {}).get("utm_campaign", "")[:60],
+                    "ut": {k2: v[:60] for k, v in (o.get("utm") or {}).items() if (k2 := {"utm_source": "s", "utm_medium": "m", "utm_campaign": "c", "utm_content": "ct", "utm_term": "tm", "utm_id": "id"}.get(k)) and v},
                     "sz": o.get("size", ""), "ld": (o.get("adv_domain") or ""), "wt": o.get("wt", 1),
                     "fs": life.get("first_seen", ""), "ls": life.get("last_seen", ""), "dy": len(life.get("days", [])) or 1,
                     "of": _offer_text(o.get("offer") or {})})
@@ -540,8 +547,9 @@ def _discovery(obs, pages, cov, adv_reg):
             "catalog": {d: dict(c.most_common(12)) for d, c in catalog.items()}}
 
 
-def _creatives(obs):
+def _creatives(obs, velocity=None):
     reg = read_json(DATA / "creatives.json", {}) or {}
+    baseline = not reg
     t = today()
     for o in obs:
         if o.get("level") not in ("own", "core", "vertical"):
@@ -557,13 +565,26 @@ def _creatives(obs):
             e["sites"] = (e["sites"] + [o["domain"]])[-10:]
         if o.get("shot"):
             e["shot"] = o["shot"]
+    cutoff = days_ago(31)
+    reg = {k: e for k, e in reg.items() if e.get("last_seen", t) >= cutoff}
     write_json(DATA / "creatives.json", reg)
+    if velocity is not None:   # creative refresh per brand: active today vs first seen today
+        for e in reg.values():
+            if e["last_seen"] == t:
+                v = velocity.setdefault(e["brand"], {"active": 0, "new": 0})
+                v["active"] += 1
+                v["new"] += (e["first_seen"] == t) and not baseline
     out = []
     for k, e in reg.items():
         if e["last_seen"] == t:
             out.append({"brand": e["brand"], "title": e["title"], "days": len(e["days"]), "first_seen": e["first_seen"],
                         "sites": len(e["sites"]), "shot": e.get("shot")})
     return sorted(out, key=lambda x: (-x["days"], -x["sites"]))[:20]
+
+
+def _TAGFA():
+    from campaigns import TAG_FA
+    return TAG_FA
 
 
 def _alerts(D):
@@ -578,6 +599,14 @@ def _alerts(D):
     for a in D["discovery"]["new_advertisers"]:
         if a["level"] in ("core", "vertical"):
             al.append({"level": "mid", "text": f"رقیب تازه در تبلیغات: {a['name']} ({a['vertical']})"})
+    newc = [c for c in D.get("campaigns", []) if c["new"] and c["level"] in ("core", "vertical")]
+    for c in newc[:4]:
+        tg = "، ".join(_TAGFA().get(x, x) for x in c["tags"][:3])
+        al.append({"level": "high" if len(c["sites"]) >= 3 or c["ads"] >= 6 else "mid",
+                   "text": f"کمپین تازهٔ {c['brand']}: «{c['campaign']}»" + (f" ({tg})" if tg else "") + f" در {len(c['sites'])} سایت"})
+    for b, c in D["competitors"].items():
+        if c["level"] in ("core", "vertical") and c.get("cr_new", 0) >= 4 and c["cr_new"] >= 0.5 * max(1, c.get("cr_active", 0)):
+            al.append({"level": "mid", "text": f"{b} امروز {c['cr_new']} کریتیو تازه آورد (از {c['cr_active']} کریتیو فعال)؛ احتمال شروع موج کمپین"})
     if D["discovery"]["new_networks"]:
         al.append({"level": "low", "text": f"{len(D['discovery']['new_networks'])} شبکهٔ تبلیغاتی تازه روی سایت‌ها دیده شد"})
     if D.get("geo_suspect"):

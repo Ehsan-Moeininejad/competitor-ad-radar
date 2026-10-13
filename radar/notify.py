@@ -37,6 +37,9 @@ def send(D: dict, I: dict, report_path, page_url: str = ""):
     site_rows = "".join(f'<tr><td {td} dir="ltr">{t(p["site"])}</td><td {td}>{t(vfa.get(p["category"], p["category"]))}</td>'
                         f'<td {td}>{t(FORMAT_FA.get(p["format"], p["format"]))} · {t(PLACEMENT_FA.get(p["placement"], p["placement"]))}</td><td {td}>{t(p["bid"])}</td><td {td}>{t(p["angle"])}</td></tr>' for p in plan)
     cat_rows = "".join(f'<tr><td {td}>{t(c["fa"])}</td><td {td}>{c["risk"]}</td><td {td}>{round(c["own_share"] * 100)}%</td><td {td}>{t(c["rivals"][0]["brand"])}</td></tr>' for c in cats)
+    newc = [c for c in D.get("campaigns", []) if c.get("new") and c["level"] != "own"][:5]
+    from campaigns import TAG_FA
+    camp_rows = "".join(f'<tr><td {td}>{t(c["brand"])}</td><td {td} dir="ltr">{t(c["campaign"])}</td><td {td}>{t("، ".join(TAG_FA.get(x, x) for x in c["tags"][:3]) or "—")}</td><td {td}>{len(c["sites"])}</td></tr>' for c in newc)
     btn = (f'<table role="presentation" cellpadding="0" cellspacing="0" style="margin:18px 0"><tr><td style="background:#ef4056;border-radius:8px">'
            f'<a href="{t(page_url)}" style="display:inline-block;padding:10px 20px;font-family:{F};font-size:14px;font-weight:bold;color:#fff;text-decoration:none">'
            f'مشاهدهٔ گزارش کامل</a></td></tr></table>') if page_url else ""
@@ -50,6 +53,7 @@ def send(D: dict, I: dict, report_path, page_url: str = ""):
 {sec('چه چیزی تغییر کرد', f'<ul dir="rtl" style="font-family:{F};font-size:13.5px;color:#f0efec;line-height:1.8;padding-right:18px;margin:0">{alerts or "<li>تغییر مهمی نسبت به دیروز دیده نشد.</li>"}</ul>')}
 {sec('جمع‌بندی', f'<ul dir="rtl" style="font-family:{F};font-size:13.5px;color:#f0efec;line-height:1.8;padding-right:18px;margin:0">{bullets}</ul>')}
 {sec('پیشنهاد رسانه: دیجی‌کالا کجا و با چه تبلیغی برود', f'<table width="100%" cellpadding="0" cellspacing="0" dir="rtl"><tr><th {th}>سایت</th><th {th}>چه بفروشیم</th><th {th}>فرمت</th><th {th}>بید</th><th {th}>زاویهٔ پیام</th></tr>{site_rows}</table>') if site_rows else ''}
+{sec('کمپین‌های تازهٔ رقبا (UTM)', f'<table width="100%" cellpadding="0" cellspacing="0" dir="rtl"><tr><th {th}>برند</th><th {th}>کمپین</th><th {th}>معنا</th><th {th}>سایت</th></tr>{camp_rows}</table>') if camp_rows else ''}
 {sec('ریسک دسته‌ها', f'<table width="100%" cellpadding="0" cellspacing="0" dir="rtl"><tr><th {th}>دسته</th><th {th}>ریسک</th><th {th}>سهم دیجی‌کالا</th><th {th}>رقیب اول</th></tr>{cat_rows}</table>') if cat_rows else ''}
 <tr><td align="right">{btn}<div style="font-family:{F};font-size:12px;color:#898781;text-align:right">گزارش کامل (پیشنهاد رسانه، رقبا، گالری کریتیو و روند ماهانه) در لینک بالا و به‌صورت فایل پیوست موجود است.</div></td></tr>
 </table></td></tr></table></body></html>"""
