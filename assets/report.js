@@ -93,7 +93,7 @@
     const list = (D.media_plan || []).map((p, i) => [p, i]).filter(([p]) => (!F.cat || p.category === F.cat) && (!F.dev || p.device === F.dev));
     return `<div class="card"><h3>پیشنهاد رسانه برای دیجی‌کالا</h3>
       <p class="hint">برای هر سایت: کدام دسته را تبلیغ کنیم (جایی که رقبا تقاضا را ثابت کرده‌اند یا مخاطب سایت به آن نزدیک است)، در کم‌تراکم‌ترین جایگاه، با کدام مسیر خرید و چه سطح بید، و با چه پیامی که پیام غالب رقبا را خنثی کند.</p>
-      <p><button class="btn" id="plan-csv">دانلود پلن برای وایت‌لیست شبکه‌ها (CSV)</button> <span class="small muted">سایت‌هایی که «اجتناب» خورده‌اند در پلن نیستند؛ در تب «سایت‌ها و شبکه‌ها» دیده می‌شوند.</span></p>
+      <p><button class="btn" id="plan-csv">خروجی پلن برای وایت‌لیست شبکه‌ها (CSV)</button> <span class="small muted">سایت‌هایی که «اجتناب» خورده‌اند در پلن نیستند؛ در تب «سایت‌ها و شبکه‌ها» دیده می‌شوند.</span></p>
       <div class="plans">${list.map(([p, i]) => planCard(p, i)).join('') || empty('برای این فیلتر پیشنهادی نیست.')}</div></div>`;
   }
 
@@ -385,7 +385,7 @@
         <li>دادهٔ خام و اسکرین‌شات‌ها ۳ روز، و خلاصهٔ روزانه و اینسایت ماهانه ۳۱ روز نگه داشته می‌شوند.</li>
         <li>مدل‌های استفاده‌شده: <span class="ltr">${esc(D.meta.llm)}</span></li>
         <li>اعداد جهت‌دار هستند، نه سهم دقیق بازار. هر اسکن نمونه‌ای از تبلیغات چرخشی است و دقت با گذشت روزها بالا می‌رود.</li></ul>
-        <p style="margin-top:12px"><button class="btn" id="csv">دانلود دادهٔ امروز (CSV)</button> <a class="btn" href="archive.html" style="text-decoration:none;color:inherit">آرشیو گزارش‌ها</a></p></div></div>
+        <p style="margin-top:12px"><button class="btn" id="csv">خروجی دادهٔ امروز (CSV)</button> ${D.meta.archive === false ? '' : '<a class="btn" href="archive.html" style="text-decoration:none;color:inherit">آرشیو گزارش‌ها</a>'}</p></div></div>
       <div class="card"><h3>پوشش اسکن</h3><p class="hint">«ادتک بدون تبلیغ» یعنی کد شبکه لود شده ولی اسلاتی پر نشده است. ممکن است اسلات خالی باشد، سایت SPA باشد یا تبلیغ به IP خارجی نمایش داده نشود. اگر تعداد این سایت‌ها زیاد است، PROXY_URL (پراکسی ایران) را تنظیم کنید.</p>
       <div class="tw"><table class="sortable"><thead><tr><th class="sort">سایت</th><th class="sort">صفحهٔ موفق</th><th class="sort">اسلات</th><th>ادتک</th><th>وضعیت</th><th>خطا</th></tr></thead><tbody>
       ${cov.map(([d, c]) => `<tr><td class="ltr">${esc(d)}</td><td class="num">${c.ok}/${c.pages}</td><td class="num">${c.slots}</td><td>${(c.adtech || []).map(n => chip(fa('network', n))).join('')}</td><td>${(D.geo_suspect || []).includes(d) ? '<span class="pill st-warn">ادتک بدون تبلیغ</span>' : ''}</td><td class="ltr small muted">${esc((c.errors || []).join('; '))}</td></tr>`).join('')}</tbody></table></div></div>`;
@@ -406,14 +406,14 @@
   function bind() {
     $$('#tabs button').forEach(b => b.onclick = () => { cur = b.dataset.t; try { history.replaceState(null, '', '#' + cur); } catch (e) { } renderAll(); window.scrollTo(0, 0); });
     $$('[data-go]').forEach(b => b.onclick = () => { cur = b.dataset.go; renderAll(); window.scrollTo(0, 0); });
-    $$('tr[data-brand]').forEach(tr => tr.onclick = () => openBrand(tr.dataset.brand));
+    $$('tr[data-brand]').forEach(tr => { tr.tabIndex = 0; tr.onclick = () => openBrand(tr.dataset.brand); tr.onkeydown = e => { if (e.key === 'Enter') openBrand(tr.dataset.brand); }; });
     $$('.cr').forEach(c => c.onclick = () => openShot(c));
     const gb = $('#g-brand'); if (gb) { gb.onchange = e => { G.brand = e.target.value; renderAll(); }; $('#g-fmt').onchange = e => { G.fmt = e.target.value; renderAll(); };
       $('#g-net').onchange = e => { G.net = e.target.value; renderAll(); }; $('#g-sort').onchange = e => { G.sort = e.target.value; renderAll(); }; $('#g-q').onchange = e => { G.q = e.target.value.trim(); renderAll(); }; }
     $$('[data-brief]').forEach(b => b.onclick = e => { e.stopPropagation(); const t = briefText(D.media_plan[+b.dataset.brief]);
-      (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => { b.textContent = '✓ کپی شد'; }, () => { prompt('بریف:', t); }); });
+      copyOrShow(t, b, '✓ بریف کپی شد'); });
     const pc = $('#plan-csv'); if (pc) pc.onclick = () => csvDownload(['site', 'category', 'format', 'placement', 'device', 'route', 'bid', 'angle', 'objective', 'score', 'pressure', 'opportunity', 'confidence'],
-      D.media_plan.map(p => [p.site, fa('category', p.category), fa('format', p.format), fa('placement', p.placement), fa('device', p.device), p.route, p.bid, p.angle, p.objective, p.score, p.pressure, p.opportunity, p.confidence]), `media-plan-${D.meta.date}.csv`);
+      D.media_plan.map(p => [p.site, fa('category', p.category), fa('format', p.format), fa('placement', p.placement), fa('device', p.device), p.route, p.bid, p.angle, p.objective, p.score, p.pressure, p.opportunity, p.confidence]), `media-plan-${D.meta.date}.csv`, pc);
     const pq = $('#p-q'); if (pq) pq.oninput = e => { const q = e.target.value.trim(); $$('#pt tbody tr').forEach(r => r.style.display = r.innerText.includes(q) ? '' : 'none'); };
     const csv = $('#csv'); if (csv) csv.onclick = downloadCsv;
     $$('table.sortable').forEach(t => $$('th.sort', t).forEach(th => { let asc = false; th.onclick = () => {
@@ -422,11 +422,19 @@
         const r = (!isNaN(nx) && !isNaN(ny)) ? nx - ny : String(xa).localeCompare(String(ya), 'fa'); return asc ? r : -r; });
       rows.forEach(r => t.tBodies[0].appendChild(r)); }; }));
   }
-  function csvDownload(head, rows, name) {
-    const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
-    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(['\ufeff' + [head.join(',')].concat(rows.map(r => r.map(q).join(','))).join('\n')], { type: 'text/csv' })); a.download = name; a.click();
+  // copy to clipboard (works everywhere); if refused, show the text selected in a box so it can be copied by hand
+  function copyOrShow(text, btn, okLabel) {
+    const fallback = () => { $('#lb').innerHTML = `<button class="x" data-close>✕</button><p class="small muted">کپی خودکار مجاز نبود؛ متن انتخاب شده است، با Ctrl/Cmd+C کپی کنید.</p><textarea id="copybox" style="width:100%;height:50vh;background:var(--s2);color:var(--ink);border:1px solid var(--ring);border-radius:9px;padding:10px;direction:rtl">${esc(text)}</textarea>`;
+      $('#ov').classList.add('on'); const t = $('#copybox'); t.focus(); t.select(); };
+    try { (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(() => { const o = btn.textContent; btn.textContent = okLabel; setTimeout(() => btn.textContent = o, 2200); }, fallback); } catch (e) { fallback(); }
   }
-  function downloadCsv() {
+  function csvDownload(head, rows, name, btn) {
+    const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
+    const csv = [head.join(',')].concat(rows.map(r => r.map(q).join(','))).join('\n');
+    try { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob(['\ufeff' + csv], { type: 'text/csv' })); a.download = name; a.click(); } catch (e) { }
+    if (btn) copyOrShow(csv, btn, '✓ CSV کپی شد (در اکسل/شیت Paste کنید)');
+  }
+  function downloadCsv(e) {
     const cols = [['b', 'brand'], ['l', 'level'], ['v', 'vertical'], ['c', 'category'], ['s', 'site'], ['n', 'network'], ['f', 'format'], ['p', 'placement'], ['d', 'device'], ['dp', 'daypart'], ['t', 'title'], ['ld', 'landing_domain'], ['u', 'utm_campaign'], ['sz', 'size']];
     const q = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
     const body = [cols.map(c => c[1]).join(',')].concat(rowsF().map(r => cols.map(c => q(r[c[0]])).join(','))).join('\n');
