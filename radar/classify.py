@@ -13,7 +13,7 @@ FORMAT_FA = {"native": "نیتیو / پیشنهاد محتوا", "display": "ب�
              "video": "ویدیو", "text": "متنی", "reportage": "رپورتاژ", "push": "پوش نوتیفیکیشن"}
 CAMPAIGN_FA = {"retargeting": "ریتارگتینگ", "promo": "پروموشن/تخفیف", "gamified": "گیمیفیکیشن (گردونه/قرعه‌کشی)",
                "app_install": "نصب اپ", "lead_gen": "لیدجن (فرم)", "installment": "اقساط/BNPL", "product": "محصول‌محور",
-               "brand": "برندینگ/آگاهی", "campaign_landing": "لندینگ کمپین", "native_content": "محتوای نیتیو", "seasonal": "مناسبتی", "unknown": "نامشخص"}
+               "brand": "برندینگ/آگاهی", "campaign_landing": "لندینگ کمپین", "targeted": "هدف‌گیری مخاطب (Audience)", "native_content": "محتوای نیتیو", "seasonal": "مناسبتی", "unknown": "نامشخص"}
 APP_HOSTS = ("play.google.com", "apps.apple.com", "cafebazaar.ir", "myket.ir", "sibapp.com", "adtrace.io", "metrix.ir",
              "adjust.com", "app.adjust.com", "onelink.me", "appsflyer.com", "sibche.com")
 SEASONAL = re.compile(r"نوروز|یلدا|بلک.?فرایدی|black.?friday|جمعه.?سیاه|شب.?یلدا|مهر|بازگشایی.?مدارس|رمضان|عید|فصل|پاییز|زمستان|تابستان|بهار|حراج.?(فصل|پایان)", re.I)
@@ -23,6 +23,33 @@ INSTALL = re.compile(r"اقساط|قسطی|اعتباری|بدون.?پیش.?پر
 
 
 LABELS = set(load_yaml("ad_networks.yaml").get("labels", []))
+
+
+_CATS = load_yaml("categories.yaml").get("keywords", {})
+
+
+def ad_category(text: str, fallback: str) -> str:
+    """Which product category is this ad selling? (keyword vote, falls back to the advertiser's vertical)"""
+    t = norm_text(text).lower()
+    best, score = None, 0
+    for cat, words in _CATS.items():
+        sc = sum(1 for w in words if w.lower() in t)
+        if cat == "marketplace":
+            sc *= 0.5          # generic shopping words only win when nothing specific matches
+        if sc > score:
+            best, score = cat, sc
+    return best or fallback or "other"
+
+
+def daypart(run_id: str) -> str:
+    try:
+        h = int(str(run_id)[:2])
+    except ValueError:
+        return "other"
+    return "morning" if h < 12 else "noon" if h < 17 else "evening"
+
+
+DAYPART_FA = {"morning": "صبح", "noon": "ظهر", "evening": "عصر/شب", "other": "—"}
 
 
 class Brands:
@@ -133,22 +160,31 @@ def observations(pages: list, brands: Brands, tracking_params: list, run_id: str
                 real = unwrap_redirect(href) if href else ""
                 if real and root_domain(domain_of(real)) == root_domain(p["domain"]):
                     continue  # house ad / internal promo
-                adv_dom = root_domain(domain_of(real)) if real else ""
-                brand = brands.by_dom(adv_dom) or brands.by_text(title)
                 clean = strip_tracking(real, tracking_params) if real else ""
                 land = landings.get(clean) or {}
+                adv_dom = root_domain(domain_of(real)) if real else ""
+                # short links / trackers (l.azki.com, mfid.ir…) → use the domain the landing actually resolved to
+                if land.get("final_domain") and root_domain(land["final_domain"]) != adv_dom and not land.get("error"):
+                    adv_dom = root_domain(land["final_domain"])
+                brand = brands.by_dom(adv_dom) or brands.by_text(title + " " + (land.get("title") or ""))
+                utm = utm_of(real) if real else {}
                 o = {
-                    "run": run_id, "domain": p["domain"], "session": p["session"], "page": p["kind"],
+                    "run": run_id, "daypart": daypart(run_id), "domain": p["domain"], "session": p["session"], "page": p["kind"],
                     "network": sl.get("network") or "direct", "source": sl.get("kind"), "placement": plc, "format": fmt,
                     "size": size, "x": sl["rect"]["x"], "y": sl["rect"]["y"], "w": sl["rect"]["w"], "h": sl["rect"]["h"],
                     "title": title[:200], "cta": c.get("cta", ""), "price": c.get("price", ""), "discount": c.get("discount", ""),
-                    "landing": clean[:400], "adv_domain": adv_dom, "utm": utm_of(real) if real else {},
+                    "landing": clean[:400], "adv_domain": adv_dom, "utm": utm,
                     "brand": brand["name"] if brand else "", "level": brand.get("level") if brand else "",
-                    "vertical": brand.get("vertical") if brand else "", "shot": sl.get("shot") if ci == 0 else None,
+                    "vertical": brand.get("vertical") if brand else "",
+                    "shot": c.get("shot") or (sl.get("shot") if ci == 0 else None),
                     "label": sl.get("label", ""), "unit": f"{p['domain']}|{p['kind']}|{plc}|{fmt}|{p['session'].split('_')[0]}",
                     "landing_type": land.get("type", ""), "landing_title": land.get("og_title") or land.get("title", ""),
+                    "offer": {k: land.get(k) for k in ("installment", "free_shipping", "countdown", "gamified", "voucher", "discount", "months", "no_prepay", "min_buy") if land.get(k)},
                 }
+                if not o["adv_domain"] and utm.get("utm_campaign", "").startswith("adv_"):
+                    o["adv_hint"] = "yn:" + utm["utm_campaign"].split("_")[1]   # Yektanet advertiser id
                 o["campaign_types"] = campaign_types(o, land)
+                o["category"] = ad_category(" ".join([o["title"], o["landing_title"], land.get("h1", ""), " ".join(utm.values())]), o["vertical"])
                 obs.append(o)
         # reportage + push as page-level observations
         for rp in p.get("reportage", [])[:5]:
@@ -158,7 +194,8 @@ def observations(pages: list, brands: Brands, tracking_params: list, run_id: str
                         "adv_domain": "", "utm": {}, "brand": (brands.by_text(rp.get("title", "")) or {}).get("name", ""),
                         "level": "", "vertical": "", "shot": None, "label": "رپورتاژ", "cta": "", "price": "", "discount": "",
                         "unit": f"{p['domain']}|{p['kind']}|in_content|reportage|{p['session'].split('_')[0]}",
-                        "campaign_types": ["native_content"], "landing_type": "", "landing_title": ""})
+                        "campaign_types": ["native_content"], "landing_type": "", "landing_title": "", "daypart": daypart(run_id),
+                        "offer": {}, "category": ad_category(rp.get("title", ""), "other")})
     return obs
 
 
@@ -179,6 +216,8 @@ def campaign_types(o, land):
         out.append("lead_gen")
     if re.search(r"retarget|rtg|remarketing|dynamic|dpa", " ".join(o["utm"].values()), re.I):
         out.append("retargeting")
+    elif re.search(r"targeted|audience|lookalike|segment", " ".join(o["utm"].values()), re.I):
+        out.append("targeted")
     if (o["price"] or land.get("type") == "product") and "retargeting" not in out:
         out.append("product")
     if land.get("type") == "campaign" and not out:

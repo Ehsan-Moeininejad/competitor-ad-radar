@@ -1,6 +1,25 @@
-# لیست اولیهٔ تاپ‌سایت‌های ایرانی که سیستم خودش نگه می‌دارد (جدا از شیت شما).
-# سیستم این لیست را هفتگی با رنکینگ Tranco و لینک‌های بین پابلیشرها گسترش می‌دهد
-# و نتیجه را در data/publishers.json نگه می‌دارد. برای حذف دائمی یک سایت، آن را در exclude بنویسید.
+# لیست تاپ‌سایت‌های ایرانی که سیستم خودش نگه می‌دارد (جدا از شیت شما).
+# منبع اولیه: رنکینگ Tranco (مهر 1405) + فهرست پابلیشرهای شناخته‌شده؛ هفتگی خودکار گسترش می‌یابد
+# و نتیجه در data/publishers.json نگه داشته می‌شود. برای حذف دائمی یک سایت، آن را در exclude بنویسید.
+#
+# affinity: ورتیکال‌هایی که مخاطب این دسته به آن‌ها نزدیک است (برای پیشنهاد «دیجی‌کالا کجا چه تبلیغی برود»)
+
+categories:
+  news:            {fa: "خبری و عمومی", affinity: [marketplace, digital, home_appliances, digital_gold, supermarket]}
+  economy_finance: {fa: "اقتصادی، بورس و قیمت", affinity: [digital_gold, jewelry, fintech_bnpl, digital, auto]}
+  tech:            {fa: "تکنولوژی و گجت", affinity: [digital, home_appliances, fintech_bnpl, tools]}
+  gaming:          {fa: "بازی", affinity: [digital, toys]}
+  sports:          {fa: "ورزشی", affinity: [digital, sports_travel, fashion, supermarket]}
+  lifestyle:       {fa: "سبک زندگی، خانواده و زنان", affinity: [beauty_health, fashion, home_appliances, baby_kids, supermarket]}
+  health:          {fa: "سلامت و پزشکی", affinity: [beauty_health, baby_kids, supermarket]}
+  parenting:       {fa: "مادر و کودک", affinity: [baby_kids, toys, beauty_health, fashion]}
+  food:            {fa: "آشپزی", affinity: [home_appliances, supermarket]}
+  auto:            {fa: "خودرو", affinity: [auto, tools, fintech_bnpl]}
+  download_music:  {fa: "دانلود و موسیقی", affinity: [digital, fashion, marketplace]}
+  video:           {fa: "فیلم و ویدیو", affinity: [digital, marketplace, supermarket]}
+  education_jobs:  {fa: "آموزش و استخدام", affinity: [digital, books_stationery, fintech_bnpl]}
+  utility:         {fa: "ابزار روزمره (تقویم، دیکشنری، نقشه)", affinity: [marketplace, digital, supermarket]}
+  travel:          {fa: "گردشگری", affinity: [sports_travel, fashion]}
 
 sites:
   news:
@@ -23,59 +42,242 @@ sites:
     - bartarinha.ir
     - didbaniran.ir
     - rokna.net
-    - tejaratnews.com
+    - ilna.ir
+    - snn.ir
+    - alef.ir
+    - mizanonline.ir
+    - aftabnews.ir
+    - jamejamonline.ir
+    - shahraranews.ir
+    - khabarfarsi.com
+    - jamaran.news
+    - sharghdaily.com
+    - etemadonline.com
+    - ettelaat.com
+    - jahannews.com
+    - mojnews.com
+    - ensafnews.com
+    - iribnews.ir
+    - nournews.ir
+    - imna.ir
+    - newshanik.ir
+    - parsine.com
+    - 7sobh.com
+    - aftabir.com
   economy_finance:
     - eghtesadnews.com
     - donya-e-eqtesad.com
+    - tejaratnews.com
+    - ecoiran.com
     - arzdigital.com
-    - ramzarz.news
     - tgju.org
     - alanchand.com
+    - tala.ir
+    - estjt.ir
+    - bahesab.ir
+    - bourse24.ir
+    - nabzebourse.com
+    - chartix.ir
+    - isignal.ir
+    - sena.ir
+    - akhbarbank.com
   tech:
     - zoomit.ir
     - digiato.com
-    - zoomg.ir
     - vigiato.net
     - gadgetnews.net
     - itiran.com
     - techrato.com
     - sakhtafzarmag.com
     - mobile.ir
+    - dailytec.ir
+    - pedal.ir
+  gaming:
+    - zoomg.ir
+    - gamefa.com
+    - par30games.net
+    - pardisgame.net
   sports:
     - varzesh3.com
     - tarafdari.com
     - footballi.net
+    - football360.ir
     - khabarvarzeshi.com
     - varzeshi.com
-  lifestyle_women_family:
+    - anten.ir
+    - aparatsport.ir
+    - footini.ir
+    - navad.net
+  lifestyle:
     - beytoote.com
     - namnak.com
     - setare.com
     - delgarm.com
     - chetor.com
-    - ninisite.com
-    - niniban.com
     - roozaneh.net
     - modireweb.com
-  download_apps:
+    - iranjib.ir
+    - fardayetaze.ir
+    - bahalmag.ir
+    - chishi.ir
+    - tebyan.net
+    - rasekhoon.net
+  health:
+    - drdr.ir
+    - darooyab.ir
+    - doctor-yab.ir
+    - hidoctor.ir
+    - drsaina.com
+    - salamatnews.com
+  parenting:
+    - ninisite.com
+    - niniban.com
+  food:
+    - iranpokht.ir
+    - mamifood.org
+  auto:
+    - bama.ir
+    - akharinkhodro.ir
+    - autonovin.ir
+    - automoby.ir
+    - khodro45.com
+  download_music:
     - soft98.ir
     - p30download.ir
     - sarzamindownload.com
     - downloadha.com
     - yasdl.com
-    - mobile.download.ir
-  entertainment_culture:
+    - p30day.ir
+    - downloadly.ir
+    - teh-dl.ir
+    - vgdl.ir
+    - farsfile.ir
+    - nexload.ir
+    - musicdel.ir
+    - musicviral.ir
+    - melody98.ir
+    - uptune.ir
+    - mt98.ir
+    - biamusic.ir
+    - download1music.ir
+    - webahang.ir
+    - golsarmusic.ir
+  video:
+    - aparat.com
     - filimo.com
     - namava.ir
+    - telewebion.ir
+    - filmnet.ir
+    - upera.tv
+    - tamasha.com
+    - digimoviez.com
+    - uptvs.com
+    - film2movie.asia
     - cinematicket.org
-    - kojaro.com
-    - pedal.ir
     - filmzi.com
   education_jobs:
     - e-estekhdam.com
+    - iranestekhdam.ir
     - jobinja.ir
+    - jobvision.ir
     - sanjesh.org
+    - testchi.ir
+    - daneshchi.ir
+    - konkorsad.ir
+    - virgool.io
+    - sid.ir
+  utility:
+    - time.ir
     - abadis.ir
     - vajehyab.com
+    - blogfa.com
+    - mihanblog.com
+  travel:
+    - kojaro.com
+
+# رتبهٔ Tranco (برداشت مهر 1405). بقیهٔ سایت‌ها در به‌روزرسانی هفتگی خودکار رتبه می‌گیرند.
+ranks:
+  aparat.com: 1119
+  varzesh3.com: 1371
+  tgju.org: 1406
+  ninisite.com: 1498
+  mehrnews.com: 6021
+  filimo.com: 7269
+  donya-e-eqtesad.com: 8039
+  namnak.com: 8580
+  bama.ir: 8848
+  delgarm.com: 8931
+  shahrekhabar.com: 8997
+  sanjesh.org: 9091
+  e-estekhdam.com: 9238
+  asriran.com: 17110
+  footballi.net: 17595
+  hamshahrionline.ir: 17653
+  fararu.com: 18010
+  arzdigital.com: 19065
+  beytoote.com: 19350
+  khabarfoori.com: 21241
+  khabarvarzeshi.com: 21362
+  gamefa.com: 21385
+  setare.com: 21570
+  khodro45.com: 22111
+  blogfa.com: 23214
+  tasnimnews.com: 37617
+  virgool.io: 43375
+  tebyan.net: 47821
+  khabarfarsi.com: 49923
+  sid.ir: 50193
+  rokna.net: 53842
+  eghtesadnews.com: 54517
+  sharghdaily.com: 54904
+  tarafdari.com: 55484
+  digiato.com: 55635
+  alanchand.com: 60358
+  gadgetnews.net: 60660
+  football360.ir: 61040
+  jamaran.news: 61885
+  tejaratnews.com: 62911
+  ecoiran.com: 65830
+  namava.ir: 66103
+  zoomg.ir: 66301
+  mihanblog.com: 69902
+  pedal.ir: 70597
+  roozaneh.net: 70868
+  cinematicket.org: 71458
+  chetor.com: 71730
+  yasdl.com: 72245
+  digimoviez.com: 74904
+  par30games.net: 76148
+  vigiato.net: 78024
+  uptvs.com: 79329
+  film2movie.asia: 81989
+  akharinkhodro.ir: 83854
+  iribnews.ir: 84359
+  snn.ir: 108396
+  alef.ir: 109060
+  30nama.com: 115147
+  etemadonline.com: 126419
+  jahannews.com: 126534
+  mojnews.com: 126680
+  ettelaat.com: 129133
+  rasekhoon.net: 145086
+  kojaro.com: 146420
+  ensafnews.com: 150900
+  downloadha.com: 154664
+  sarzamindownload.com: 169305
+  nabzebourse.com: 183185
+  drsaina.com: 183727
+  filmzi.com: 194456
+  autonovin.ir: 205745
+  parsine.com: 229404
+  sakhtafzarmag.com: 257672
+  7sobh.com: 274486
+  tamasha.com: 289459
+  upera.tv: 289749
+  aftabir.com: 308740
+  salamatnews.com: 323707
+  niniban.com: 440750
+  hidoctor.ir: 455308
+  sena.ir: 931110
 
 exclude: []

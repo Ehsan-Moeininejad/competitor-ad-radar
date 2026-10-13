@@ -17,7 +17,7 @@ SCHEMA = (
     "Return JSON: {\"headline\": one Persian sentence, \"summary\": [4-6 Persian bullets], "
     "\"competitor_moves\": [{\"brand\":..., \"move\": what they are doing (sites, formats, offers, retargeting), \"implication\": what it means for Digikala}], "
     "\"vertical_notes\": [{\"vertical\": Persian name, \"risk\": 0-100, \"note\": ...}], "
-    "\"actions\": [{\"priority\": \"high|mid|low\", \"action\": concrete media action, \"where\": site/placement/network, \"why\": data reason}], "
+    "\"actions\": [{\"priority\": \"high|mid|low\", \"action\": concrete media action for Digikala (which category, ad type, placement, buying route, bid stance, message), \"where\": site/placement/network, \"why\": data reason}], "
     "\"inventory_notes\": [Persian bullets about new placements/formats/networks worth testing], "
     "\"monthly\": [2-4 Persian bullets about the 30-day picture, empty if no history]}"
 )
@@ -38,8 +38,13 @@ def digest_for_llm(D: dict, M: dict) -> str:
         mon = {"days": M["days"], "competitors": {b: {k: c[k] for k in ("avg_sov", "avg_threat", "trend", "active_days", "sites")}
                                                   for b, c in list(M["competitors"].items())[:10]},
                "campaign_mix": M["campaign_mix"]}
-    return json.dumps({"date": D["date"], "runs": D["runs"], "coverage_pct": D["coverage_pct"], "competitors": comps,
-                       "verticals": D["verticals"], "sites_top_opportunity": sites, "presence_gaps": D["gaps"],
+    extra = {"categories": {k: {x: v[x] for x in ("fa", "share", "own_share", "risk", "rivals")} for k, v in list(D.get("categories", {}).items())[:12]},
+             "media_plan_top": [{k: p[k] for k in ("site", "category", "format", "placement", "device", "route", "bid", "angle", "objective", "competitors")}
+                                for p in D.get("media_plan", [])[:8]],
+             "messaging": {k: D.get("messaging", {}).get(k) for k in ("market", "own", "gaps")},
+             "networks": {k: {x: v[x] for x in ("ads", "competitor_share", "bid_climate", "top_competitors")} for k, v in D.get("networks", {}).items()}}
+    return json.dumps({**extra, "date": D["date"], "runs": D["runs"], "coverage_pct": D["coverage_pct"], "competitors": comps,
+                       "sites_top_opportunity": sites, "presence_gaps": D["gaps"],
                        "discovery": disc, "campaign_mix": D["campaign_mix"], "network_share": D["network_share"],
                        "format_share": D["format_share"], "alerts": D["alerts"], "monthly": mon}, ensure_ascii=False)
 
@@ -78,9 +83,14 @@ def fallback(D, M):
     summary = []
     if top:
         summary.append("پرحضورترین رقبا امروز: " + "، ".join(f"{b} ({round(c['sov'] * 100)}٪ سهم، {len(c['sites'])} سایت)" for b, c in top))
-    hv = [v for v in D["verticals"].values() if v["rivals"]][:2]
-    for v in hv:
-        summary.append(f"ریسک ورتیکال {v['fa']}: {v['risk']} از 100، سهم دیجی‌کالا {round(v['own_sov'] * 100)}٪، پیشتازها: {'، '.join(v['leaders'][:3])}")
+    from classify import FORMAT_FA as _F
+    from metrics import THEME_FA as _T
+    cats = [c for c in D.get("categories", {}).values() if c["rivals"]][:2]
+    for c in cats:
+        summary.append(f"دستهٔ {c['fa']}: ریسک {c['risk']} از 100؛ {round(c['share'] * 100)}٪ از تبلیغات؛ سهم دیجی‌کالا {round(c['own_share'] * 100)}٪؛ رقیب اول {c['rivals'][0]['brand']}")
+    gaps = (D.get("messaging") or {}).get("gaps") or []
+    if gaps:
+        summary.append("پیام‌هایی که رقبا استفاده می‌کنند و دیجی‌کالا ندارد: " + "، ".join(_T.get(g, g) for g in gaps[:3]))
     best = [d for d, s in D["sites"].items() if s["recommendation"] in ("خرید مستقیم", "بید پایین در شبکه")][:4]
     if best:
         summary.append("کم‌تراکم‌ترین فرصت‌ها: " + "، ".join(f"{d} (فشار {D['sites'][d]['pressure']})" for d in best))
@@ -96,15 +106,23 @@ def fallback(D, M):
     moves = [{"brand": b, "move": f"حضور در {len(c['sites'])} سایت؛ فرمت غالب {FORMAT_FA.get(next(iter(c['formats']), '-'), '-')}؛ شبکهٔ غالب {nfa.get(next(iter(c['networks']), '-'), '-')}"
               + (f"؛ ریتارگتینگ در {len(c['retargeting_sites'])} سایت" if c["retargeting_sites"] else ""),
               "implication": f"امتیاز تهدید {c['threat']}"} for b, c in comps[:6]]
-    actions = [{"priority": "high" if s["opportunity"] >= 70 else "mid", "action": s["recommendation"], "where": d, "why": s["why"]}
-               for d, s in list(D["sites"].items())[:8] if s["recommendation"] not in ("—", "پایش")]
-    inv = [f"{u['site']}: {u['placement']} / {u['format']} ({u['device']}, {u['size']})" for u in D["discovery"]["new_units"][:8]]
+    from util import load_yaml
+    vfa = {k: v.get("fa", k) for k, v in load_yaml("competitors.yaml").get("verticals", {}).items()}
+    actions = [{"priority": "high" if p["score"] >= 70 else "mid",
+                "action": f"تبلیغ {vfa.get(p['category'], p['category'])} با فرمت {_F.get(p['format'], p['format'])}، {p['bid']}، پیام: {p['angle']}",
+                "where": f"{p['site']} · {p['route']}", "why": f"فشار {p['pressure']}، فرصت {p['opportunity']}" + (f"، رقبا: {'، '.join(p['competitors'][:3])}" if p["competitors"] else "")}
+               for p in D.get("media_plan", [])[:6]]
+    from classify import PLACEMENT_FA as _P
+    _dv = {"mobile": "موبایل", "desktop": "دسکتاپ"}
+    inv = [f"{u['site']}: {_P.get(u['placement'], u['placement'])} / {_F.get(u['format'], u['format'])} ({_dv.get(u['device'], u['device'])}، {u['size']})"
+           for u in D["discovery"]["new_units"][:8]]
     mon = []
     if M and M.get("days", 0) >= 3:
         for b, c in list(M["competitors"].items())[:4]:
             if c["level"] != "own":
                 tr = c.get("trend")
                 mon.append(f"{b}: میانگین سهم {round(c['avg_sov'] * 100, 1)}٪ در {c['active_days']} روز" + (f"، روند {'+' if tr > 0 else ''}{round(tr * 100, 1)} واحد" if tr is not None else ""))
-    return {"headline": summary[0] if summary else "داده کافی برای جمع‌بندی امروز نبود.", "summary": summary, "competitor_moves": moves,
-            "vertical_notes": [{"vertical": v["fa"], "risk": v["risk"], "note": f"پیشتازها: {'، '.join(v['leaders'][:3])}"} for v in D["verticals"].values()][:6],
+    headline = summary[0] if summary else "داده کافی برای جمع‌بندی امروز نبود."
+    return {"headline": headline, "summary": summary[1:] if len(summary) > 1 else summary, "competitor_moves": moves,
+            "vertical_notes": [{"vertical": c["fa"], "risk": c["risk"], "note": f"پیشتازها: {'، '.join(r['brand'] for r in c['rivals'][:3])}"} for c in D.get("categories", {}).values() if c["rivals"]][:6],
             "actions": actions, "inventory_notes": inv, "monthly": mon, "by": "rules"}

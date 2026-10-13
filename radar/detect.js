@@ -56,11 +56,16 @@
     }
     return '';
   };
-  const creativesOf = (el) => {
+  const creativesOf = (el, sid) => {
     const out = [];
-    const items = el.querySelectorAll('article, [class*="item"], [class*="card"], li');
-    const units = items.length >= 2 ? [...items].slice(0, 8) : [el];
+    // native widgets: each recommended item is its own creative (outermost item nodes only)
+    let items = [...el.querySelectorAll('article, [class*="item"]:not([class*="item_"]):not([class*="item-"]), [class*="card"], li')]
+      .filter(x => x.getBoundingClientRect().width > 40 && x.getBoundingClientRect().height > 30);
+    items = items.filter(x => !items.some(y => y !== x && y.contains(x)));
+    const units = items.length >= 2 ? items.slice(0, 8) : [el];
+    let n = 0;
     for (const u of units) {
+      if (units.length >= 2) u.setAttribute('data-radar-cr', sid + '-c' + (n++));
       const a = u.matches('a[href]') ? u : u.querySelector('a[href]');
       const href = a ? a.href : '';
       const img = u.querySelector('img');
@@ -71,6 +76,7 @@
         cta: (u.querySelector('button, [class*="cta"]')?.innerText || '').trim().slice(0, 40),
         price: ((u.innerText || '').match(/[\d۰-۹٬,\.]{4,}\s*(تومان|ریال)/) || [''])[0],
         discount: ((u.innerText || '').match(/[\d۰-۹]{1,2}\s*[%٪]/) || [''])[0],
+        cr: units.length >= 2 ? u.getAttribute('data-radar-cr') : '',
       });
     }
     return out.filter(c => c.title || c.img || c.href);
@@ -78,7 +84,8 @@
 
   const found = new Map();  // element -> slot
   const add = (el, kind, network, extra = {}) => {
-    if (!el || found.has(el)) return;
+    if (!el || found.has(el) || /^(STYLE|SCRIPT|LINK|META|NOSCRIPT|TEMPLATE)$/.test(el.tagName)) return;
+    if (/-style$/.test(el.id || '')) return;
     // keep the outermost ad container only
     for (const [other] of found) { if (other.contains(el)) return; }
     for (const [other] of [...found]) { if (el.contains(other)) found.delete(other); }
@@ -154,7 +161,7 @@
     slots.push({
       id, ...meta, rect: r, media, vtop: Math.round(vr.top), vbottom: Math.round(vr.bottom), iframes, ...p, ...ctx(el), empty,
       label: meta.label || nearLabel(el),
-      creatives: creativesOf(el),
+      creatives: creativesOf(el, id),
       domId: (el.id || '').slice(0, 60), domClass: ((el.className && el.className.baseVal === undefined ? el.className : '') + '').slice(0, 80),
       hasVideo: !!el.querySelector('video') || /video|tvp/.test(el.innerHTML.slice(0, 3000)),
     });

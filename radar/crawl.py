@@ -197,10 +197,13 @@ class Crawler:
             resp = await page.goto(url, timeout=int(self.s.get("page_timeout_sec", 35)) * 1000, wait_until="domcontentloaded")
             rec["status"] = resp.status if resp else None
             await page.wait_for_timeout(2500)
-            steps = int(self.s.get("scroll_steps", 6))
+            # scroll the whole page in viewport-sized hops so lazy ad slots (Yektanet/Mediaad) actually load
+            ph = await page.evaluate("Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)")
+            vh = 844 if sess.startswith("mobile") else 900
+            steps = max(int(self.s.get("scroll_steps", 6)), min(28, int(ph / (vh * 1.6)) + 1))
             for i in range(steps):
-                await page.evaluate(f"window.scrollTo(0, document.body.scrollHeight*{(i + 1) / steps:.2f})")
-                await page.wait_for_timeout(700)
+                await page.evaluate(f"window.scrollTo(0, {int((i + 1) * ph / steps)})")
+                await page.wait_for_timeout(450)
             await page.evaluate("window.scrollTo(0,0)")
             await page.wait_for_timeout(int(self.s.get("settle_sec", 6)) * 1000)
             out = await asyncio.wait_for(page.evaluate(DETECT_JS, self.js_cfg), timeout=40)
@@ -212,17 +215,26 @@ class Crawler:
             if re.search(r"access denied|403 forbidden|cloudflare|attention required|دسترسی.*(محدود|غیرمجاز)", pg["title"], re.I):
                 rec["ok"], rec["error"] = False, "blocked: " + pg["title"][:80]
             await self._frame_creatives(page, out["slots"])
-            shots = 0
-            # floating ads first, then hide every fixed overlay so it doesn't cover the in-page screenshots
+            shots, cap = 0, int(self.s.get("max_screens_per_page", 25))
+            # floating ads first (each isolated from other overlays), then hide every overlay for in-page shots
             ordered = sorted(out["slots"], key=lambda x: not x.get("fixed"))
             hidden = False
             for sl in ordered:
                 if not sl.get("fixed") and not hidden:
                     await page.evaluate(HIDE_FIXED_JS)
                     hidden = True
-                if not sl.get("empty") and self.s.get("screenshots", True) and shots < int(self.s.get("max_screens_per_page", 25)):
+                if not sl.get("empty") and self.s.get("screenshots", True) and shots < cap:
+                    if sl.get("fixed"):
+                        await page.evaluate(ISOLATE_JS, sl["id"])
+                    crs = [c for c in sl.get("creatives", []) if c.get("cr")]
+                    if crs:   # native widget → one screenshot per recommended item
+                        for c in crs[:6]:
+                            c["shot"] = await self._shot(page, c["cr"], attr="data-radar-cr")
+                            shots += c["shot"] is not None
                     sl["shot"] = await self._shot(page, sl["id"])
                     shots += sl["shot"] is not None
+                    if sl.get("fixed"):
+                        await page.evaluate(UNISOLATE_JS)
                 rec["slots"].append(sl)
         except Exception as e:  # noqa: BLE001
             rec["error"] = str(e).split("\n")[0][:200]
@@ -260,13 +272,23 @@ class Crawler:
                     crs.insert(0, {"title": info.get("title", ""), "img": info.get("img", ""), "href": info.get("href", ""), "cta": "", "price": "", "discount": ""})
                 sl["creatives"] = crs
 
-    async def _shot(self, page, rid):
+    async def _shot(self, page, rid, attr="data-radar-id"):
+        """Screenshot exactly the creative: native item → the item card; banner/iframe slot → the union of its media
+        (containers are often full-width with the real banner in the middle)."""
         try:
-            m = page.locator(f'[data-radar-media="{rid}"]')
-            loc = m.first if await m.count() else page.locator(f'[data-radar-id="{rid}"]').first
+            loc = page.locator(f'[{attr}="{rid}"]').first
             await loc.scroll_into_view_if_needed(timeout=3000)
-            await page.wait_for_timeout(300)
-            png = await loc.screenshot(timeout=5000, type="png")
+            await page.wait_for_timeout(250)
+            box = await page.evaluate(CLIP_JS, [attr, rid])
+            if not box or box["w"] < 30 or box["h"] < 20:
+                return None
+            vp = page.viewport_size or {"width": 1366, "height": 900}
+            inside = box["x"] >= 0 and box["y"] >= 0 and box["x"] + box["w"] <= vp["width"] + 1 and box["y"] + box["h"] <= vp["height"] + 1
+            if inside:
+                png = await page.screenshot(clip={"x": box["x"], "y": box["y"], "width": box["w"], "height": box["h"]}, type="png", timeout=5000)
+            else:   # creative overflows the viewport → let Playwright screenshot the media element itself
+                target = page.locator('[data-radar-shotel="1"]')
+                png = await (target.first if await target.count() else loc).screenshot(timeout=5000, type="png")
             return _save_thumb(png, self.shot_dir)
         except Exception:  # noqa: BLE001
             return None
@@ -344,6 +366,21 @@ class Crawler:
         return todo
 
 
+CLIP_JS = """([attr, id]) => { document.querySelectorAll('[data-radar-shotel]').forEach(e => e.removeAttribute('data-radar-shotel'));
+  const el = document.querySelector('[' + attr + '="' + id + '"]'); if (!el) return null;
+  const r0 = el.getBoundingClientRect(); if (attr === 'data-radar-cr') return {x: r0.left, y: r0.top, w: r0.width, h: r0.height};
+  let x1 = Infinity, y1 = Infinity, x2 = -Infinity, y2 = -Infinity;
+  let big = null, area = 0;
+  (el.matches('iframe,img,video,canvas') ? [el] : [...el.querySelectorAll('iframe,img,video,canvas')]).forEach(c => { const q = c.getBoundingClientRect();
+    if (q.width * q.height > 600) { x1 = Math.min(x1, q.left); y1 = Math.min(y1, q.top); x2 = Math.max(x2, q.right); y2 = Math.max(y2, q.bottom);
+      if (q.width * q.height > area) { area = q.width * q.height; big = c; } } });
+  (big || el).setAttribute('data-radar-shotel', '1');
+  if (!isFinite(x1)) return {x: r0.left, y: r0.top, w: r0.width, h: r0.height};
+  return {x: x1, y: y1, w: x2 - x1, h: y2 - y1}; }"""
+ISOLATE_JS = """(id) => { const t = document.querySelector('[data-radar-id="' + id + '"]');
+  for (const el of document.querySelectorAll('body *')) { const s = getComputedStyle(el);
+    if ((s.position === 'fixed' || s.position === 'sticky') && t && !el.contains(t) && !t.contains(el)) { el.setAttribute('data-radar-hid', '1'); el.style.setProperty('visibility', 'hidden', 'important'); } } }"""
+UNISOLATE_JS = """() => { for (const el of document.querySelectorAll('[data-radar-hid]')) { el.style.removeProperty('visibility'); el.removeAttribute('data-radar-hid'); } }"""
 HIDE_FIXED_JS = """() => { for (const el of document.querySelectorAll('body *')) { const s = getComputedStyle(el);
   if (s.position === 'fixed' || (s.position === 'sticky' && parseInt(s.zIndex) > 10)) el.style.setProperty('visibility', 'hidden', 'important'); } }"""
 
@@ -372,6 +409,9 @@ LANDING_JS = r"""() => {
     countdown: !!document.querySelector('[class*="countdown"],[class*="timer"]') || /\d{1,2}\s*:\s*\d{2}\s*:\s*\d{2}/.test(t.slice(0, 4000)),
     voucher: pick(/(کد تخفیف|کد هدیه)\s*[:：]?\s*[A-Za-z0-9\-]{3,20}/),
     gamified: /گردونه|قرعه.?کشی|جایزه|شانس/.test(t.slice(0, 6000)),
+    months: (t.match(/([\d۰-۹]{1,2})\s*(ماهه|ماه|قسط)/) || [])[1] || '',
+    no_prepay: /بدون\s*پیش.?پرداخت/.test(t),
+    min_buy: (t.match(/(از|حداقل)\s*[\d۰-۹٬,]{3,}\s*(هزار)?\s*(تومان|ریال)/) || [''])[0],
     lead_form: !!document.querySelector('form input[type="tel"], form input[name*="phone"], form input[name*="mobile"]'),
     h1: (document.querySelector('h1')?.innerText || '').trim().slice(0, 140),
   };

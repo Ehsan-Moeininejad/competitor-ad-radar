@@ -111,13 +111,41 @@ def sync_registry(sheet_rows: list) -> dict:
     for cat, doms in (seed.get("sites") or {}).items():
         for d in doms or []:
             d = domain_of(d)
-            if d and d not in reg:
+            if d and d not in reg:   # curated list → scanned from day one
                 reg[d] = {"domain": d, "source": "seed", "category": cat, "added": today(), "scans": 0,
-                          "ad_scans": 0, "zero_streak": 0, "status": "probation"}
+                          "ad_scans": 0, "zero_streak": 0, "status": "active"}
+            elif d and reg[d].get("source") == "seed" and not reg[d].get("category"):
+                reg[d]["category"] = cat
+    for d, rk in (seed.get("ranks") or {}).items():
+        if d in reg and not reg[d].get("tranco"):
+            reg[d]["tranco"] = rk
+    # map free-text sheet categories to known category keys
+    cats = seed.get("categories") or {}
+    for e in reg.values():
+        e["cat_key"] = category_key(e.get("category", ""), cats)
     for d in exclude:
         reg.pop(domain_of(d), None)
     write_json(REG, reg)
     return reg
+
+
+CAT_WORDS = {"news": ["خبر", "news", "عمومی"], "economy_finance": ["اقتصاد", "بورس", "مالی", "قیمت", "finance", "economy", "crypto", "ارز"],
+             "tech": ["تکنولوژی", "فناوری", "tech", "گجت", "موبایل"], "gaming": ["بازی", "game", "گیم"],
+             "sports": ["ورزش", "sport", "فوتبال"], "lifestyle": ["سبک", "زندگی", "lifestyle", "زنان", "خانواده", "سرگرمی"],
+             "health": ["سلامت", "پزشک", "health"], "parenting": ["کودک", "مادر", "نی نی", "parent"], "food": ["آشپزی", "غذا", "food"],
+             "auto": ["خودرو", "ماشین", "auto", "car"], "download_music": ["دانلود", "موسیقی", "آهنگ", "music", "download", "نرم"],
+             "video": ["فیلم", "ویدیو", "سریال", "video", "movie"], "education_jobs": ["آموزش", "استخدام", "کنکور", "دانشگاه", "job", "education"],
+             "utility": ["تقویم", "دیکشنری", "ابزار"], "travel": ["سفر", "گردشگری", "travel"]}
+
+
+def category_key(text: str, cats: dict) -> str:
+    t = (text or "").strip().lower()
+    if t in cats:
+        return t
+    for k, words in CAT_WORDS.items():
+        if any(w in t for w in words):
+            return k
+    return "news" if not t else "lifestyle" if "زن" in t else "news"
 
 
 def select_for_run(reg: dict) -> list:

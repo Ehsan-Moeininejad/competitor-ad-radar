@@ -6,8 +6,8 @@ from util import DATA, read_json, sha, today, write_json
 
 log = logging.getLogger("radar")
 ADV = DATA / "advertisers.json"
-VERT_KEYS = ["marketplace", "electronics", "appliances", "fashion", "grocery", "gold", "fintech", "beauty", "books",
-             "telecom", "crypto", "travel", "auto", "education", "services", "other"]
+from util import load_yaml as _ly
+VERT_KEYS = list(_ly("competitors.yaml").get("verticals", {}).keys()) or ["other"]
 
 
 def adv_key(o):
@@ -15,6 +15,8 @@ def adv_key(o):
         return o["adv_domain"]
     if o.get("brand"):
         return "brand:" + o["brand"]
+    if o.get("adv_hint"):
+        return o["adv_hint"]
     if o.get("title"):
         return "t:" + sha(o["title"][:60], 10)
     if o.get("shot"):
@@ -66,7 +68,7 @@ def enrich(obs: list, brands, llm, max_llm_batches: int = 3, max_vision: int = 1
                     "You are an Iranian digital-advertising analyst working for Digikala (Iran's largest e-commerce marketplace). "
                     "Identify each ADVERTISER from its domain/ad text and classify it.\n"
                     f"vertical must be one of: {', '.join(VERT_KEYS)}.\n"
-                    "level: 'own' = Digikala group (Digikala, Digistyle, Digipay, Digikala Jet); 'core' = direct general "
+                    "level: 'own' = Digikala group (Digikala, Digistyle, Digipay, Digikala Jet, Fidibo, DigiAd); 'core' = direct general "
                     "e-commerce competitor (marketplaces, multi-category online shops); 'vertical' = sells online in one "
                     "category that Digikala also sells (mobile shops, gold apps, BNPL/fintech, grocery delivery, fashion, beauty, "
                     "appliances, books); 'none' = not a competitor (telecom, crypto exchange, education, services, news...).",
@@ -115,4 +117,6 @@ def enrich(obs: list, brands, llm, max_llm_batches: int = 3, max_vision: int = 1
         o["brand"] = e.get("name") or o.get("brand") or "نامشخص"
         o["level"] = e.get("level") or o.get("level") or "unknown"
         o["vertical"] = e.get("vertical") or o.get("vertical") or "other"
+        if o.get("category") in (None, "", "other"):
+            o["category"] = o["vertical"]
     return reg

@@ -9,7 +9,7 @@ networks:
   yektanet:
     fa: "یکتانت"
     hosts: [yektanet.com, yektanet.ir, ynet.click, cdn.yektanet.com, ua.yektanet.com, cdn.yektanet.ir, yn-cdn.com]
-    selectors: ['[id^="pos-article"]', '[id^="pos-sticky"]', '[id^="pos-video"]', '[id*="yektanet"]', '[class*="yektanet"]', '[class*="yn-"]', '[id^="yn-"]']
+    selectors: ['[id^="pos-article"]', '[id^="ynpos-"]', '[id^="pos-sticky"]', '[id^="pos-video"]', 'div[id^="yn-bnr-"]', 'div[id^="yn-article-"]', 'div[id^="yn-sticky"]', 'div[id*="yektanet"]', 'div[class*="yektanet"]']
     api: ["yektanet"]
   mediaad_tapsell:
     fa: "مدیااد / تپسل"

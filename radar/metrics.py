@@ -24,7 +24,9 @@ def build(runs: list, publishers: dict, adv_reg: dict) -> dict:
     pages = [p for r in runs for p in r.get("pages", [])]
     obs = [o for r in runs for o in r.get("obs", [])]
     n_runs = len(runs)
-    D = {"date": today(), "runs": n_runs, "n_obs": len(obs)}
+    D = {"date": today(), "runs": n_runs, "n_obs": len(obs),
+         "planned": max([int((r.get("meta") or {}).get("sites") or 0) for r in runs] or [0]),
+         "skipped": sorted({s for r in runs for s in ((r.get("meta") or {}).get("skipped_sites") or [])})}
 
     # ---------------- coverage
     cov = collections.defaultdict(lambda: {"pages": 0, "ok": 0, "slots": 0, "adtech": set(), "errors": set(), "empty_with_tech": 0, "sessions": set()})
@@ -218,8 +220,247 @@ def build(runs: list, publishers: dict, adv_reg: dict) -> dict:
     D["placement_share"] = dict(collections.Counter(o["placement"] for o in obs).most_common())
     D["unknown_advertisers"] = len({o.get("adv") for o in obs if o["brand"] == "نامشخص"})
     D["advertisers_total"] = len({o.get("adv") for o in obs})
+    D["presence"] = _presence(ident, pages)
+    for b, c in D["competitors"].items():
+        c["presence"] = D["presence"].get(b, 0)
+    D["categories"] = _categories(obs, D["competitors"])
+    D["networks"] = _networks(obs, D["sites"], pages)
+    D["dayparts"] = _dayparts(ident)
+    D["messaging"] = _messaging(ident)
+    D["media_plan"] = _media_plan(D, publishers, obs)
+    D["rows"] = _rows(obs)
     D["alerts"] = _alerts(D)
     return D
+
+
+# ---------------------------------------------------------------- ads-decision analytics
+THEMES = {
+    "price": r"قیمت|ارزان|کمترین|بهترین قیمت|تومان",
+    "discount": r"تخفیف|حراج|٪|%|off|آف",
+    "installment": r"اقساط|قسطی|اعتبار|بدون پیش|پرداخت بعد|bnpl",
+    "delivery": r"ارسال رایگان|ارسال سریع|تحویل|فوری|همان روز|۳۰ دقیقه|30 دقیقه",
+    "trust": r"ضمانت|گارانتی|اصل|اورجینال|بازگشت|مرجوعی",
+    "gamified": r"گردونه|قرعه|شانس|جایزه|برنده",
+    "new": r"جدید|جدیدترین|رونمایی|عرضه|پیش.?فروش",
+    "invest": r"سرمایه|سود|صندوق|پس.?انداز",
+}
+THEME_FA = {"price": "قیمت", "discount": "تخفیف/حراج", "installment": "اقساط/اعتبار", "delivery": "ارسال/سرعت",
+            "trust": "اصالت/گارانتی", "gamified": "گیمیفیکیشن", "new": "محصول جدید", "invest": "سرمایه‌گذاری/سود"}
+
+
+def _presence(ident, pages):
+    """Share of scanned pages where the brand showed up at least once (proxy for impression share)."""
+    ok_pages = [p for p in pages if p.get("ok")]
+    n = max(1, len(ok_pages))
+    seen = collections.defaultdict(set)
+    for o in ident:
+        seen[o["brand"]].add((o["run"], o["domain"], o["session"], o["page"]))
+    return {b: round(len(v) / n, 4) for b, v in seen.items()}
+
+
+def _categories(obs, comps):
+    from classify import Brands
+    vdefs = Brands().verticals
+    cat = collections.defaultdict(lambda: {"w": 0.0, "brands": collections.Counter(), "own": 0.0, "sites": set(), "ads": 0})
+    for o in obs:
+        if o.get("level") not in ("own", "core", "vertical"):
+            continue
+        c = cat[o.get("category") or o["vertical"]]
+        c["w"] += o["wt"]
+        c["ads"] += 1
+        c["brands"][o["brand"]] += o["wt"]
+        c["sites"].add(o["domain"])
+        if o["level"] == "own":
+            c["own"] += o["wt"]
+    total = sum(c["w"] for c in cat.values()) or 1
+    out = {}
+    for k, c in cat.items():
+        rivals = [(b, w) for b, w in c["brands"].most_common() if comps.get(b, {}).get("level") != "own"]
+        own_share = c["own"] / (c["w"] or 1)
+        top_share = rivals[0][1] / (c["w"] or 1) if rivals else 0
+        out[k] = {"fa": vdefs.get(k, {}).get("fa", k), "core": vdefs.get(k, {}).get("core", False), "group": vdefs.get(k, {}).get("group", "other"),
+                  "share": round(c["w"] / total, 3), "ads": c["ads"], "own_share": round(own_share, 3),
+                  "rivals": [{"brand": b, "share": round(w / (c["w"] or 1), 3)} for b, w in rivals[:6]],
+                  "sites": sorted(c["sites"])[:15], "n_sites": len(c["sites"]),
+                  "risk": round(min(100, 100 * (0.5 * (1 - own_share) + 0.3 * top_share + 0.2 * min(1, len(rivals) / 5)))) if rivals else 0}
+    return dict(sorted(out.items(), key=lambda x: -x[1]["share"]))
+
+
+def _networks(obs, sites, pages):
+    net = collections.defaultdict(lambda: {"ads": 0, "adv": set(), "comp": 0, "sites": set(), "comp_brands": collections.Counter()})
+    for o in obs:
+        n = net[o["network"]]
+        n["ads"] += 1
+        n["adv"].add(o.get("adv") or o["brand"])
+        n["sites"].add(o["domain"])
+        if o.get("level") in ("core", "vertical"):
+            n["comp"] += 1
+            n["comp_brands"][o["brand"]] += 1
+    tech_sites = collections.Counter(t for p in pages for t in set(p.get("adtech", [])))
+    out = {}
+    for k, n in net.items():
+        ps = [sites[d]["pressure"] for d in n["sites"] if d in sites]
+        cs = n["comp"] / max(1, n["ads"])
+        out[k] = {"ads": n["ads"], "advertisers": len(n["adv"]), "sites": len(n["sites"]), "tech_sites": tech_sites.get(k, 0),
+                  "competitor_share": round(cs, 2), "top_competitors": [b for b, _ in n["comp_brands"].most_common(4)],
+                  "avg_pressure": round(statistics.mean(ps)) if ps else None,
+                  "bid_climate": "داغ" if cs >= 0.4 else "متوسط" if cs >= 0.2 else "آرام"}
+    return dict(sorted(out.items(), key=lambda x: -x[1]["ads"]))
+
+
+def _dayparts(ident):
+    d = collections.defaultdict(collections.Counter)
+    for o in ident:
+        d[o["brand"]][o.get("daypart", "other")] += 1
+    return {b: dict(c) for b, c in d.items()}
+
+
+def _messaging(ident):
+    import re as _re
+    per = collections.defaultdict(collections.Counter)
+    cta = collections.Counter()
+    for o in ident:
+        t = " ".join([o.get("title", ""), o.get("landing_title", ""), o.get("discount", "")])
+        for th, rx in THEMES.items():
+            if _re.search(rx, t, _re.I):
+                per[o["brand"]][th] += 1
+        for k, v in (o.get("offer") or {}).items():
+            if k in ("months", "min_buy", "discount", "voucher"):
+                per[o["brand"]]["offer:" + {"months": "اقساط " + str(v) + " ماهه", "min_buy": str(v), "discount": "تخفیف " + str(v), "voucher": str(v)}[k]] += 1
+            else:
+                per[o["brand"]]["offer:" + k] += 1
+        if o.get("cta"):
+            cta[o["cta"][:24]] += 1
+    market = collections.Counter()
+    for c in per.values():
+        market.update({k: v for k, v in c.items() if not k.startswith("offer:")})
+    own = collections.Counter()
+    for o in ident:
+        if o["level"] == "own":
+            t = " ".join([o.get("title", ""), o.get("landing_title", "")])
+            for th, rx in THEMES.items():
+                if _re.search(rx, t, _re.I):
+                    own[th] += 1
+    gaps = [th for th, _ in market.most_common() if own.get(th, 0) == 0][:4]
+    return {"by_brand": {b: dict(c.most_common(8)) for b, c in per.items()}, "market": dict(market.most_common()),
+            "own": dict(own), "gaps": gaps, "ctas": [c for c, _ in cta.most_common(10)], "themes_fa": THEME_FA}
+
+
+ANGLE = {
+    "installment": "اقساط با دیجی‌پی و «خرید الان، پرداخت بعد»",
+    "discount": "شگفت‌انگیزهای روز با درصد تخفیف واقعی روی کریتیو",
+    "price": "تضمین بهترین قیمت + مقایسهٔ قیمت",
+    "gamified": "کد تخفیف/وچر شانسی کاربران جدید (بدون گردونه شلوغ)",
+    "delivery": "ارسال سریع دیجی‌کالا جت / ارسال رایگان پلاس",
+    "trust": "ضمانت اصالت و ۷ روز بازگشت",
+    "new": "پیش‌فروش و عرضهٔ اول محصولات جدید",
+    "invest": "طلای دیجیتال/اقساط با بازگشت سرمایه",
+}
+
+
+def _media_plan(D, publishers, obs):
+    """Where should Digikala run which ad type? One concrete recommendation per promising site."""
+    from util import load_yaml
+    seed = load_yaml("seed_publishers.yaml")
+    cats = seed.get("categories") or {}
+    sells = set(load_yaml("competitors.yaml").get("digikala_sells") or [])
+    net_fa = {k: v.get("fa", k) for k, v in load_yaml("ad_networks.yaml")["networks"].items()}
+    by_site = collections.defaultdict(list)
+    for o in obs:
+        by_site[o["domain"]].append(o)
+    long_run = {x.get("title") for x in D.get("long_running", []) if x.get("days", 0) >= 3}
+    plan = []
+    for d, s in D["sites"].items():
+        os_ = by_site.get(d, [])
+        if not os_ and not s["networks"]:
+            continue
+        if s["recommendation"] == "اجتناب/متمایز":
+            continue          # too crowded: shown in the sites tab, not proposed as a buy
+        pub = publishers.get(d, {})
+        ck = pub.get("cat_key") or "news"
+        affinity = (cats.get(ck) or {}).get("affinity", ["marketplace", "digital"])
+        # 1) category to push: competitors already prove demand here; else the site's audience affinity
+        comp_cats = collections.Counter(o.get("category") for o in os_ if o.get("level") in ("core", "vertical"))
+        own_cats = {o.get("category") for o in os_ if o.get("level") == "own"}
+        cand = [c for c, _ in comp_cats.most_common() if c not in own_cats] + [c for c in affinity if c not in own_cats]
+        cand = [c for c in cand if not sells or c in sells]
+        push = next((c for c in cand if c), affinity[0] if affinity else "marketplace")
+        # 2) unit: least crowded unit; prefer a format where competitor creatives run long (proven), else native
+        units = s["cheapest_units"]
+        proven = collections.Counter(o["format"] for o in os_ if o.get("title") in long_run and o.get("level") in ("core", "vertical"))
+        unit = units[0] if units else None
+        fmt = (proven.most_common(1)[0][0] if proven else (unit["format"] if unit else ("native" if "yektanet" in s["networks"] or "mediaad_tapsell" in s["networks"] else "display")))
+        placement = unit["placement"] if unit else ("in_feed" if fmt == "native" else "above_fold")
+        device = unit["device"] if unit else "mobile"
+        # 3) buying route & bid stance
+        nets = [n for n in s["networks"] if n != "direct" and not n.startswith("unknown")]
+        route = "خرید مستقیم از سایت" if s["direct_sold"] and (not nets or s["pressure"] >= 55) else (f"شبکهٔ {net_fa.get(nets[0], nets[0])} (وایت‌لیست سایت)" if nets else "خرید مستقیم از سایت")
+        stance = "بید پایین‌تر از میانگین" if s["pressure"] < 35 else "بید در حد بازار" if s["pressure"] < 65 else "بید رقابتی/پریمیوم (فقط اگر استراتژیک است)"
+        # 4) creative angle: counter the dominant competitor message on this site
+        themes = collections.Counter()
+        import re as _re
+        for o in os_:
+            if o.get("level") in ("core", "vertical"):
+                t = " ".join([o.get("title", ""), o.get("landing_title", "")])
+                for th, rx in THEMES.items():
+                    if _re.search(rx, t, _re.I):
+                        themes[th] += 1
+        top_theme = themes.most_common(1)[0][0] if themes else None
+        angle = ANGLE.get(top_theme, "قیمت و تنوع دیجی‌کالا + شگفت‌انگیز روز")
+        objective = "ریتارگتینگ" if any("retargeting" in o.get("campaign_types", []) or "targeted" in o.get("campaign_types", []) for o in os_ if o.get("level") in ("core", "vertical")) else "جذب کاربر جدید (Prospecting)"
+        fit = 1.0 if push in affinity else 0.6
+        score = round(s["opportunity"] * fit + (8 if not s["own_present"] and s["competitors"] else 0))
+        conf = "بالا" if pub.get("scans", 0) >= 9 else "متوسط" if pub.get("scans", 0) >= 3 else "اولیه"
+        offers = []
+        for o in os_:
+            if o.get("level") in ("core", "vertical"):
+                of = o.get("offer") or {}
+                bits = [x for x in (o.get("discount") or of.get("discount"), of.get("months") and f"{of['months']} ماه اقساط",
+                                    "ارسال رایگان" if of.get("free_shipping") else "", "بدون پیش‌پرداخت" if of.get("no_prepay") else "") if x]
+                if bits:
+                    offers.append(f"{o['brand']}: {'، '.join(dict.fromkeys(bits))}")
+        plan.append({"site": d, "score": min(100, score), "recommendation": s["recommendation"], "why": s["why"],
+                     "reach_known": s.get("reach_known", False), "rival_offers": list(dict.fromkeys(offers))[:3], "category": push, "format": fmt, "placement": placement, "device": device,
+                     "route": route, "bid": stance, "angle": angle, "counter_theme": top_theme, "objective": objective,
+                     "competitors": s["competitors"][:4], "pressure": s["pressure"], "opportunity": s["opportunity"],
+                     "own_present": s["own_present"], "confidence": conf, "site_category": ck})
+    return sorted(plan, key=lambda x: -x["score"])[:40]
+
+
+def _offer_text(of: dict) -> str:
+    bits = []
+    if of.get("discount"):
+        bits.append(f"تخفیف {of['discount']}")
+    if of.get("months"):
+        bits.append(f"اقساط {of['months']} ماهه")
+    elif of.get("installment"):
+        bits.append("اقساط")
+    if of.get("no_prepay"):
+        bits.append("بدون پیش‌پرداخت")
+    if of.get("free_shipping"):
+        bits.append("ارسال رایگان")
+    if of.get("min_buy"):
+        bits.append(str(of["min_buy"]))
+    if of.get("gamified"):
+        bits.append("گیمیفیکیشن")
+    return "، ".join(bits)[:90]
+
+
+def _rows(obs):
+    """Compact observation rows for client-side filtering in the report (one row per creative sighting)."""
+    reg = read_json(DATA / "creatives.json", {}) or {}
+    out = []
+    for o in obs:
+        ck = o.get("shot", "").split("/")[-1] if o.get("shot") else ("t" + sha(o.get("title", ""), 10) if o.get("title") else None)
+        life = reg.get(ck) or {}
+        out.append({"b": o["brand"], "l": o.get("level", ""), "v": o.get("vertical", ""), "c": o.get("category", ""), "s": o["domain"],
+                    "n": o["network"], "f": o["format"], "p": o["placement"], "d": o["session"].split("_")[0], "w": o["session"].endswith("warm"),
+                    "dp": o.get("daypart", ""), "t": (o.get("title") or "")[:110], "sh": (o.get("shot") or "").split("/")[-1].split(".")[0],
+                    "ct": o.get("campaign_types", []), "lt": o.get("landing_type", ""), "u": (o.get("utm") or {}).get("utm_campaign", "")[:60],
+                    "sz": o.get("size", ""), "ld": (o.get("adv_domain") or ""), "wt": o.get("wt", 1),
+                    "fs": life.get("first_seen", ""), "ls": life.get("last_seen", ""), "dy": len(life.get("days", [])) or 1,
+                    "of": _offer_text(o.get("offer") or {})})
+    return out
 
 
 def _recommend(pressure, opp, direct, nets, comps, own, n):
@@ -246,7 +487,7 @@ def _cheapest_units(os_):
         units[k]["n"] += 1
         units[k]["adv"].add(o["brand"])
         units[k]["comp"] += o["level"] in ("core", "vertical")
-    ranked = sorted(units.items(), key=lambda x: (x[1]["comp"], len(x[1]["adv"]), x[1]["n"]))
+    ranked = sorted(units.items(), key=lambda x: (x[1]["comp"], len(x[1]["adv"]), x[1]["n"], x[0][2] != "mobile"))  # mobile wins ties
     return [{"placement": k[0], "format": k[1], "device": k[2], "ads": v["n"], "advertisers": len(v["adv"]), "competitor_ads": v["comp"]}
             for k, v in ranked[:3]]
 
@@ -340,7 +581,7 @@ def _alerts(D):
     if D["discovery"]["new_networks"]:
         al.append({"level": "low", "text": f"{len(D['discovery']['new_networks'])} شبکهٔ تبلیغاتی تازه روی سایت‌ها دیده شد"})
     if D.get("geo_suspect"):
-        al.append({"level": "low", "text": f"{len(D['geo_suspect'])} سایت ادتک داشتند ولی تبلیغی نمایش ندادند (احتمال محدودیت IP خارجی)"})
+        al.append({"level": "low", "text": f"{len(D['geo_suspect'])} سایت ادتک داشتند ولی تبلیغی پر نشد (اسلات خالی، SPA یا محدودیت IP)"})
     order = {"high": 0, "mid": 1, "low": 2}
     return sorted(al, key=lambda a: order[a["level"]])[:20]
 

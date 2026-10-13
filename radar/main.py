@@ -23,6 +23,7 @@ import publishers  # noqa: E402
 import report  # noqa: E402
 import store  # noqa: E402
 from llm import LLM  # noqa: E402
+from util import sha as util_sha  # noqa: E402
 from util import DATA, domain_of, load_yaml, now, read_json, settings, setup_logging, today, write_json  # noqa: E402
 
 log = logging.getLogger("radar")
@@ -30,10 +31,17 @@ truthy = lambda v: str(v or "").lower() in ("1", "true", "yes", "on")
 
 
 def warm_urls(brands) -> list:
+    """Retargeting persona: core rivals every run + a rotating slice of vertical rivals (so all get covered over a week)."""
     cfg = brands.auto
-    levels = set(cfg.get("warm_from_levels", ["core", "vertical"]))
-    urls = [f"https://{b['domains'][0]}/" for b in brands.brands if b.get("level") in levels and b.get("domains")]
-    return urls[: int(cfg.get("warm_max_sites", 8))]
+    n = int(cfg.get("warm_max_sites", 8))
+    with_dom = [b for b in brands.brands if b.get("domains") and b.get("level") in set(cfg.get("warm_from_levels", ["core", "vertical"]))]
+    core = [b for b in with_dom if b["level"] == "core"][: max(2, n // 3)]
+    rest = sorted([b for b in with_dom if b not in core], key=lambda b: util_sha(b["name"]))  # interleave verticals
+    if rest:
+        k = n - len(core)
+        start = (now().toordinal() * 3 + now().hour // 6) * k % len(rest)
+        rest = (rest[start:] + rest[:start])[:k]
+    return [f"https://{b['domains'][0]}/" for b in core + rest]
 
 
 def scan(llm):
@@ -52,7 +60,7 @@ def scan(llm):
     landings = read_json(DATA / "landing_cache.json", {}) or {}
     obs = classify.observations(res["pages"], brands, nets.get("tracking_params", []), run_id, landings)
     enrich.enrich(obs, brands, llm)
-    meta = {"sites": len(sites), "pages": len(res["pages"]), "obs": len(obs), "secs": round(time.time() - t0),
+    meta = {"sites": len(sites), "skipped_sites": res.get("skipped_sites", []), "pages": len(res["pages"]), "obs": len(obs), "secs": round(time.time() - t0),
             "proxy": res.get("proxy"), "llm": llm.summary}
     store.save_run(run_id, res["pages"], obs, meta)
     per = collections.defaultdict(lambda: {"ok": False, "ads": 0})

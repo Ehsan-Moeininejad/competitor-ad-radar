@@ -15,9 +15,10 @@ for k in ("GITHUB_TOKEN", "GEMINI_API_KEY", "OPENROUTER_API_KEY", "GROQ_API_KEY"
 import publishers  # noqa: E402
 import main  # noqa: E402
 
-publishers.read_sheet = lambda: [{"domain": "zoomit.ir", "source": "sheet", "category": "tech", "sheet_tier": 30, "pages": []},
-                                 {"domain": "varzesh3.com", "source": "sheet", "category": "sports", "sheet_tier": 90, "pages": []}]
-publishers.select_for_run = lambda reg: [reg["zoomit.ir"], reg["varzesh3.com"]]
+TEST_SITES = ["zoomit.ir", "varzesh3.com", "tgju.org", "khabaronline.ir"]
+publishers.read_sheet = lambda: [{"domain": "zoomit.ir", "source": "sheet", "category": "تکنولوژی", "sheet_tier": 30, "pages": []},
+                                 {"domain": "varzesh3.com", "source": "sheet", "category": "ورزشی", "sheet_tier": 90, "pages": []}]
+publishers.select_for_run = lambda reg: [reg[d] for d in TEST_SITES]
 publishers._tranco_ir = lambda known: ({}, {})
 sys.argv = ["main.py", "auto"]
 main.main()
