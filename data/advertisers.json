@@ -1,0 +1,1195 @@
+{
+ "digikala.com": {
+  "name": "دیجی‌کالا",
+  "vertical": "marketplace",
+  "level": "own",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "dgkala.com": {
+  "name": "دیجی‌کالا",
+  "vertical": "marketplace",
+  "level": "own",
+  "source": "config"
+ },
+ "digistyle.com": {
+  "name": "دیجی‌استایل",
+  "vertical": "fashion",
+  "level": "own",
+  "source": "config"
+ },
+ "mydigipay.com": {
+  "name": "دیجی‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "own",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "digipay.ir": {
+  "name": "دیجی‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "own",
+  "source": "config"
+ },
+ "digikalajet.com": {
+  "name": "دیجی‌کالا جت",
+  "vertical": "supermarket",
+  "level": "own",
+  "source": "config"
+ },
+ "digiexpress.ir": {
+  "name": "دیجی‌اکسپرس",
+  "vertical": "services",
+  "level": "own",
+  "source": "config"
+ },
+ "fidibo.com": {
+  "name": "فیدیبو",
+  "vertical": "books_stationery",
+  "level": "own",
+  "source": "config"
+ },
+ "snappshop.ir": {
+  "name": "اسنپ‌شاپ",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "basalam.com": {
+  "name": "باسلام",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "timcheh.com": {
+  "name": "تیمچه",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "torob.com": {
+  "name": "ترب",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "emalls.ir": {
+  "name": "ایمالز",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "esam.ir": {
+  "name": "ایسام",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "offch.com": {
+  "name": "آف‌چ",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "takhfifan.com": {
+  "name": "تخفیفان",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "divar.ir": {
+  "name": "دیوار",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "sheypoor.com": {
+  "name": "شیپور",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "config"
+ },
+ "technolife.com": {
+  "name": "تکنولایف",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "technolife.ir": {
+  "name": "تکنولایف",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config"
+ },
+ "mobile140.com": {
+  "name": "موبایل ۱۴۰",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config"
+ },
+ "gooshishop.com": {
+  "name": "گوشی‌شاپ",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config"
+ },
+ "lioncomputer.com": {
+  "name": "لیون کامپیوتر",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config"
+ },
+ "meghdadit.com": {
+  "name": "مقداد آی‌تی",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config"
+ },
+ "mobit.ir": {
+  "name": "موبیت",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "shahrsakhtafzar.com": {
+  "name": "شهر سخت‌افزار",
+  "vertical": "digital",
+  "level": "vertical",
+  "source": "config"
+ },
+ "sell.ir": {
+  "name": "سل",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "config"
+ },
+ "sarayeiranian.com": {
+  "name": "سرای ایرانیان",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "config"
+ },
+ "lavazemkhonegi.com": {
+  "name": "لوازم خونگی",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "config"
+ },
+ "snowa.ir": {
+  "name": "اسنوا",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "config"
+ },
+ "pakshoma.com": {
+  "name": "پاکشوما",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "config"
+ },
+ "zar.ir": {
+  "name": "گالری زر",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "source": "config"
+ },
+ "tajgold.net": {
+  "name": "گالری تاج",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "source": "config"
+ },
+ "mavigoldgallery.com": {
+  "name": "گالری ماوی",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "source": "config"
+ },
+ "nabigold.com": {
+  "name": "نبی‌زاده",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "source": "config"
+ },
+ "remasgallery.com": {
+  "name": "ریماس گالری",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "source": "config"
+ },
+ "rabieigallery.com": {
+  "name": "گالری ربیعی",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "source": "config"
+ },
+ "mimgoldgallery.com": {
+  "name": "میم گلد",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "source": "config"
+ },
+ "milli.gold": {
+  "name": "میلی",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config"
+ },
+ "melligold.com": {
+  "name": "ملی گلد",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "talasea.ir": {
+  "name": "طلاسی",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "daric.gold": {
+  "name": "داریک",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config"
+ },
+ "goldika.ir": {
+  "name": "گلدیکا",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config"
+ },
+ "wallgold.ir": {
+  "name": "وال‌گلد",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config"
+ },
+ "zariran.com": {
+  "name": "زرایران",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config"
+ },
+ "ecogold.ir": {
+  "name": "اکوگلد",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "noghresea.ir": {
+  "name": "نقره‌سی",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "config"
+ },
+ "tehtoy.com": {
+  "name": "تهران توی",
+  "vertical": "toys",
+  "level": "vertical",
+  "source": "config"
+ },
+ "bazidone.com": {
+  "name": "بازی دونه",
+  "vertical": "toys",
+  "level": "vertical",
+  "source": "config"
+ },
+ "kidbeetoys.com": {
+  "name": "کیدبی",
+  "vertical": "toys",
+  "level": "vertical",
+  "source": "config"
+ },
+ "bazijoo.com": {
+  "name": "بازیجو",
+  "vertical": "toys",
+  "level": "vertical",
+  "source": "config"
+ },
+ "modiseh.com": {
+  "name": "مدیسه",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "config"
+ },
+ "banimode.com": {
+  "name": "بانی‌مد",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "config"
+ },
+ "shixon.com": {
+  "name": "شیکسون",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "config"
+ },
+ "chibepoosham.com": {
+  "name": "چی بپوشم",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "config"
+ },
+ "gerad.ir": {
+  "name": "گراد",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "config"
+ },
+ "modixo.ir": {
+  "name": "مدیکسو",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "config"
+ },
+ "kajshop.com": {
+  "name": "کاج شاپ",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "source": "config"
+ },
+ "homehr.ir": {
+  "name": "هومهر",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "source": "config"
+ },
+ "makyajgallery.com": {
+  "name": "ماکیاژ گالری",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "source": "config"
+ },
+ "asalbanooshop.com": {
+  "name": "عسل بانو",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "source": "config"
+ },
+ "darukade.com": {
+  "name": "داروکده",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "source": "config"
+ },
+ "atrafshan.ir": {
+  "name": "عطرافشان",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "source": "config"
+ },
+ "darukala.ir": {
+  "name": "دارو کالا",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "source": "config"
+ },
+ "yadakmarket.com": {
+  "name": "یدک مارکت",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "config"
+ },
+ "mryadaki.com": {
+  "name": "مستر یدکی",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "config"
+ },
+ "yadakme.com": {
+  "name": "یدک‌می",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "config"
+ },
+ "hamrah-mechanic.com": {
+  "name": "همراه مکانیک",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "config"
+ },
+ "bama.ir": {
+  "name": "باما",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "config"
+ },
+ "karnameh.com": {
+  "name": "کارنامه",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "config"
+ },
+ "khodro45.com": {
+  "name": "خودرو ۴۵",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "abzarmart.com": {
+  "name": "ابزارمارت",
+  "vertical": "tools",
+  "level": "vertical",
+  "source": "config"
+ },
+ "tehrantools.com": {
+  "name": "تهران ابزار",
+  "vertical": "tools",
+  "level": "vertical",
+  "source": "config"
+ },
+ "abzarsara.com": {
+  "name": "ابزارسرا",
+  "vertical": "tools",
+  "level": "vertical",
+  "source": "config"
+ },
+ "abzarchi.com": {
+  "name": "ابزارچی",
+  "vertical": "tools",
+  "level": "vertical",
+  "source": "config"
+ },
+ "abzarek.ir": {
+  "name": "ابزارک",
+  "vertical": "tools",
+  "level": "vertical",
+  "source": "config"
+ },
+ "chywo.com": {
+  "name": "چیوو",
+  "vertical": "pet",
+  "level": "vertical",
+  "source": "config"
+ },
+ "petstore.ir": {
+  "name": "پت استور",
+  "vertical": "pet",
+  "level": "vertical",
+  "source": "config"
+ },
+ "hamrah-pet.com": {
+  "name": "همراه پت",
+  "vertical": "pet",
+  "level": "vertical",
+  "source": "config"
+ },
+ "petiak.ir": {
+  "name": "پتیاک",
+  "vertical": "pet",
+  "level": "vertical",
+  "source": "config"
+ },
+ "petkhoone.com": {
+  "name": "پت خونه",
+  "vertical": "pet",
+  "level": "vertical",
+  "source": "config"
+ },
+ "okala.com": {
+  "name": "اکالا",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "source": "config"
+ },
+ "snapp.market": {
+  "name": "اسنپ‌مارکت",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "snappfood.ir": {
+  "name": "اسنپ‌فود",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "source": "config"
+ },
+ "okcs.com": {
+  "name": "افق کوروش",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "source": "config"
+ },
+ "taaghche.com": {
+  "name": "طاقچه",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "source": "config"
+ },
+ "ketabrah.ir": {
+  "name": "کتابراه",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "source": "config"
+ },
+ "navaar.ir": {
+  "name": "نوار",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "source": "config"
+ },
+ "iranketab.ir": {
+  "name": "ایران کتاب",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "source": "config"
+ },
+ "30book.com": {
+  "name": "سی‌بوک",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "source": "config"
+ },
+ "shahreketabonline.com": {
+  "name": "شهر کتاب آنلاین",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "source": "config"
+ },
+ "irancamping.com": {
+  "name": "ایران کمپینگ",
+  "vertical": "sports_travel",
+  "level": "vertical",
+  "source": "config"
+ },
+ "navidcamp.com": {
+  "name": "نوید کمپ",
+  "vertical": "sports_travel",
+  "level": "vertical",
+  "source": "config"
+ },
+ "koohkade.com": {
+  "name": "کوهکده",
+  "vertical": "sports_travel",
+  "level": "vertical",
+  "source": "config"
+ },
+ "edoman.ir": {
+  "name": "دومان",
+  "vertical": "sports_travel",
+  "level": "vertical",
+  "source": "config"
+ },
+ "mojekooh.com": {
+  "name": "موج کوه",
+  "vertical": "sports_travel",
+  "level": "vertical",
+  "source": "config"
+ },
+ "koodakoo.com": {
+  "name": "کودکو",
+  "vertical": "baby_kids",
+  "level": "vertical",
+  "source": "config"
+ },
+ "ninilazem.com": {
+  "name": "نی‌نی‌لازم",
+  "vertical": "baby_kids",
+  "level": "vertical",
+  "source": "config"
+ },
+ "ninikala.com": {
+  "name": "نی‌نی‌کالا",
+  "vertical": "baby_kids",
+  "level": "vertical",
+  "source": "config"
+ },
+ "ninikala.co": {
+  "name": "نی‌نی‌کالا",
+  "vertical": "baby_kids",
+  "level": "vertical",
+  "source": "config"
+ },
+ "ninilist.com": {
+  "name": "نی‌نی‌لیست",
+  "vertical": "baby_kids",
+  "level": "vertical",
+  "source": "config"
+ },
+ "madaraan.ir": {
+  "name": "فروشگاه مادران",
+  "vertical": "baby_kids",
+  "level": "vertical",
+  "source": "config"
+ },
+ "sunnybaby.ir": {
+  "name": "سانی‌بیبی",
+  "vertical": "baby_kids",
+  "level": "vertical",
+  "source": "config"
+ },
+ "snapppay.ir": {
+  "name": "اسنپ‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config"
+ },
+ "tara360.ir": {
+  "name": "تارا",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config"
+ },
+ "azkivam.com": {
+  "name": "ازکی‌وام",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "lendo.ir": {
+  "name": "لندو",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config"
+ },
+ "ghesta.ir": {
+  "name": "قسطا",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config"
+ },
+ "blubank.com": {
+  "name": "بلوبانک",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config"
+ },
+ "asanpardakht.ir": {
+  "name": "آپ",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config"
+ },
+ "bazaar-pay.ir": {
+  "name": "بازارپی",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config"
+ },
+ "technopay.ir": {
+  "name": "تکنوپی",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "config",
+  "last_seen": "2026-10-18"
+ },
+ "brand:خودرو ۴۵": {
+  "name": "خودرو ۴۵",
+  "vertical": "auto",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "aflo.ir": {
+  "name": "دیجی‌کالا",
+  "vertical": "marketplace",
+  "level": "own",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "brand:انتخاب": {
+  "name": "انتخاب",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "pspexpress.com": {
+  "name": "پی اس پی اکسپرس",
+  "name_en": "PSP Express",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "google.com": {
+  "name": "گوگل",
+  "name_en": "Google",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "arobus.ir": {
+  "name": "آروباس",
+  "name_en": "Arobus",
+  "vertical": "travel_services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "rasamotor.co": {
+  "name": "راسا موتور خاورمیانه",
+  "name_en": "Rasa Motor",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "vendorsgg.com": {
+  "name": "وندورز جی جی",
+  "name_en": "VendorsGG",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "gifkart.com": {
+  "name": "گیف کارت",
+  "name_en": "Gifkart",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "mojogem.com": {
+  "name": "موجوجم",
+  "name_en": "Mojogem",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "psnex.ir": {
+  "name": "پی اس نکس",
+  "name_en": "Psnex",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "lifelands.ir": {
+  "name": "لایف لندز",
+  "name_en": "Lifelands",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "xgamesstore.org": {
+  "name": "ایکس گیم استور",
+  "name_en": "Xgames Store",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "shop-venturestorms.ir": {
+  "name": "ونچر استورمز",
+  "name_en": "Venture Storms",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "diamond-land.org": {
+  "name": "دایموند لند",
+  "name_en": "Diamond Land",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "numax.ir": {
+  "name": "نیومکس",
+  "name_en": "Numax",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "orixgame.ir": {
+  "name": "اوریکس گیم",
+  "name_en": "Orix Game",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:5627f52e68": {
+  "name": "t:5627f52e68",
+  "name_en": null,
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.2,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "amootsms.com": {
+  "name": "آموت اس ام اس",
+  "name_en": "Amoot SMS",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "pars.host": {
+  "name": "پارس هاست",
+  "name_en": "Pars Host",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "arna-honey.ir": {
+  "name": "عسل آرنا",
+  "name_en": "Arna Honey",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "delcook.kitchen": {
+  "name": "دل کوک",
+  "name_en": "Delcook",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "azkiagent.com": {
+  "name": "ازکی سلر (ازکی)",
+  "name_en": "Azki Seller",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:dee30ca9fa": {
+  "name": "t:dee30ca9fa",
+  "name_en": null,
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:cf2fb22b95": {
+  "name": "t:cf2fb22b95",
+  "name_en": null,
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:dd1becaf1c": {
+  "name": "خودرو45",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:98d9dbc9ff": {
+  "name": "میلی",
+  "name_en": "Milli",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "harfeto.com": {
+  "name": "حرف تو",
+  "name_en": "Harfe To",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "omranmodern.com": {
+  "name": "عمران مدرن",
+  "name_en": "Omran Modern",
+  "vertical": "tools",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:c0292b394a": {
+  "name": "صندوق طلای مثقال",
+  "name_en": "Mesghal Gold Fund",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:ea7231ca52": {
+  "name": "صندوق طلای مثقال آگاه",
+  "name_en": "Agah Mesghal Gold Fund",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:ed288baba8": {
+  "name": "صندوق طلای مثقال",
+  "name_en": "Mesghal Gold Fund",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:995c9da096": {
+  "name": "صندوق طلای مثقال آگاه",
+  "name_en": "Agah Mesghal Gold Fund",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:84187ff631": {
+  "name": "t:84187ff631",
+  "name_en": null,
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "landin.ir": {
+  "name": "لندین",
+  "name_en": "Landin",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:37225d860f": {
+  "name": "ردتون",
+  "name_en": "Redton",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "mobogift.com": {
+  "name": "موبوگیفت",
+  "name_en": "Mobogift",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "mytendo.net": {
+  "name": "مایتندو",
+  "name_en": "Mytendo",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "ipinz.ir": {
+  "name": "آی پینز",
+  "name_en": "iPinz",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:d6546acfb3": {
+  "name": "استیم کلاب",
+  "name_en": "Steam Club",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "kcex.com": {
+  "name": "کی سی ای ایکس",
+  "name_en": "KCEX",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "zoomit.ir": {
+  "name": "زومیت (زوبین)",
+  "name_en": "Zoomit",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "numberland.ir": {
+  "name": "نامبرلند",
+  "name_en": "Numberland",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "xchief.com": {
+  "name": "ایکس چیف",
+  "name_en": "xChief",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "خدمات معاملاتی فارکس و سرمایه‌گذاری در بروکر xChief",
+  "domain_guess": "xchief.com",
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "rightel.ir": {
+  "name": "رایتل",
+  "name_en": "RighTel",
+  "vertical": "telecom",
+  "level": "none",
+  "message": "۶۰ درصد تخفیف ویژه خرید سیم‌کارت جوان رایتل با ۲۰ گیگابایت اینترنت",
+  "domain_guess": "rightel.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "comteltelecom.com": {
+  "name": "کامتل",
+  "name_en": "Comtel",
+  "vertical": "digital",
+  "level": "vertical",
+  "message": "عرضه و گارانتی گوشی‌های هوشمند توسط شرکت کامتل",
+  "domain_guess": "comtel.ir",
+  "confidence": 0.9,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "zarpay24.com": {
+  "name": "زرپی",
+  "name_en": "Zarpay",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "message": "خرید آنلاین طلا در زرپی با کارمزد تنها ۰.۵ درصد",
+  "domain_guess": "zarpay.ir",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "lbank.com": {
+  "name": "ال‌بانک",
+  "name_en": "LBank",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "دریافت جوایز و پاداش در صرافی کریپتو ال‌بانک",
+  "domain_guess": "lbank.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "asiatech.ir": {
+  "name": "آسیاتک",
+  "name_en": "Asiatech",
+  "vertical": "telecom",
+  "level": "none",
+  "message": "خرید اقساطی ۵۰۰ گیگابایت اینترنت یک‌ساله LTE",
+  "domain_guess": "asiatech.ir",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "iranrebate.com": {
+  "name": "ایران ریبیت",
+  "name_en": "Iran Rebate",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "تا ۸۵ درصد تخفیف اسپرد و کمیسیون و دریافت ریبیت",
+  "domain_guess": "iranrebate.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ }
+}
