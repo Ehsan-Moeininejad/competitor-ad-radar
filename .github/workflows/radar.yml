@@ -63,6 +63,18 @@ jobs:
           key: radar-state-${{ github.run_id }}
           restore-keys: radar-state-
 
+      # 31-day report archive also lives on the "reports" branch (one commit, overwritten), so it survives cache eviction
+      - name: Restore report archive
+        run: |
+          if git fetch -q --depth 1 origin reports 2>/dev/null; then
+            mkdir -p docs/archive
+            git --work-tree=docs/archive checkout FETCH_HEAD -- . 2>/dev/null || true
+            git reset -q
+            echo "archive: $(ls docs/archive | wc -l) reports"
+          else
+            echo "no archive branch yet"
+          fi
+
       - name: Run radar
         timeout-minutes: 145
         env:
@@ -117,6 +129,18 @@ jobs:
         id: built
         if: always()
         run: echo "yes=$([ -f docs/.built ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Save report archive
+        if: always() && steps.built.outputs.yes == 'true'
+        continue-on-error: true
+        run: |
+          tmp=$(mktemp -d)
+          cp docs/archive/*.html "$tmp"/ 2>/dev/null || exit 0
+          cd "$tmp"
+          git init -q && git checkout -q -b reports
+          git add -A
+          git -c user.name=ad-radar-bot -c user.email=ad-radar-bot@users.noreply.github.com commit -q -m "report archive $(date -u +%F)"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" reports
 
       - name: Upload Pages
         if: always() && steps.built.outputs.yes == 'true' && vars.PUBLISH_PAGES != 'false'
