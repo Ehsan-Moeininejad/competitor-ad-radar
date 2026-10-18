@@ -43,7 +43,8 @@
   "virgool.io"
  ],
  "a1.parto.media": [
-  "digiato.com"
+  "digiato.com",
+  "vigiato.net"
  ],
  "ble.ir": [
   "digiato.com",
@@ -67,7 +68,8 @@
   "snn.ir",
   "mizanonline.ir",
   "nabzebourse.com",
-  "yjc.ir"
+  "yjc.ir",
+  "akharinkhodro.ir"
  ],
  "ninishop.ir": [
   "ninisite.com"
@@ -94,7 +96,8 @@
   "drdr.ir",
   "namava.ir",
   "doctor-yab.ir",
-  "niniban.com"
+  "niniban.com",
+  "akharinkhodro.ir"
  ],
  "kiandigital.com": [
   "tgju.org"
@@ -1029,7 +1032,8 @@
   "musicdel.ir",
   "iribnews.ir",
   "nournews.ir",
-  "yjc.ir"
+  "yjc.ir",
+  "akharinkhodro.ir"
  ],
  "namasha.com": [
   "khabarfoori.com"
@@ -1982,7 +1986,8 @@
   "footini.ir"
  ],
  "wa.me": [
-  "footini.ir"
+  "footini.ir",
+  "newshanik.ir"
  ],
  "maps.app.goo.gl": [
   "footini.ir"
@@ -2149,5 +2154,50 @@
  ],
  "mizito.ir": [
   "zoomit.ir"
+ ],
+ "ign.com": [
+  "p30day.ir"
+ ],
+ "aparatsport.ir": [
+  "aparat.com"
+ ],
+ "play1001.tv.fc-perspolis.com": [
+  "anten.ir"
+ ],
+ "live.fcesteghlal.ir": [
+  "anten.ir"
+ ],
+ "filmnet.ir": [
+  "akharinkhodro.ir"
+ ],
+ "tooc.ir": [
+  "akharinkhodro.ir"
+ ],
+ "discord.gg": [
+  "vigiato.net"
+ ],
+ "leafletjs.com": [
+  "newshanik.ir"
+ ],
+ "easnaf.mimt.gov.ir": [
+  "newshanik.ir"
+ ],
+ "iranhoshdar.ir": [
+  "newshanik.ir"
+ ],
+ "uploadkon.ir": [
+  "newshanik.ir"
+ ],
+ "zoku.ir": [
+  "nexload.ir"
+ ],
+ "en.wikipedia.org": [
+  "film2movie.asia"
+ ],
+ "imdb.com": [
+  "film2movie.asia"
+ ],
+ "subf2m.co": [
+  "film2movie.asia"
  ]
 }

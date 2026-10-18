@@ -2314,5 +2314,431 @@
  "jobvision.ir|net|yektanet": {
   "first_seen": "2026-10-18",
   "last_seen": "2026-10-18"
+ },
+ "ninisite.com|home|below_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "300x100",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "musics-fa.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~330x130",
+  "network": "mediaad_tapsell",
+  "last_seen": "2026-10-18"
+ },
+ "musics-fa.com|home|popup|interstitial|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~330x130",
+  "network": "mediaad_tapsell",
+  "last_seen": "2026-10-18"
+ },
+ "khabaronline.ir|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "khabaronline.ir|home|header|video|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~370x400",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "khabaronline.ir|home|sticky|video|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~190x180",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "entekhab.ir|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "entekhab.ir|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~390x80",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "etemadonline.com|home|sticky|video|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~190x180",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "etemadonline.com|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~390x150",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "ilna.ir|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "ilna.ir|home|below_fold|video|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~300x340",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "ilna.ir|home|below_fold|video|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~790x270",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "tejaratnews.com|home|in_content|reportage|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "-",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "tejaratnews.com|home|in_content|reportage|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "-",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "iranjib.ir|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "tala.ir|home|header|native|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Native widget ×1",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "tala.ir|home|sticky|video|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~190x180",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "parsine.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "setare.com|home|header|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~390x90",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "tarafdari.com|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~390x80",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "sharghdaily.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "delgarm.com|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~390x170",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "jobvision.ir|home|sticky|sticky_banner|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~400x640",
+  "network": "unknown:app.gapify.ai",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|home|popup|interstitial|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~190x200",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|home|sticky|sticky_banner|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~130x100",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "drsaina.com|home|above_fold|display|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~820x110",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "ninisite.com|home|sticky|video|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~190x180",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "entekhab.ir|home|header|display|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Leaderboard 728x90",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "entekhab.ir|home|above_fold|display|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~450x800",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "etemadonline.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "khabarfoori.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x110",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "khabarfoori.com|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~390x60",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "khabarfoori.com|home|header|native|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Native widget ×1",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "khabarfoori.com|home|header|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~390x50",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "iranjib.ir|home|sticky|sticky_banner|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~190x210",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "namnak.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x110",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "sakhtafzarmag.com|home|header|display|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~300x160",
+  "network": "unknown:google.com",
+  "last_seen": "2026-10-18"
+ },
+ "setare.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x110",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|home|sticky|sticky_banner|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~140x100",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|home|header|native|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Native widget ×1",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|home|above_fold|native|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Native widget ×1",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~390x60",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "entekhab.ir|home|sidebar|video|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~300x310",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "jamaran.news|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~120x80",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "entekhab.ir|home|footer|video|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~370x290",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "bahalmag.ir|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "aftabnews.ir|home|sticky|video|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~140x80",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "filimo.com|home|footer|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~160x30",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "aparat.com|home|sticky|sticky_banner|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~80x120",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "7sobh.com|home|header|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~370x50",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "7sobh.com|home|below_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "300x100",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "ninisite.com|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "chishi.ir|home|popup|interstitial|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~200x120",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "7sobh.com|home|header|display|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Banner 468x60",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "7sobh.com|home|below_fold|display|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "300x100",
+  "network": "direct",
+  "last_seen": "2026-10-18"
+ },
+ "vigiato.net|home|header|video|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~4060x6930",
+  "network": "digiad",
+  "last_seen": "2026-10-18"
+ },
+ "vigiato.net|home|header|display|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~720x150",
+  "network": "digiad",
+  "last_seen": "2026-10-18"
+ },
+ "vigiato.net|home|sidebar|video|desktop": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~300x320",
+  "network": "digiad",
+  "last_seen": "2026-10-18"
+ },
+ "nexload.ir|home|header|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Custom ~360x430",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "nexload.ir|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-18",
+  "size": "Wide banner ~360x100",
+  "network": "yektanet",
+  "last_seen": "2026-10-18"
+ },
+ "musics-fa.com|net|mediaad_tapsell": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "downloadha.com|net|digiad": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|net|yektanet": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "drdr.ir|net|google": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "drdr.ir|net|mediaad_tapsell": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "drdr.ir|net|yektanet": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "drsaina.com|net|google": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "drsaina.com|net|mediaad_tapsell": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "drsaina.com|net|yektanet": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "fardayetaze.ir|net|digiad": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "entekhab.ir|net|digiad": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "ilna.ir|net|digiad": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "bahalmag.ir|net|digiad": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "testchi.ir|net|digiad": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "nexload.ir|net|yektanet": {
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
  }
 }
