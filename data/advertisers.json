@@ -632,7 +632,8 @@
   "name": "اسنپ‌پی",
   "vertical": "fintech_bnpl",
   "level": "vertical",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-10-18"
  },
  "tara360.ir": {
   "name": "تارا",
@@ -1188,6 +1189,154 @@
   "message": "تا ۸۵ درصد تخفیف اسپرد و کمیسیون و دریافت ریبیت",
   "domain_guess": "iranrebate.com",
   "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "brand:اسنپ‌مارکت": {
+  "name": "اسنپ‌مارکت",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "jeanswest.ir": {
+  "name": "جین‌وست",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "brand:جین‌وست": {
+  "name": "جین‌وست",
+  "vertical": "fashion",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "brand:دیجی‌کالا": {
+  "name": "دیجی‌کالا",
+  "vertical": "marketplace",
+  "level": "own",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "brand:اسنپ‌پی": {
+  "name": "اسنپ‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "hoosha.com": {
+  "name": "هوشا",
+  "name_en": "Hoosha",
+  "vertical": "services",
+  "level": "none",
+  "message": "۲۰ درصد تخفیف اولین خرید با کد تخفیف FRST20 در پلتفرم هوشا",
+  "domain_guess": "hoosha.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "img:147c009dc7ce01": {
+  "name": "شاپینو",
+  "name_en": "Shopino",
+  "vertical": "fashion",
+  "level": "vertical",
+  "message": "خرید آنلاین انواع لباس و پوشاک با تخفیف بالا در شاپینو",
+  "domain_guess": "shopino.app",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "mahak-charity.ir": {
+  "name": "محک",
+  "name_en": "Mahak",
+  "vertical": "other",
+  "level": "none",
+  "message": "دعوت به ثبت‌نام در اپلیکیشن محک برای حمایت از کودکان مبتلا به سرطان",
+  "domain_guess": "mahak-charity.org",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "pardisan-edu.com": {
+  "name": "آموزشگاه زبان پردیسان",
+  "name_en": "Pardisan",
+  "vertical": "education",
+  "level": "none",
+  "message": "آموزش مکالمه ۴ زبان خارجی (انگلیسی، فرانسوی، آلمانی، ترکی) در ۶ ماه به همراه مشاوره رایگان",
+  "domain_guess": "pardisan-edu.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:0642969274": {
+  "name": "هراز",
+  "name_en": "Haraz",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "تخفیف ۳۵ درصدی ماست یونانی هراز",
+  "domain_guess": "harazdairy.com",
+  "confidence": 0.8,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "tokeniko.com": {
+  "name": "توکنیکو",
+  "name_en": "Tokeniko",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "message": "خرید شمش‌های طلای ضد جعل توکنیکو",
+  "domain_guess": "tokeniko.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "wikishop.co": {
+  "name": "همراه مکانیک",
+  "name_en": "Hamrah Mechanic",
+  "vertical": "auto",
+  "level": "none",
+  "message": "دریافت تسهیلات خرید خودروهای داخلی و خارجی تا سقف ۲ میلیارد تومان",
+  "domain_guess": "hamrah-mechanic.com",
+  "confidence": 0.8,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:ac98d91e7a": {
+  "name": "ویکی لیزینگ",
+  "name_en": "Wiki Leasing",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "دریافت تسهیلات ۴۰۰ میلیون تومانی برای خرید خودرو",
+  "domain_guess": "wikileasing.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "snapp.ir": {
+  "name": "اسنپ باکس",
+  "name_en": "Snapp Box",
+  "vertical": "services",
+  "level": "none",
+  "message": "ثبت‌نام راننده در اسنپ‌باکس با قرعه‌کشی موتورسیکلت",
+  "domain_guess": "snapp-box.com",
+  "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
   "last_seen": "2026-10-18"
