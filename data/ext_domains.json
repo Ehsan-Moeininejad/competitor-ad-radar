@@ -66,7 +66,8 @@
   "nournews.ir",
   "snn.ir",
   "mizanonline.ir",
-  "nabzebourse.com"
+  "nabzebourse.com",
+  "yjc.ir"
  ],
  "ninishop.ir": [
   "ninisite.com"
@@ -584,7 +585,8 @@
   "sharghdaily.com",
   "asriran.com",
   "tabnak.ir",
-  "mehrnews.com"
+  "mehrnews.com",
+  "khabaronline.ir"
  ],
  "setaresim.com": [
   "hamshahrionline.ir"
@@ -660,7 +662,8 @@
   "iribnews.ir",
   "snn.ir",
   "mizanonline.ir",
-  "nabzebourse.com"
+  "nabzebourse.com",
+  "yjc.ir"
  ],
  "psnex.ir": [
   "p30day.ir",
@@ -876,7 +879,8 @@
   "bahalmag.ir",
   "sharghdaily.com",
   "mehrnews.com",
-  "virgool.io"
+  "virgool.io",
+  "hamshahrionline.ir"
  ],
  "zoomapp.app": [
   "zoomg.ir",
@@ -1022,7 +1026,8 @@
   "mehrnews.com",
   "musicdel.ir",
   "iribnews.ir",
-  "nournews.ir"
+  "nournews.ir",
+  "yjc.ir"
  ],
  "namasha.com": [
   "khabarfoori.com"
@@ -2139,5 +2144,17 @@
  ],
  "serversetup.co": [
   "hidoctor.ir"
+ ],
+ "tech.cafebazaar.ir": [
+  "virgool.io"
+ ],
+ "play1001.tv.fc-perspolis.com": [
+  "anten.ir"
+ ],
+ "live.fcesteghlal.ir": [
+  "anten.ir"
+ ],
+ "user": [
+  "golsarmusic.ir"
  ]
 }
