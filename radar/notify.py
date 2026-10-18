@@ -1,9 +1,10 @@
 """Daily email (Gmail SMTP, App Password): a self-contained decision brief with links into the full report.
 
+Same visual language as the Research Digest email (light page, white cards, Digikala red, Jalali date).
 Layout (table-based, inline styles — safe for Gmail, Apple Mail and Outlook):
-  header + buttons → headline & first action → KPI tiles → today's decisions (attack / defend / test)
-  → what changed → media plan → competitors → new UTM campaigns → offer benchmark → creatives (inline images)
-  → category risk → analyst summary → coverage & useful links.
+  header → date, headline, first action, chips, report/tab buttons → KPIs → today's decisions (attack / defend / test)
+  → what changed → media plan cards → competitors → new UTM campaigns → offer benchmark → creatives (inline images)
+  → category risk → analyst summary → big CTA + archive / runs / recipients links.
 """
 import html
 import logging
@@ -18,14 +19,19 @@ from util import DATA, settings
 
 log = logging.getLogger("radar")
 
-FONT = "Vazirmatn,Tahoma,'Segoe UI',Arial,sans-serif"
-C = {"bg": "#0d0d0d", "card": "#1a1a19", "inner": "#232321", "line": "#2f2f2c", "ink": "#f0efec", "ink2": "#c9c7bf",
-     "mute": "#9a988f", "acc": "#ef4056", "good": "#2fb35a", "warn": "#f0b429", "bad": "#e5484d", "link": "#86b6ef"}
+FONT = "Vazirmatn,Vazir,'Vazir Matn',Tahoma,'Segoe UI',Arial,sans-serif"
+FA_DIG = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩", "01234567890123456789")
+# same visual language as the Research Digest email: light page, white cards, Digikala red accent
+RED, INK, SOFT, MUTE, LINE, BG, TINT = "#EF4056", "#232933", "#4F545C", "#81858B", "#E4E4E7", "#F0F0F1", "#FFF2F4"
+GREEN, AMBER, ORANGE, BLUE = "#1E8A43", "#B7791F", "#D2691E", "#2F6FD6"
 GOOD_REC = ("خرید مستقیم", "بید پایین در شبکه", "شکاف حضور")
+TD = f'dir="rtl" style="text-align:right;font-family:{FONT};'
+MONTHS = ["فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"]
+WEEKDAYS = ["دوشنبه", "سه‌شنبه", "چهارشنبه", "پنجشنبه", "جمعه", "شنبه", "یکشنبه"]
 
 
 def t(x):
-    return html.escape(str(x if x is not None else ""))
+    return html.escape(str(x if x is not None else "").translate(FA_DIG))
 
 
 def pct(x, d=0):
@@ -36,50 +42,76 @@ def ltr(x):
     return f'<span dir="ltr" style="unicode-bidi:isolate">{t(x)}</span>'
 
 
-# ---------------------------------------------------------------- building blocks
-def _p(text, size=14, color=None, weight="normal", pad="0"):
-    return (f'<div style="font-family:{FONT};font-size:{size}px;line-height:1.9;color:{color or C["ink"]};font-weight:{weight};'
-            f'text-align:right;direction:rtl;padding:{pad}">{text}</div>')
+def jalali(iso: str):
+    """'2026-10-18' → ('یکشنبه 26 مهر 1405', '26 مهر')."""
+    import datetime as _dt
+    gy, gm, gd = (int(x) for x in iso[:10].split("-"))
+    wd = WEEKDAYS[_dt.date(gy, gm, gd).weekday()]
+    g_d_m = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
+    gy2 = gy + 1 if gm > 2 else gy
+    days = 355666 + (365 * gy) + ((gy2 + 3) // 4) - ((gy2 + 99) // 100) + ((gy2 + 399) // 400) + gd + g_d_m[gm - 1]
+    jy = -1595 + (33 * (days // 12053))
+    days %= 12053
+    jy += 4 * (days // 1461)
+    days %= 1461
+    if days > 365:
+        jy += (days - 1) // 365
+        days = (days - 1) % 365
+    jm = 1 + days // 31 if days < 186 else 7 + (days - 186) // 30
+    jd = 1 + (days % 31 if days < 186 else (days - 186) % 30)
+    return f"{wd} {jd} {MONTHS[jm - 1]} {jy}", f"{jd} {MONTHS[jm - 1]}"
 
 
-def _section(title, inner, link=None, hint=""):
-    more = (f'<a href="{t(link)}" style="font-family:{FONT};font-size:12px;color:{C["link"]};text-decoration:none;white-space:nowrap">جزئیات در گزارش ←</a>'
-            if link else "")
-    return (f'<tr><td style="padding:22px 24px 0">'
-            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl"><tr>'
-            f'<td style="font-family:{FONT};font-size:16px;font-weight:bold;color:{C["ink"]};text-align:right;border-right:4px solid {C["acc"]};padding-right:10px">{t(title)}</td>'
-            f'<td style="text-align:left">{more}</td></tr></table>'
-            + (_p(t(hint), 12, C["mute"], pad="4px 0 0") if hint else "")
-            + f'<div style="padding-top:10px">{inner}</div></td></tr>')
+def tint(hexcolor, a=0.10):
+    h = hexcolor.lstrip("#")
+    r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+    return f"rgba({r},{g},{b},{a})"
 
 
-def _table(head, rows, widths=None):
-    th = "".join(f'<th style="font-family:{FONT};font-size:12px;font-weight:bold;color:{C["mute"]};text-align:right;padding:8px 10px;'
-                 f'border-bottom:1px solid {C["line"]};white-space:nowrap"{f" width={w}" if widths and (w := widths[i]) else ""}>{t(h)}</th>'
-                 for i, h in enumerate(head))
-    trs = "".join("<tr>" + "".join(f'<td style="font-family:{FONT};font-size:13px;line-height:1.7;color:{C["ink"]};text-align:right;padding:8px 10px;'
-                                   f'border-bottom:1px solid {C["line"]};vertical-align:top">{c}</td>' for c in r) + "</tr>" for r in rows)
-    return (f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl" '
-            f'style="background:{C["inner"]};border-radius:10px;border-collapse:separate">{"<tr>" + th + "</tr>"}{trs}</table>')
+def pill(text, color):
+    return (f'<span style="display:inline-block;background:{tint(color)};color:{color};font-family:{FONT};font-size:12px;'
+            f'font-weight:bold;padding:2px 10px;border-radius:12px;white-space:nowrap">{t(text)}</span>')
 
 
-def _pill(text, color):
-    return (f'<span style="display:inline-block;font-family:{FONT};font-size:11px;font-weight:bold;color:{color};border:1px solid {color};'
-            f'border-radius:9px;padding:0 7px;line-height:1.8;white-space:nowrap">{t(text)}</span>')
+def section(title, sub="", link=None):
+    more = (f'<td dir="ltr" style="text-align:left;vertical-align:bottom;padding-bottom:2px"><a href="{t(link)}" style="font-family:{FONT};font-size:12.5px;'
+            f'color:{RED};text-decoration:none;white-space:nowrap">← جزئیات در گزارش</a></td>') if link else ""
+    return (f'<tr><td style="padding:28px 0 8px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>'
+            f'<td {TD}"><div style="border-right:4px solid {RED};padding-right:10px">'
+            f'<div style="font-size:18px;font-weight:bold;color:{INK};line-height:1.6">{t(title)}</div>'
+            + (f'<div style="font-size:13px;color:{MUTE};line-height:1.6">{t(sub)}</div>' if sub else "")
+            + f'</div></td>{more}</tr></table></td></tr>')
 
 
-def _button(label, url, primary=True):
-    bg, fg, bd = (C["acc"], "#ffffff", C["acc"]) if primary else (C["inner"], C["ink"], C["line"])
-    return (f'<table role="presentation" cellpadding="0" cellspacing="0" style="display:inline-table;margin:4px 0 4px 6px"><tr>'
-            f'<td style="background:{bg};border:1px solid {bd};border-radius:9px">'
-            f'<a href="{t(url)}" style="display:inline-block;padding:9px 16px;font-family:{FONT};font-size:13px;font-weight:bold;color:{fg};text-decoration:none">{t(label)}</a>'
-            f'</td></tr></table>')
+def card(inner, pad="16px 18px"):
+    return (f'<tr><td style="padding:4px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+            f'style="background:#ffffff;border:1px solid {LINE};border-radius:12px"><tr><td {TD}padding:{pad}">{inner}</td></tr></table></td></tr>')
 
 
-def _meter(v):
+def table(head, rows):
+    th = "".join(f'<th style="padding:7px 8px;font-family:{FONT};font-size:12px;color:{MUTE};text-align:right;border-bottom:1px solid {LINE};'
+                 f'font-weight:bold">{t(h)}</th>' for h in head)
+    body = "".join("<tr>" + "".join(f'<td class="tc" style="padding:8px 6px;font-family:{FONT};font-size:13px;line-height:1.7;color:{INK};'
+                                    f'border-bottom:1px solid {LINE};vertical-align:top;text-align:right">{c}</td>' for c in r) + "</tr>" for r in rows)
+    return (f'<tr><td style="padding:4px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;'
+            f'border:1px solid {LINE};border-radius:12px"><tr><td style="padding:6px 8px"><table role="presentation" dir="rtl" width="100%" '
+            f'cellpadding="0" cellspacing="0"><tr>{th}</tr>{body}</table></td></tr></table></td></tr>')
+
+
+def button(label, url, primary=True, big=False):
+    pad = "12px 28px" if big else ("9px 18px" if primary else "8px 14px")
+    size = "15px" if big else ("13.5px" if primary else "13px")
+    if primary:
+        return (f'<td style="background:{RED};border-radius:{10 if big else 8}px"><a href="{t(url)}" style="display:inline-block;padding:{pad};'
+                f'font-family:{FONT};font-size:{size};font-weight:bold;color:#ffffff;text-decoration:none">{t(label)}</a></td>')
+    return (f'<td style="border:1px solid {LINE};border-radius:8px;background:#ffffff"><a href="{t(url)}" style="display:inline-block;padding:{pad};'
+            f'font-family:{FONT};font-size:{size};color:{SOFT};text-decoration:none">{t(label)}</a></td>')
+
+
+def score(v):
     v = int(v or 0)
-    col = C["bad"] if v >= 70 else ("#ec835a" if v >= 50 else (C["warn"] if v >= 30 else C["good"]))
-    return f'<b style="color:{col};font-family:{FONT}">{v}</b><span style="color:{C["mute"]};font-size:11px"> /100</span>'
+    col = RED if v >= 70 else (ORANGE if v >= 50 else (AMBER if v >= 30 else GREEN))
+    return f'<b style="color:{col}">{v}</b><span style="color:{MUTE};font-size:11px">/100</span>'
 
 
 # ---------------------------------------------------------------- content helpers
@@ -158,98 +190,81 @@ def top_creatives(D, n=6):
 
 # ---------------------------------------------------------------- render
 def render(D: dict, I: dict, page_url: str = ""):
-    """Returns (html, inline_images[(cid, path)], plain_text)."""
+    """Returns (html, inline_images[(cid, path)], plain_text, subject)."""
     cfg = settings()
     F = _fa()
     from report import _kpis
     base = (page_url or "").rstrip("/") + "/" if page_url else ""
     tab = (lambda k: f"{base}#{k}") if base else (lambda k: None)
+    long_d, short_d = jalali(D["date"])
     ok_sites = len([1 for c in D["coverage"].values() if c.get("ok")])
     planned = D.get("planned") or ok_sites
     cov_pct = round(100 * ok_sites / max(1, planned))
+    rivals = [c for c in D["competitors"].values() if c["level"] in ("core", "vertical")]
+    own_sov = sum(c["sov"] for c in D["competitors"].values() if c["level"] == "own")
     plan = D.get("media_plan") or []
     p0 = plan[0] if plan else None
     first_action = (f'{t(F["cat"].get(p0["category"], p0["category"]))} روی {ltr(p0["site"])} با {t(F["fmt"].get(p0["format"], p0["format"]))} — {t(p0["bid"])}'
                     if p0 else "")
     change = next((a["text"] for a in D.get("alerts", []) if a["level"] == "high"), None) or next((a["text"] for a in D.get("alerts", []) if a["level"] == "mid"), None)
+    n_high = len([a for a in D.get("alerts", []) if a["level"] == "high"])
+    n_obs_txt = f"{D['n_obs']:,}"
     rows = []
 
-    # ---- header
-    btns = (_button("باز کردن گزارش کامل", base) + _button("پیشنهاد رسانه", tab("plan"), False) + _button("رقبا", tab("comp"), False)
-            + _button("کریتیوها", tab("cre"), False) + _button("کمپین‌ها و UTM", tab("camp"), False)) if base else ""
-    rows.append(
-        f'<tr><td style="padding:22px 24px 0">'
-        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl"><tr>'
-        f'<td style="font-family:{FONT};font-size:12px;font-weight:bold;color:{C["acc"]};text-align:right">{t(cfg["report"]["brand"])}</td>'
-        f'<td style="font-family:{FONT};font-size:12px;color:{C["mute"]};text-align:left" dir="ltr">{t(D["date"])}</td></tr></table>'
-        + _p(t(cfg["report"]["title"]), 22, weight="bold", pad="2px 0 0")
-        + _p(f'{ok_sites} از {planned} سایت · {D["n_obs"]:,} تبلیغ · {D["runs"]} اسکن امروز', 12, C["mute"])
-        + (f'<div style="padding-top:10px;text-align:right" dir="rtl">{btns}</div>' if btns else "")
-        + "</td></tr>")
-
-    # ---- headline + first action
-    hl = t(change or I.get("headline") or "")
-    rows.append(
-        f'<tr><td style="padding:16px 24px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl" '
-        f'style="background:#2a171b;border:1px solid #4a2128;border-radius:12px"><tr><td style="padding:14px 16px">'
-        + _p(hl, 16, weight="bold")
-        + (_p(f'<span style="color:{C["acc"]};font-weight:bold">اقدام اول:</span> {first_action}', 14, pad="6px 0 0") if first_action else "")
-        + (_p(t(I.get("headline")), 13, C["ink2"], pad="6px 0 0") if change and I.get("headline") else "")
-        + "</td></tr></table></td></tr>")
-    if cov_pct < 80:
-        rows.append(f'<tr><td style="padding:10px 24px 0">' + _p(
-            f'<b style="color:{C["warn"]}">پوشش کامل نیست:</b> فقط {cov_pct}% سایت‌های برنامه‌ریزی‌شده با موفقیت اسکن شدند؛ اعداد امروز را با احتیاط بخوانید.', 13, C["ink2"]) + "</td></tr>")
-
-    # ---- KPI tiles (3 x 2)
+    # ---- KPIs
     k = _kpis(D)
     cells = []
     for x in k:
         dl = x.get("delta") or ""
-        dcol = C["bad"] if x.get("delta_cls") == "delta-up" else (C["good"] if x.get("delta_cls") == "delta-dn" else C["mute"])
-        cells.append(f'<td width="33%" style="padding:4px" valign="top"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
-                     f'style="background:{C["inner"]};border-radius:10px"><tr><td style="padding:10px 12px;text-align:right" dir="rtl">'
-                     + _p(t(x["label"]), 12, C["ink2"]) + _p(t(x["value"]), 20, weight="bold")
-                     + _p((f'<span style="color:{dcol}" dir="ltr">{t(dl)}</span> · ' if dl else "") + t(x.get("sub", "")), 11, C["mute"])
-                     + "</td></tr></table></td>")
+        dcol = RED if x.get("delta_cls") == "delta-up" else (GREEN if x.get("delta_cls") == "delta-dn" else MUTE)
+        cells.append(f'<td class="kc" width="33%" valign="top" style="padding:4px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
+                     f'style="background:{BG};border-radius:10px"><tr><td {TD}padding:10px 12px">'
+                     f'<div style="font-size:12px;color:{SOFT}">{t(x["label"])}</div>'
+                     f'<div style="font-size:19px;font-weight:800;color:{INK};line-height:1.5">{t(x["value"])}</div>'
+                     f'<div style="font-size:11.5px;color:{MUTE}">' + (f'<span style="color:{dcol}">' + __import__("re").sub(r"([+\-]?[\d.,]+%?)", r'<span dir="ltr" style="unicode-bidi:isolate">\1</span>', t(dl)) + '</span> · ' if dl else "") + f'{t(x.get("sub", ""))}</div>'
+                     f'</td></tr></table></td>')
     grid = "".join("<tr>" + "".join(cells[i:i + 3]) + "</tr>" for i in range(0, len(cells), 3))
-    rows.append(f'<tr><td style="padding:14px 20px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl">{grid}</table></td></tr>')
+    rows.append(section("شاخص‌های امروز", f"{ok_sites} از {planned} سایت · {D['runs']} اسکن"))
+    rows.append(card(f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl">{grid}</table>', "8px"))
+    if cov_pct < 80:
+        rows.append(f'<tr><td {TD}padding:6px 4px 0;font-size:12.5px;color:{AMBER}">پوشش کامل نیست: فقط {cov_pct}% سایت‌های برنامه‌ریزی‌شده با موفقیت اسکن شدند؛ اعداد امروز را با احتیاط بخوانید.</td></tr>')
 
-    # ---- decisions
+    # ---- decisions (stacked blocks: reads well on phones)
     atk, dfn, tst = decisions(D, F)
-
-    def col(title, color, items, empty):
-        li = "".join(f'<tr><td style="padding:6px 0;border-bottom:1px solid {C["line"]}">'
-                     + _p((f'<a href="{t(tab(go))}" style="color:{C["ink"]};text-decoration:none">{h}</a>' if base else h), 13) + "</td></tr>"
-                     for h, go in items) or f'<tr><td>{_p(t(empty), 12, C["mute"])}</td></tr>'
-        return (f'<td class="stack" width="33%" valign="top" style="padding:4px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
-                f'style="background:{C["inner"]};border-radius:10px;border-top:3px solid {color}"><tr><td style="padding:10px 12px" dir="rtl">'
-                + _p(t(title), 13, weight="bold") + f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{li}</table></td></tr></table></td>')
-    rows.append(_section("تصمیم‌های امروز",
-                         f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl"><tr>'
-                         + col("حمله: کجا وارد شویم", C["good"], atk, "فرصت کم‌تراکم تازه‌ای نیست.")
-                         + col("دفاع: به چه واکنش نشان دهیم", C["bad"], dfn, "تهدید فوری دیده نشد.")
-                         + col("تست: چه چیز تازه‌ای امتحان کنیم", "#3987e5", tst, "جایگاه یا شبکهٔ تازه‌ای دیده نشد.")
-                         + "</tr></table>", base or None))
+    blocks = ""
+    for title, color, items, empty in (("حمله · کجا وارد شویم", GREEN, atk, "فرصت کم‌تراکم تازه‌ای نیست."),
+                                       ("دفاع · به چه واکنش نشان دهیم", RED, dfn, "تهدید فوری دیده نشد."),
+                                       ("تست · چه چیز تازه‌ای امتحان کنیم", BLUE, tst, "جایگاه یا شبکهٔ تازه‌ای دیده نشد.")):
+        li = "".join(f'<li style="margin:3px 0">' + (f'<a href="{t(tab(go))}" style="color:{INK};text-decoration:none">{h} <span style="color:{RED}">←</span></a>' if base else h) + "</li>"
+                     for h, go in items) or f'<li style="color:{MUTE}">{t(empty)}</li>'
+        blocks += (f'<div style="margin:2px 0 12px"><div>{pill(title, color)}</div>'
+                   f'<ul style="margin:6px 0 0;padding-right:18px;font-size:13.5px;line-height:1.95;color:{INK}">{li}</ul></div>')
+    rows.append(section("تصمیم‌های امروز", "خلاصهٔ اقدام برای تیم پرفورمنس", base or None))
+    rows.append(card(blocks, "14px 18px 4px"))
 
     # ---- what changed
-    lv = {"high": ("▲", C["bad"]), "mid": ("●", "#ec835a"), "low": ("○", C["warn"])}
-    al = "".join(f'<tr><td width="18" valign="top" style="font-family:{FONT};color:{lv[a["level"]][1]};padding:5px 0;font-size:13px">{lv[a["level"]][0]}</td>'
-                 f'<td style="padding:5px 0">{_p(t(a["text"]), 13)}</td></tr>' for a in D.get("alerts", [])[:7])
-    rows.append(_section("چه چیزی تغییر کرد",
-                         f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl">{al}</table>' if al else _p("تغییر مهمی نسبت به دیروز دیده نشد.", 13, C["mute"]),
-                         tab("ov")))
+    lv = {"high": ("فوری", RED), "mid": ("مهم", ORANGE), "low": ("اطلاع", AMBER)}
+    al = "".join(f'<tr><td width="54" valign="top" style="padding:6px 0">{pill(lv[a["level"]][0], lv[a["level"]][1])}</td>'
+                 f'<td {TD}padding:6px 8px 6px 0;font-size:13.5px;line-height:1.85;color:{INK}">{t(a["text"])}</td></tr>' for a in D.get("alerts", [])[:7])
+    rows.append(section("چه چیزی تغییر کرد", "نسبت به روزهای قبل"))
+    rows.append(card(f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl">{al}</table>' if al
+                     else f'<div style="font-size:13.5px;color:{MUTE}">تغییر مهمی نسبت به دیروز دیده نشد.</div>'))
 
-    # ---- media plan
+    # ---- media plan as cards (like digest articles)
     if plan:
-        rec_col = {"خرید مستقیم": C["good"], "بید پایین در شبکه": C["good"], "شکاف حضور": C["warn"], "تست": C["warn"]}
-        pr = [[f'{ltr(p["site"])}<br>{_pill(p["recommendation"], rec_col.get(p["recommendation"], C["mute"]))}',
-               t(F["cat"].get(p["category"], p["category"])),
-               f'{t(F["fmt"].get(p["format"], p["format"]))}<br><span style="color:{C["mute"]};font-size:12px">{t(F["plc"].get(p["placement"], p["placement"]))} · {t(F["dev"].get(p["device"], p["device"]))}</span>',
-               f'{t(p["route"])}<br><span style="color:{C["mute"]};font-size:12px">{t(p["bid"])}</span>',
-               t(p["angle"]), _meter(p["score"])] for p in plan[:5]]
-        rows.append(_section("پیشنهاد رسانه: دیجی‌کالا کجا و با چه تبلیغی برود",
-                             _table(["سایت", "چه بفروشیم", "فرمت / جایگاه", "مسیر خرید / بید", "زاویهٔ پیام", "امتیاز"], pr), tab("plan"),
-                             "۵ پیشنهاد برتر؛ بریف خرید هر کدام در گزارش قابل کپی است"))
+        rec_col = {"خرید مستقیم": GREEN, "بید پایین در شبکه": GREEN, "شکاف حضور": AMBER, "تست": AMBER}
+        rows.append(section("پیشنهاد رسانه", "دیجی‌کالا کجا و با چه تبلیغی برود؛ ۳ پیشنهاد برتر", tab("plan")))
+        for i, p in enumerate(plan[:3], 1):
+            offers = "؛ ".join(p.get("rival_offers") or [])[:160]
+            rows.append(card(
+                f'<div>{pill(p["recommendation"], rec_col.get(p["recommendation"], MUTE))} <span style="color:{MUTE};font-size:12.5px">&nbsp;امتیاز {score(p["score"])} · اطمینان {t(p["confidence"])}</span></div>'
+                f'<div style="margin:8px 0 4px;font-size:16.5px;line-height:1.75;font-weight:bold;color:{INK}">{i}. {t(F["cat"].get(p["category"], p["category"]))} روی {ltr(p["site"])}</div>'
+                f'<div style="font-size:13.5px;line-height:1.95;color:{SOFT}"><b style="color:{INK}">فرمت</b> · {t(F["fmt"].get(p["format"], p["format"]))} · {t(F["plc"].get(p["placement"], p["placement"]))} · {t(F["dev"].get(p["device"], p["device"]))}</div>'
+                f'<div style="font-size:13.5px;line-height:1.95;color:{SOFT}"><b style="color:{INK}">خرید و بید</b> · {t(p["route"])} · {t(p["bid"])}</div>'
+                + (f'<div style="font-size:13.5px;line-height:1.95;color:{SOFT}"><b style="color:{INK}">آفر رقبا</b> · {t(offers)}</div>' if offers else "")
+                + f'<div style="margin-top:10px;background:{TINT};border-right:3px solid {RED};border-radius:6px;padding:8px 12px;font-size:13.5px;line-height:1.9;color:{INK}">'
+                  f'<b style="color:{RED}">زاویهٔ پیام</b> · {t(p["angle"])}</div>'
+                + f'<div style="margin-top:8px;font-size:12px;color:{MUTE}">{t(p["why"])} · فشار {p["pressure"]} · فرصت {p["opportunity"]}</div>'))
 
     # ---- competitors
     comps = [(b, c) for b, c in D["competitors"].items() if c["level"] in ("core", "vertical")][:8]
@@ -257,24 +272,24 @@ def render(D: dict, I: dict, page_url: str = ""):
         def gr(c):
             g = c.get("growth")
             if c.get("sov_7d") is None:
-                return f'<span style="color:{C["mute"]}">جدید</span>'
+                return f'<span style="color:{MUTE}">جدید</span>'
             if g is None:
                 return "—"
-            return f'<span dir="ltr" style="color:{C["bad"] if g > 0 else C["good"]}">{"+" if g > 0 else ""}{round(g * 100)}%</span>'
-        cr = [[f'<b>{t(b)}</b><br><span style="color:{C["mute"]};font-size:12px">{t(F["lvl"].get(c["level"], c["level"]))} · {t(F["cat"].get(c["vertical"], c["vertical"]))}</span>',
-               pct(c["sov"], 1), gr(c), str(len(c["sites"])), f'{c.get("cr_new", 0)}/{c.get("cr_active", 0)}', _meter(c["threat"])] for b, c in comps]
-        rows.append(_section("رقبا", _table(["برند", "SOV", "تغییر ۷ روز", "سایت", "کریتیو تازه/فعال", "تهدید"], cr), tab("comp"),
-                             "SOV = سهم وزن‌دار دیده‌شدن بین برندهای ای‌کامرس"))
+            return f'<span dir="ltr" style="color:{RED if g > 0 else GREEN}">{"+" if g > 0 else ""}{round(g * 100)}%</span>'
+        cr = [[f'<b>{t(b)}</b><div style="color:{MUTE};font-size:11.5px">{t(F["lvl"].get(c["level"], c["level"]))} · {t(F["cat"].get(c["vertical"], c["vertical"]))}</div>',
+               pct(c["sov"], 1), gr(c), str(len(c["sites"])), f'{c.get("cr_new", 0)}/{c.get("cr_active", 0)}', score(c["threat"])] for b, c in comps]
+        rows.append(section("رقبا", "SOV = سهم وزن‌دار دیده‌شدن بین برندهای ای‌کامرس", tab("comp")))
+        rows.append(table(["برند", "SOV", "تغییر ۷ روز", "سایت", "کریتیو تازه/فعال", "تهدید"], cr))
 
     # ---- new UTM campaigns
     newc = [c for c in D.get("campaigns", []) if c.get("new") and c["level"] != "own"][:6]
     tfa = (D.get("utm") or {}).get("tags_fa") or {}
     mfa = (D.get("utm") or {}).get("medium_fa") or {}
     if newc:
-        ur = [[f'<b>{t(c["brand"])}</b>', ltr(c["campaign"]), t("، ".join(tfa.get(x, x) for x in c["tags"][:3]) or "—"),
+        ur = [[f'<b>{t(c["brand"])}</b>', ltr(c["campaign"]), " ".join(pill(tfa.get(x, x), BLUE) for x in c["tags"][:2]) or "—",
                t("، ".join(mfa.get(m, m) for m in c["mediums"]) or "—"), str(len(c["sites"]))] for c in newc]
-        rows.append(_section("کمپین‌های تازهٔ رقبا (UTM)", _table(["برند", "کمپین", "معنا", "مدیوم", "سایت"], ur), tab("camp"),
-                             "نام کمپین‌هایی که امروز اولین بار در لینک تبلیغات دیده شدند"))
+        rows.append(section("کمپین‌های تازهٔ رقبا", "نام کمپین‌هایی که امروز اولین بار در UTM لینک تبلیغات دیده شدند", tab("camp")))
+        rows.append(table(["برند", "کمپین", "معنا", "مدیوم", "سایت"], ur))
 
     # ---- offer benchmark
     ob = []
@@ -282,13 +297,13 @@ def render(D: dict, I: dict, page_url: str = ""):
         own = e.get("own") or {}
         d, m = e.get("discount"), e.get("months")
         behind = (d and d["v"] > (own.get("discount") or 0)) or (m and m["v"] > (own.get("months") or 0))
-        ob.append([t(F["cat"].get(kk, kk)), f'{d["v"]}% <span style="color:{C["mute"]};font-size:12px">{t(d["brand"])}</span>' if d else "—",
-                   f'{m["v"]} ماه <span style="color:{C["mute"]};font-size:12px">{t(m["brand"])}</span>' if m else "—",
-                   "، ".join(x for x in [f'تخفیف {own["discount"]}%' if own.get("discount") else "", f'اقساط {own["months"]} ماهه' if own.get("months") else ""] if x) or f'<span style="color:{C["mute"]}">دیده نشد</span>',
-                   _pill("آفر رقبا قوی‌تر", C["bad"]) if behind else _pill("رقابتی", C["good"])])
+        ob.append([t(F["cat"].get(kk, kk)), f'{d["v"]}% <span style="color:{MUTE};font-size:11.5px">{t(d["brand"])}</span>' if d else "—",
+                   f'{m["v"]} ماه <span style="color:{MUTE};font-size:11.5px">{t(m["brand"])}</span>' if m else "—",
+                   t("، ".join(x for x in [f'تخفیف {own["discount"]}%' if own.get("discount") else "", f'اقساط {own["months"]} ماهه' if own.get("months") else ""] if x)) or f'<span style="color:{MUTE}">دیده نشد</span>',
+                   pill("رقبا قوی‌ترند", RED) if behind else pill("رقابتی", GREEN)])
     if ob:
-        rows.append(_section("بنچمارک آفر", _table(["دسته", "بیشترین تخفیف رقبا", "طولانی‌ترین اقساط", "دیجی‌کالا", "وضعیت"], ob), tab("msg"),
-                             "آفری که پیش از افزایش بید باید از آن بهتر بود"))
+        rows.append(section("بنچمارک آفر", "آفری که پیش از افزایش بید باید از آن بهتر بود", tab("msg")))
+        rows.append(table(["دسته", "بیشترین تخفیف رقبا", "طولانی‌ترین اقساط", "دیجی‌کالا", "وضعیت"], ob))
 
     # ---- creatives with inline images
     images = []
@@ -302,70 +317,103 @@ def render(D: dict, I: dict, page_url: str = ""):
             new = r.get("fs") == D["date"] or (r.get("dy") or 1) <= 1
             cells.append(
                 f'<td class="stack" width="50%" valign="top" style="padding:4px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
-                f'style="background:{C["inner"]};border-radius:10px"><tr><td align="center" valign="middle" height="180" style="background:#141413;border-radius:10px 10px 0 0;padding:10px;height:180px">'
-                f'<img src="cid:{cid}" alt="" width="270" style="display:block;max-width:100%;height:auto;max-height:170px;width:auto;border-radius:6px"></td></tr>'
-                f'<tr><td style="padding:8px 10px 10px" dir="rtl">'
-                + _p(f'<b>{t(r["b"])}</b> ' + (_pill("جدید امروز", C["good"]) if new else _pill(f'{r.get("dy") or 1} روز اجرا', C["warn"])), 13)
-                + _p(t((r.get("t") or "بدون متن · فقط تصویر")[:90]), 12, C["ink2"])
-                + _p(f'{g["n"]} بار دیده‌شده · {len(g["sites"])} سایت · {t(F["fmt"].get(r["f"], r["f"]))}', 11, C["mute"])
-                + "</td></tr></table></td>")
+                f'style="background:#ffffff;border:1px solid {LINE};border-radius:12px"><tr><td align="center" valign="middle" height="170" '
+                f'style="background:{BG};border-radius:12px 12px 0 0;padding:10px;height:170px">'
+                f'<img src="cid:{cid}" alt="" width="260" style="display:block;max-width:100%;width:auto;height:auto;max-height:160px;border-radius:6px"></td></tr>'
+                f'<tr><td {TD}padding:10px 12px 12px">'
+                f'<div><b style="font-size:14px;color:{INK}">{t(r["b"])}</b> ' + (pill("جدید امروز", GREEN) if new else pill(f'{r.get("dy") or 1} روز اجرا', AMBER)) + "</div>"
+                f'<div style="margin-top:4px;font-size:13px;line-height:1.8;color:{SOFT}">{t((r.get("t") or "بدون متن · فقط تصویر")[:90])}</div>'
+                f'<div style="margin-top:4px;font-size:11.5px;color:{MUTE}">{g["n"]} بار دیده‌شده · {len(g["sites"])} سایت · {t(F["fmt"].get(r["f"], r["f"]))}</div>'
+                f'</td></tr></table></td>')
         grid = "".join("<tr>" + "".join(cells[i:i + 2]) + ("<td></td>" if len(cells[i:i + 2]) == 1 else "") + "</tr>" for i in range(0, len(cells), 2))
-        rows.append(_section("کریتیوهای رقبا", f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl">{grid}</table>', tab("cre"),
-                             "اول کریتیوهای تازهٔ امروز، بعد پرتکرارترین‌ها"))
+        rows.append(section("کریتیوهای رقبا", "اول کریتیوهای تازهٔ امروز، بعد پرتکرارترین‌ها", tab("cre")))
+        rows.append(f'<tr><td><table role="presentation" width="100%" cellpadding="0" cellspacing="0" dir="rtl">{grid}</table></td></tr>')
 
     # ---- category risk
     cats = [c for c in (D.get("categories") or {}).values() if c.get("rivals")][:6]
     if cats:
-        rr = [[t(c["fa"]), _meter(c["risk"]), pct(c["own_share"]), t(c["rivals"][0]["brand"]), pct(c["share"])] for c in cats]
-        rows.append(_section("ریسک رقابت در دسته‌ها", _table(["دسته", "ریسک", "سهم دیجی‌کالا", "رقیب اول", "سهم از کل تبلیغات"], rr), tab("comp")))
+        rr = [[t(c["fa"]), score(c["risk"]), pct(c["own_share"]), t(c["rivals"][0]["brand"]), pct(c["share"])] for c in cats]
+        rows.append(section("ریسک رقابت در دسته‌ها", "ریسک = سهم پایین دیجی‌کالا + قدرت رقیب اول + تعداد رقبا", tab("comp")))
+        rows.append(table(["دسته", "ریسک", "سهم دیجی‌کالا", "رقیب اول", "سهم از تبلیغات"], rr))
 
     # ---- analyst summary
-    summ = "".join(f'<li style="margin:4px 0">{t(s)}</li>' for s in (I.get("summary") or [])[:6])
+    summ = "".join(f'<li style="margin:3px 0">{t(s)}</li>' for s in (I.get("summary") or [])[:6])
     if summ:
-        rows.append(_section("جمع‌بندی تحلیلی", f'<ul dir="rtl" style="font-family:{FONT};font-size:13.5px;line-height:1.9;color:{C["ink"]};padding-right:18px;margin:0">{summ}</ul>',
-                             None, "تحلیل " + ("مدل زبانی" if I.get("by") == "llm" else "قاعده‌محور") + f' روی {D["runs"]} اسکن امروز'))
+        rows.append(section("جمع‌بندی تحلیلی", "تحلیل " + ("مدل زبانی" if I.get("by") == "llm" else "قاعده‌محور") + f" روی {D['runs']} اسکن امروز"))
+        rows.append(card(f'<ul style="margin:0;padding-right:18px;font-size:13.5px;line-height:1.95;color:{INK}">{summ}</ul>'))
 
-    # ---- footer
+    # ---- header + hero
+    def chip(txt, hot=False):
+        return (f'<span style="display:inline-block;margin:3px 0 3px 6px;background:{TINT if hot else BG};border-radius:8px;padding:6px 12px;'
+                f'font-family:{FONT};font-size:13px;color:{RED if hot else SOFT};{"font-weight:bold;" if hot else ""}white-space:nowrap">{txt}</span>')
+
+    def abtn(label, url, primary=False):
+        st = (f"background:{RED};color:#ffffff;font-weight:bold;border:1px solid {RED}" if primary else f"background:#ffffff;color:{SOFT};border:1px solid {LINE}")
+        return (f'<a href="{t(url)}" style="display:inline-block;margin:3px 0 3px 6px;padding:8px 16px;border-radius:8px;font-family:{FONT};'
+                f'font-size:13.5px;text-decoration:none;white-space:nowrap;{st}">{t(label)}</a>')
+    chips = (chip(f"{len(rivals)} رقیب فعال", True) + chip(f"سهم دیجی‌کالا {pct(own_sov, 1)}") + chip(f"{n_obs_txt} تبلیغ")
+             + chip(f"{ok_sites} سایت") + (chip(f"{n_high} هشدار فوری", True) if n_high else ""))
+    btn_row = (abtn("مشاهدهٔ گزارش کامل", base, True) + "".join(abtn(lbl, tab(k)) for lbl, k in
+               (("پیشنهاد رسانه", "plan"), ("رقبا", "comp"), ("کریتیوها", "cre"), ("کمپین‌ها", "camp")))) if base else ""
+    hero = (f'<tr><td style="background:#ffffff;border-radius:12px 12px 0 0;border-bottom:3px solid {RED}">'
+            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>'
+            f'<td class="stack" {TD}padding:16px 22px;font-size:19px;font-weight:800;color:{RED}">{t(cfg["report"]["title"])}</td>'
+            f'<td class="hide-sm" dir="ltr" style="padding:16px 22px;text-align:left;font-family:{FONT};font-size:12.5px;color:{MUTE}">Competitor Ad Radar</td>'
+            f'</tr></table></td></tr>'
+            f'<tr><td {TD}background:#ffffff;padding:20px 22px 22px;border-radius:0 0 12px 12px">'
+            f'<div style="font-size:24px;font-weight:800;color:{INK};line-height:1.5">{t(long_d)}</div>'
+            f'<div style="margin-top:10px;font-size:15px;line-height:1.95;color:{INK};font-weight:bold">{t(change or I.get("headline") or "")}</div>'
+            + (f'<div style="margin-top:6px;font-size:14px;line-height:1.95;color:{SOFT}">{t(I.get("headline"))}</div>' if change and I.get("headline") else "")
+            + (f'<div style="margin-top:12px;background:{TINT};border-right:3px solid {RED};border-radius:6px;padding:9px 12px;font-size:14px;line-height:1.9;color:{INK}">'
+               f'<b style="color:{RED}">اقدام اول</b> · {first_action}</div>' if first_action else "")
+            + f'<div style="margin-top:12px">{chips}</div>'
+            + (f'<div style="margin-top:8px">{btn_row}</div>' if btn_row else "")
+            + "</td></tr>")
+
+    # ---- bottom CTA + footer
     repo = os.getenv("GITHUB_REPOSITORY", "")
-    links = []
+    small = []
     if base:
-        links += [f'<a href="{t(base)}" style="color:{C["link"]}">گزارش کامل</a>', f'<a href="{t(base)}archive.html" style="color:{C["link"]}">آرشیو ۳۱ روز</a>']
+        small.append(f'<a href="{t(base)}archive.html" style="color:{MUTE}">آرشیو گزارش‌های ۳۱ روز</a>')
     if repo:
-        links += [f'<a href="https://github.com/{t(repo)}/actions" style="color:{C["link"]}">وضعیت اجراها</a>',
-                  f'<a href="https://github.com/{t(repo)}/settings/secrets/actions" style="color:{C["link"]}">تغییر گیرنده‌ها</a>']
-    rows.append(f'<tr><td style="padding:24px 24px 22px">'
-                + _p(" · ".join(links), 12, C["mute"])
-                + _p("گزارش کامل (نسخهٔ آفلاین) پیوست همین ایمیل است. داده‌ها از تبلیغات عمومی سایت‌ها جمع‌آوری شده و روی هیچ تبلیغی کلیک نشده است.", 11, C["mute"], pad="6px 0 0")
-                + "</td></tr>")
+        small += [f'<a href="https://github.com/{t(repo)}/actions" style="color:{MUTE}">وضعیت اجراها</a>',
+                  f'<a href="https://github.com/{t(repo)}/settings/secrets/actions" style="color:{MUTE}">تغییر گیرنده‌ها</a>']
+    cta = ((f'<tr><td align="center" style="padding:26px 0 8px"><table role="presentation" cellpadding="0" cellspacing="0"><tr>'
+            f'{button("مشاهدهٔ گزارش کامل رادار", base, big=True)}</tr></table>' if base else '<tr><td align="center" style="padding:20px 0 8px">')
+           + f'<div style="margin-top:12px;font-family:{FONT};font-size:12.5px">{" · ".join(small)}</div></td></tr>')
+    foot = (f'<tr><td {TD}padding:14px 0 6px;text-align:center;font-size:11.5px;line-height:1.9;color:{MUTE}">'
+            f'نسخهٔ آفلاین گزارش کامل پیوست همین ایمیل است. داده‌ها از تبلیغات عمومی سایت‌ها جمع‌آوری شده و روی هیچ تبلیغی کلیک نشده است.</td></tr>')
 
-    body = f"""<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="dark"><meta name="supported-color-schemes" content="dark">
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
-<style>@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
-body,table,td,div,a,span,li{{font-family:{FONT}}}
-@media (max-width:620px){{.wrap{{width:100%!important}} .stack{{display:block!important;width:100%!important;box-sizing:border-box}}}}</style></head>
-<body style="margin:0;padding:0;background:{C["bg"]}" bgcolor="{C["bg"]}">
-<div style="display:none;max-height:0;overflow:hidden">{hl}</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="{C["bg"]}" style="background:{C["bg"]}"><tr><td align="center" style="padding:20px 8px">
-<table role="presentation" class="wrap" width="680" cellpadding="0" cellspacing="0" dir="rtl" bgcolor="{C["card"]}" style="width:680px;max-width:680px;background:{C["card"]};border-radius:16px">
-{''.join(rows)}
+    body = f"""<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only"><meta name="supported-color-schemes" content="light">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;800&display=swap" rel="stylesheet">
+<style>@media (max-width:560px){{.stack{{display:block!important;width:100%!important;box-sizing:border-box}} .kc{{display:inline-block!important;width:50%!important;box-sizing:border-box}} .hide-sm{{display:none!important}} .outer{{padding:12px 4px!important}} .tc{{padding:7px 4px!important;font-size:12.5px!important}}}}</style></head>
+<body style="margin:0;padding:0;background:{BG}">
+<div style="display:none;max-height:0;overflow:hidden">{t(change or I.get("headline") or "")}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{BG}"><tr><td class="outer" align="center" style="padding:20px 10px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:640px">
+{hero}
+<tr><td><table role="presentation" width="100%" cellpadding="0" cellspacing="0">{''.join(rows)}</table></td></tr>
+{cta}{foot}
 </table></td></tr></table></body></html>"""
 
-    text = "\n".join([f'{cfg["report"]["title"]} · {D["date"]}', change or I.get("headline") or "",
-                      ("اقدام اول: " + html.unescape(first_action.replace('<span dir="ltr" style="unicode-bidi:isolate">', "").replace("</span>", ""))) if p0 else "",
-                      "", *[f"- {s}" for s in (I.get("summary") or [])[:5]], "", f"گزارش کامل: {base}" if base else ""])
-    return body, images, text
+    subject = f"رادار رقبا {short_d} | {len(rivals)} رقیب فعال | سهم دیجی‌کالا {pct(own_sov, 1)}" + (f" | {n_high} هشدار فوری" if n_high else "")
+    strip = lambda h: html.unescape(__import__("re").sub(r"<[^>]+>", "", h))
+    text = "\n".join([f'{cfg["report"]["title"]} · {long_d}', strip(t(change or I.get("headline") or "")),
+                      ("اقدام اول: " + strip(first_action)) if first_action else "", "",
+                      *[f"- {s}" for s in (I.get("summary") or [])[:5]], "", f"گزارش کامل: {base}" if base else ""]).translate(FA_DIG)
+    return body, images, text, subject
 
 
 def send(D: dict, I: dict, report_path, page_url: str = ""):
     user, pwd = os.environ["SMTP_USER"], os.environ["SMTP_PASS"]
     to = [x.strip() for x in os.environ["MAIL_TO"].replace(";", ",").split(",") if x.strip()]
     cfg = settings()
-    body, images, text = render(D, I, page_url)
+    body, images, text, subject = render(D, I, page_url)
     msg = MIMEMultipart("mixed")
-    n_high = len([a for a in D.get("alerts", []) if a["level"] == "high"])
-    msg["Subject"] = f"{cfg['email']['subject_prefix']} · {D['date']}" + (f" · {n_high} هشدار فوری" if n_high else "")
-    msg["From"] = user
+    msg["Subject"] = subject.translate(FA_DIG)
+    msg["From"] = f"Competitor Ad Radar <{user}>"
     msg["To"] = ", ".join(to)
     related = MIMEMultipart("related")
     alt = MIMEMultipart("alternative")
