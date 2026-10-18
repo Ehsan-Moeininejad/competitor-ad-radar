@@ -29,6 +29,7 @@
    "bahalmag.ir",
    "entekhab.ir",
    "khabarfoori.com",
+   "namnak.com",
    "ninisite.com",
    "testchi.ir"
   ]
@@ -304,6 +305,7 @@
   ],
   "last_seen": "2026-10-18",
   "sites": [
+   "alef.ir",
    "etemadonline.com",
    "ninisite.com"
   ]
@@ -700,6 +702,109 @@
   "last_seen": "2026-10-18",
   "sites": [
    "setare.com"
+  ]
+ },
+ "دیجی‌کالا|LUX": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "ninisite.com",
+   "setare.com"
+  ]
+ },
+ "۱۹ کالا|allmobile": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "mobile.ir"
+  ]
+ },
+ "ضرابخانه|adv_1364120_5744168": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "tala.ir"
+  ]
+ },
+ "ریها|pooya-kw": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "tala.ir"
+  ]
+ },
+ "ازکی|2004": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "mojnews.com",
+   "tebyan.net"
+  ]
+ },
+ "دینو|gk": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "sakhtafzarmag.com"
+  ]
+ },
+ "پچ‌پچ|BTS1405": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "footballi.net"
+  ]
+ },
+ "یک لینک|pouya-ecpc-yeklink": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "delgarm.com"
+  ]
+ },
+ "وایب|faina": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "telewebion.ir"
+  ]
+ },
+ "ازکی|2003": {
+  "first_seen": "2026-10-18",
+  "days": [
+   "2026-10-18"
+  ],
+  "last_seen": "2026-10-18",
+  "sites": [
+   "ettelaat.com",
+   "mojnews.com"
   ]
  }
 }

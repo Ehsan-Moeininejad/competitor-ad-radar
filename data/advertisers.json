@@ -2687,5 +2687,601 @@
   "source": "vision",
   "first_seen": "2026-10-18",
   "last_seen": "2026-10-18"
+ },
+ "brand:طلاسی": {
+  "name": "طلاسی",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "sabaamc.ir": {
+  "name": "سبدگردان اندیشه صبا",
+  "name_en": "Saba AMC",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:57d48eba2b": {
+  "name": "t:57d48eba2b",
+  "name_en": null,
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "faradars.org": {
+  "name": "فرادرس",
+  "name_en": "Faradars",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "gpgaming.ir": {
+  "name": "گیم پردایس",
+  "name_en": "Game Paradise",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "gamebato.ir": {
+  "name": "گیم باتو",
+  "name_en": "GameBaTo",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "animeonapp.com": {
+  "name": "انیمه اون",
+  "name_en": "Anime On",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "playpod.ir": {
+  "name": "پلی پاد",
+  "name_en": "PlayPod",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "arzplus.net": {
+  "name": "ارزپلاس",
+  "name_en": "ArzPlus",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "systemgroup.net": {
+  "name": "همکاران سیستم",
+  "name_en": "System Group",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:8ba70da1d4": {
+  "name": "t:8ba70da1d4",
+  "name_en": null,
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:ecd878f2c7": {
+  "name": "t:ecd878f2c7",
+  "name_en": null,
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:a91720af6a": {
+  "name": "شهر لوازم خانگی",
+  "name_en": "Shahr Lavazem Khanegi",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:aa935746dd": {
+  "name": "t:aa935746dd",
+  "name_en": null,
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:04eac46735": {
+  "name": "t:04eac46735",
+  "name_en": null,
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:dee2c26cc2": {
+  "name": "t:dee2c26cc2",
+  "name_en": null,
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "sikaap.com": {
+  "name": "آربیانا",
+  "name_en": "Arbiana",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "booranjobs.com": {
+  "name": "booranjobs.com",
+  "name_en": null,
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "a-ads.com": {
+  "name": "ای ادز",
+  "name_en": "A-Ads",
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "snapptrip.com": {
+  "name": "اسنپ تریپ",
+  "name_en": "SnappTrip",
+  "vertical": "travel_services",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "bishtarazyek.com": {
+  "name": "بیشتر از یک نفر",
+  "name_en": "Bishtar Az Yek",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:b5e64c162d": {
+  "name": "t:b5e64c162d",
+  "name_en": null,
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "webzi.ir": {
+  "name": "وبزی",
+  "name_en": "Webzi",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "rsmta.ir": {
+  "name": "راکستار ام تی ای",
+  "name_en": "RSMTA",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "19kala.com": {
+  "name": "۱۹ کالا",
+  "name_en": "19Kala",
+  "vertical": "marketplace",
+  "level": "core",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "si24.ir": {
+  "name": "بیمه سامان",
+  "name_en": "Saman Insurance",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "zarrabkhaneh.ir": {
+  "name": "ضرابخانه",
+  "name_en": "Zarrabkhaneh",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "deema.ir": {
+  "name": "دیما",
+  "name_en": "Deema",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "riha.ir": {
+  "name": "ریها",
+  "name_en": "Riha",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "dinu.ir": {
+  "name": "دینو",
+  "name_en": "Dinu",
+  "vertical": "pet",
+  "level": "vertical",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "saadatrent.com": {
+  "name": "سعادت رنت",
+  "name_en": "Saadat Rent",
+  "vertical": "travel_services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "clickaval.com": {
+  "name": "کلیک اول",
+  "name_en": "Clickaval",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "splusfund.com": {
+  "name": "اس پلاس فاند",
+  "name_en": "SPlusFund",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "mypechpech.com": {
+  "name": "پچ‌پچ",
+  "name_en": "Pech Pech",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "abidipharma.com": {
+  "name": "داروسازی دکتر عبیدی",
+  "name_en": "Abidi Pharma",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "myket.ir": {
+  "name": "مایکت",
+  "name_en": "Myket",
+  "vertical": "digital",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:9def7c8c81": {
+  "name": "t:9def7c8c81",
+  "name_en": null,
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "venka.ir": {
+  "name": "ونکا",
+  "name_en": "Venka",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "filimo.school": {
+  "name": "فیلیمو مدرسه",
+  "name_en": "Filimo School",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:5c098f6d70": {
+  "name": "t:5c098f6d70",
+  "name_en": null,
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "arenasports.ir": {
+  "name": "آرنا اسپورت",
+  "name_en": "Arena Sports",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "tapsell.ir": {
+  "name": "تپسل",
+  "name_en": "Tapsell",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "eghamat24.com": {
+  "name": "اقامت ۲۴",
+  "name_en": "Eghamat24",
+  "vertical": "travel_services",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "findsearchresults.com": {
+  "name": "فایند سرچ ریزالتز",
+  "name_en": "Find Search Results",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "24d.ir": {
+  "name": "۲۴ دی",
+  "name_en": "24D",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:7631b26ea8": {
+  "name": "آواتار",
+  "name_en": "Avatar",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "vibe.ir": {
+  "name": "وایب",
+  "name_en": "Vibe",
+  "vertical": "fashion",
+  "level": "vertical",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "maanapp.ir": {
+  "name": "مان",
+  "name_en": "Maan",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "adexo.ir": {
+  "name": "ادکسو",
+  "name_en": "Adexo",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:6e5f7bad25": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "فروش سریع و راحت ماشین پژو در خودرو۴۵",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:2d32e437ee": {
+  "name": "خودرو ۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "فروش سریع ماشین پژو پارس در خودرو ۴۵",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:eb8fcdd96b": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "فروش سریع و آسان خودرو شاهین",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.9,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:daeea86bfa": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "message": "فروش فوری و یک‌روزه خودرو با خودرو۴۵",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:ee2e0335c1": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "فروش فوری و آسان خودرو MVM X33",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.9,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:66aa79b2f0": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "فروش سریع خودرو و ثبت درخواست آنلاین",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:af03327a1d": {
+  "name": "خودرو ۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "message": "فروش سریع و با امنیت پژو پارس و ثبت خودرو در خودرو۴۵",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "comeback.top": {
+  "name": "توپ طلا",
+  "name_en": "Toop Tala",
+  "vertical": "other",
+  "level": "none",
+  "message": "۱۰۰ میلیون تومان جایزه مسابقه پیش‌بینی فوتبال",
+  "domain_guess": "tooptala.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
+ },
+ "t:76f5ee92e6": {
+  "name": "خودرو45",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "فروش خودرو تنها با یک بار مراجعه به خودرو45",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-18",
+  "last_seen": "2026-10-18"
  }
 }
