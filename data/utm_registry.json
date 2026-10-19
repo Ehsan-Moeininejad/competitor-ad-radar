@@ -30,6 +30,7 @@
   "last_seen": "2026-10-19",
   "sites": [
    "bahalmag.ir",
+   "delgarm.com",
    "entekhab.ir",
    "khabarfoori.com",
    "khabaronline.ir",
@@ -667,9 +668,10 @@
  "فالنیک|related-top-post": {
   "first_seen": "2026-10-18",
   "days": [
-   "2026-10-18"
+   "2026-10-18",
+   "2026-10-19"
   ],
-  "last_seen": "2026-10-18",
+  "last_seen": "2026-10-19",
   "sites": [
    "soft98.ir"
   ]
@@ -1005,6 +1007,7 @@
   "last_seen": "2026-10-19",
   "sites": [
    "bahalmag.ir",
+   "fardayetaze.ir",
    "ninisite.com"
   ]
  },
@@ -1111,6 +1114,36 @@
    "fardayetaze.ir",
    "setare.com",
    "testchi.ir"
+  ]
+ },
+ "ال‌جی|instaview": {
+  "first_seen": "2026-10-19",
+  "days": [
+   "2026-10-19"
+  ],
+  "last_seen": "2026-10-19",
+  "sites": [
+   "zoomit.ir"
+  ]
+ },
+ "نقره‌سی|pouya-b-tcpa-mehr": {
+  "first_seen": "2026-10-19",
+  "days": [
+   "2026-10-19"
+  ],
+  "last_seen": "2026-10-19",
+  "sites": [
+   "etemadonline.com"
+  ]
+ },
+ "زرنت|pouya-cntx-plp": {
+  "first_seen": "2026-10-19",
+  "days": [
+   "2026-10-19"
+  ],
+  "last_seen": "2026-10-19",
+  "sites": [
+   "bahalmag.ir"
   ]
  }
 }

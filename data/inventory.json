@@ -333,7 +333,7 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~290x320",
   "network": "direct",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "arzdigital.com|home|sticky|sticky_banner|mobile": {
   "first_seen": "2026-10-18",
@@ -1239,7 +1239,7 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~50x50",
   "network": "yektanet",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "ilna.ir|home|below_fold|native|mobile": {
   "first_seen": "2026-10-18",
@@ -1413,7 +1413,7 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~190x200",
   "network": "yektanet",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "iranjib.ir|home|sidebar|display|desktop": {
   "first_seen": "2026-10-18",
@@ -3026,6 +3026,24 @@
  "alef.ir|home|sticky|sticky_banner|desktop": {
   "first_seen": "2026-10-19",
   "size": "Custom ~190x210",
+  "network": "yektanet",
+  "last_seen": "2026-10-19"
+ },
+ "varzesh3.com|home|sidebar|display|mobile": {
+  "first_seen": "2026-10-19",
+  "size": "Custom ~300x300",
+  "network": "mediaad_tapsell",
+  "last_seen": "2026-10-19"
+ },
+ "varzesh3.com|home|below_fold|display|mobile": {
+  "first_seen": "2026-10-19",
+  "size": "Custom ~300x300",
+  "network": "mediaad_tapsell",
+  "last_seen": "2026-10-19"
+ },
+ "ninisite.com|home|header|display|mobile": {
+  "first_seen": "2026-10-19",
+  "size": "Wide banner ~390x50",
   "network": "yektanet",
   "last_seen": "2026-10-19"
  },
