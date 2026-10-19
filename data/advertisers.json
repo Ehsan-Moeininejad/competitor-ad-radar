@@ -288,7 +288,8 @@
   "name": "نقره‌سی",
   "vertical": "digital_gold",
   "level": "vertical",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-10-19"
  },
  "tehtoy.com": {
   "name": "تهران توی",
@@ -880,7 +881,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "arna-honey.ir": {
   "name": "عسل آرنا",
@@ -1010,7 +1011,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:84187ff631": {
   "name": "t:84187ff631",
@@ -1542,7 +1543,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:1cb7ee6e45": {
   "name": "تبدیل",
@@ -1562,7 +1563,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:4c0d708c10": {
   "name": "تبدیل",
@@ -1572,7 +1573,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:d397dfeaae": {
   "name": "تبدیل",
@@ -1632,7 +1633,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:3a80ca7177": {
   "name": "تبدیل",
@@ -1662,7 +1663,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:eb6bdb0719": {
   "name": "تبدیل",
@@ -1702,7 +1703,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:d80226473e": {
   "name": "تبدیل",
@@ -1830,7 +1831,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:f2ea85de83": {
   "name": "خودرو45",
@@ -1980,7 +1981,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:6ab3e23492": {
   "name": "نامشخص",
@@ -2000,7 +2001,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:252489371f": {
   "name": "نامشخص",
@@ -2170,7 +2171,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:d14aa3fc9d": {
   "name": "نامشخص",
@@ -2638,7 +2639,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:b5f17ce2b4": {
   "name": "پیامک خونه",
@@ -2814,7 +2815,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "t:aa935746dd": {
   "name": "t:aa935746dd",
@@ -3004,7 +3005,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3014,7 +3015,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "mypechpech.com": {
   "name": "پچ‌پچ",
@@ -3282,7 +3283,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-19"
  },
  "yousefzadehcoffee.com": {
   "name": "انتخاب",
@@ -4912,6 +4913,488 @@
   "message": "طرح تسهیلات و وام تا سقف ۷۰۰ میلیون تومان بانک تجارت",
   "domain_guess": "tejaratbank.ir",
   "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "mio-gold.ir": {
+  "name": "اسنپ‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "sheyda.com": {
+  "name": "شیدا",
+  "name_en": "Sheyda",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "axon.me": {
+  "name": "اکسون",
+  "name_en": "Axon",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:0682f7455a": {
+  "name": "t:0682f7455a",
+  "name_en": null,
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "liara.host": {
+  "name": "لیارا",
+  "name_en": "Liara",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:dabc25d5f7": {
+  "name": "t:dabc25d5f7",
+  "name_en": null,
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.4,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "winzyapp.ir": {
+  "name": "وینزی",
+  "name_en": "Winzy",
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:53635aff75": {
+  "name": "تجهیزشو",
+  "name_en": "Tajhizshoo",
+  "vertical": "auto",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:b519debc19": {
+  "name": "خودرو45",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:f77b8bf405": {
+  "name": "خودرو45",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:44fc5ab363": {
+  "name": "اوج ابری",
+  "name_en": "Owj",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:d0a6f0c8ea": {
+  "name": "t:d0a6f0c8ea",
+  "name_en": null,
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.3,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:3f8bf29cf5": {
+  "name": "t:3f8bf29cf5",
+  "name_en": null,
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:98f0b50edc": {
+  "name": "ازکی",
+  "name_en": "Azki",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:22fe54d580": {
+  "name": "t:22fe54d580",
+  "name_en": null,
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.4,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:c1540eaf6b": {
+  "name": "t:c1540eaf6b",
+  "name_en": null,
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:4336b256e0": {
+  "name": "t:4336b256e0",
+  "name_en": null,
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "pestehhost.com": {
+  "name": "پسته هاست",
+  "name_en": "Pesteh Host",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:4791423bd3": {
+  "name": "چاتینو",
+  "name_en": "Chatino",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:3b061c7376": {
+  "name": "هلو اسپاد",
+  "name_en": "Holoo Spad",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "chatino.io": {
+  "name": "چاتینو",
+  "name_en": "Chatino",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:03a9f96089": {
+  "name": "t:03a9f96089",
+  "name_en": null,
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:56270d8945": {
+  "name": "ازکی سلر",
+  "name_en": "Azki Seller",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "niksunco.com": {
+  "name": "نیکسان",
+  "name_en": "Niksun",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "tajhizshoo.com": {
+  "name": "تجهیزشو",
+  "name_en": "Tajhizshoo",
+  "vertical": "auto",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:46f1b641ff": {
+  "name": "جت اقساط",
+  "name_en": "Jet Aqsaat",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:33f7f717b4": {
+  "name": "صندوق طلای زمرد",
+  "name_en": "Zomorrod Gold Fund",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "jetaqsaat.ir": {
+  "name": "جت اقساط",
+  "name_en": "Jet Aqsaat",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:5af72a2855": {
+  "name": "پی کن دو",
+  "name_en": "PayKando",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:8c2383f0cf": {
+  "name": "t:8c2383f0cf",
+  "name_en": null,
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:486dc8af73": {
+  "name": "t:486dc8af73",
+  "name_en": null,
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:5f0c62fdda": {
+  "name": "خودرو45",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:3c3299c263": {
+  "name": "خودرو45",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "holoospad.com": {
+  "name": "هلو اسپاد",
+  "name_en": "Holoo Spad",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "owj.io": {
+  "name": "اوج",
+  "name_en": "Owj",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "holootech.ir": {
+  "name": "آکادمی هلو",
+  "name_en": "Holoo Academy",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "rubygold.ir": {
+  "name": "روبی گلد",
+  "name_en": "Ruby Gold",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "mahame.ir": {
+  "name": "مهام",
+  "name_en": "Mahame",
+  "vertical": "travel_services",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "buykif.ir": {
+  "name": "بای کیف",
+  "name_en": "Buykif",
+  "vertical": "fashion",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "t:344961ff92": {
+  "name": "t:344961ff92",
+  "name_en": null,
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "img:2382e2fbc5222c": {
+  "name": "شاپینو",
+  "name_en": "Shopino",
+  "vertical": "fashion",
+  "level": "vertical",
+  "message": "خرید آنلاین انواع لباس و پوشاک با تخفیف بالا از شاپینو",
+  "domain_guess": "shopino.app",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "img:c278c7458932a6": {
+  "name": "اسنپ مارکت",
+  "name_en": "Snapp Market",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "۴۰٪ تخفیف هوس‌انگیز اسنپ مارکت روی چیپسی چی‌توز",
+  "domain_guess": "snapp.market",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "img:ee31bcb52111f6": {
+  "name": "اسنپ مارکت",
+  "name_en": "Snapp Market",
+  "vertical": "supermarket",
+  "level": "core",
+  "message": "تا ۴۰ درصد تخفیف روی خرید تنقلات در اسنپ مارکت",
+  "domain_guess": "snapp.market",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "img:d5f050e877afe5": {
+  "name": "تبدیل",
+  "name_en": "Tabdeal",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "صرافی ارز دیجیتال تبدیل",
+  "domain_guess": "tabdeal.org",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "img:cad6f75ae4adeb": {
+  "name": "اکوتراست",
+  "name_en": "Ecotrust",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "۱۴ روز اشتراک رایگان سیگنال و پیشنهادهای تخصصی سرمایه‌گذاری در اکوتراست",
+  "domain_guess": "ecotrust.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "img:549d5a0ab8eec7": {
+  "name": "بانک تجارت",
+  "name_en": "Tejarat Bank",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "تسهیلات ۷۰۰ میلیون تومانی بانک تجارت",
+  "domain_guess": "tejaratbank.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-19",
+  "last_seen": "2026-10-19"
+ },
+ "img:2c1fcea855cdb5": {
+  "name": "همسنگ",
+  "name_en": "Hamsang",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "خدمات سرمایه‌گذاری همسنگ",
+  "domain_guess": "hamsang.ir",
+  "confidence": 0.9,
   "source": "vision",
   "first_seen": "2026-10-19",
   "last_seen": "2026-10-19"

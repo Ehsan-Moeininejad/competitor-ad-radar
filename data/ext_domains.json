@@ -847,7 +847,8 @@
   "ilna.ir"
  ],
  "estelamplus.net": [
-  "ilna.ir"
+  "ilna.ir",
+  "alef.ir"
  ],
  "gandommusic.ir": [
   "bahalmag.ir"
@@ -2399,5 +2400,14 @@
  "paydarservice.org": [
   "sharghdaily.com",
   "mojnews.com"
+ ],
+ "behfarmachine.com": [
+  "hamshahrionline.ir"
+ ],
+ "satiakhodro.com": [
+  "jamaran.news"
+ ],
+ "irancompare.com": [
+  "aftabnews.ir"
  ]
 }
