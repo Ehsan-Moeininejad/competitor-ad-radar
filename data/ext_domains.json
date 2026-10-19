@@ -2208,10 +2208,12 @@
   "aparat.com"
  ],
  "play1001.tv.fc-perspolis.com": [
-  "anten.ir"
+  "anten.ir",
+  "varzesh3.com"
  ],
  "live.fcesteghlal.ir": [
-  "anten.ir"
+  "anten.ir",
+  "varzesh3.com"
  ],
  "filmnet.ir": [
   "akharinkhodro.ir"
@@ -2381,5 +2383,21 @@
  ],
  "noormags.ir": [
   "konkorsad.ir"
+ ],
+ "ahoradarb.com": [
+  "hamshahrionline.ir"
+ ],
+ "github.com": [
+  "arzdigital.com"
+ ],
+ "advera.arz.digital": [
+  "arzdigital.com"
+ ],
+ "attrin.com": [
+  "sharghdaily.com"
+ ],
+ "paydarservice.org": [
+  "sharghdaily.com",
+  "mojnews.com"
  ]
 }
