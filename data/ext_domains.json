@@ -376,7 +376,8 @@
   "mehrnews.com",
   "virgool.io",
   "mojnews.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "ensafnews.com"
  ],
  "snappshop.ir": [
   "khabaronline.ir",
@@ -462,7 +463,8 @@
   "alef.ir"
  ],
  "safirstores.com": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "ensafnews.com"
  ],
  "digikala.com": [
   "khabaronline.ir",
@@ -918,7 +920,8 @@
   "virgool.io",
   "hamshahrionline.ir",
   "mojnews.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "ensafnews.com"
  ],
  "zoomapp.app": [
   "zoomg.ir",
@@ -2023,11 +2026,13 @@
   "sarzamindownload.com"
  ],
  "send": [
-  "footini.ir"
+  "footini.ir",
+  "ensafnews.com"
  ],
  "wa.me": [
   "footini.ir",
-  "newshanik.ir"
+  "newshanik.ir",
+  "konkorsad.ir"
  ],
  "maps.app.goo.gl": [
   "footini.ir"
@@ -2346,5 +2351,35 @@
  ],
  "tarnama.ir": [
   "bourse24.ir"
+ ],
+ "shopix24.com": [
+  "bahalmag.ir"
+ ],
+ "faranegah.com": [
+  "ensafnews.com"
+ ],
+ "best-forex-broker.ir": [
+  "ensafnews.com"
+ ],
+ "lyamclinic.com": [
+  "ensafnews.com"
+ ],
+ "balad.ir": [
+  "konkorsad.ir"
+ ],
+ "neshan.org": [
+  "konkorsad.ir"
+ ],
+ "sanjesh.org": [
+  "konkorsad.ir"
+ ],
+ "msrt.ir": [
+  "konkorsad.ir"
+ ],
+ "samanesabt.ir": [
+  "konkorsad.ir"
+ ],
+ "noormags.ir": [
+  "konkorsad.ir"
  ]
 }
