@@ -2003,7 +2003,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "t:252489371f": {
   "name": "نامشخص",
@@ -2023,7 +2023,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "t:b3e3f6aa59": {
   "name": "نامشخص",
@@ -2063,7 +2063,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "berjismed.com": {
   "name": "برجیس",
@@ -2641,7 +2641,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "t:b5f17ce2b4": {
   "name": "پیامک خونه",
@@ -2837,7 +2837,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-20"
  },
  "t:dee2c26cc2": {
   "name": "t:dee2c26cc2",
@@ -3007,7 +3007,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3401,7 +3401,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "avaneed.com": {
   "name": "آوانید",
@@ -3481,7 +3481,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "t:5a7e9264db": {
   "name": "مفید",
@@ -3851,7 +3851,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "emenhesarpouya.com": {
   "name": "ایمن حصار پویا",
@@ -4121,7 +4121,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "t:30a5c1926b": {
   "name": "نامشخص",
@@ -4173,7 +4173,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "brand:تارا": {
   "name": "تارا",
@@ -4221,7 +4221,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "derakhsheshco.com": {
   "name": "درخشش الکتریک",
@@ -4311,7 +4311,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "t:d94b4b25d6": {
   "name": "نامشخص",
@@ -4651,7 +4651,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "t:83dd4ecbdf": {
   "name": "نامشخص",
@@ -4731,7 +4731,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-20"
  },
  "aads.com": {
   "name": "ای ادز",
@@ -5777,6 +5777,122 @@
   "message": "چاپخانه آنلاین تیم گرافیک با کمترین قیمت چاپ در ایران",
   "domain_guess": "teamgraphic.ir",
   "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "brand:میلی": {
+  "name": "میلی",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "t:8e2f438bbb": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "t:bb1dc7b3c4": {
+  "name": "توچال",
+  "name_en": "Tochal",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "t:9099d9f3cc": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "keshtnet.com": {
+  "name": "کشت نت",
+  "name_en": "Keshtnet",
+  "vertical": "marketplace",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "sarmayebazar.com": {
+  "name": "سرمایه بازار",
+  "name_en": "Sarmaye Bazar",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "t:75681ed909": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "tbp.ir": {
+  "name": "طاها بازار",
+  "name_en": "Taha Bazar",
+  "vertical": "tools",
+  "level": "vertical",
+  "message": "خرید مستقیم انواع جرثقیل از طاها بازار",
+  "domain_guess": "tahabazar.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "cheragh.com": {
+  "name": "چراغ",
+  "name_en": "Cheragh",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "دعوت به شرکت در جلسات لایو تریدینگ یک‌هفته‌ای با پلتفرم یا کانال چراغ",
+  "domain_guess": null,
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "holootech.ir": {
+  "name": "آکادمی هلو",
+  "name_en": "Holoo Academy",
+  "vertical": "education",
+  "level": "none",
+  "message": "تخفیف ویژه دوره‌های آنلاین و حضوری آکادمی هلو",
+  "domain_guess": "holooacademy.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-20",
+  "last_seen": "2026-10-20"
+ },
+ "t:130e18d799": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "message": "فروش سریع خودروی چانگان",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-20",
   "last_seen": "2026-10-20"
