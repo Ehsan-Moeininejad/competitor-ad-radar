@@ -399,7 +399,9 @@
   "mehrnews.com",
   "aftabir.com",
   "alef.ir",
-  "ettelaat.com"
+  "ettelaat.com",
+  "tebyan.net",
+  "aftabnews.ir"
  ],
  "booking.ir": [
   "khabaronline.ir",
@@ -543,7 +545,8 @@
  "iranbroker.net": [
   "hamshahrionline.ir",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "mojnews.com"
  ],
  "bitpin.ir": [
   "hamshahrionline.ir",
@@ -1152,7 +1155,8 @@
   "downloadly.ir"
  ],
  "faradars.org": [
-  "downloadly.ir"
+  "downloadly.ir",
+  "soft98.ir"
  ],
  "mobinhost.com": [
   "downloadly.ir",
@@ -2312,7 +2316,8 @@
   "alef.ir"
  ],
  "estelamonline.net": [
-  "alef.ir"
+  "alef.ir",
+  "mehrnews.com"
  ],
  "yadaki.shop": [
   "alef.ir"
@@ -2327,7 +2332,8 @@
   "ettelaat.com"
  ],
  "acofidarnovin.com": [
-  "ettelaat.com"
+  "ettelaat.com",
+  "mojnews.com"
  ],
  "khalijbearings.com": [
   "ettelaat.com"
@@ -2428,5 +2434,8 @@
  ],
  "serviq.net": [
   "chetor.com"
+ ],
+ "playstory.ir": [
+  "mehrnews.com"
  ]
 }

@@ -1397,7 +1397,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "agah.com": {
   "name": "کارگزاری آگاه",
@@ -3833,7 +3833,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-21"
  },
  "branddiplomacyforum.ir": {
   "name": "فوروم دیپلماسی برند",
@@ -4563,7 +4563,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:ecdd723252": {
   "name": "نامشخص",
@@ -4573,7 +4573,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "toorangostar.com": {
   "name": "توران گستر",
@@ -6834,6 +6834,22 @@
   "domain_guess": "siemens.com",
   "confidence": 0.85,
   "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "brand:رفاه": {
+  "name": "رفاه",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "fadaktrains.com": {
+  "name": "اسنپ‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "name-match",
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-21"
  }
