@@ -1207,7 +1207,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "jeanswest.ir": {
   "name": "جین‌وست",
@@ -1239,7 +1239,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "hoosha.com": {
   "name": "هوشا",
@@ -1299,7 +1299,7 @@
   "confidence": 0.8,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "tokeniko.com": {
   "name": "توکنیکو",
@@ -1657,7 +1657,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:844bc38b54": {
   "name": "تبدیل",
@@ -1717,7 +1717,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:9bd5ba1ea2": {
   "name": "تبدیل",
@@ -1783,7 +1783,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "shahrfarsh.com": {
   "name": "شهر فرش",
@@ -2445,7 +2445,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-21"
  },
  "t:ce13682acd": {
   "name": "پیش بینی توپ طلا",
@@ -2949,7 +2949,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "zarrabkhaneh.ir": {
   "name": "ضرابخانه",
@@ -3009,7 +3009,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3295,7 +3295,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-21"
  },
  "refah-bank.ir": {
   "name": "رفاه",
@@ -3363,7 +3363,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:999a9e775b": {
   "name": "مفید",
@@ -3373,7 +3373,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:1475e4e218": {
   "name": "t:1475e4e218",
@@ -3393,7 +3393,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "c-beautyshop.com": {
   "name": "سی بیوتی شاپ",
@@ -4033,7 +4033,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:ec05db8fe3": {
   "name": "ازکی",
@@ -4263,7 +4263,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:a878b1ac88": {
   "name": "درخشش الکتریک",
@@ -4273,7 +4273,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:8cf2253c98": {
   "name": "ایسمینار",
@@ -4403,7 +4403,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:b30aa13734": {
   "name": "هلو اسپاد",
@@ -4473,7 +4473,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-21"
  },
  "allmobile.ir": {
   "name": "آل موبایل",
@@ -4603,7 +4603,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:70ea321fd2": {
   "name": "ثبت فردا",
@@ -4623,7 +4623,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "zhivar.com": {
   "name": "ژیوار",
@@ -4643,7 +4643,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "gkkala.com": {
   "name": "جی کی کالا",
@@ -4783,7 +4783,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "samimsw.ir": {
   "name": "صمیم",
@@ -5007,7 +5007,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "minoosaclinic.com": {
   "name": "اسنپ‌پی",
@@ -5781,7 +5781,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "brand:میلی": {
   "name": "میلی",
@@ -5829,7 +5829,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "sarmayebazar.com": {
   "name": "سرمایه بازار",
@@ -5839,7 +5839,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-21"
  },
  "t:75681ed909": {
   "name": "نامشخص",
@@ -6705,6 +6705,134 @@
   "message": "۴۰ درصد تخفیف هوس‌انگیز چی‌توز در اسنپ مارکت",
   "domain_guess": "snapp.market",
   "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "t:8c811d7acb": {
+  "name": "رپرتاژ آگهی",
+  "name_en": "Reportage Ads",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "capitalxtend-irn.com": {
+  "name": "کاپیتال اکستند",
+  "name_en": "CapitalXtend",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "hiska.shop": {
+  "name": "هیسکا",
+  "name_en": "HISKA",
+  "vertical": "digital",
+  "level": "vertical",
+  "message": "با پاوربانک‌های هیسکا همیشه شارژ بمانید",
+  "domain_guess": "hiska.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "t:a466cbae96": {
+  "name": "هیسکا",
+  "name_en": "Hiska",
+  "vertical": "digital",
+  "level": "vertical",
+  "message": "معرفی و خرید انواع لوازم جانبی و محصولات دیجیتال هیسکا با شرایط خرید اقساطی",
+  "domain_guess": "hiska.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "shamana.food": {
+  "name": "شامانا",
+  "name_en": "Shamana",
+  "vertical": "supermarket",
+  "level": "none",
+  "message": "شرکت در مسابقه شامانا و دریافت جایزه",
+  "domain_guess": "shamana.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "t:649415acd3": {
+  "name": "هیسکا",
+  "name_en": "Hiska",
+  "vertical": "digital",
+  "level": "core",
+  "message": "خرید انواع پاوربانک هیسکا با امکان پرداخت اقساطی",
+  "domain_guess": "hiska.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "img:283a4421c5b408": {
+  "name": "ازکی‌وام",
+  "name_en": "Azkivam",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "دریافت ۱۰۰ میلیون تومان وام فوری بدون ضامن با یک برگ چک",
+  "domain_guess": "azkivam.com",
+  "confidence": 0.99,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "img:753291ebc45cf9": {
+  "name": "ازکی‌وام",
+  "name_en": "Azkivam",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "دریافت ۱۰۰ میلیون تومان وام فوری بدون ضامن و با یک برگ چک",
+  "domain_guess": "azkivam.com",
+  "confidence": 0.99,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "t:b4d7efc3bb": {
+  "name": "یکتانت",
+  "name_en": "Yektanet",
+  "vertical": "services",
+  "level": "none",
+  "message": "تبلیغات آنلاین با ساخت رایگان بنر تبلیغاتی",
+  "domain_guess": "yektanet.com",
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "t:7fd8d292a2": {
+  "name": "یکتانت",
+  "name_en": "Yektanet",
+  "vertical": "services",
+  "level": "none",
+  "message": "جای تبلیغ برندت خالیه! هزینه ساخت بنر رایگان",
+  "domain_guess": "yektanet.com",
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-10-21",
+  "last_seen": "2026-10-21"
+ },
+ "t:4d6e2c5f7f": {
+  "name": "زیمنس",
+  "name_en": "Siemens",
+  "vertical": "tools",
+  "level": "vertical",
+  "message": "معرفی و فروش کلید مینیاتوری زیمنس",
+  "domain_guess": "siemens.com",
+  "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-21",
   "last_seen": "2026-10-21"

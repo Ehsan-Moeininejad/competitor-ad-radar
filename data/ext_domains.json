@@ -555,7 +555,8 @@
   "sharghdaily.com",
   "mehrnews.com",
   "beytoote.com",
-  "mojnews.com"
+  "mojnews.com",
+  "ettelaat.com"
  ],
  "shishex.com": [
   "hamshahrionline.ir"
@@ -1203,7 +1204,8 @@
   "shahrekhabar.com"
  ],
  "bimesho.com": [
-  "shahrekhabar.com"
+  "shahrekhabar.com",
+  "gadgetnews.net"
  ],
  "iran-posh.ir": [
   "shahrekhabar.com"
@@ -1835,7 +1837,8 @@
   "mehrnews.com"
  ],
  "megatowzin.com": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "ettelaat.com"
  ],
  "astel.ir": [
   "mehrnews.com"
@@ -2418,6 +2421,12 @@
   "aftabnews.ir"
  ],
  "golvito.com": [
+  "chetor.com"
+ ],
+ "sabtderakhshan.com": [
+  "chetor.com"
+ ],
+ "serviq.net": [
   "chetor.com"
  ]
 }
