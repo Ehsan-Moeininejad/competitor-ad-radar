@@ -272,7 +272,7 @@
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "zariran.com": {
   "name": "زرایران",
@@ -985,7 +985,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:ea7231ca52": {
   "name": "صندوق طلای مثقال آگاه",
@@ -995,7 +995,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:ed288baba8": {
   "name": "صندوق طلای مثقال",
@@ -1223,7 +1223,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "brand:دیجی‌کالا": {
   "name": "دیجی‌کالا",
@@ -1239,7 +1239,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "hoosha.com": {
   "name": "هوشا",
@@ -1397,7 +1397,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "agah.com": {
   "name": "کارگزاری آگاه",
@@ -1507,7 +1507,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "zoomon.ir": {
   "name": "زومان",
@@ -2175,7 +2175,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-22"
  },
  "t:d14aa3fc9d": {
   "name": "نامشخص",
@@ -2305,7 +2305,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "bank-melli.ir": {
   "name": "بانک ملی ایران",
@@ -2515,7 +2515,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -2789,7 +2789,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:8ba70da1d4": {
   "name": "t:8ba70da1d4",
@@ -2909,7 +2909,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "webzi.ir": {
   "name": "وبزی",
@@ -2919,7 +2919,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "rsmta.ir": {
   "name": "راکستار ام تی ای",
@@ -2929,7 +2929,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "19kala.com": {
   "name": "۱۹ کالا",
@@ -3009,7 +3009,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3303,7 +3303,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "nipoto.com": {
   "name": "نیپوتو",
@@ -3393,7 +3393,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "c-beautyshop.com": {
   "name": "سی بیوتی شاپ",
@@ -3403,7 +3403,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "avaneed.com": {
   "name": "آوانید",
@@ -3613,7 +3613,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:d449fd3877": {
   "name": "t:d449fd3877",
@@ -3903,7 +3903,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-22"
  },
  "t:e157cf02c0": {
   "name": "t:e157cf02c0",
@@ -4003,7 +4003,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "ipasargad.ir": {
   "name": "آی پاسارگاد",
@@ -4213,7 +4213,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:1b09f5c0d1": {
   "name": "آکادمی هلو",
@@ -4253,7 +4253,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:5752dd98bc": {
   "name": "درخشش الکتریک",
@@ -4513,7 +4513,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:a34b2b9b4e": {
   "name": "نامشخص",
@@ -4563,7 +4563,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:ecdd723252": {
   "name": "نامشخص",
@@ -4573,7 +4573,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "toorangostar.com": {
   "name": "توران گستر",
@@ -4653,7 +4653,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:83dd4ecbdf": {
   "name": "نامشخص",
@@ -4673,7 +4673,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "autoabzar.com": {
   "name": "اتوابزار",
@@ -4723,7 +4723,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-22"
  },
  "t:99407e9ba6": {
   "name": "خودرو ۴۵",
@@ -4753,7 +4753,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:759a346db4": {
   "name": "روبی گلد",
@@ -4783,7 +4783,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "samimsw.ir": {
   "name": "صمیم",
@@ -4895,7 +4895,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-22"
  },
  "img:23e29c67bad9cc": {
   "name": "اکوتراست",
@@ -5007,7 +5007,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "minoosaclinic.com": {
   "name": "اسنپ‌پی",
@@ -5035,7 +5035,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "liara.host": {
   "name": "لیارا",
@@ -5115,7 +5115,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "holoospad.com": {
   "name": "اسپاد",
@@ -5175,7 +5175,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:1f99237a35": {
   "name": "صندوق طلای مثقال",
@@ -5375,7 +5375,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:9adccd4563": {
   "name": "t:9adccd4563",
@@ -5555,7 +5555,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:765c90a416": {
   "name": "t:765c90a416",
@@ -5721,7 +5721,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "img:ab2b6bb0bb6e0f": {
   "name": "فرش تهامی",
@@ -6197,7 +6197,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:77274aa570": {
   "name": "نامشخص",
@@ -6217,7 +6217,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:a1535c55e3": {
   "name": "نیک پارس",
@@ -6369,7 +6369,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "homeplus.ir": {
   "name": "هوم پلاس",
@@ -6811,7 +6811,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:7fd8d292a2": {
   "name": "یکتانت",
@@ -6932,6 +6932,170 @@
   "level": "none",
   "message": "خرید اکانت کلود با ضمانت بازگشت وجه",
   "domain_guess": "numberland.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "fitology.fit": {
+  "name": "اسنپ‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "sidonastore.com": {
+  "name": "سیدونا استور",
+  "name_en": "Sidona Store",
+  "vertical": "fashion",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:d87ec272e9": {
+  "name": "پلاتینر",
+  "name_en": "Platiner",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:9ce920c7be": {
+  "name": "مشاوره درمان جای زخم",
+  "name_en": "Scar Treatment Doctor",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:a6a32f4a5f": {
+  "name": "پارمیس",
+  "name_en": "Parmis",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "parvaztm.ir": {
+  "name": "گروه مالی پرواز",
+  "name_en": "Parvaz Financial Group",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "farshsajadeh.com": {
+  "name": "فرش سجاده آریا",
+  "name_en": "Farsh Sajadeh Arya",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "a1cable.com": {
+  "name": "ایوان",
+  "name_en": "Aivan",
+  "vertical": "tools",
+  "level": "none",
+  "message": "معرفی کابل زیرساختی ایوان A1 به عنوان زیرساختی مطمئن",
+  "domain_guess": "aivan.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:83122e66d7": {
+  "name": "هلو اسپاد",
+  "name_en": "Holoo Spad",
+  "vertical": "digital",
+  "level": "none",
+  "message": "۱۵ درصد تخفیف سیستم‌های نرم‌افزاری هلو اسپاد",
+  "domain_guess": "holoo.co",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:49cc2a9cd4": {
+  "name": "مبین‌نت",
+  "name_en": "Mobinnet",
+  "vertical": "telecom",
+  "level": "vertical",
+  "message": "۵۰۰ گیگابایت اینترنت یک‌ساله LTE به همراه مودم E1 و سیم‌کارت با کد تخفیف LTE1500",
+  "domain_guess": "mobinnet.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:6bc3c2e661": {
+  "name": "فرنا",
+  "name_en": "Farna",
+  "vertical": "digital",
+  "level": "core",
+  "message": "خرید گوشی موبایل با بهترین قیمت بازار و ارسال سریع از فرنا",
+  "domain_guess": "farnaa.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:cee6d03fd0": {
+  "name": "فرنا",
+  "name_en": "Farnaa",
+  "vertical": "digital",
+  "level": "vertical",
+  "message": "فروشگاه اینترنتی کالای دیجیتال و گوشی موبایل فرنا",
+  "domain_guess": "farnaa.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:6849f67001": {
+  "name": "فرنا",
+  "name_en": "Farnaa",
+  "vertical": "digital",
+  "level": "core",
+  "message": "فروشگاه اینترنتی موبایل و کالای دیجیتال فرنا",
+  "domain_guess": "farnaa.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:4183f01be7": {
+  "name": "فرنا",
+  "name_en": "Farnaa",
+  "vertical": "digital",
+  "level": "core",
+  "message": "خرید آیفون ۱۷ پرو با بهترین قیمت بازار و ارسال سریع",
+  "domain_guess": "farnaa.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:6e82090e68": {
+  "name": "فرنا",
+  "name_en": "Farnaa",
+  "vertical": "digital",
+  "level": "core",
+  "message": "خرید آیفون با بهترین قیمت بازار و ارسال سریع",
+  "domain_guess": "farnaa.com",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
