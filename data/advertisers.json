@@ -23,7 +23,7 @@
   "vertical": "fintech_bnpl",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "digipay.ir": {
   "name": "دیجی‌پی",
@@ -85,7 +85,8 @@
   "name": "ایسام",
   "vertical": "marketplace",
   "level": "core",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-10-22"
  },
  "offch.com": {
   "name": "آف‌چ",
@@ -672,7 +673,7 @@
   "vertical": "fintech_bnpl",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-22"
  },
  "asanpardakht.ir": {
   "name": "آپ",
@@ -1015,7 +1016,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "t:84187ff631": {
   "name": "t:84187ff631",
@@ -1299,7 +1300,7 @@
   "confidence": 0.8,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-22"
  },
  "tokeniko.com": {
   "name": "توکنیکو",
@@ -1311,7 +1312,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-22"
  },
  "wikishop.co": {
   "name": "همراه مکانیک",
@@ -1497,7 +1498,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-22"
  },
  "lg.com": {
   "name": "ال‌جی",
@@ -4203,7 +4204,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-22"
  },
  "eseminar.tv": {
   "name": "ایسمینار",
@@ -4313,7 +4314,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:d94b4b25d6": {
   "name": "نامشخص",
@@ -5745,7 +5746,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "img:a6644e26ffff9d": {
   "name": "اسنپ مارکت",
@@ -5757,7 +5758,7 @@
   "confidence": 0.99,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "img:be37f742dd3daf": {
   "name": "اسنپ مارکت",
@@ -5789,7 +5790,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:8e2f438bbb": {
   "name": "نامشخص",
@@ -5885,7 +5886,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-22"
  },
  "t:130e18d799": {
   "name": "خودرو۴۵",
@@ -7096,6 +7097,42 @@
   "level": "core",
   "message": "خرید آیفون با بهترین قیمت بازار و ارسال سریع",
   "domain_guess": "farnaa.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:b754b13ea0": {
+  "name": "اسنپ مارکت",
+  "name_en": "Snapp Market",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "خرید تنقلات با ۴۰ درصد تخفیف از اسنپ مارکت",
+  "domain_guess": "snapp.market",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:b181ba76bb": {
+  "name": "کاله",
+  "name_en": "Kalleh",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "تخفیف ۴۰ درصدی پنیر امراه کاله",
+  "domain_guess": "kalleh.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-22",
+  "last_seen": "2026-10-22"
+ },
+ "t:f6fdcaf97c": {
+  "name": "توکینیکو",
+  "name_en": "Tokeniko",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "message": "خرید شمش و طلا ضد جعل توکینیکو",
+  "domain_guess": "tokeniko.com",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
