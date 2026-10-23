@@ -2186,7 +2186,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-23"
  },
  "t:c82b5a1289": {
   "name": "ازکی",
@@ -2840,7 +2840,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "t:dee2c26cc2": {
   "name": "t:dee2c26cc2",
@@ -3424,7 +3424,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "t:51b8805fa8": {
   "name": "نوین وان",
@@ -5136,7 +5136,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "t:e2eb37e587": {
   "name": "شیدا",
@@ -6888,7 +6888,7 @@
   "confidence": 0.9,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "img:618f834f3dc8c9": {
   "name": "جاجیگا",
@@ -6994,7 +6994,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "farshsajadeh.com": {
   "name": "فرش سجاده آریا",
