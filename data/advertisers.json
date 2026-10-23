@@ -23,7 +23,7 @@
   "vertical": "fintech_bnpl",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "digipay.ir": {
   "name": "دیجی‌پی",
@@ -293,7 +293,7 @@
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "tehtoy.com": {
   "name": "تهران توی",
@@ -2830,7 +2830,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-23"
  },
  "t:04eac46735": {
   "name": "t:04eac46735",
@@ -2950,7 +2950,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "zarrabkhaneh.ir": {
   "name": "ضرابخانه",
@@ -3474,7 +3474,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "t:5578b23e68": {
   "name": "آلپاری",
@@ -3984,7 +3984,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-23"
  },
  "t:f1e2c36956": {
   "name": "آکو باتری",
@@ -4464,7 +4464,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-23"
  },
  "pashamohammadreza.ir": {
   "name": "پاشا محمدرضا",
@@ -4684,7 +4684,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-23"
  },
  "t:4af8b26f7f": {
   "name": "آیتول",
@@ -4824,7 +4824,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5186,7 +5186,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-23"
  },
  "t:a9cd6f6bfd": {
   "name": "صندوق طلای مثقال",
@@ -5988,7 +5988,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "t:be7b015b3c": {
   "name": "نیپوتو",
@@ -6218,7 +6218,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-23"
  },
  "t:a1535c55e3": {
   "name": "نیک پارس",
@@ -6268,7 +6268,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-23"
  },
  "t:6655d99c28": {
   "name": "نامشخص",
@@ -6600,7 +6600,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-23"
  },
  "t:b637b0d970": {
   "name": "نامشخص",
@@ -7364,6 +7364,26 @@
   "message": "قیمت استثنایی با تعداد محدود برای خرید لوازم خانگی",
   "domain_guess": "farnaa.com",
   "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-23",
+  "last_seen": "2026-10-23"
+ },
+ "brand:دیجی‌پی": {
+  "name": "دیجی‌پی",
+  "vertical": "fintech_bnpl",
+  "level": "own",
+  "source": "name-match",
+  "first_seen": "2026-10-23",
+  "last_seen": "2026-10-23"
+ },
+ "t:c61a523c01": {
+  "name": "زرین",
+  "name_en": "Zarin",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "message": "خرید طلای بدون اجرت و مالیات با کارمزد صفر از زرین",
+  "domain_guess": "zaringold.ir",
+  "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-23",
   "last_seen": "2026-10-23"
