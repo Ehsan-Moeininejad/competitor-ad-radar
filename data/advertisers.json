@@ -1312,7 +1312,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "wikishop.co": {
   "name": "همراه مکانیک",
@@ -1748,7 +1748,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "img:fa3f6dee1d18bb": {
   "name": "بانک تجارت",
@@ -3276,7 +3276,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:76f5ee92e6": {
   "name": "خودرو45",
@@ -3296,7 +3296,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "refah-bank.ir": {
   "name": "رفاه",
@@ -3374,7 +3374,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "t:1475e4e218": {
   "name": "t:1475e4e218",
@@ -3444,7 +3444,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:6f6c649a99": {
   "name": "t:6f6c649a99",
@@ -3474,7 +3474,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:5578b23e68": {
   "name": "آلپاری",
@@ -3494,7 +3494,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-24"
  },
  "t:f90269133e": {
   "name": "t:f90269133e",
@@ -3864,7 +3864,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-24"
  },
  "fooladiranian.com": {
   "name": "فولاد ایرانیان",
@@ -4354,7 +4354,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:623e039029": {
   "name": "نامشخص",
@@ -4424,7 +4424,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-24"
  },
  "t:f1499fd6fb": {
   "name": "نامشخص",
@@ -4514,7 +4514,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "t:a34b2b9b4e": {
   "name": "نامشخص",
@@ -4564,7 +4564,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "t:ecdd723252": {
   "name": "نامشخص",
@@ -4574,7 +4574,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "toorangostar.com": {
   "name": "توران گستر",
@@ -4584,7 +4584,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-24"
  },
  "t:063c9340a8": {
   "name": "یکتانت",
@@ -4604,7 +4604,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "t:70ea321fd2": {
   "name": "ثبت فردا",
@@ -5086,7 +5086,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "t:ec65b14789": {
   "name": "t:ec65b14789",
@@ -5176,7 +5176,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:1f99237a35": {
   "name": "صندوق طلای مثقال",
@@ -5276,7 +5276,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:02d9815128": {
   "name": "آنیسا",
@@ -5646,7 +5646,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "t:344961ff92": {
   "name": "t:344961ff92",
@@ -5722,7 +5722,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "img:ab2b6bb0bb6e0f": {
   "name": "فرش تهامی",
@@ -6924,7 +6924,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "img:11d333c5ea5010": {
   "name": "نامبرلند",
@@ -7112,7 +7112,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:b181ba76bb": {
   "name": "کاله",
@@ -7308,7 +7308,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "mahame.ir": {
   "name": "مهامه",

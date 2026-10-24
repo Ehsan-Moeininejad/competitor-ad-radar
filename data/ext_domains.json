@@ -547,7 +547,8 @@
   "hamshahrionline.ir",
   "sharghdaily.com",
   "ettelaat.com",
-  "mojnews.com"
+  "mojnews.com",
+  "aftabnews.ir"
  ],
  "bitpin.ir": [
   "hamshahrionline.ir",
@@ -2446,5 +2447,20 @@
  ],
  "sambearing.com": [
   "ilna.ir"
+ ],
+ "charisma.ir": [
+  "isignal.ir"
+ ],
+ "yektabot.com": [
+  "gadgetnews.net"
+ ],
+ "azki.com": [
+  "shahrekhabar.com"
+ ],
+ "nujanco.com": [
+  "mehrnews.com"
+ ],
+ "shomalbar.com": [
+  "mehrnews.com"
  ]
 }
