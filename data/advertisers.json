@@ -947,7 +947,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:98d9dbc9ff": {
   "name": "میلی",
@@ -1619,7 +1619,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-24"
  },
  "t:9a44cd9706": {
   "name": "تبدیل",
@@ -1719,7 +1719,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "t:9bd5ba1ea2": {
   "name": "تبدیل",
@@ -1729,7 +1729,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-24"
  },
  "t:7c05a7d080": {
   "name": "تبدیل",
@@ -2067,7 +2067,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "berjismed.com": {
   "name": "برجیس",
@@ -2567,7 +2567,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:dc8e838bf5": {
   "name": "فروش خودرو (خودرو45 / باما)",
@@ -3011,7 +3011,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3965,7 +3965,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:1d1f48e5c3": {
   "name": "خودرو45",
@@ -4485,7 +4485,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:7a7d079f33": {
   "name": "نامشخص",
@@ -4725,7 +4725,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "t:99407e9ba6": {
   "name": "خودرو ۴۵",
@@ -4909,7 +4909,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "img:fc56d35ed356de": {
   "name": "بانک تجارت",
@@ -5863,7 +5863,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-24"
  },
  "cheragh.com": {
   "name": "چراغ",
@@ -6109,7 +6109,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "shahrkhanegi.com": {
   "name": "شهر لوازم خانگی",
@@ -6179,7 +6179,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:332050123a": {
   "name": "نامشخص",
@@ -6189,7 +6189,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:5eba8f5a6f": {
   "name": "نامشخص",
@@ -7217,7 +7217,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "dunro.com": {
   "name": "دانرو",
@@ -7634,6 +7634,290 @@
   "level": "vertical",
   "message": "تا ۷۰ درصد تخفیف بلک فرایدی روژا شاپ با اسنپ پی",
   "domain_guess": "rojashop.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:f352005c1f": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.3,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:7b546a89bd": {
+  "name": "صندوق ایران زمین (کارگزاری حافظ)",
+  "name_en": "Iran Zamin Fund (Hafez)",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:a9f10a21b6": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.4,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "snapp.doctor": {
+  "name": "اسنپ دکتر",
+  "name_en": "Snapp Doctor",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:8bb142fc50": {
+  "name": "آپارات اسپرت / عادل فردوسی پور",
+  "name_en": "Aparat Sport / Football360",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:1a74adc9f6": {
+  "name": "آپارات اسپرت / عادل فردوسی پور",
+  "name_en": "Aparat Sport / Football360",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "hafez.co": {
+  "name": "کارگزاری حافظ",
+  "name_en": "Hafez Brokerage",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:c2a0e58682": {
+  "name": "پلی‌پاد",
+  "name_en": "PlayPod",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:592563505d": {
+  "name": "پلی‌پاد",
+  "name_en": "PlayPod",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:dd5254cccd": {
+  "name": "پلی‌پاد",
+  "name_en": "PlayPod",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "hamrahgold.com": {
+  "name": "همراه گلد",
+  "name_en": "Hamrah Gold",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:1b35333f7e": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.3,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:7b9185a7bd": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "jewelry",
+  "level": "vertical",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:0f5e69d372": {
+  "name": "ازکی / بیمه دات کام",
+  "name_en": "Azki / Bimeh.com",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:52ac5718d9": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "tools",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:5b1894d13f": {
+  "name": "جیب طلا",
+  "name_en": "Jeeb Tala",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:38d80db68b": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "kebrin.ir": {
+  "name": "کبرین",
+  "name_en": "Kebrin",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:4a8a85b7c5": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:c1a9a8d32b": {
+  "name": "مس چی",
+  "name_en": "Mes Chi",
+  "vertical": "marketplace",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:faaf21d106": {
+  "name": "مس چی",
+  "name_en": "Mes Chi",
+  "vertical": "marketplace",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:a7e4d4bf49": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:c4cd26ec44": {
+  "name": "بیمه دات کام",
+  "name_en": "Bimeh.com",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:c439c1eb8f": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "nujanco.com": {
+  "name": "نوژن",
+  "name_en": "Nujan",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:f9bf10a559": {
+  "name": "ویجیاتو / زومجی",
+  "name_en": "Vigiato / Zoomg",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "img:aee0344b746dd6": {
+  "name": "آپارات اسپرت",
+  "name_en": "Aparat Sport",
+  "vertical": "media",
+  "level": "none",
+  "message": "پخش زنده مسابقه ال‌کلاسیکو با گزارش عادل فردوسی‌پور",
+  "domain_guess": "aparatsport.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "img:d806924c900cc1": {
+  "name": "آپارات اسپرت",
+  "name_en": "Aparat Sport",
+  "vertical": "media",
+  "level": "none",
+  "message": "تماشای زنده ال‌کلاسیکو با گزارش عادل فردوسی‌پور",
+  "domain_guess": "aparatsport.com",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-24",

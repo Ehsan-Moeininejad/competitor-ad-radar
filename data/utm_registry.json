@@ -386,9 +386,10 @@
    "2026-10-19",
    "2026-10-20",
    "2026-10-21",
-   "2026-10-22"
+   "2026-10-22",
+   "2026-10-24"
   ],
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-24",
   "sites": [
    "khabaronline.ir"
   ]
@@ -440,7 +441,8 @@
    "etemadonline.com",
    "fardayetaze.ir",
    "khabarfoori.com",
-   "ninisite.com"
+   "ninisite.com",
+   "teh-dl.ir"
   ]
  },
  "زرپین|target140507": {
@@ -1661,10 +1663,12 @@
  "طاها بازار|adv_1363082_5548853": {
   "first_seen": "2026-10-20",
   "days": [
-   "2026-10-20"
+   "2026-10-20",
+   "2026-10-24"
   ],
-  "last_seen": "2026-10-20",
+  "last_seen": "2026-10-24",
   "sites": [
+   "tala.ir",
    "tgju.org"
   ]
  },
@@ -1855,10 +1859,12 @@
   "first_seen": "2026-10-22",
   "days": [
    "2026-10-22",
-   "2026-10-23"
+   "2026-10-23",
+   "2026-10-24"
   ],
-  "last_seen": "2026-10-23",
+  "last_seen": "2026-10-24",
   "sites": [
+   "bahalmag.ir",
    "khabarfoori.com"
   ]
  },
@@ -1997,9 +2003,10 @@
  "لبشکا|adv_333433_1510526": {
   "first_seen": "2026-10-23",
   "days": [
-   "2026-10-23"
+   "2026-10-23",
+   "2026-10-24"
   ],
-  "last_seen": "2026-10-23",
+  "last_seen": "2026-10-24",
   "sites": [
    "delgarm.com"
   ]
@@ -2102,6 +2109,37 @@
   "last_seen": "2026-10-24",
   "sites": [
    "tala.ir"
+  ]
+ },
+ "همراه گلد|pouya-cont-aban-fest": {
+  "first_seen": "2026-10-24",
+  "days": [
+   "2026-10-24"
+  ],
+  "last_seen": "2026-10-24",
+  "sites": [
+   "etemadonline.com",
+   "jamaran.news"
+  ]
+ },
+ "طلاسی|p-kw-t-tcpa-kyc": {
+  "first_seen": "2026-10-24",
+  "days": [
+   "2026-10-24"
+  ],
+  "last_seen": "2026-10-24",
+  "sites": [
+   "iranjib.ir"
+  ]
+ },
+ "نوژن|mehr_banner": {
+  "first_seen": "2026-10-24",
+  "days": [
+   "2026-10-24"
+  ],
+  "last_seen": "2026-10-24",
+  "sites": [
+   "mehrnews.com"
   ]
  }
 }
