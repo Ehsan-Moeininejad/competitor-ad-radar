@@ -459,7 +459,8 @@
   "namnak.com"
  ],
  "milan-group.ir": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "hamshahrionline.ir"
  ],
  "irchem.ir": [
   "khabaronline.ir",
@@ -1293,7 +1294,8 @@
  ],
  "belker.co": [
   "gadgetnews.net",
-  "chetor.com"
+  "chetor.com",
+  "ilna.ir"
  ],
  "sheyda.com": [
   "gadgetnews.net"
@@ -2324,7 +2326,8 @@
  ],
  "estelamonline.net": [
   "alef.ir",
-  "mehrnews.com"
+  "mehrnews.com",
+  "khabaronline.ir"
  ],
  "yadaki.shop": [
   "alef.ir"
@@ -2452,7 +2455,8 @@
   "isignal.ir"
  ],
  "yektabot.com": [
-  "gadgetnews.net"
+  "gadgetnews.net",
+  "techrato.com"
  ],
  "azki.com": [
   "shahrekhabar.com"
@@ -2462,5 +2466,14 @@
  ],
  "shomalbar.com": [
   "mehrnews.com"
+ ],
+ "lu.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "samaktaranom.com": [
+  "ilna.ir"
+ ],
+ "tamertmarkzi.com": [
+  "jamejamonline.ir"
  ]
 }

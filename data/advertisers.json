@@ -293,7 +293,7 @@
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "tehtoy.com": {
   "name": "تهران توی",
@@ -383,7 +383,8 @@
   "name": "داروکده",
   "vertical": "beauty_health",
   "level": "vertical",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-10-24"
  },
  "atrafshan.ir": {
   "name": "عطرافشان",
@@ -876,7 +877,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -1558,7 +1559,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:afee7a2f06": {
   "name": "تبدیل",
@@ -1708,7 +1709,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-24"
  },
  "t:d80226473e": {
   "name": "تبدیل",
@@ -1946,7 +1947,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:12b0148d39": {
   "name": "نامشخص",
@@ -2056,7 +2057,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "t:bc3b5e9a58": {
   "name": "ازکی سلر",
@@ -2860,7 +2861,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "booranjobs.com": {
   "name": "booranjobs.com",
@@ -3304,7 +3305,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "nipoto.com": {
   "name": "نیپوتو",
@@ -4414,7 +4415,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "t:8c19927972": {
   "name": "نامشخص",
@@ -4494,7 +4495,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-24"
  },
  "t:221d933022": {
   "name": "نامشخص",
@@ -4504,7 +4505,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "shatelmobile.ir": {
   "name": "شاتل موبایل",
@@ -5046,7 +5047,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "atrsara.com": {
   "name": "عطرسرا",
@@ -5126,7 +5127,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "sheyda.com": {
   "name": "شیدا",
@@ -5476,7 +5477,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:5af72a2855": {
   "name": "پی کن دو",
@@ -5782,7 +5783,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "brand:میلی": {
   "name": "میلی",
@@ -5790,7 +5791,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:8e2f438bbb": {
   "name": "نامشخص",
@@ -6138,7 +6139,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:56270d8945": {
   "name": "ازکی سلر",
@@ -6248,7 +6249,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:5f0c62fdda": {
   "name": "خودرو45",
@@ -6370,7 +6371,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "homeplus.ir": {
   "name": "هوم پلاس",
@@ -6974,7 +6975,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:a6a32f4a5f": {
   "name": "پارمیس",
@@ -7176,7 +7177,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "metrix.ir": {
   "name": "متریکس",
@@ -7585,6 +7586,30 @@
   "level": "vertical",
   "message": "فروشگاه اینترنتی فرنا با بهترین قیمت و ارسال سریع",
   "domain_guess": "farnaa.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "naghdex.com": {
+  "name": "نقدکس",
+  "name_en": "Naghdex",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "ترید ۲۴ ساعته ارز دیجیتال با اهرم ۱۵۰ برابری در صرافی نقدکس",
+  "domain_guess": "naghdex.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "img:6e46ed22b52358": {
+  "name": "اکوتراست",
+  "name_en": "Ecotrust",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "تحلیل خبرها و بررسی فرصت‌های بازارهای مالی در اکوتراست",
+  "domain_guess": "ecotrust.ir",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-24",
