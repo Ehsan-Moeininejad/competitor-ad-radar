@@ -674,7 +674,7 @@
   "vertical": "fintech_bnpl",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "asanpardakht.ir": {
   "name": "آپ",
@@ -1233,7 +1233,7 @@
   "level": "own",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "brand:اسنپ‌پی": {
   "name": "اسنپ‌پی",
@@ -1399,7 +1399,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "agah.com": {
   "name": "کارگزاری آگاه",
@@ -1579,7 +1579,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-24"
  },
  "t:d397dfeaae": {
   "name": "تبدیل",
@@ -1887,7 +1887,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:929ca8bce5": {
   "name": "خودرو45",
@@ -1927,7 +1927,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-24"
  },
  "t:dfb0ddf8e3": {
   "name": "خودرو45",
@@ -1937,7 +1937,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:3ae7494ff6": {
   "name": "خودرو45",
@@ -2669,7 +2669,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:623a90a45f": {
   "name": "پیامک خونه",
@@ -3645,7 +3645,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:155f70d543": {
   "name": "t:155f70d543",
@@ -4365,7 +4365,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:b774217976": {
   "name": "نامشخص",
@@ -4735,7 +4735,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-24"
  },
  "aads.com": {
   "name": "ای ادز",
@@ -4929,7 +4929,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-24"
  },
  "img:344cd08dceeab8": {
   "name": "جک",
@@ -7187,7 +7187,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-24"
  },
  "t:03546e4875": {
   "name": "توچال گلد",
@@ -7610,6 +7610,30 @@
   "level": "none",
   "message": "تحلیل خبرها و بررسی فرصت‌های بازارهای مالی در اکوتراست",
   "domain_guess": "ecotrust.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "t:ae94da00a9": {
+  "name": "سرمایه بازار",
+  "name_en": "Sarmaye Bazar",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "خرید اقساطی طلا از سرمایه بازار",
+  "domain_guess": "sarmayebazar.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-24",
+  "last_seen": "2026-10-24"
+ },
+ "rojashop.com": {
+  "name": "روژا",
+  "name_en": "Roja",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "message": "تا ۷۰ درصد تخفیف بلک فرایدی روژا شاپ با اسنپ پی",
+  "domain_guess": "rojashop.com",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-24",
