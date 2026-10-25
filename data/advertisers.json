@@ -23,7 +23,7 @@
   "vertical": "fintech_bnpl",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "digipay.ir": {
   "name": "دیجی‌پی",
@@ -693,7 +693,7 @@
   "vertical": "fintech_bnpl",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-25"
  },
  "brand:خودرو ۴۵": {
   "name": "خودرو ۴۵",
@@ -947,7 +947,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:98d9dbc9ff": {
   "name": "میلی",
@@ -1629,7 +1629,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-25"
  },
  "t:086f310fb9": {
   "name": "تبدیل",
@@ -1679,7 +1679,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "tabdeal.org": {
   "name": "تبدیل",
@@ -1699,7 +1699,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-25"
  },
  "t:3b50441119": {
   "name": "تبدیل",
@@ -1917,7 +1917,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-25"
  },
  "t:1050d02ec6": {
   "name": "خودرو45",
@@ -2057,7 +2057,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:bc3b5e9a58": {
   "name": "ازکی سلر",
@@ -2067,7 +2067,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "berjismed.com": {
   "name": "برجیس",
@@ -2197,7 +2197,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "ecotrust.ir": {
   "name": "مشاور سرمایه گذاری ترنج (اکوترست)",
@@ -2577,7 +2577,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "toranjcapital.com": {
   "name": "مدیریت دارایی ترنج",
@@ -2801,7 +2801,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "t:ecd878f2c7": {
   "name": "t:ecd878f2c7",
@@ -2811,7 +2811,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:a91720af6a": {
   "name": "شهر لوازم خانگی",
@@ -2851,7 +2851,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-25"
  },
  "sikaap.com": {
   "name": "آربیانا",
@@ -3645,7 +3645,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:155f70d543": {
   "name": "t:155f70d543",
@@ -4185,7 +4185,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-25"
  },
  "rahyn.ir": {
   "name": "آریا اروند صنعت",
@@ -4505,7 +4505,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "shatelmobile.ir": {
   "name": "شاتل موبایل",
@@ -4685,7 +4685,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "t:4af8b26f7f": {
   "name": "آیتول",
@@ -5047,7 +5047,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "atrsara.com": {
   "name": "عطرسرا",
@@ -6049,7 +6049,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:4336b256e0": {
   "name": "استیم",
@@ -6079,7 +6079,7 @@
   "confidence": 0.65,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:1cdabcf170": {
   "name": "بیت پین",
@@ -6089,7 +6089,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "t:9e479fcb20": {
   "name": "نامشخص",
@@ -6865,7 +6865,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "img:58e2f467296ade": {
   "name": "تبدیل",
@@ -7289,7 +7289,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:e2dc11f9e6": {
   "name": "طلاین",
@@ -7517,7 +7517,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "img:18e7e5d048768f": {
   "name": "بلوبانک",
@@ -7601,7 +7601,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "img:6e46ed22b52358": {
   "name": "اکوتراست",
@@ -8231,6 +8231,426 @@
   "message": "خرید آنلاین انواع بیمه از ازکی",
   "domain_guess": "azki.com",
   "confidence": 0.9,
+  "source": "vision",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "technogold.gold": {
+  "name": "تکنوگلد",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "balinex.com": {
+  "name": "بالینکس",
+  "name_en": "Balinex",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "bitpin.ir": {
+  "name": "بیت پین",
+  "name_en": "Bitpin",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.99,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:65c54d7dd6": {
+  "name": "بیت پین",
+  "name_en": "Bitpin",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.99,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:6648fa5116": {
+  "name": "هیسکا",
+  "name_en": "Hiska",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:d72651059a": {
+  "name": "سرمایه بازار",
+  "name_en": "Sarmaye Bazar",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:b44d350cd9": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "filmnet.ir": {
+  "name": "فیلم نت",
+  "name_en": "FilmNet",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:b7d7b2793b": {
+  "name": "آلپاری",
+  "name_en": "Alpari",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:26f24be778": {
+  "name": "آلپاری",
+  "name_en": "Alpari",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "karmaye.com": {
+  "name": "کارمایه",
+  "name_en": "Karmaye",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.92,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:5eb6b0779b": {
+  "name": "بیت پین",
+  "name_en": "Bitpin",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:6b91409283": {
+  "name": "میتراپل",
+  "name_en": "MitreApel",
+  "vertical": "tools",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "chasbsanaye.ir": {
+  "name": "چسب صنایع",
+  "name_en": "Chasb Sanaye",
+  "vertical": "tools",
+  "level": "vertical",
+  "confidence": 0.92,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:e92cfb3676": {
+  "name": "آلپاری",
+  "name_en": "Alpari",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:6b458db67b": {
+  "name": "اکوتراست",
+  "name_en": "EcoTrust",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:719755d7ff": {
+  "name": "پیش بینی فوتبال",
+  "name_en": "Football Prediction",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:4b17443941": {
+  "name": "پیش بینی فوتبال",
+  "name_en": "Football Prediction",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:531ba1a84f": {
+  "name": "پیش بینی فوتبال",
+  "name_en": "Football Prediction",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:060ac5ae5f": {
+  "name": "پیش بینی فوتبال",
+  "name_en": "Football Prediction",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:097f7b6c2a": {
+  "name": "مناقصات و مزایدات",
+  "name_en": "Tenders",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:8f4cd6c8db": {
+  "name": "مناقصات و مزایدات",
+  "name_en": "Tenders",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:95e0e33000": {
+  "name": "مرکز سلامت ایران",
+  "name_en": "Iran Health Center",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:1c2ca1d6c9": {
+  "name": "تجهیزات خانه بازی",
+  "name_en": "Playroom Equipment",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:d5e1011bed": {
+  "name": "وام خرید طلا",
+  "name_en": "Gold Loan",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:fa705d6671": {
+  "name": "پیش بینی و بازی",
+  "name_en": "Crypto Game",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:bdc4dfa9f6": {
+  "name": "طلای دیجیتال",
+  "name_en": "Digital Gold",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.88,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:23c2dd6ad4": {
+  "name": "گردونه شانس",
+  "name_en": "Lucky Wheel",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:50d8c95900": {
+  "name": "درمان زانودرد",
+  "name_en": "Knee Care",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:c6dfdd9282": {
+  "name": "درمان زانودرد",
+  "name_en": "Knee Care",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:a27c644612": {
+  "name": "گلورشن",
+  "name_en": "Glorious",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.92,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:ac5d547a08": {
+  "name": "گلورشن",
+  "name_en": "Glorious",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.92,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:fb46126d98": {
+  "name": "گلورشن",
+  "name_en": "Glorious",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.92,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:d93361c9a8": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:f9d59d01e3": {
+  "name": "طلای دیجیتال",
+  "name_en": "Digital Gold",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.88,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:f4592c05e6": {
+  "name": "هاست ایران",
+  "name_en": "HostIran",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "khosravani.com": {
+  "name": "خسروانی",
+  "name_en": "Khosravani",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:4e9d812d7d": {
+  "name": "بیمه",
+  "name_en": "Insurance",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "tirzacto.com": {
+  "name": "تیرزکتو",
+  "name_en": "Tirzacto",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "t:cc83017961": {
+  "name": "گیمفا",
+  "name_en": "Gamefa",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "tmrg.ir": {
+  "name": "چاپ و نشر کتاب",
+  "name_en": "Book Publishing",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "confidence": 0.88,
+  "source": "llm",
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "img:c53164cc247b1a": {
+  "name": "همراه گلد",
+  "name_en": "Hamrahgold",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "message": "خرید طلا بدون کارمزد و دریافت شانس برنده شدن جایزه",
+  "domain_guess": "hamrahgold.ir",
+  "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-25",
   "last_seen": "2026-10-25"

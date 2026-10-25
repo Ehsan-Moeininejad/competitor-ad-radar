@@ -150,10 +150,12 @@
    "2026-10-18",
    "2026-10-22",
    "2026-10-23",
-   "2026-10-24"
+   "2026-10-24",
+   "2026-10-25"
   ],
-  "last_seen": "2026-10-24",
+  "last_seen": "2026-10-25",
   "sites": [
+   "alef.ir",
    "etemadonline.com",
    "jamaran.news",
    "khabarfoori.com"
@@ -449,13 +451,16 @@
    "2026-10-21",
    "2026-10-22",
    "2026-10-23",
-   "2026-10-24"
+   "2026-10-24",
+   "2026-10-25"
   ],
-  "last_seen": "2026-10-24",
+  "last_seen": "2026-10-25",
   "sites": [
+   "delgarm.com",
    "etemadonline.com",
    "fardayetaze.ir",
    "khabarfoori.com",
+   "namnak.com",
    "ninisite.com",
    "teh-dl.ir"
   ]
@@ -1660,11 +1665,14 @@
   "sites": [
    "alef.ir",
    "bahalmag.ir",
+   "delgarm.com",
    "etemadonline.com",
    "jamaran.news",
    "khabaronline.ir",
    "nexload.ir",
    "setare.com",
+   "tarafdari.com",
+   "teh-dl.ir",
    "testchi.ir"
   ]
  },
@@ -1791,9 +1799,10 @@
    "2026-10-21",
    "2026-10-22",
    "2026-10-23",
-   "2026-10-24"
+   "2026-10-24",
+   "2026-10-25"
   ],
-  "last_seen": "2026-10-24",
+  "last_seen": "2026-10-25",
   "sites": [
    "alef.ir",
    "bahalmag.ir",
@@ -2024,10 +2033,12 @@
  "طلاسی|p-cntx-tcpa-fp": {
   "first_seen": "2026-10-22",
   "days": [
-   "2026-10-22"
+   "2026-10-22",
+   "2026-10-25"
   ],
-  "last_seen": "2026-10-22",
+  "last_seen": "2026-10-25",
   "sites": [
+   "alef.ir",
    "jamaran.news"
   ]
  },
@@ -2290,6 +2301,87 @@
    "tarafdari.com",
    "teh-dl.ir",
    "testchi.ir"
+  ]
+ },
+ "تکنوپی|preblackfriday": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "technolife.com"
+  ]
+ },
+ "تکنوپی|(بدون نام کمپین)": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "technolife.com"
+  ]
+ },
+ "تکنوگلد|promotion": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "technolife.com"
+  ]
+ },
+ "تکنوپی|technolife": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "technolife.com"
+  ]
+ },
+ "تکنوگلد|technolife": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "technolife.com"
+  ]
+ },
+ "چسب صنایع|adv_177564_6425541": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "alef.ir"
+  ]
+ },
+ "ازکی|1194": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "ettelaat.com",
+   "khabarvarzeshi.com"
+  ]
+ },
+ "تیرزکتو|tirzacto": {
+  "first_seen": "2026-10-25",
+  "days": [
+   "2026-10-25"
+  ],
+  "last_seen": "2026-10-25",
+  "sites": [
+   "darooyab.ir"
   ]
  }
 }

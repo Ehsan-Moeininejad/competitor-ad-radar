@@ -1173,7 +1173,7 @@
   "first_seen": "2026-10-18",
   "size": "Native widget ×8",
   "network": "yektanet",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "ilna.ir|home|below_fold|display|desktop": {
   "first_seen": "2026-10-18",
@@ -1395,7 +1395,7 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~140x100",
   "network": "yektanet",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "iranjib.ir|home|below_fold|display|mobile": {
   "first_seen": "2026-10-18",
@@ -1425,7 +1425,7 @@
   "first_seen": "2026-10-18",
   "size": "Native widget ×1",
   "network": "yektanet",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "iranjib.ir|home|above_fold|native|mobile": {
   "first_seen": "2026-10-18",
@@ -2751,7 +2751,7 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~140x100",
   "network": "yektanet",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "tala.ir|home|above_fold|native|mobile": {
   "first_seen": "2026-10-18",
@@ -2763,7 +2763,7 @@
   "first_seen": "2026-10-18",
   "size": "Native widget ×1",
   "network": "yektanet",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "jamejamonline.ir|home|header|video|mobile": {
   "first_seen": "2026-10-18",
@@ -3063,7 +3063,7 @@
   "first_seen": "2026-10-20",
   "size": "Custom ~140x100",
   "network": "yektanet",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "alef.ir|home|above_fold|native|mobile": {
   "first_seen": "2026-10-20",
@@ -3359,6 +3359,88 @@
   "first_seen": "2026-10-25",
   "size": "-",
   "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "zoomon.ir|home|below_fold|display|mobile": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~360x170",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|home|sticky|sticky_banner|mobile": {
+  "first_seen": "2026-10-25",
+  "size": "Wide banner ~390x50",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|home|above_fold|display|mobile": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~70x70",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|home|sidebar|display|mobile": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~360x150",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|home|footer|display|mobile": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~120x40",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "zoomon.ir|home|below_fold|display|desktop": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~620x160",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "zoomon.ir|home|sticky|sticky_banner|desktop": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~280x240",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|home|sticky|sticky_banner|desktop": {
+  "first_seen": "2026-10-25",
+  "size": "Wide banner ~1370x40",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|home|sidebar|display|desktop": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~110x110",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|home|above_fold|display|desktop": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~110x110",
+  "network": "direct",
+  "last_seen": "2026-10-25"
+ },
+ "daneshchi.ir|home|sidebar|video|mobile": {
+  "first_seen": "2026-10-25",
+  "size": "Custom ~390x370",
+  "network": "yektanet",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|net|google": {
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|net|mediaad_tapsell": {
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "technolife.com|net|yektanet": {
+  "first_seen": "2026-10-25",
+  "last_seen": "2026-10-25"
+ },
+ "tamironline.com|net|google": {
+  "first_seen": "2026-10-25",
   "last_seen": "2026-10-25"
  }
 }
