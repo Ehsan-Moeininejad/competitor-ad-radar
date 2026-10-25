@@ -56,7 +56,7 @@ scoring:
 
 email:
   subject_prefix: "رادار تبلیغات رقبا"
-  attach_html: false
+  attach_html: false       # فایل HTML گزارش پیوست نمی‌شود (فقط قالب داخل ایمیل + لینک گزارش)
 
 report:
   title: "رادار تبلیغات رقبا"

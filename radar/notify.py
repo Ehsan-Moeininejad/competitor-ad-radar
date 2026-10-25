@@ -382,7 +382,7 @@ def render(D: dict, I: dict, page_url: str = ""):
             f'{button("مشاهدهٔ گزارش کامل رادار", base, big=True)}</tr></table>' if base else '<tr><td align="center" style="padding:20px 0 8px">')
            + f'<div style="margin-top:12px;font-family:{FONT};font-size:12.5px">{" · ".join(small)}</div></td></tr>')
     foot = (f'<tr><td {TD}padding:14px 0 6px;text-align:center;font-size:11.5px;line-height:1.9;color:{MUTE}">'
-            f'نسخهٔ آفلاین گزارش کامل پیوست همین ایمیل است. داده‌ها از تبلیغات عمومی سایت‌ها جمع‌آوری شده و روی هیچ تبلیغی کلیک نشده است.</td></tr>')
+            f'گزارش کامل از لینک بالا در دسترس است. داده‌ها از تبلیغات عمومی سایت‌ها جمع‌آوری شده و روی هیچ تبلیغی کلیک نشده است.</td></tr>')
 
     body = f"""<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -429,7 +429,7 @@ def send(D: dict, I: dict, report_path, page_url: str = ""):
         img.add_header("Content-Disposition", "inline", filename=f"{cid}.jpg")
         related.attach(img)
     msg.attach(related)
-    if cfg["email"].get("attach_html", True) and report_path:
+    if cfg["email"].get("attach_html", False) and report_path:
         data = open(report_path, "rb").read()
         # Gmail caps the ENCODED message at 25 MB (base64 adds ~37%)
         if (len(data) + size) * 1.37 < 23_000_000:
