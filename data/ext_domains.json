@@ -628,7 +628,8 @@
   "tabnak.ir",
   "mehrnews.com",
   "khabaronline.ir",
-  "alef.ir"
+  "alef.ir",
+  "p30download.ir"
  ],
  "setaresim.com": [
   "hamshahrionline.ir"
@@ -2478,5 +2479,11 @@
  ],
  "baghfarhangshop.ir": [
   "daneshchi.ir"
+ ],
+ "rapop.ir": [
+  "jamejamonline.ir"
+ ],
+ "pandco.com": [
+  "jamejamonline.ir"
  ]
 }
