@@ -56,7 +56,7 @@ scoring:
 
 email:
   subject_prefix: "رادار تبلیغات رقبا"
-  attach_html: true
+  attach_html: false
 
 report:
   title: "رادار تبلیغات رقبا"
