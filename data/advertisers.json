@@ -192,7 +192,7 @@
   "vertical": "home_appliances",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-25"
  },
  "zar.ir": {
   "name": "گالری زر",
@@ -897,7 +897,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-25"
  },
  "delcook.kitchen": {
   "name": "دل کوک",
@@ -1579,7 +1579,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:d397dfeaae": {
   "name": "تبدیل",
@@ -2437,7 +2437,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:7671b4b882": {
   "name": "درمان ریزش مو",
@@ -3355,7 +3355,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:1ba1548ce5": {
   "name": "سی بیوتی شاپ",
@@ -3445,7 +3445,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:6f6c649a99": {
   "name": "t:6f6c649a99",
@@ -3475,7 +3475,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:5578b23e68": {
   "name": "آلپاری",
@@ -3635,7 +3635,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "t:1b45065b72": {
   "name": "t:1b45065b72",
@@ -4215,7 +4215,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-25"
  },
  "t:1b09f5c0d1": {
   "name": "آکادمی هلو",
@@ -4595,7 +4595,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:24bad3337e": {
   "name": "ثبت فردا",
@@ -4909,7 +4909,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "img:fc56d35ed356de": {
   "name": "بانک تجارت",
@@ -5077,7 +5077,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-25"
  },
  "t:3f8bf29cf5": {
   "name": "t:3f8bf29cf5",
@@ -5587,7 +5587,7 @@
   "confidence": 0.3,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-25"
  },
  "zula.ir": {
   "name": "زولا",
@@ -6189,7 +6189,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:5eba8f5a6f": {
   "name": "نامشخص",
@@ -6259,7 +6259,7 @@
   "confidence": 0.65,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-25"
  },
  "t:69c17e4b1e": {
   "name": "نامشخص",
@@ -7331,7 +7331,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "img:706a3d4d223b08": {
   "name": "کارنامه",
@@ -7613,7 +7613,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "t:ae94da00a9": {
   "name": "سرمایه بازار",
@@ -7807,7 +7807,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-25"
  },
  "kebrin.ir": {
   "name": "کبرین",

@@ -1,14 +1,14 @@
 {
  "varzesh3.com": {
   "added": "2026-10-18",
-  "scans": 32,
-  "ad_scans": 32,
+  "scans": 33,
+  "ad_scans": 33,
   "zero_streak": 0,
   "status": "active",
   "domain": "varzesh3.com",
   "source": "sheet",
   "pages": [],
-  "tranco": 1350,
+  "tranco": 1349,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -16,8 +16,8 @@
  },
  "zoomit.ir": {
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "domain": "zoomit.ir",
@@ -26,19 +26,19 @@
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 29.97,
-  "tranco": 7944
+  "avg_ads": 29.98,
+  "tranco": 7929
  },
  "digiato.com": {
   "added": "2026-10-18",
-  "scans": 32,
-  "ad_scans": 32,
+  "scans": 33,
+  "ad_scans": 33,
   "zero_streak": 0,
   "status": "active",
   "domain": "digiato.com",
   "source": "sheet",
   "pages": [],
-  "tranco": 55734,
+  "tranco": 56107,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -46,48 +46,48 @@
  },
  "ninisite.com": {
   "added": "2026-10-18",
-  "scans": 32,
-  "ad_scans": 32,
+  "scans": 33,
+  "ad_scans": 33,
   "zero_streak": 0,
   "status": "active",
   "domain": "ninisite.com",
   "source": "sheet",
   "pages": [],
-  "tranco": 1466,
+  "tranco": 1443,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 20.25
+  "avg_ads": 20.17
  },
  "tgju.org": {
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "domain": "tgju.org",
   "source": "sheet",
   "pages": [],
-  "tranco": 1385,
+  "tranco": 1388,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 21.2
+  "avg_ads": 21.74
  },
  "khabaronline.ir": {
   "domain": "khabaronline.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 61.69,
-  "tranco": 7404
+  "avg_ads": 62.08,
+  "tranco": 7392
  },
  "tabnak.ir": {
   "domain": "tabnak.ir",
@@ -100,39 +100,39 @@
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 0,
+  "fail_streak": 1,
   "avg_ads": 1.99,
-  "tranco": 7654
+  "tranco": 7645
  },
  "asriran.com": {
   "domain": "asriran.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 15349,
+  "tranco": 12553,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 3.99
+  "avg_ads": 3.39
  },
  "hamshahrionline.ir": {
   "domain": "hamshahrionline.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 32,
-  "ad_scans": 32,
+  "scans": 33,
+  "ad_scans": 33,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 17752,
+  "tranco": 17749,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 58.88
+  "avg_ads": 49.92
  },
  "isna.ir": {
   "domain": "isna.ir",
@@ -145,8 +145,8 @@
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 34,
-  "tranco": 6795
+  "fail_streak": 35,
+  "tranco": 6847
  },
  "irna.ir": {
   "domain": "irna.ir",
@@ -159,23 +159,23 @@
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 34,
-  "tranco": 5654
+  "fail_streak": 35,
+  "tranco": 5633
  },
  "mehrnews.com": {
   "domain": "mehrnews.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 6050,
+  "tranco": 6048,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 4.67
+  "avg_ads": 4.77
  },
  "tasnimnews.com": {
   "domain": "tasnimnews.com",
@@ -186,25 +186,25 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 37686,
+  "tranco": 37522,
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "farsnews.ir": {
   "domain": "farsnews.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 24,
-  "ad_scans": 24,
+  "scans": 25,
+  "ad_scans": 25,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 21.37,
-  "tranco": 6725
+  "avg_ads": 21.26,
+  "tranco": 7941
  },
  "yjc.ir": {
   "domain": "yjc.ir",
@@ -217,12 +217,27 @@
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 23,
+  "fail_streak": 24,
   "avg_ads": 6.0,
-  "tranco": 25240
+  "tranco": 20460
  },
  "entekhab.ir": {
   "domain": "entekhab.ir",
+  "source": "seed",
+  "category": "news",
+  "added": "2026-10-18",
+  "scans": 35,
+  "ad_scans": 35,
+  "zero_streak": 0,
+  "status": "active",
+  "cat_key": "news",
+  "last_scan": "2026-10-25",
+  "fail_streak": 0,
+  "avg_ads": 57.16,
+  "tranco": 13426
+ },
+ "khabarfoori.com": {
+  "domain": "khabarfoori.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
@@ -230,37 +245,22 @@
   "ad_scans": 34,
   "zero_streak": 0,
   "status": "active",
+  "tranco": 28492,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 52.52,
-  "tranco": 16447
- },
- "khabarfoori.com": {
-  "domain": "khabarfoori.com",
-  "source": "seed",
-  "category": "news",
-  "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 33,
-  "zero_streak": 0,
-  "status": "active",
-  "tranco": 23910,
-  "cat_key": "news",
-  "last_scan": "2026-10-25",
-  "fail_streak": 0,
-  "avg_ads": 12.93
+  "avg_ads": 13.25
  },
  "fararu.com": {
   "domain": "fararu.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 32,
+  "scans": 34,
+  "ad_scans": 33,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 18089,
+  "tranco": 18218,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -279,37 +279,37 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 55328
+  "tranco": 46996
  },
  "akharinkhabar.ir": {
   "domain": "akharinkhabar.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 3.0,
-  "tranco": 58102
+  "tranco": 54012
  },
  "shahrekhabar.com": {
   "domain": "shahrekhabar.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 25,
-  "ad_scans": 25,
+  "scans": 26,
+  "ad_scans": 26,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 8971,
+  "tranco": 8940,
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 1,
-  "avg_ads": 4.96
+  "fail_streak": 0,
+  "avg_ads": 4.37
  },
  "bartarinha.ir": {
   "domain": "bartarinha.ir",
@@ -324,7 +324,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 21835
+  "tranco": 26884
  },
  "didbaniran.ir": {
   "domain": "didbaniran.ir",
@@ -339,10 +339,25 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 311716
+  "tranco": 306093
  },
  "rokna.net": {
   "domain": "rokna.net",
+  "source": "seed",
+  "category": "news",
+  "added": "2026-10-18",
+  "scans": 35,
+  "ad_scans": 35,
+  "zero_streak": 0,
+  "status": "active",
+  "tranco": 54096,
+  "cat_key": "news",
+  "last_scan": "2026-10-25",
+  "fail_streak": 0,
+  "avg_ads": 9.75
+ },
+ "ilna.ir": {
+  "domain": "ilna.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
@@ -350,26 +365,11 @@
   "ad_scans": 34,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 53721,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 11.79
- },
- "ilna.ir": {
-  "domain": "ilna.ir",
-  "source": "seed",
-  "category": "news",
-  "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 33,
-  "zero_streak": 0,
-  "status": "active",
-  "cat_key": "news",
-  "last_scan": "2026-10-25",
-  "fail_streak": 0,
-  "avg_ads": 21.61,
-  "tranco": 44684
+  "avg_ads": 21.13,
+  "tranco": 44784
  },
  "snn.ir": {
   "domain": "snn.ir",
@@ -380,7 +380,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 97040,
+  "tranco": 75066,
   "cat_key": "news",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -391,15 +391,15 @@
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 18,
-  "ad_scans": 18,
+  "scans": 19,
+  "ad_scans": 19,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 105066,
+  "tranco": 100684,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 33.97
+  "avg_ads": 41.48
  },
  "mizanonline.ir": {
   "domain": "mizanonline.ir",
@@ -414,52 +414,52 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 107782
+  "tranco": 102705
  },
  "aftabnews.ir": {
   "domain": "aftabnews.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
+  "scans": 35,
   "ad_scans": 34,
-  "zero_streak": 0,
+  "zero_streak": 1,
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 6.73,
-  "tranco": 105272
+  "avg_ads": 4.71,
+  "tranco": 78752
  },
  "jamejamonline.ir": {
   "domain": "jamejamonline.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
+  "scans": 35,
   "ad_scans": 34,
-  "zero_streak": 0,
+  "zero_streak": 1,
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 6.87,
-  "tranco": 144611
+  "avg_ads": 4.81,
+  "tranco": 140925
  },
  "shahraranews.ir": {
   "domain": "shahraranews.ir",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 11.87,
-  "tranco": 125146
+  "avg_ads": 11.91,
+  "tranco": 103161
  },
  "khabarfarsi.com": {
   "domain": "khabarfarsi.com",
@@ -470,10 +470,10 @@
   "ad_scans": 2,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 43847,
+  "tranco": 36785,
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 19,
+  "fail_streak": 20,
   "avg_ads": 6.0
  },
  "jamaran.news": {
@@ -481,60 +481,60 @@
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 61872,
+  "tranco": 61357,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 24.31
+  "avg_ads": 25.72
  },
  "sharghdaily.com": {
   "domain": "sharghdaily.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 54947,
+  "tranco": 55316,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 2.04
+  "avg_ads": 2.03
  },
  "etemadonline.com": {
   "domain": "etemadonline.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 126064,
+  "tranco": 123160,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 25.64
+  "avg_ads": 26.05
  },
  "ettelaat.com": {
   "domain": "ettelaat.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 29,
-  "ad_scans": 29,
+  "scans": 30,
+  "ad_scans": 30,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 134602,
+  "tranco": 150882,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 22.8
+  "avg_ads": 17.16
  },
  "jahannews.com": {
   "domain": "jahannews.com",
@@ -545,36 +545,36 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 125516,
+  "tranco": 118480,
   "cat_key": "news",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "mojnews.com": {
   "domain": "mojnews.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 30,
-  "ad_scans": 30,
+  "scans": 31,
+  "ad_scans": 31,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 131434,
+  "tranco": 143282,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 4.99
+  "avg_ads": 4.69
  },
  "ensafnews.com": {
   "domain": "ensafnews.com",
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 27,
-  "ad_scans": 27,
+  "scans": 28,
+  "ad_scans": 28,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 158893,
+  "tranco": 181737,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -589,7 +589,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 80830,
+  "tranco": 76814,
   "cat_key": "news",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -608,7 +608,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 81142
+  "tranco": 82273
  },
  "imna.ir": {
   "domain": "imna.ir",
@@ -623,7 +623,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 54820
+  "tranco": 53275
  },
  "newshanik.ir": {
   "domain": "newshanik.ir",
@@ -638,7 +638,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 87858
+  "tranco": 87830
  },
  "parsine.com": {
   "domain": "parsine.com",
@@ -649,7 +649,7 @@
   "ad_scans": 29,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 198294,
+  "tranco": 178122,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -660,15 +660,15 @@
   "source": "seed",
   "category": "news",
   "added": "2026-10-18",
-  "scans": 33,
+  "scans": 34,
   "ad_scans": 32,
-  "zero_streak": 0,
+  "zero_streak": 1,
   "status": "active",
-  "tranco": 247687,
+  "tranco": 196487,
   "cat_key": "news",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 10.26
+  "avg_ads": 7.18
  },
  "aftabir.com": {
   "domain": "aftabir.com",
@@ -679,7 +679,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 322568,
+  "tranco": 343741,
   "cat_key": "news",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -694,7 +694,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 54311,
+  "tranco": 54562,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -705,11 +705,11 @@
   "source": "seed",
   "category": "economy_finance",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 8018,
+  "tranco": 7937,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -720,26 +720,26 @@
   "source": "seed",
   "category": "economy_finance",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 63015,
+  "tranco": 62732,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 17.21
+  "avg_ads": 15.65
  },
  "ecoiran.com": {
   "domain": "ecoiran.com",
   "source": "seed",
   "category": "economy_finance",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 71125,
+  "tranco": 85211,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -750,11 +750,11 @@
   "source": "seed",
   "category": "economy_finance",
   "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 33,
+  "scans": 34,
+  "ad_scans": 34,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 16671,
+  "tranco": 13711,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -769,7 +769,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 46737,
+  "tranco": 33698,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -780,15 +780,15 @@
   "source": "seed",
   "category": "economy_finance",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 11.05,
-  "tranco": 9274
+  "avg_ads": 11.63,
+  "tranco": 9231
  },
  "estjt.ir": {
   "domain": "estjt.ir",
@@ -803,7 +803,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 25466
+  "tranco": 30938
  },
  "bahesab.ir": {
   "domain": "bahesab.ir",
@@ -818,7 +818,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 9180
+  "tranco": 9163
  },
  "bourse24.ir": {
   "domain": "bourse24.ir",
@@ -832,7 +832,7 @@
   "cat_key": "economy_finance",
   "last_scan": "2026-10-19",
   "fail_streak": 0,
-  "tranco": 176547,
+  "tranco": 169755,
   "avg_ads": 0.0
  },
  "nabzebourse.com": {
@@ -844,7 +844,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 157820,
+  "tranco": 124681,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -863,7 +863,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 163658
+  "tranco": 170769
  },
  "isignal.ir": {
   "domain": "isignal.ir",
@@ -876,9 +876,9 @@
   "status": "active",
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
-  "fail_streak": 2,
+  "fail_streak": 3,
   "avg_ads": 34.49,
-  "tranco": 21500
+  "tranco": 21632
  },
  "sena.ir": {
   "domain": "sena.ir",
@@ -889,10 +889,10 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 894993,
+  "tranco": 889929,
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "akhbarbank.com": {
   "domain": "akhbarbank.com",
@@ -905,18 +905,18 @@
   "status": "active",
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "vigiato.net": {
   "domain": "vigiato.net",
   "source": "seed",
   "category": "tech",
   "added": "2026-10-18",
-  "scans": 31,
-  "ad_scans": 31,
+  "scans": 32,
+  "ad_scans": 32,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 78189,
+  "tranco": 78402,
   "cat_key": "tech",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -927,15 +927,15 @@
   "source": "seed",
   "category": "tech",
   "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 33,
+  "scans": 34,
+  "ad_scans": 34,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 60418,
+  "tranco": 61111,
   "cat_key": "tech",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 5.75
+  "avg_ads": 5.82
  },
  "itiran.com": {
   "domain": "itiran.com",
@@ -956,8 +956,8 @@
   "source": "seed",
   "category": "tech",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "tech",
@@ -970,30 +970,30 @@
   "source": "seed",
   "category": "tech",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 270551,
+  "tranco": 282012,
   "cat_key": "tech",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 6.87
+  "avg_ads": 6.91
  },
  "mobile.ir": {
   "domain": "mobile.ir",
   "source": "seed",
   "category": "tech",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "tech",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 9.0,
-  "tranco": 78645
+  "tranco": 78792
  },
  "dailytec.ir": {
   "domain": "dailytec.ir",
@@ -1008,18 +1008,18 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 239663
+  "tranco": 294151
  },
  "pedal.ir": {
   "domain": "pedal.ir",
   "source": "seed",
   "category": "tech",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 70771,
+  "tranco": 70774,
   "cat_key": "tech",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -1030,45 +1030,45 @@
   "source": "seed",
   "category": "gaming",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 66558,
+  "tranco": 66233,
   "cat_key": "gaming",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 17.07
+  "avg_ads": 17.35
  },
  "gamefa.com": {
   "domain": "gamefa.com",
   "source": "seed",
   "category": "gaming",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 21469,
+  "tranco": 21592,
   "cat_key": "gaming",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 33.72
+  "avg_ads": 33.5
  },
  "par30games.net": {
   "domain": "par30games.net",
   "source": "seed",
   "category": "gaming",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 75438,
+  "tranco": 75334,
   "cat_key": "gaming",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 30.99
+  "avg_ads": 30.69
  },
  "pardisgame.net": {
   "domain": "pardisgame.net",
@@ -1081,37 +1081,37 @@
   "status": "active",
   "cat_key": "gaming",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "tarafdari.com": {
   "domain": "tarafdari.com",
   "source": "seed",
   "category": "sports",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 55327,
+  "tranco": 55534,
   "cat_key": "sports",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 4.27
+  "avg_ads": 4.49
  },
  "footballi.net": {
   "domain": "footballi.net",
   "source": "seed",
   "category": "sports",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 18102,
+  "tranco": 18458,
   "cat_key": "sports",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 4.61
+  "avg_ads": 5.03
  },
  "football360.ir": {
   "domain": "football360.ir",
@@ -1122,7 +1122,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 61499,
+  "tranco": 61839,
   "cat_key": "sports",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1133,15 +1133,15 @@
   "source": "seed",
   "category": "sports",
   "added": "2026-10-18",
-  "scans": 32,
-  "ad_scans": 32,
+  "scans": 33,
+  "ad_scans": 33,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 21216,
+  "tranco": 21192,
   "cat_key": "sports",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 15.88
+  "avg_ads": 11.72
  },
  "varzeshi.com": {
   "domain": "varzeshi.com",
@@ -1154,7 +1154,7 @@
   "status": "active",
   "cat_key": "sports",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "anten.ir": {
   "domain": "anten.ir",
@@ -1168,7 +1168,7 @@
   "cat_key": "sports",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
-  "tranco": 64393,
+  "tranco": 64787,
   "avg_ads": 0.0
  },
  "aparatsport.ir": {
@@ -1184,7 +1184,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 72162
+  "tranco": 70053
  },
  "footini.ir": {
   "domain": "footini.ir",
@@ -1199,7 +1199,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 182272
+  "tranco": 172377
  },
  "navad.net": {
   "domain": "navad.net",
@@ -1212,7 +1212,7 @@
   "status": "active",
   "cat_key": "sports",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "beytoote.com": {
   "domain": "beytoote.com",
@@ -1223,7 +1223,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 21423,
+  "tranco": 26281,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1234,11 +1234,11 @@
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 8553,
+  "tranco": 8454,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -1249,45 +1249,45 @@
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 21438,
+  "tranco": 21234,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 6.45
+  "avg_ads": 6.31
  },
  "delgarm.com": {
   "domain": "delgarm.com",
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 8949,
+  "tranco": 8985,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 4.98
+  "avg_ads": 4.99
  },
  "chetor.com": {
   "domain": "chetor.com",
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 71866,
+  "tranco": 71802,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 4.34
+  "avg_ads": 4.24
  },
  "roozaneh.net": {
   "domain": "roozaneh.net",
@@ -1298,7 +1298,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 71053,
+  "tranco": 70791,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1309,8 +1309,8 @@
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "lifestyle",
@@ -1323,90 +1323,90 @@
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 7.4,
-  "tranco": 9529
+  "avg_ads": 6.98,
+  "tranco": 9482
  },
  "fardayetaze.ir": {
   "domain": "fardayetaze.ir",
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 30,
+  "scans": 34,
+  "ad_scans": 31,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "tranco": 9759,
-  "avg_ads": 3.06
+  "tranco": 9691,
+  "avg_ads": 3.94
  },
  "bahalmag.ir": {
   "domain": "bahalmag.ir",
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 18.11,
-  "tranco": 10959
+  "avg_ads": 18.08,
+  "tranco": 12809
  },
  "chishi.ir": {
   "domain": "chishi.ir",
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 8.34,
-  "tranco": 83500
+  "avg_ads": 8.24,
+  "tranco": 83304
  },
  "tebyan.net": {
   "domain": "tebyan.net",
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 34,
+  "scans": 35,
   "ad_scans": 34,
-  "zero_streak": 0,
+  "zero_streak": 1,
   "status": "active",
-  "tranco": 49887,
+  "tranco": 55062,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 6.76
+  "avg_ads": 4.73
  },
  "rasekhoon.net": {
   "domain": "rasekhoon.net",
   "source": "seed",
   "category": "lifestyle",
   "added": "2026-10-18",
-  "scans": 30,
-  "ad_scans": 30,
+  "scans": 31,
+  "ad_scans": 31,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 141517,
+  "tranco": 133691,
   "cat_key": "lifestyle",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 2.64
+  "avg_ads": 2.15
  },
  "drdr.ir": {
   "domain": "drdr.ir",
@@ -1420,7 +1420,7 @@
   "cat_key": "health",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
-  "tranco": 22055,
+  "tranco": 22146,
   "avg_ads": 0.0
  },
  "darooyab.ir": {
@@ -1428,15 +1428,15 @@
   "source": "seed",
   "category": "health",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "health",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 7.79,
-  "tranco": 22086
+  "avg_ads": 9.05,
+  "tranco": 22141
  },
  "doctor-yab.ir": {
   "domain": "doctor-yab.ir",
@@ -1451,7 +1451,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 78438
+  "tranco": 80086
  },
  "hidoctor.ir": {
   "domain": "hidoctor.ir",
@@ -1462,7 +1462,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 439634,
+  "tranco": 378043,
   "cat_key": "health",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1477,10 +1477,10 @@
   "ad_scans": 33,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 183431,
+  "tranco": 184112,
   "cat_key": "health",
   "last_scan": "2026-10-25",
-  "fail_streak": 0,
+  "fail_streak": 1,
   "avg_ads": 1.54
  },
  "salamatnews.com": {
@@ -1492,7 +1492,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 314354,
+  "tranco": 292167,
   "cat_key": "health",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1507,7 +1507,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 438748,
+  "tranco": 442617,
   "cat_key": "parenting",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1518,30 +1518,30 @@
   "source": "seed",
   "category": "food",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "food",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 8.99,
-  "tranco": 23219
+  "tranco": 23389
  },
  "mamifood.org": {
   "domain": "mamifood.org",
   "source": "seed",
   "category": "food",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "food",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 3.0,
-  "tranco": 806514
+  "tranco": 806232
  },
  "bama.ir": {
   "domain": "bama.ir",
@@ -1552,7 +1552,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 8944,
+  "tranco": 9109,
   "cat_key": "auto",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1567,7 +1567,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 83603,
+  "tranco": 83604,
   "cat_key": "auto",
   "last_scan": "2026-10-19",
   "fail_streak": 0,
@@ -1582,10 +1582,10 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 229498,
+  "tranco": 272209,
   "cat_key": "auto",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "automoby.ir": {
   "domain": "automoby.ir",
@@ -1600,7 +1600,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 186176
+  "tranco": 186234
  },
  "khodro45.com": {
   "domain": "khodro45.com",
@@ -1611,7 +1611,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 22091,
+  "tranco": 22136,
   "cat_key": "auto",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1622,21 +1622,6 @@
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 33,
-  "zero_streak": 0,
-  "status": "active",
-  "cat_key": "download_music",
-  "last_scan": "2026-10-25",
-  "fail_streak": 0,
-  "avg_ads": 9.5,
-  "tranco": 46183
- },
- "p30download.ir": {
-  "domain": "p30download.ir",
-  "source": "seed",
-  "category": "download_music",
-  "added": "2026-10-18",
   "scans": 34,
   "ad_scans": 34,
   "zero_streak": 0,
@@ -1644,8 +1629,23 @@
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
+  "avg_ads": 9.35,
+  "tranco": 47444
+ },
+ "p30download.ir": {
+  "domain": "p30download.ir",
+  "source": "seed",
+  "category": "download_music",
+  "added": "2026-10-18",
+  "scans": 35,
+  "ad_scans": 35,
+  "zero_streak": 0,
+  "status": "active",
+  "cat_key": "download_music",
+  "last_scan": "2026-10-25",
+  "fail_streak": 0,
   "avg_ads": 5.0,
-  "tranco": 147209
+  "tranco": 150565
  },
  "sarzamindownload.com": {
   "domain": "sarzamindownload.com",
@@ -1656,7 +1656,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 168992,
+  "tranco": 168641,
   "cat_key": "download_music",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1667,15 +1667,15 @@
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 154355,
+  "tranco": 157050,
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 5.83
+  "avg_ads": 4.38
  },
  "yasdl.com": {
   "domain": "yasdl.com",
@@ -1686,7 +1686,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 72519,
+  "tranco": 72787,
   "cat_key": "download_music",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1697,60 +1697,60 @@
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 33,
-  "ad_scans": 33,
+  "scans": 34,
+  "ad_scans": 34,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 32.99,
-  "tranco": 77501
+  "tranco": 77405
  },
  "downloadly.ir": {
   "domain": "downloadly.ir",
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 8.66,
-  "tranco": 142144
+  "avg_ads": 6.96,
+  "tranco": 149249
  },
  "teh-dl.ir": {
   "domain": "teh-dl.ir",
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 10.99,
-  "tranco": 82216
+  "tranco": 83505
  },
  "vgdl.ir": {
   "domain": "vgdl.ir",
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 6.0,
-  "tranco": 81662
+  "tranco": 80605
  },
  "farsfile.ir": {
   "domain": "farsfile.ir",
@@ -1765,22 +1765,22 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 191141
+  "tranco": 182737
  },
  "nexload.ir": {
   "domain": "nexload.ir",
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 29,
-  "ad_scans": 29,
+  "scans": 30,
+  "ad_scans": 30,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "tranco": 87859,
-  "avg_ads": 21.89
+  "tranco": 87831,
+  "avg_ads": 22.22
  },
  "musicdel.ir": {
   "domain": "musicdel.ir",
@@ -1795,22 +1795,22 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 1535
+  "tranco": 1528
  },
  "musicviral.ir": {
   "domain": "musicviral.ir",
   "source": "seed",
   "category": "download_music",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 5.99,
-  "tranco": 9373
+  "tranco": 9340
  },
  "melody98.ir": {
   "domain": "melody98.ir",
@@ -1825,7 +1825,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 9385
+  "tranco": 9352
  },
  "uptune.ir": {
   "domain": "uptune.ir",
@@ -1840,7 +1840,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 9765
+  "tranco": 9711
  },
  "mt98.ir": {
   "domain": "mt98.ir",
@@ -1855,7 +1855,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 10153
+  "tranco": 10098
  },
  "biamusic.ir": {
   "domain": "biamusic.ir",
@@ -1870,7 +1870,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 1.72,
-  "tranco": 17570
+  "tranco": 13984
  },
  "download1music.ir": {
   "domain": "download1music.ir",
@@ -1885,7 +1885,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 21825
+  "tranco": 22046
  },
  "webahang.ir": {
   "domain": "webahang.ir",
@@ -1900,7 +1900,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 81442
+  "tranco": 81486
  },
  "golsarmusic.ir": {
   "domain": "golsarmusic.ir",
@@ -1915,7 +1915,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 95844
+  "tranco": 111045
  },
  "aparat.com": {
   "domain": "aparat.com",
@@ -1926,7 +1926,7 @@
   "ad_scans": 17,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 1123,
+  "tranco": 1127,
   "cat_key": "video",
   "last_scan": "2026-10-23",
   "fail_streak": 0,
@@ -1937,11 +1937,11 @@
   "source": "seed",
   "category": "video",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 8079,
+  "tranco": 10629,
   "cat_key": "video",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -1956,7 +1956,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 66492,
+  "tranco": 67059,
   "cat_key": "video",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -1975,7 +1975,7 @@
   "last_scan": "2026-10-20",
   "fail_streak": 0,
   "avg_ads": 0.69,
-  "tranco": 18917
+  "tranco": 25994
  },
  "filmnet.ir": {
   "domain": "filmnet.ir",
@@ -1990,7 +1990,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 59675
+  "tranco": 59685
  },
  "upera.tv": {
   "domain": "upera.tv",
@@ -2001,7 +2001,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 289244,
+  "tranco": 283703,
   "cat_key": "video",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -2016,7 +2016,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 284813,
+  "tranco": 247707,
   "cat_key": "video",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -2031,10 +2031,10 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 74971,
+  "tranco": 75036,
   "cat_key": "video",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "uptvs.com": {
   "domain": "uptvs.com",
@@ -2045,7 +2045,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 79667,
+  "tranco": 79937,
   "cat_key": "video",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -2060,7 +2060,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 90647,
+  "tranco": 107878,
   "cat_key": "video",
   "last_scan": "2026-10-19",
   "fail_streak": 0,
@@ -2075,7 +2075,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 71715,
+  "tranco": 71940,
   "cat_key": "video",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -2086,15 +2086,15 @@
   "source": "seed",
   "category": "video",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 197531,
+  "tranco": 200129,
   "cat_key": "video",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 1.24
+  "avg_ads": 1.17
  },
  "e-estekhdam.com": {
   "domain": "e-estekhdam.com",
@@ -2105,7 +2105,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 10614,
+  "tranco": 12349,
   "cat_key": "education_jobs",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -2124,7 +2124,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 73023
+  "tranco": 73051
  },
  "jobinja.ir": {
   "domain": "jobinja.ir",
@@ -2139,22 +2139,22 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 67893
+  "tranco": 67665
  },
  "jobvision.ir": {
   "domain": "jobvision.ir",
   "source": "seed",
   "category": "education_jobs",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "education_jobs",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 2.99,
-  "tranco": 20021
+  "tranco": 20375
  },
  "sanjesh.org": {
   "domain": "sanjesh.org",
@@ -2165,40 +2165,40 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 10517,
+  "tranco": 12192,
   "cat_key": "education_jobs",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "testchi.ir": {
   "domain": "testchi.ir",
   "source": "seed",
   "category": "education_jobs",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "education_jobs",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 7.08,
-  "tranco": 25071
+  "avg_ads": 7.06,
+  "tranco": 29805
  },
  "daneshchi.ir": {
   "domain": "daneshchi.ir",
   "source": "seed",
   "category": "education_jobs",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "education_jobs",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
-  "avg_ads": 12.52,
-  "tranco": 81676
+  "avg_ads": 12.96,
+  "tranco": 81700
  },
  "konkorsad.ir": {
   "domain": "konkorsad.ir",
@@ -2213,7 +2213,7 @@
   "last_scan": "2026-10-19",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 240468
+  "tranco": 294969
  },
  "virgool.io": {
   "domain": "virgool.io",
@@ -2224,7 +2224,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 42270,
+  "tranco": 41023,
   "cat_key": "education_jobs",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -2239,10 +2239,10 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 50709,
+  "tranco": 51138,
   "cat_key": "education_jobs",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "time.ir": {
   "domain": "time.ir",
@@ -2257,7 +2257,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 46433
+  "tranco": 47046
  },
  "abadis.ir": {
   "domain": "abadis.ir",
@@ -2272,7 +2272,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 8535
+  "tranco": 8520
  },
  "vajehyab.com": {
   "domain": "vajehyab.com",
@@ -2287,7 +2287,7 @@
   "last_scan": "2026-10-18",
   "fail_streak": 0,
   "avg_ads": 0.0,
-  "tranco": 84681
+  "tranco": 78065
  },
  "blogfa.com": {
   "domain": "blogfa.com",
@@ -2298,7 +2298,7 @@
   "ad_scans": 0,
   "zero_streak": 3,
   "status": "dormant",
-  "tranco": 21480,
+  "tranco": 20960,
   "cat_key": "utility",
   "last_scan": "2026-10-18",
   "fail_streak": 0,
@@ -2313,21 +2313,21 @@
   "ad_scans": 0,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 70452,
+  "tranco": 69511,
   "cat_key": "utility",
   "last_scan": "2026-10-25",
-  "fail_streak": 34
+  "fail_streak": 35
  },
  "kojaro.com": {
   "domain": "kojaro.com",
   "source": "seed",
   "category": "travel",
   "added": "2026-10-18",
-  "scans": 34,
-  "ad_scans": 34,
+  "scans": 35,
+  "ad_scans": 35,
   "zero_streak": 0,
   "status": "active",
-  "tranco": 145619,
+  "tranco": 144356,
   "cat_key": "travel",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
@@ -2338,7 +2338,7 @@
   "source": "discovered",
   "category": "economy",
   "added": "2026-10-18",
-  "tranco": null,
+  "tranco": 731448,
   "linked_by": 3,
   "scans": 3,
   "ad_scans": 0,
@@ -2354,7 +2354,7 @@
   "source": "discovered",
   "category": "economy",
   "added": "2026-10-18",
-  "tranco": null,
+  "tranco": 152713,
   "linked_by": 3,
   "scans": 0,
   "ad_scans": 0,
@@ -2362,7 +2362,7 @@
   "status": "probation",
   "cat_key": "economy_finance",
   "last_scan": "2026-10-25",
-  "fail_streak": 33
+  "fail_streak": 34
  },
  "faazino.com": {
   "domain": "faazino.com",
@@ -2385,15 +2385,75 @@
   "source": "discovered",
   "category": "download",
   "added": "2026-10-18",
-  "tranco": null,
+  "tranco": 8663,
   "linked_by": 3,
-  "scans": 33,
-  "ad_scans": 33,
+  "scans": 34,
+  "ad_scans": 34,
   "zero_streak": 0,
   "status": "active",
   "cat_key": "download_music",
   "last_scan": "2026-10-25",
   "fail_streak": 0,
   "avg_ads": 2.99
+ },
+ "technolife.com": {
+  "domain": "technolife.com",
+  "source": "discovered",
+  "category": "other",
+  "added": "2026-10-25",
+  "tranco": null,
+  "linked_by": 10,
+  "scans": 0,
+  "ad_scans": 0,
+  "zero_streak": 0,
+  "status": "probation"
+ },
+ "zoomon.ir": {
+  "domain": "zoomon.ir",
+  "source": "discovered",
+  "category": "other",
+  "added": "2026-10-25",
+  "tranco": 576646,
+  "linked_by": 5,
+  "scans": 0,
+  "ad_scans": 0,
+  "zero_streak": 0,
+  "status": "probation"
+ },
+ "zoomapp.app": {
+  "domain": "zoomapp.app",
+  "source": "discovered",
+  "category": "other",
+  "added": "2026-10-25",
+  "tranco": null,
+  "linked_by": 4,
+  "scans": 0,
+  "ad_scans": 0,
+  "zero_streak": 0,
+  "status": "probation"
+ },
+ "estelamonline.net": {
+  "domain": "estelamonline.net",
+  "source": "discovered",
+  "category": "other",
+  "added": "2026-10-25",
+  "tranco": null,
+  "linked_by": 4,
+  "scans": 0,
+  "ad_scans": 0,
+  "zero_streak": 0,
+  "status": "probation"
+ },
+ "tamironline.com": {
+  "domain": "tamironline.com",
+  "source": "discovered",
+  "category": "other",
+  "added": "2026-10-25",
+  "tranco": null,
+  "linked_by": 3,
+  "scans": 0,
+  "ad_scans": 0,
+  "zero_streak": 0,
+  "status": "probation"
  }
 }
