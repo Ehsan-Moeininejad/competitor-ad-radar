@@ -306,13 +306,15 @@
   "technolife.com",
   "tamironline.com",
   "footballi.net",
-  "kojaro.com"
+  "kojaro.com",
+  "tgju.org"
  ],
  "technoexpressco.com": [
   "technolife.com"
  ],
  "play.google.com": [
-  "tamironline.com"
+  "tamironline.com",
+  "tgju.org"
  ],
  "exiraz.com": [
   "khabaronline.ir"
@@ -397,7 +399,8 @@
   "iranjib.ir",
   "mehrnews.com",
   "aftabnews.ir",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "shahrekhabar.com"
  ],
  "snapppay.ir": [
   "khabaronline.ir",
@@ -482,7 +485,9 @@
   "tebyan.net",
   "aftabnews.ir",
   "jamejamonline.ir",
-  "asriran.com"
+  "asriran.com",
+  "mojnews.com",
+  "rasekhoon.net"
  ],
  "taline.ir": [
   "hamshahrionline.ir",
@@ -614,7 +619,8 @@
   "hamshahrionline.ir"
  ],
  "karnameh.com": [
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "tgju.org"
  ],
  "irfarabi.com": [
   "hamshahrionline.ir"
@@ -924,7 +930,8 @@
  "bimeh.com": [
   "ettelaat.com",
   "gadgetnews.net",
-  "mehrnews.com"
+  "mehrnews.com",
+  "shahrekhabar.com"
  ],
  "bolurtarabar.ir": [
   "ettelaat.com",
@@ -990,7 +997,8 @@
   "fararu.com"
  ],
  "l.karamad.com": [
-  "fararu.com"
+  "fararu.com",
+  "tgju.org"
  ],
  "pspexpress.com": [
   "khabarfoori.com"
@@ -1284,7 +1292,8 @@
  ],
  "pinterest.com": [
   "setare.com",
-  "delgarm.com"
+  "delgarm.com",
+  "tgju.org"
  ],
  "drhosnani.com": [
   "namnak.com"
@@ -1337,7 +1346,8 @@
   "gadgetnews.net"
  ],
  "ircd.me": [
-  "gadgetnews.net"
+  "gadgetnews.net",
+  "tgju.org"
  ],
  "cloopy.ir": [
   "footballi.net"
@@ -1791,5 +1801,92 @@
  ],
  "ecunion.ir": [
   "drsaina.com"
+ ],
+ "mfid.ir": [
+  "tgju.org"
+ ],
+ "iblink.ir": [
+  "tgju.org"
+ ],
+ "melligold.com": [
+  "tgju.org"
+ ],
+ "vistaamc.ir": [
+  "tgju.org"
+ ],
+ "ipgd.ir": [
+  "tgju.org"
+ ],
+ "zaya.io": [
+  "tgju.org"
+ ],
+ "bmcarsonline.com": [
+  "tgju.org"
+ ],
+ "aminland.ir": [
+  "tgju.org"
+ ],
+ "app.tgju.exchange": [
+  "tgju.org"
+ ],
+ "iwmf.ir": [
+  "tgju.org"
+ ],
+ "persianapi.com": [
+  "tgju.org"
+ ],
+ "tgju.gold": [
+  "tgju.org"
+ ],
+ "marketban.com": [
+  "tgju.org"
+ ],
+ "marketpanorama.com": [
+  "tgju.org"
+ ],
+ "iapps.ir": [
+  "tgju.org"
+ ],
+ "anardoni.com": [
+  "tgju.org"
+ ],
+ "sibirani.com": [
+  "tgju.org"
+ ],
+ "twitch.tv": [
+  "tgju.org"
+ ],
+ "me": [
+  "tgju.org"
+ ],
+ "slack.com": [
+  "tgju.org"
+ ],
+ "wa.me": [
+  "tgju.org"
+ ],
+ "google.com": [
+  "shahrekhabar.com"
+ ],
+ "bnmod.ir": [
+  "shahrekhabar.com"
+ ],
+ "snapp.market": [
+  "shahrekhabar.com"
+ ],
+ "denro.ir": [
+  "shahrekhabar.com"
+ ],
+ "nedabal.com": [
+  "shahrekhabar.com"
+ ],
+ "azki.com": [
+  "shahrekhabar.com"
+ ],
+ "iran-posh.ir": [
+  "shahrekhabar.com"
+ ],
+ "ketabane.org": [
+  "shahrekhabar.com"
  ]
 }
