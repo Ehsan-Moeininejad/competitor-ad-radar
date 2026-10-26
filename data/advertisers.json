@@ -61,7 +61,8 @@
   "name": "باسلام",
   "vertical": "marketplace",
   "level": "core",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-10-26"
  },
  "timcheh.com": {
   "name": "تیمچه",
@@ -509,7 +510,7 @@
   "vertical": "supermarket",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "snapp.market": {
   "name": "اسنپ‌مارکت",
@@ -2068,7 +2069,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "berjismed.com": {
   "name": "برجیس",
@@ -2078,7 +2079,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "meschi.ir": {
   "name": "مس چی",
@@ -2438,7 +2439,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "t:7671b4b882": {
   "name": "درمان ریزش مو",
@@ -2922,7 +2923,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "rsmta.ir": {
   "name": "راکستار ام تی ای",
@@ -4326,7 +4327,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "t:26e6347e55": {
   "name": "شهر فرش",
@@ -4356,7 +4357,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "t:623e039029": {
   "name": "نامشخص",
@@ -4656,7 +4657,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-26"
  },
  "t:83dd4ecbdf": {
   "name": "نامشخص",
@@ -6110,7 +6111,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-26"
  },
  "shahrkhanegi.com": {
   "name": "شهر لوازم خانگی",
@@ -6190,7 +6191,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "t:5eba8f5a6f": {
   "name": "نامشخص",
@@ -6730,7 +6731,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "hiska.shop": {
   "name": "هیسکا",
@@ -7158,7 +7159,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-26"
  },
  "t:7336c2726f": {
   "name": "نامشخص (فروشگاه کتاب)",
@@ -7506,7 +7507,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-26"
  },
  "t:96464c0d65": {
   "name": "تبدیل",
@@ -7952,7 +7953,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "t:0bc011dc30": {
   "name": "زولا",
@@ -8322,7 +8323,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "t:26f24be778": {
   "name": "آلپاری",
@@ -8432,7 +8433,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-26"
  },
  "t:097f7b6c2a": {
   "name": "مناقصات و مزایدات",
@@ -8757,6 +8758,164 @@
   "domain_guess": "milli.gold",
   "confidence": 0.85,
   "source": "vision",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "brand:ویپاد": {
+  "name": "ویپاد",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:955211062b": {
+  "name": "اسنپ پی",
+  "name_en": "SnappPay",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:8d9e23b470": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:54a1f03996": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:3fc91fba1b": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:32f73c3df3": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:40dd396290": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:15753d23b6": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "adleiranian.co": {
+  "name": "عدل ایرانیان",
+  "name_en": "Adl Iranian",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:449c8b5217": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "digital",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:081602086c": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:f1888785c2": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:df7cb2431f": {
+  "name": "هاست ایران",
+  "name_en": "Host Iran",
+  "vertical": "digital",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "drkamalihakim.ir": {
+  "name": "دندانپزشکی تخصصی ایثار",
+  "name_en": "Isar Dental Clinic",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "t:44bb981399": {
+  "name": "ناشناخته",
+  "name_en": "Unknown",
+  "vertical": "digital",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-26",
+  "last_seen": "2026-10-26"
+ },
+ "dieseliran.com": {
+  "name": "دیزل ایران",
+  "name_en": "Diesel Iran",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
   "first_seen": "2026-10-26",
   "last_seen": "2026-10-26"
  }
