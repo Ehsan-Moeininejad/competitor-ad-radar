@@ -561,7 +561,8 @@
  ],
  "vaghardoost.com": [
   "hamshahrionline.ir",
-  "jamejamonline.ir"
+  "jamejamonline.ir",
+  "mehrnews.com"
  ],
  "evtech.ir": [
   "hamshahrionline.ir"
@@ -1888,5 +1889,21 @@
  ],
  "ketabane.org": [
   "shahrekhabar.com"
+ ],
+ "ravandarman.com": [
+  "khabaronline.ir"
+ ],
+ "rasmio.com": [
+  "iranjib.ir"
+ ],
+ "najiweblog.ir": [
+  "mehrnews.com"
+ ],
+ "tamirbosch.com": [
+  "mehrnews.com"
+ ],
+ "khanoumi.com": [
+  "asriran.com",
+  "sharghdaily.com"
  ]
 }
