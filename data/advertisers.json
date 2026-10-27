@@ -422,7 +422,7 @@
   "vertical": "auto",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "bama.ir": {
   "name": "باما",
@@ -650,7 +650,8 @@
   "name": "تارا",
   "vertical": "fintech_bnpl",
   "level": "vertical",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-10-27"
  },
  "azkivam.com": {
   "name": "ازکی‌وام",
@@ -879,7 +880,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -1211,7 +1212,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "jeanswest.ir": {
   "name": "جین‌وست",
@@ -1315,7 +1316,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-27"
  },
  "wikishop.co": {
   "name": "همراه مکانیک",
@@ -2059,7 +2060,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:bc3b5e9a58": {
   "name": "ازکی سلر",
@@ -2199,7 +2200,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "ecotrust.ir": {
   "name": "مشاور سرمایه گذاری ترنج (اکوترست)",
@@ -2519,7 +2520,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -2695,7 +2696,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-27"
  },
  "brand:طلاسی": {
   "name": "طلاسی",
@@ -3013,7 +3014,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-27"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -4027,7 +4028,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-27"
  },
  "alpariforexfa.org": {
   "name": "آلپاری",
@@ -4357,7 +4358,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:623e039029": {
   "name": "نامشخص",
@@ -5099,7 +5100,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:a0011c94af": {
   "name": "t:a0011c94af",
@@ -5479,7 +5480,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:5af72a2855": {
   "name": "پی کن دو",
@@ -5579,7 +5580,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:05d9184e9e": {
   "name": "t:05d9184e9e",
@@ -5639,7 +5640,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-27"
  },
  "aparatsport.ir": {
   "name": "آپارات اسپرت",
@@ -6111,7 +6112,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "shahrkhanegi.com": {
   "name": "شهر لوازم خانگی",
@@ -6141,7 +6142,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:56270d8945": {
   "name": "ازکی سلر",
@@ -6755,7 +6756,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "shamana.food": {
   "name": "شامانا",
@@ -7159,7 +7160,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:7336c2726f": {
   "name": "نامشخص (فروشگاه کتاب)",
@@ -7679,7 +7680,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-27"
  },
  "t:8bb142fc50": {
   "name": "آپارات اسپرت / عادل فردوسی پور",
@@ -7739,7 +7740,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "hamrahgold.com": {
   "name": "همراه گلد",
@@ -7953,7 +7954,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:0bc011dc30": {
   "name": "زولا",
@@ -7963,7 +7964,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:e049d5820d": {
   "name": "پنجره",
@@ -8393,7 +8394,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:719755d7ff": {
   "name": "پیش بینی فوتبال",
@@ -8593,7 +8594,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "khosravani.com": {
   "name": "خسروانی",
@@ -9046,6 +9047,14 @@
   "domain_guess": "bama.ir",
   "confidence": 0.8,
   "source": "vision",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
+ "brand:نوار": {
+  "name": "نوار",
+  "vertical": "books_stationery",
+  "level": "vertical",
+  "source": "name-match",
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
  }
