@@ -132,6 +132,9 @@ def size_of(sl):
     return f"Custom ~{round(w, -1)}x{round(h, -1)}"
 
 
+NET_ROOTS = {root_domain(h) for n in load_yaml("ad_networks.yaml").get("networks", {}).values() for h in (n.get("hosts") or [])}
+
+
 def observations(pages: list, brands: Brands, tracking_params: list, run_id: str, landings: dict) -> list:
     obs = []
     for p in pages:
@@ -163,8 +166,10 @@ def observations(pages: list, brands: Brands, tracking_params: list, run_id: str
                 clean = strip_tracking(real, tracking_params) if real else ""
                 land = landings.get(clean) or {}
                 adv_dom = root_domain(domain_of(real)) if real else ""
+                if adv_dom in NET_ROOTS:   # still the ad network's click URL → advertiser unknown (text / vision decide)
+                    adv_dom = ""
                 # short links / trackers (l.azki.com, mfid.ir…) → use the domain the landing actually resolved to
-                if land.get("final_domain") and root_domain(land["final_domain"]) != adv_dom and not land.get("error"):
+                if land.get("final_domain") and root_domain(land["final_domain"]) != adv_dom and not land.get("error") and root_domain(land["final_domain"]) not in NET_ROOTS:
                     adv_dom = root_domain(land["final_domain"])
                 brand = brands.by_dom(adv_dom) or brands.by_text(title + " " + (land.get("title") or ""))
                 utm = utm_of(real) if real else {}
@@ -176,7 +181,7 @@ def observations(pages: list, brands: Brands, tracking_params: list, run_id: str
                     "landing": clean[:400], "adv_domain": adv_dom, "utm": utm,
                     "brand": brand["name"] if brand else "", "level": brand.get("level") if brand else "",
                     "vertical": brand.get("vertical") if brand else "",
-                    "shot": c.get("shot") or (sl.get("shot") if ci == 0 else None),
+                    "shot": c.get("shot") or (sl.get("shot") if len(crs) == 1 else None),
                     "label": sl.get("label", ""), "unit": f"{p['domain']}|{p['kind']}|{plc}|{fmt}|{p['session'].split('_')[0]}",
                     "landing_type": land.get("type", ""), "landing_title": land.get("og_title") or land.get("title", ""),
                     "offer": {k: land.get(k) for k in ("installment", "free_shipping", "countdown", "gamified", "voucher", "discount", "months", "no_prepay", "min_buy") if land.get(k)},

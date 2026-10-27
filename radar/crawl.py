@@ -231,6 +231,13 @@ class Crawler:
                         for c in crs[:6]:
                             c["shot"] = await self._shot(page, c["cr"], attr="data-radar-cr")
                             shots += c["shot"] is not None
+                        seen = {}
+                        for c in crs[:6]:
+                            if c.get("shot"):
+                                seen.setdefault(c["shot"], set()).add((c.get("title") or "")[:40])
+                        for c in crs[:6]:   # one picture for several different items = a header/strip, not a creative
+                            if c.get("shot") and len(seen[c["shot"]]) > 1:
+                                c["shot"] = None
                     sl["shot"] = await self._shot(page, sl["id"])
                     shots += sl["shot"] is not None
                     if sl.get("fixed"):
@@ -278,7 +285,11 @@ class Crawler:
         try:
             loc = page.locator(f'[{attr}="{rid}"]').first
             await loc.scroll_into_view_if_needed(timeout=3000)
-            await page.wait_for_timeout(250)
+            try:
+                await asyncio.wait_for(page.evaluate(WAIT_MEDIA_JS, [attr, rid]), timeout=4)
+            except Exception:  # noqa: BLE001
+                pass
+            await page.wait_for_timeout(350)
             box = await page.evaluate(CLIP_JS, [attr, rid])
             if not box or box["w"] < 30 or box["h"] < 20:
                 return None
@@ -368,15 +379,32 @@ class Crawler:
 
 CLIP_JS = """([attr, id]) => { document.querySelectorAll('[data-radar-shotel]').forEach(e => e.removeAttribute('data-radar-shotel'));
   const el = document.querySelector('[' + attr + '="' + id + '"]'); if (!el) return null;
-  const r0 = el.getBoundingClientRect(); if (attr === 'data-radar-cr') return {x: r0.left, y: r0.top, w: r0.width, h: r0.height};
-  let x1 = Infinity, y1 = Infinity, x2 = -Infinity, y2 = -Infinity;
-  let big = null, area = 0;
-  (el.matches('iframe,img,video,canvas') ? [el] : [...el.querySelectorAll('iframe,img,video,canvas')]).forEach(c => { const q = c.getBoundingClientRect();
-    if (q.width * q.height > 600) { x1 = Math.min(x1, q.left); y1 = Math.min(y1, q.top); x2 = Math.max(x2, q.right); y2 = Math.max(y2, q.bottom);
-      if (q.width * q.height > area) { area = q.width * q.height; big = c; } } });
+  const r0 = el.getBoundingClientRect();
+  const vis = c => { const s = getComputedStyle(c); return s.visibility !== 'hidden' && s.display !== 'none' && parseFloat(s.opacity || '1') > 0.05; };
+  // real media only: ignore icons, logos, social buttons and tracking pixels
+  const media = (el.matches('iframe,img,video,canvas') ? [el] : [...el.querySelectorAll('iframe,img,video,canvas,[style*="background-image"]')])
+    .map(c => [c, c.getBoundingClientRect()]).filter(([c, q]) => q.width >= 60 && q.height >= 40 && q.width * q.height >= 4000 && vis(c));
+  if (attr === 'data-radar-cr') {
+    // native item: the card only when it is about the size of its picture + title, otherwise the picture itself
+    if (!media.length) return null;
+    const [img, q] = media.sort((a, b) => b[1].width * b[1].height - a[1].width * a[1].height)[0];
+    img.setAttribute('data-radar-shotel', '1');
+    const card = r0.width * r0.height, pic = q.width * q.height;
+    if (card <= pic * 3.2 && r0.height <= q.height + 160 && r0.width <= q.width + 80) return {x: r0.left, y: r0.top, w: r0.width, h: r0.height};
+    return {x: q.left, y: q.top, w: q.width, h: q.height};
+  }
+  let x1 = Infinity, y1 = Infinity, x2 = -Infinity, y2 = -Infinity, big = null, area = 0;
+  media.forEach(([c, q]) => { x1 = Math.min(x1, q.left); y1 = Math.min(y1, q.top); x2 = Math.max(x2, q.right); y2 = Math.max(y2, q.bottom);
+    if (q.width * q.height > area) { area = q.width * q.height; big = c; } });
   (big || el).setAttribute('data-radar-shotel', '1');
-  if (!isFinite(x1)) return {x: r0.left, y: r0.top, w: r0.width, h: r0.height};
+  if (!isFinite(x1)) return (r0.width * r0.height <= 1400 * 450 && (el.innerText || '').trim().length >= 8) ? {x: r0.left, y: r0.top, w: r0.width, h: r0.height} : null;
   return {x: x1, y: y1, w: x2 - x1, h: y2 - y1}; }"""
+# lazy images must be decoded before the screenshot (otherwise the shot is a blank box)
+WAIT_MEDIA_JS = """async ([attr, id]) => { const el = document.querySelector('[' + attr + '="' + id + '"]'); if (!el) return 0;
+  const imgs = el.matches('img') ? [el] : [...el.querySelectorAll('img')];
+  imgs.forEach(i => { i.loading = 'eager'; if (!i.src && i.dataset && (i.dataset.src || i.dataset.lazySrc)) i.src = i.dataset.src || i.dataset.lazySrc; });
+  await Promise.all(imgs.map(i => (i.complete && i.naturalWidth > 0) ? 1 : new Promise(r => { i.addEventListener('load', r, {once: true}); i.addEventListener('error', r, {once: true}); setTimeout(r, 2500); })));
+  return imgs.filter(i => i.naturalWidth > 0).length; }"""
 ISOLATE_JS = """(id) => { const t = document.querySelector('[data-radar-id="' + id + '"]');
   for (const el of document.querySelectorAll('body *')) { const s = getComputedStyle(el);
     if ((s.position === 'fixed' || s.position === 'sticky') && t && !el.contains(t) && !t.contains(el)) { el.setAttribute('data-radar-hid', '1'); el.style.setProperty('visibility', 'hidden', 'important'); } } }"""
@@ -460,12 +488,18 @@ def _walk(o, out, key=""):
 
 
 def _save_thumb(png: bytes, folder: Path):
-    from PIL import Image
+    from PIL import Image, ImageStat
     im = Image.open(io.BytesIO(png)).convert("RGB")
     if im.width < 30 or im.height < 20:
         return None
-    small = im.resize((12, 12)).convert("L")
-    h = hashlib.md5(small.tobytes()).hexdigest()[:14]   # near-duplicate creatives share a hash
+    gray = im.convert("L")
+    if ImageStat.Stat(gray).stddev[0] < 5:      # blank / not-yet-loaded box
+        return None
+    hist = gray.histogram()
+    if max(hist) > 0.985 * im.width * im.height:  # one flat colour with a few stray pixels
+        return None
+    small = gray.resize((16, 16))
+    h = hashlib.md5(small.tobytes() + bytes([min(255, im.width // 40), min(255, im.height // 40)])).hexdigest()[:14]
     path = folder / f"{h}.jpg"
     if not path.exists():
         im.thumbnail((640, 640))

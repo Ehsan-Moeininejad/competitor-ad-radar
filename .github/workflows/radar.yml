@@ -39,7 +39,11 @@ jobs:
     environment:
       name: github-pages
     steps:
+      # always start from the latest main (not the commit that existed when the run was queued),
+      # so a queued/backup run sees the state the previous run saved and does not scan or email twice
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:

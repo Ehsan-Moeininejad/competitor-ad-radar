@@ -97,7 +97,7 @@ def enrich(obs: list, brands, llm, max_llm_batches: int = 3, max_vision: int = 1
                 + ",\"level\":\"own|core|vertical|none\" (relative to Digikala e-commerce),\"message_fa\":\"one-line Persian summary of the offer\","
                 "\"confidence\":0-1}. If unreadable, brand_fa=\"نامشخص\".",
                 max_tokens=600, image_b64=b64_file(DATA / "shots" / u["shot"]))
-            if out.get("brand_fa") and out.get("brand_fa") != "نامشخص":
+            if out.get("brand_fa") and out.get("brand_fa") not in ("نامشخص", "ناشناخته", "unknown"):
                 reg[u["key"]] = {"name": str(out["brand_fa"])[:60], "name_en": out.get("brand_en", ""),
                                  "vertical": out.get("vertical") if out.get("vertical") in VERT_KEYS else "other",
                                  "level": out.get("level") if out.get("level") in ("own", "core", "vertical", "none") else "none", "message": out.get("message_fa", ""), "domain_guess": out.get("domain_guess", ""),
@@ -115,6 +115,9 @@ def enrich(obs: list, brands, llm, max_llm_batches: int = 3, max_vision: int = 1
     for o in obs:
         e = reg.get(o.get("adv", ""), {})
         o["brand"] = e.get("name") or o.get("brand") or "نامشخص"
+        if o["brand"] in ("نامشخص", "ناشناخته", "unknown") or o["brand"].startswith(("t:", "img:")):
+            o["brand"], e = "نامشخص", {}
+            o["level"] = "unknown"
         o["level"] = e.get("level") or o.get("level") or "unknown"
         o["vertical"] = e.get("vertical") or o.get("vertical") or "other"
         if o.get("category") in (None, "", "other"):

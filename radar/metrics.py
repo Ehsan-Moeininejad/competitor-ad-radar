@@ -590,7 +590,7 @@ def _TAGFA():
 def _alerts(D):
     al = []
     for b, c in D["competitors"].items():
-        if c["surge"]:
+        if c["surge"] and c["level"] in ("core", "vertical") and c["sov"] >= 0.02:
             al.append({"level": "high", "text": f"جهش {b}: سهم دیده‌شدن {round(c['sov'] * 100, 1)}٪ در برابر میانگین ۷ روز {round((c['sov_7d'] or 0) * 100, 1)}٪"})
         if c["new_sites"] and c["level"] != "own":
             al.append({"level": "mid", "text": f"{b} وارد سایت‌های جدید شد: {'، '.join(c['new_sites'][:4])}"})
@@ -602,7 +602,7 @@ def _alerts(D):
     newc = [c for c in D.get("campaigns", []) if c["new"] and c["level"] in ("core", "vertical")]
     for c in newc[:4]:
         tg = "، ".join(_TAGFA().get(x, x) for x in c["tags"][:3])
-        al.append({"level": "high" if len(c["sites"]) >= 3 or c["ads"] >= 6 else "mid",
+        al.append({"level": "high" if c["level"] == "core" and len(c["sites"]) >= 3 else "mid",
                    "text": f"کمپین تازهٔ {c['brand']}: «{c['campaign']}»" + (f" ({tg})" if tg else "") + f" در {len(c['sites'])} سایت"})
     for b, c in D["competitors"].items():
         if c["level"] in ("core", "vertical") and c.get("cr_new", 0) >= 4 and c["cr_new"] >= 0.5 * max(1, c.get("cr_active", 0)):
@@ -612,6 +612,14 @@ def _alerts(D):
     if D.get("geo_suspect"):
         al.append({"level": "low", "text": f"{len(D['geo_suspect'])} سایت ادتک داشتند ولی تبلیغی پر نشد (اسلات خالی، SPA یا محدودیت IP)"})
     order = {"high": 0, "mid": 1, "low": 2}
+    al = sorted(al, key=lambda a: order[a["level"]])
+    # at most 5 "urgent" items a day; the rest stay visible as "important"
+    n = 0
+    for a in al:
+        if a["level"] == "high":
+            n += 1
+            if n > 5:
+                a["level"] = "mid"
     return sorted(al, key=lambda a: order[a["level"]])[:20]
 
 
