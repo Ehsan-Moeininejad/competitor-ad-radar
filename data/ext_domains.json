@@ -317,7 +317,8 @@
   "tgju.org"
  ],
  "exiraz.com": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "tgju.org"
  ],
  "rahenoonline.ir": [
   "khabaronline.ir"
@@ -1906,12 +1907,22 @@
  "khanoumi.com": [
   "asriran.com",
   "sharghdaily.com",
-  "namnak.com"
+  "namnak.com",
+  "khabaronline.ir"
  ],
  "tara360.ir": [
   "technolife.com"
  ],
  "vibe.ir": [
   "technolife.com"
+ ],
+ "fardadgroup.com": [
+  "khabaronline.ir"
+ ],
+ "azkivam.com": [
+  "technolife.com"
+ ],
+ "mowb.ir": [
+  "modireweb.com"
  ]
 }

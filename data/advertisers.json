@@ -62,7 +62,7 @@
   "vertical": "marketplace",
   "level": "core",
   "source": "config",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "timcheh.com": {
   "name": "تیمچه",
@@ -989,7 +989,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:ea7231ca52": {
   "name": "صندوق طلای مثقال آگاه",
@@ -1751,7 +1751,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "img:fa3f6dee1d18bb": {
   "name": "بانک تجارت",
@@ -1889,7 +1889,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-27"
  },
  "t:929ca8bce5": {
   "name": "خودرو45",
@@ -2069,7 +2069,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "berjismed.com": {
   "name": "برجیس",
@@ -2129,7 +2129,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "bimeh.com": {
   "name": "بیمه دات کام",
@@ -2439,7 +2439,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:7671b4b882": {
   "name": "درمان ریزش مو",
@@ -2579,7 +2579,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "toranjcapital.com": {
   "name": "مدیریت دارایی ترنج",
@@ -2793,7 +2793,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:8ba70da1d4": {
   "name": "t:8ba70da1d4",
@@ -2813,7 +2813,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:a91720af6a": {
   "name": "شهر لوازم خانگی",
@@ -2863,7 +2863,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "booranjobs.com": {
   "name": "booranjobs.com",
@@ -3163,7 +3163,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-27"
  },
  "maanapp.ir": {
   "name": "مان",
@@ -3347,7 +3347,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:557dfc902a": {
   "name": "اوربکس",
@@ -3367,7 +3367,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:999a9e775b": {
   "name": "مفید",
@@ -3377,7 +3377,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:1475e4e218": {
   "name": "t:1475e4e218",
@@ -3407,7 +3407,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "avaneed.com": {
   "name": "آوانید",
@@ -3487,7 +3487,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-27"
  },
  "t:5a7e9264db": {
   "name": "مفید",
@@ -3757,7 +3757,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-27"
  },
  "versland.io": {
   "name": "ورسلند",
@@ -4227,7 +4227,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-27"
  },
  "derakhsheshco.com": {
   "name": "درخشش الکتریک",
@@ -4607,7 +4607,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:70ea321fd2": {
   "name": "ثبت فردا",
@@ -4617,7 +4617,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "sabtefarda.org": {
   "name": "ثبت فردا",
@@ -4657,7 +4657,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:83dd4ecbdf": {
   "name": "نامشخص",
@@ -4687,7 +4687,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:4af8b26f7f": {
   "name": "آیتول",
@@ -5019,7 +5019,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "axon.me": {
   "name": "اکسون",
@@ -5229,7 +5229,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-10-27"
  },
  "t:e72f001654": {
   "name": "وینزی",
@@ -5239,7 +5239,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-27"
  },
  "t:59a611208c": {
   "name": "t:59a611208c",
@@ -5379,7 +5379,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-27"
  },
  "t:9adccd4563": {
   "name": "t:9adccd4563",
@@ -6131,7 +6131,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:2a8037a6bf": {
   "name": "هویا",
@@ -6743,7 +6743,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:a466cbae96": {
   "name": "هیسکا",
@@ -6779,7 +6779,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "img:283a4421c5b408": {
   "name": "ازکی‌وام",
@@ -7043,7 +7043,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-27"
  },
  "t:6bc3c2e661": {
   "name": "فرنا",
@@ -7357,7 +7357,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:5b3ae780ae": {
   "name": "فرنا",
@@ -7719,7 +7719,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:592563505d": {
   "name": "پلی‌پاد",
@@ -8043,7 +8043,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "img:8413ff5986e795": {
   "name": "بانک تجارت",
@@ -8211,7 +8211,7 @@
   "confidence": 0.9,
   "source": "vision",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "img:57b4643a2b86b8": {
   "name": "بیت پین",
@@ -8283,7 +8283,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:d72651059a": {
   "name": "سرمایه بازار",
@@ -8353,7 +8353,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-27"
  },
  "t:6b91409283": {
   "name": "میتراپل",
@@ -8573,7 +8573,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-27"
  },
  "t:f9d59d01e3": {
   "name": "طلای دیجیتال",
@@ -8977,6 +8977,74 @@
   "message": "وام قرض‌الحسنه ۴ درصد بانک سرمایه با طرح نسیم سرمایه",
   "domain_guess": "sarmayebank.ir",
   "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
+ "govahi24.com": {
+  "name": "انتخاب",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
+ "img:f6f84e46e63e13": {
+  "name": "مرکز سلامت ایران",
+  "name_en": "Iran Health Center",
+  "vertical": "beauty_health",
+  "level": "none",
+  "message": "آنالیز رایگان وضعیت موها در مرکز سلامت ایران",
+  "domain_guess": "iransalamat.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
+ "img:36ae3f00bb9b77": {
+  "name": "محک",
+  "name_en": "Mahak",
+  "vertical": "services",
+  "level": "none",
+  "message": "دعوت به ثبت‌نام و حمایت از کودکان مبتلا به سرطان در محک",
+  "domain_guess": "mahak-charity.org",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
+ "t:b67aca44df": {
+  "name": "بانک سرمایه",
+  "name_en": "Sarmayeh Bank",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "دریافت وام قرض‌الحسنه ۴ درصد با طرح نسیم سرمایه بانک سرمایه",
+  "domain_guess": "sarmayebank.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
+ "t:0b9556048c": {
+  "name": "بانک سرمایه",
+  "name_en": "Sarmayeh Bank",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "وام قرض‌الحسنه ۴ درصد با طرح نسیم سرمایه بانک سرمایه",
+  "domain_guess": "sbank.ir",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27"
+ },
+ "t:6ff43ecfa8": {
+  "name": "رنو",
+  "name_en": "Renault",
+  "vertical": "auto",
+  "level": "none",
+  "message": "آگهی فروش خودرو رنو کپچر",
+  "domain_guess": "bama.ir",
+  "confidence": 0.8,
   "source": "vision",
   "first_seen": "2026-10-27",
   "last_seen": "2026-10-27"
