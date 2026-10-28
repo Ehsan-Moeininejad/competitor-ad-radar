@@ -68,7 +68,8 @@
   "asriran.com",
   "jobvision.ir",
   "rasekhoon.net",
-  "tabnak.ir"
+  "tabnak.ir",
+  "yjc.ir"
  ],
  "ninishop.ir": [
   "ninisite.com"
@@ -423,7 +424,8 @@
  ],
  "digikala.com": [
   "khabaronline.ir",
-  "asriran.com"
+  "asriran.com",
+  "mehrnews.com"
  ],
  "locoiran.com": [
   "khabaronline.ir",
@@ -697,7 +699,8 @@
   "shahraranews.ir",
   "jamejamonline.ir",
   "aftabnews.ir",
-  "asriran.com"
+  "asriran.com",
+  "yjc.ir"
  ],
  "microenglish.com": [
   "gamefa.com",
@@ -1017,7 +1020,8 @@
   "mehrnews.com",
   "tebyan.net",
   "rasekhoon.net",
-  "tabnak.ir"
+  "tabnak.ir",
+  "yjc.ir"
  ],
  "namasha.com": [
   "khabarfoori.com"
@@ -1929,6 +1933,15 @@
   "chetor.com"
  ],
  "farazkavian.com": [
+  "chetor.com"
+ ],
+ "abadeh24.ir": [
+  "iranjib.ir"
+ ],
+ "behbodchem.com": [
+  "jamejamonline.ir"
+ ],
+ "ceramicnaghshyazd.com": [
   "chetor.com"
  ]
 }

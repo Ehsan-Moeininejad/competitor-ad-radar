@@ -2030,7 +2030,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-28"
  },
  "t:b3e3f6aa59": {
   "name": "نامشخص",
@@ -2130,7 +2130,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "bimeh.com": {
   "name": "بیمه دات کام",
@@ -2520,7 +2520,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -2570,7 +2570,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:dc8e838bf5": {
   "name": "فروش خودرو (خودرو45 / باما)",
@@ -3064,7 +3064,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-28"
  },
  "venka.ir": {
   "name": "ونکا",
@@ -3378,7 +3378,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:1475e4e218": {
   "name": "t:1475e4e218",
@@ -4428,7 +4428,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-28"
  },
  "t:f1499fd6fb": {
   "name": "نامشخص",
@@ -4518,7 +4518,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "t:a34b2b9b4e": {
   "name": "نامشخص",
@@ -4608,7 +4608,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:70ea321fd2": {
   "name": "ثبت فردا",
@@ -4658,7 +4658,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:83dd4ecbdf": {
   "name": "نامشخص",
@@ -5100,7 +5100,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:a0011c94af": {
   "name": "t:a0011c94af",
@@ -5390,7 +5390,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-28"
  },
  "buykif.ir": {
   "name": "بای کیف",
@@ -6112,7 +6112,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "shahrkhanegi.com": {
   "name": "شهر لوازم خانگی",
@@ -6192,7 +6192,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-28"
  },
  "t:5eba8f5a6f": {
   "name": "نامشخص",
@@ -6414,7 +6414,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "t:083c14e82e": {
   "name": "پیشگامان",
@@ -6564,7 +6564,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:ee2840fbfc": {
   "name": "خسروانی",
@@ -7358,7 +7358,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:5b3ae780ae": {
   "name": "فرنا",
@@ -7954,7 +7954,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:0bc011dc30": {
   "name": "زولا",
@@ -7964,7 +7964,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:e049d5820d": {
   "name": "پنجره",
@@ -8044,7 +8044,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "img:8413ff5986e795": {
   "name": "بانک تجارت",
@@ -8384,7 +8384,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-28"
  },
  "t:6b458db67b": {
   "name": "اکوتراست",
@@ -8644,7 +8644,7 @@
   "confidence": 0.88,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-28"
  },
  "img:c53164cc247b1a": {
   "name": "همراه گلد",
@@ -9521,6 +9521,102 @@
   "level": "none",
   "message": "تامین کننده تجهیزات صنعتی و مواد شیمیایی و ارائه نکات انتخاب تجهیزات صنعتی",
   "domain_guess": "delcosanat.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "img:43e192b40e0b56": {
+  "name": "نواتل",
+  "name_en": "Navatel",
+  "vertical": "telecom",
+  "level": "none",
+  "message": "ارائه مرکز تماس، CRM، پنل پیامکی و وب‌چت در بسته فراگیر مرکز تلفن ابری نواتل",
+  "domain_guess": "navatel.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "beheshtdarman.ir": {
+  "name": "گرناهیر",
+  "name_en": "GernaHair",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "message": "راه حل قطعی ریزش مو با مکمل گرناهیر",
+  "domain_guess": "gernahair.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "img:0321d7ecdb4013": {
+  "name": "کارگزاری مفید",
+  "name_en": "Mofid Brokerage",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "هر روز سود و هر لحظه برداشت با سرمایه‌گذاری در صندوق حامی کارگزاری مفید",
+  "domain_guess": "emofid.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "img:b1a068eca1df90": {
+  "name": "کارگزاری مفید",
+  "name_en": "Mofid Brokerage",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "سرمایه‌گذاری در صندوق سهامی ETF اطلس مفید",
+  "domain_guess": "emofid.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "img:3c54f312d2466d": {
+  "name": "ویتاورس",
+  "name_en": "Vittaverse",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "شروع هالووین پلاس ویتاورس با تا ۸۰ درصد بونوس قابل ضرر",
+  "domain_guess": "vittaverse.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "t:a1f3fa3bb3": {
+  "name": "اکالا",
+  "name_en": "Okala",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "خرید مشکین شوی پرسیل با ارسال رایگان از اکالا",
+  "domain_guess": "okala.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "t:2900136387": {
+  "name": "اکالا",
+  "name_en": "Okala",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "خرید محصولات چی‌توز با ارسال رایگان از اکالا",
+  "domain_guess": "okala.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28"
+ },
+ "img:1b9f7bc8cc58cf": {
+  "name": "وینزی",
+  "name_en": "Vinzy",
+  "vertical": "services",
+  "level": "none",
+  "message": " دریافت ۷ گیگابایت اینترنت رایگان با نصب اپلیکیشن وینزی",
+  "domain_guess": "vinzy.ir",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-28",
