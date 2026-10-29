@@ -35,7 +35,8 @@
   "name": "دیجی‌کالا جت",
   "vertical": "supermarket",
   "level": "own",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-10-29"
  },
  "digiexpress.ir": {
   "name": "دیجی‌اکسپرس",
@@ -880,7 +881,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-29"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -1280,7 +1281,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-29"
  },
  "pardisan-edu.com": {
   "name": "آموزشگاه زبان پردیسان",
@@ -1542,7 +1543,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-29"
  },
  "t:199f6d25be": {
   "name": "تبدیل",
@@ -1602,7 +1603,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-29"
  },
  "t:307e705716": {
   "name": "تبدیل",
@@ -1652,7 +1653,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-29"
  },
  "t:05cb146662": {
   "name": "تبدیل",
@@ -1702,7 +1703,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-29"
  },
  "t:3b50441119": {
   "name": "تبدیل",
@@ -1970,7 +1971,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-29"
  },
  "t:738ea32ae6": {
   "name": "نامشخص",
@@ -2520,7 +2521,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-29"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -5610,7 +5611,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-29"
  },
  "novin.one": {
   "name": "نوین وان",
@@ -5804,7 +5805,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-29"
  },
  "t:bb1dc7b3c4": {
   "name": "توچال",
@@ -7116,7 +7117,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-29"
  },
  "t:b181ba76bb": {
   "name": "کاله",
@@ -7484,7 +7485,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-29"
  },
  "go2tr.com": {
   "name": "گوتوتی‌آر",
@@ -7680,7 +7681,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-29"
  },
  "t:8bb142fc50": {
   "name": "آپارات اسپرت / عادل فردوسی پور",
@@ -7730,7 +7731,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-29"
  },
  "t:dd5254cccd": {
   "name": "پلی‌پاد",
@@ -7820,7 +7821,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-29"
  },
  "t:4a8a85b7c5": {
   "name": "نامشخص",
@@ -9156,7 +9157,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-29"
  },
  "t:4bfa9d9eab": {
   "name": "یکتانت",
@@ -9366,7 +9367,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-29"
  },
  "t:fb04b239d4": {
   "name": "پیشگامان",
@@ -10250,6 +10251,18 @@
   "message": "ثبت‌نام در محک برای حمایت از کودکان مبتلا به سرطان",
   "domain_guess": "mahak-charity.org",
   "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-29",
+  "last_seen": "2026-10-29"
+ },
+ "img:358231b9dac6e1": {
+  "name": "دیجی‌کالا جت",
+  "name_en": "Digikala Jet",
+  "vertical": "supermarket",
+  "level": "own",
+  "message": "تا ۹۰٪ تخفیف روی محصولات سوپرمارکتی دیجی‌کالا جت",
+  "domain_guess": "digikalajet.com",
+  "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-29",
   "last_seen": "2026-10-29"
