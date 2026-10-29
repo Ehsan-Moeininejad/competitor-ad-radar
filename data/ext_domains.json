@@ -629,7 +629,8 @@
   "tgju.org"
  ],
  "irfarabi.com": [
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "ettelaat.com"
  ],
  "emalls.ir": [
   "hamshahrionline.ir",
@@ -1945,5 +1946,14 @@
  ],
  "ceramicnaghshyazd.com": [
   "chetor.com"
+ ],
+ "ariabehkarco.com": [
+  "hamshahrionline.ir"
+ ],
+ "geokhanjani.com": [
+  "daneshchi.ir"
+ ],
+ "samsung-sam.com": [
+  "aftabnews.ir"
  ]
 }
