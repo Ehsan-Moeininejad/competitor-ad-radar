@@ -1221,7 +1221,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-30"
  },
  "brand:جین‌وست": {
   "name": "جین‌وست",
@@ -1941,7 +1941,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-30"
  },
  "t:3ae7494ff6": {
   "name": "خودرو45",
@@ -2041,7 +2041,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:0158c2ad44": {
   "name": "نامشخص",
@@ -2081,7 +2081,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "meschi.ir": {
   "name": "مس چی",
@@ -2131,7 +2131,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "bimeh.com": {
   "name": "بیمه دات کام",
@@ -2521,7 +2521,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -2661,7 +2661,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-30"
  },
  "t:3a52be1356": {
   "name": "پیامک خونه",
@@ -3005,7 +3005,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-30"
  },
  "clickaval.com": {
   "name": "کلیک اول",
@@ -3309,7 +3309,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "nipoto.com": {
   "name": "نیپوتو",
@@ -3369,7 +3369,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:999a9e775b": {
   "name": "مفید",
@@ -3409,7 +3409,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "avaneed.com": {
   "name": "آوانید",
@@ -3429,7 +3429,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:51b8805fa8": {
   "name": "نوین وان",
@@ -3489,7 +3489,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-30"
  },
  "t:5a7e9264db": {
   "name": "مفید",
@@ -3669,7 +3669,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-30"
  },
  "t:e5f6b99015": {
   "name": "t:e5f6b99015",
@@ -3719,7 +3719,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-30"
  },
  "kifpool.me": {
   "name": "کیف پول من",
@@ -3929,7 +3929,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-30"
  },
  "irancell.ir": {
   "name": "ایرانسل",
@@ -5021,7 +5021,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-30"
  },
  "axon.me": {
   "name": "اکسون",
@@ -5787,7 +5787,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "brand:میلی": {
   "name": "میلی",
@@ -6849,7 +6849,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-30"
  },
  "fadaktrains.com": {
   "name": "اسنپ‌پی",
@@ -6989,7 +6989,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-30"
  },
  "parvaztm.ir": {
   "name": "گروه مالی پرواز",
@@ -7069,7 +7069,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:6849f67001": {
   "name": "فرنا",
@@ -7771,7 +7771,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-30"
  },
  "t:0f5e69d372": {
   "name": "ازکی / بیمه دات کام",
@@ -7781,7 +7781,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:52ac5718d9": {
   "name": "نامشخص",
@@ -8045,7 +8045,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "img:8413ff5986e795": {
   "name": "بانک تجارت",
@@ -9065,7 +9065,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "bls-co.ir": {
   "name": "بهار لاله شرق",
@@ -9277,7 +9277,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:4e4d50633e": {
   "name": "هاست ایران",
@@ -9367,7 +9367,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:fb04b239d4": {
   "name": "پیشگامان",
@@ -9467,7 +9467,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:095858502b": {
   "name": "آی پاسارگاد",
@@ -9937,7 +9937,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:1f100c317c": {
   "name": "کاریزما",
@@ -10107,7 +10107,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:aebc2ad6fa": {
   "name": "کاریزما",
@@ -10821,6 +10821,442 @@
   "message": "خرید روغن با تخفیف تا ۴۹ درصد و ارسال رایگان",
   "domain_guess": "okala.com",
   "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:983bd0eeb8": {
+  "name": "کیلید",
+  "name_en": "Kilid",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:3d95898ebc": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.3,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:83f2c382b1": {
+  "name": "کاریزما",
+  "name_en": "Charisma",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:40dd396290": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:30f51960f0": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:59a00765d8": {
+  "name": "زاپیامکس",
+  "name_en": "Zapiamax",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:05eed6f7df": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:c5ccc3dfe8": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:485800268b": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:30031da45b": {
+  "name": "یکتانت",
+  "name_en": "Yektanet",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "triboon.net": {
+  "name": "تریبون",
+  "name_en": "Triboon",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:35d5be93ca": {
+  "name": "آهن شیراز",
+  "name_en": "Ahan Shiraz",
+  "vertical": "tools",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:d63b77d3b7": {
+  "name": "ایوان",
+  "name_en": "A1 Ayvan",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:f3e85facf5": {
+  "name": "طلاین",
+  "name_en": "Tlyn",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:ce4dd1ecf1": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:21c4b1a962": {
+  "name": "نواتل",
+  "name_en": "Navatel",
+  "vertical": "telecom",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:f3c720488a": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "adleiranian.co": {
+  "name": "عدل ایرانیان",
+  "name_en": "Adle Iranian",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:5ea9240bc5": {
+  "name": "کیلید",
+  "name_en": "Kilid",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:07f6eb5844": {
+  "name": "کیلید",
+  "name_en": "Kilid",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:11946e3a4f": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:5e4ddbbdfa": {
+  "name": "کاریزما",
+  "name_en": "Charisma",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:a2bf6b584a": {
+  "name": "اسنپ مارکت",
+  "name_en": "Snapp Market",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:b679ce8c99": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:34756dc319": {
+  "name": "اسنپ مارکت",
+  "name_en": "Snapp Market",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "snapp.taxi": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "marketplace",
+  "level": "core",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:df7cb2431f": {
+  "name": "هاست ایران",
+  "name_en": "Host Iran",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:fa86577699": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:3ceb4ee614": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:e540eb8bdd": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:032de0f0b8": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:b6830a3681": {
+  "name": "تام لند",
+  "name_en": "Tamland",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:7aa8416dd7": {
+  "name": "غفاری دایت",
+  "name_en": "Ghaffari Diet",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:e4af4c950f": {
+  "name": "غفاری دایت",
+  "name_en": "Ghaffari Diet",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:3b80d6caf4": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:5164ec329f": {
+  "name": "جاباما",
+  "name_en": "Jabama",
+  "vertical": "travel_services",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:233936ff94": {
+  "name": "خودرو45",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:c6fdc62077": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "Snapp Express",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:c8447dbb1b": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:579f460f66": {
+  "name": "طلاین",
+  "name_en": "Tlyn",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "img:b00d0efca5bcd1": {
+  "name": "آموزشگاه زبان پردیسان",
+  "name_en": "Pardisan",
+  "vertical": "education",
+  "level": "none",
+  "message": "آموزش حرفه‌ای زبان انگلیسی همراه با مشاوره رایگان",
+  "domain_guess": "pardisan-edu.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "img:38537082d38262": {
+  "name": "مرکز سلامت ایران",
+  "name_en": "Iran Health Center",
+  "vertical": "beauty_health",
+  "level": "none",
+  "message": "آنالیز رایگان وضعیت موها در مرکز سلامت ایران",
+  "domain_guess": "iransalamat.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "img:04cefd5b51159c": {
+  "name": "اسنپ مارکت",
+  "name_en": "Snapp Market",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "خرید لبنیات با ارسال رایگان و تا ۳۵٪ تخفیف از اسنپ مارکت",
+  "domain_guess": "snapp.market",
+  "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-30",
   "last_seen": "2026-10-30"
