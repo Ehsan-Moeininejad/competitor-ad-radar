@@ -36,7 +36,7 @@
   "vertical": "supermarket",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "digiexpress.ir": {
   "name": "دیجی‌اکسپرس",
@@ -1881,7 +1881,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-18"
+  "last_seen": "2026-10-30"
  },
  "t:4da51be3ec": {
   "name": "خودرو45",
@@ -1911,7 +1911,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-10-30"
  },
  "t:b3b7417c02": {
   "name": "خودرو45",
@@ -2685,7 +2685,7 @@
   "confidence": 0.7,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-30"
  },
  "parmisit.com": {
   "name": "پارمیس",
@@ -3649,7 +3649,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-30"
  },
  "t:155f70d543": {
   "name": "t:155f70d543",
@@ -4359,7 +4359,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-30"
  },
  "t:623e039029": {
   "name": "نامشخص",
@@ -5101,7 +5101,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-30"
  },
  "t:a0011c94af": {
   "name": "t:a0011c94af",
@@ -5281,7 +5281,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-30"
  },
  "t:02d9815128": {
   "name": "آنیسا",
@@ -6113,7 +6113,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-30"
  },
  "shahrkhanegi.com": {
   "name": "شهر لوازم خانگی",
@@ -7313,7 +7313,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-30"
  },
  "mahame.ir": {
   "name": "مهامه",
@@ -7741,7 +7741,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-30"
  },
  "hamrahgold.com": {
   "name": "همراه گلد",
@@ -11258,6 +11258,126 @@
   "domain_guess": "snapp.market",
   "confidence": 0.98,
   "source": "vision",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:225cf8424f": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:e345cbe71a": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:8c5269f0a7": {
+  "name": "خودرو۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:539d41cf0a": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.4,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:048005a39c": {
+  "name": "کاریزما",
+  "name_en": "Charisma",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "miniqame.com": {
+  "name": "مینی گیم",
+  "name_en": "Miniqame",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:0e5b352953": {
+  "name": "تمدن ایران",
+  "name_en": "Tamadon Iran",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:07fbbe1459": {
+  "name": "محک",
+  "name_en": "MAHAK",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:71f7634fe4": {
+  "name": "کاریزما",
+  "name_en": "Charisma",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "abantether.ir": {
+  "name": "آبان‌تتر",
+  "name_en": "AbanTether",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:297060d6d3": {
+  "name": "تمدن ایران",
+  "name_en": "Tamadon Iran",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-10-30",
+  "last_seen": "2026-10-30"
+ },
+ "t:b664fdbad3": {
+  "name": "نامشخص",
+  "name_en": "Unknown",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
   "first_seen": "2026-10-30",
   "last_seen": "2026-10-30"
  }
