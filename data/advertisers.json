@@ -511,7 +511,7 @@
   "vertical": "supermarket",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "snapp.market": {
   "name": "اسنپ‌مارکت",
@@ -1213,7 +1213,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "jeanswest.ir": {
   "name": "جین‌وست",
@@ -1851,7 +1851,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "t:d632bab935": {
   "name": "خودرو45",
@@ -2061,7 +2061,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-31"
  },
  "t:bc3b5e9a58": {
   "name": "ازکی سلر",
@@ -2181,7 +2181,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-10-31"
  },
  "t:d14aa3fc9d": {
   "name": "نامشخص",
@@ -3379,7 +3379,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "t:1475e4e218": {
   "name": "t:1475e4e218",
@@ -3469,7 +3469,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "alpariclub.com": {
   "name": "آلپاری",
@@ -3819,7 +3819,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-31"
  },
  "t:b0783432c8": {
   "name": "t:b0783432c8",
@@ -4469,7 +4469,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-10-31"
  },
  "pashamohammadreza.ir": {
   "name": "پاشا محمدرضا",
@@ -4519,7 +4519,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "t:a34b2b9b4e": {
   "name": "نامشخص",
@@ -5561,7 +5561,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-31"
  },
  "t:765c90a416": {
   "name": "t:765c90a416",
@@ -7069,7 +7069,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:6849f67001": {
   "name": "فرنا",
@@ -7303,7 +7303,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-31"
  },
  "mammut2603.com": {
   "name": "آلکان خودرو پویان",
@@ -7509,7 +7509,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-31"
  },
  "t:96464c0d65": {
   "name": "تبدیل",
@@ -7871,7 +7871,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-31"
  },
  "t:c439c1eb8f": {
   "name": "نامشخص",
@@ -8025,7 +8025,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-31"
  },
  "jamilian.net": {
   "name": "دکتر جمیلیان",
@@ -8465,7 +8465,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:1c2ca1d6c9": {
   "name": "تجهیزات خانه بازی",
@@ -9297,7 +9297,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "t:86541b93bd": {
   "name": "ابریون (هاست ایران)",
@@ -9367,7 +9367,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:fb04b239d4": {
   "name": "پیشگامان",
@@ -9659,7 +9659,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "t:f9df4b7fad": {
   "name": "هاست ایران",
@@ -9729,7 +9729,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:faf67f0668": {
   "name": "کلینیک دندانپزشکی",
@@ -9829,7 +9829,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "maktabkhooneh.org": {
   "name": "مکتب خونه",
@@ -9849,7 +9849,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "segalnet.net": {
   "name": "سگال نت",
@@ -10395,7 +10395,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:558f44b100": {
   "name": "کاریزما",
@@ -10475,7 +10475,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:a3c9aa5f18": {
   "name": "هاست ایران",
@@ -11329,7 +11329,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:07fbbe1459": {
   "name": "محک",
@@ -11359,7 +11359,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:297060d6d3": {
   "name": "تمدن ایران",
@@ -11369,7 +11369,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:b664fdbad3": {
   "name": "نامشخص",
