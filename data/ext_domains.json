@@ -402,7 +402,8 @@
   "mehrnews.com",
   "aftabnews.ir",
   "sharghdaily.com",
-  "shahrekhabar.com"
+  "shahrekhabar.com",
+  "jamaran.news"
  ],
  "snapppay.ir": [
   "khabaronline.ir",
@@ -630,7 +631,8 @@
  ],
  "irfarabi.com": [
   "hamshahrionline.ir",
-  "ettelaat.com"
+  "ettelaat.com",
+  "mehrnews.com"
  ],
  "emalls.ir": [
   "hamshahrionline.ir",
@@ -1471,7 +1473,8 @@
   "jamejamonline.ir"
  ],
  "sofamobl.com": [
-  "tebyan.net"
+  "tebyan.net",
+  "mehrnews.com"
  ],
  "tebyan.getnews.ir": [
   "tebyan.net"
@@ -1901,7 +1904,8 @@
   "shahrekhabar.com"
  ],
  "ravandarman.com": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "mehrnews.com"
  ],
  "rasmio.com": [
   "iranjib.ir"
@@ -1928,7 +1932,8 @@
   "khabaronline.ir"
  ],
  "azkivam.com": [
-  "technolife.com"
+  "technolife.com",
+  "tgju.org"
  ],
  "mowb.ir": [
   "modireweb.com"
@@ -1971,5 +1976,11 @@
  ],
  "play1001.tv.fc-perspolis.com": [
   "varzesh3.com"
+ ],
+ "javadjewelry.com": [
+  "mehrnews.com"
+ ],
+ "avamovie.shop": [
+  "p30download.ir"
  ]
 }

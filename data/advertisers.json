@@ -1281,7 +1281,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "pardisan-edu.com": {
   "name": "آموزشگاه زبان پردیسان",
@@ -1553,7 +1553,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-10-31"
  },
  "t:1cb7ee6e45": {
   "name": "تبدیل",
@@ -1593,7 +1593,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-31"
  },
  "t:a47d538a17": {
   "name": "تبدیل",
@@ -1653,7 +1653,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:05cb146662": {
   "name": "تبدیل",
@@ -1703,7 +1703,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "t:3b50441119": {
   "name": "تبدیل",
@@ -1733,7 +1733,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:7c05a7d080": {
   "name": "تبدیل",
@@ -1911,7 +1911,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:b3b7417c02": {
   "name": "خودرو45",
@@ -1961,7 +1961,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:e6cc860dd3": {
   "name": "نامشخص",
@@ -1981,7 +1981,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-31"
  },
  "t:a839b33797": {
   "name": "نامشخص",
@@ -2001,7 +2001,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-31"
  },
  "t:ce6b047c03": {
   "name": "خودرو45",
@@ -2431,7 +2431,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "t:f0ecb7f150": {
   "name": "درمان ریزش مو",
@@ -2521,7 +2521,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -2571,7 +2571,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:dc8e838bf5": {
   "name": "فروش خودرو (خودرو45 / باما)",
@@ -3015,7 +3015,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3293,7 +3293,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "yousefzadehcoffee.com": {
   "name": "انتخاب",
@@ -3309,7 +3309,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "nipoto.com": {
   "name": "نیپوتو",
@@ -3369,7 +3369,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:999a9e775b": {
   "name": "مفید",
@@ -3549,7 +3549,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "sigmatec.ir": {
   "name": "سیگما",
@@ -3559,7 +3559,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "aryacoupling.com": {
   "name": "آریا کوپلینگ",
@@ -3759,7 +3759,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-31"
  },
  "versland.io": {
   "name": "ورسلند",
@@ -3969,7 +3969,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-31"
  },
  "t:1d1f48e5c3": {
   "name": "خودرو45",
@@ -4029,7 +4029,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-31"
  },
  "alpariforexfa.org": {
   "name": "آلپاری",
@@ -4399,7 +4399,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-10-31"
  },
  "meftahsoft.com": {
   "name": "مفتاح سافت",
@@ -4579,7 +4579,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "toorangostar.com": {
   "name": "توران گستر",
@@ -4619,7 +4619,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-10-31"
  },
  "sabtefarda.org": {
   "name": "ثبت فردا",
@@ -4739,7 +4739,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "aads.com": {
   "name": "ای ادز",
@@ -4799,7 +4799,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "https%": {
   "name": "نامشخص",
@@ -5591,7 +5591,7 @@
   "confidence": 0.3,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-10-31"
  },
  "zula.ir": {
   "name": "زولا",
@@ -5787,7 +5787,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "brand:میلی": {
   "name": "میلی",
@@ -6869,7 +6869,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-10-31"
  },
  "img:58e2f467296ade": {
   "name": "تبدیل",
@@ -7661,7 +7661,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "t:a9f10a21b6": {
   "name": "نامشخص",
@@ -7711,7 +7711,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "t:c2a0e58682": {
   "name": "پلی‌پاد",
@@ -8045,7 +8045,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "img:8413ff5986e795": {
   "name": "بانک تجارت",
@@ -8355,7 +8355,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-10-31"
  },
  "t:6b91409283": {
   "name": "میتراپل",
@@ -9065,7 +9065,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "bls-co.ir": {
   "name": "بهار لاله شرق",
@@ -9585,7 +9585,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:a1f3fa3bb3": {
   "name": "اکالا",
@@ -9859,7 +9859,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "t:2b241d47ce": {
   "name": "ویجیاتو",
@@ -9937,7 +9937,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:1f100c317c": {
   "name": "کاریزما",
@@ -10229,7 +10229,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "img:15a95141214c89": {
   "name": "پردیسان",
@@ -10241,7 +10241,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-10-31"
  },
  "img:c279afc7fa0083": {
   "name": "محک",
@@ -10435,7 +10435,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:3fc91fba1b": {
   "name": "نامشخص (کلینیک کاشت مو)",
@@ -10565,7 +10565,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:1bd6b20200": {
   "name": "لنزمارکت",
@@ -10667,7 +10667,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "snappbimeh.ir": {
   "name": "اسنپ بیمه",
@@ -10687,7 +10687,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:873b72b218": {
   "name": "t:873b72b218",
@@ -10727,7 +10727,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:7aa37024ab": {
   "name": "قهوه ریو",
@@ -10853,7 +10853,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:40dd396290": {
   "name": "نامشخص",
@@ -10923,7 +10923,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "triboon.net": {
   "name": "تریبون",
@@ -10933,7 +10933,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:35d5be93ca": {
   "name": "آهن شیراز",
@@ -11013,7 +11013,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:07f6eb5844": {
   "name": "کیلید",
@@ -11023,7 +11023,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:11946e3a4f": {
   "name": "نامشخص",
@@ -11043,7 +11043,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:a2bf6b584a": {
   "name": "اسنپ مارکت",
@@ -11223,7 +11223,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "img:b00d0efca5bcd1": {
   "name": "آموزشگاه زبان پردیسان",
@@ -11269,7 +11269,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-10-31"
  },
  "t:e345cbe71a": {
   "name": "نامشخص",
@@ -11458,6 +11458,114 @@
   "level": "none",
   "message": "تا ۵۰ هزار دلار هدیه اولین واریز برای ثبت‌نام و معامله",
   "domain_guess": "aarongroups.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "t:631db71174": {
+  "name": "خودرو ۴۵",
+  "name_en": "Khodro45",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "فروش و کارشناسی آسان و سریع خودروهای بی‌ام‌و در خودرو ۴۵",
+  "domain_guess": "khodro45.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "img:f796eba37a924c": {
+  "name": "محک",
+  "name_en": "Mahak",
+  "vertical": "services",
+  "level": "none",
+  "message": "دعوت به ثبت نام و حمایت از کودکان مبتلا به سرطان در محک",
+  "domain_guess": "mahak-charity.org",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "img:a7bd897155c21e": {
+  "name": "محک",
+  "name_en": "Mahak",
+  "vertical": "services",
+  "level": "none",
+  "message": "ثبت نام برای حمایت از کودکان مبتلا به سرطان محک",
+  "domain_guess": "mahak-charity.org",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "img:5d6bb20b8d7491": {
+  "name": "دیوار",
+  "name_en": "Divar",
+  "vertical": "services",
+  "level": "none",
+  "message": "مشاهده نقشه قیمت مسکن و اجاره محله به محله تهران در دیوار",
+  "domain_guess": "divar.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "img:bc48f0b962f42d": {
+  "name": "ازکی‌وام",
+  "name_en": "AzkiVam",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "۴ میلیون تومان شارژ کیف پول و تخفیف برای خرید قسطی از ازکی‌وام",
+  "domain_guess": "azkivam.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "img:1c1221e8042053": {
+  "name": "پردیسان",
+  "name_en": "Pardisan",
+  "vertical": "education",
+  "level": "none",
+  "message": "یادگیری ۶ ماهه و حرفه‌ای زبان همراه با مشاوره رایگان در آموزشگاه پردیسان",
+  "domain_guess": "pardisan-edu.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "img:55bc80d2016a40": {
+  "name": "محک",
+  "name_en": "MAHAK",
+  "vertical": "services",
+  "level": "none",
+  "message": "ثبت‌نام در محک برای حمایت از کودکان مبتلا به سرطان",
+  "domain_guess": "mahak-charity.org",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "img:cd3f16ce1e617c": {
+  "name": "محک",
+  "name_en": "Mahak",
+  "vertical": "services",
+  "level": "none",
+  "message": "دعوت به ثبت نام در اپلیکیشن محک جهت حمایت از کودکان مبتلا به سرطان",
+  "domain_guess": "mahak-charity.org",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-10-31",
+  "last_seen": "2026-10-31"
+ },
+ "t:ed1c42be17": {
+  "name": "بامیلو",
+  "name_en": "Bamilo",
+  "vertical": "marketplace",
+  "level": "core",
+  "message": "لوگوی فروشگاه اینترنتی بامیلو",
+  "domain_guess": "bamilo.com",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-31",
