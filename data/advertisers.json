@@ -901,7 +901,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-01"
  },
  "delcook.kitchen": {
   "name": "دل کوک",
@@ -1353,7 +1353,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-01"
  },
  "shatel.ir": {
   "name": "شاتل",
@@ -1563,7 +1563,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-01"
  },
  "t:afee7a2f06": {
   "name": "تبدیل",
@@ -1891,7 +1891,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:929ca8bce5": {
   "name": "خودرو45",
@@ -1921,7 +1921,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "t:1050d02ec6": {
   "name": "خودرو45",
@@ -2131,7 +2131,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "bimeh.com": {
   "name": "بیمه دات کام",
@@ -2171,7 +2171,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "t:732e71e957": {
   "name": "نامشخص",
@@ -2521,7 +2521,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -3379,7 +3379,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:1475e4e218": {
   "name": "t:1475e4e218",
@@ -3449,7 +3449,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:6f6c649a99": {
   "name": "t:6f6c649a99",
@@ -3759,7 +3759,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "versland.io": {
   "name": "ورسلند",
@@ -3909,7 +3909,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "t:e157cf02c0": {
   "name": "t:e157cf02c0",
@@ -4129,7 +4129,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-01"
  },
  "t:30a5c1926b": {
   "name": "نامشخص",
@@ -4399,7 +4399,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "meftahsoft.com": {
   "name": "مفتاح سافت",
@@ -4409,7 +4409,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-11-01"
  },
  "t:b30aa13734": {
   "name": "هلو اسپاد",
@@ -4569,7 +4569,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-01"
  },
  "t:ecdd723252": {
   "name": "نامشخص",
@@ -4579,7 +4579,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "toorangostar.com": {
   "name": "توران گستر",
@@ -4609,7 +4609,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-01"
  },
  "t:70ea321fd2": {
   "name": "ثبت فردا",
@@ -4619,7 +4619,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "sabtefarda.org": {
   "name": "ثبت فردا",
@@ -4739,7 +4739,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "aads.com": {
   "name": "ای ادز",
@@ -4799,7 +4799,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "https%": {
   "name": "نامشخص",
@@ -4829,7 +4829,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-01"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5561,7 +5561,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:765c90a416": {
   "name": "t:765c90a416",
@@ -5611,7 +5611,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "novin.one": {
   "name": "نوین وان",
@@ -6203,7 +6203,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "t:77274aa570": {
   "name": "نامشخص",
@@ -6849,7 +6849,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "fadaktrains.com": {
   "name": "اسنپ‌پی",
@@ -7359,7 +7359,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "t:5b3ae780ae": {
   "name": "فرنا",
@@ -7629,7 +7629,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "rojashop.com": {
   "name": "روژا",
@@ -7741,7 +7741,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "hamrahgold.com": {
   "name": "همراه گلد",
@@ -8495,7 +8495,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-01"
  },
  "t:bdc4dfa9f6": {
   "name": "طلای دیجیتال",
@@ -8585,7 +8585,7 @@
   "confidence": 0.88,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-01"
  },
  "t:f4592c05e6": {
   "name": "هاست ایران",
@@ -9065,7 +9065,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "bls-co.ir": {
   "name": "بهار لاله شرق",
@@ -9157,7 +9157,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "t:4bfa9d9eab": {
   "name": "یکتانت",
@@ -9467,7 +9467,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:095858502b": {
   "name": "آی پاسارگاد",
@@ -9859,7 +9859,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:2b241d47ce": {
   "name": "ویجیاتو",
@@ -10229,7 +10229,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "img:15a95141214c89": {
   "name": "پردیسان",
@@ -10495,7 +10495,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "zirehapp.com": {
   "name": "زیره",
@@ -10667,7 +10667,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "snappbimeh.ir": {
   "name": "اسنپ بیمه",
@@ -10853,7 +10853,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:40dd396290": {
   "name": "نامشخص",
@@ -10953,7 +10953,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "t:f3e85facf5": {
   "name": "طلاین",
@@ -11013,7 +11013,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:07f6eb5844": {
   "name": "کیلید",
@@ -11043,7 +11043,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:a2bf6b584a": {
   "name": "اسنپ مارکت",
@@ -11269,7 +11269,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:e345cbe71a": {
   "name": "نامشخص",
@@ -11569,7 +11569,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:6d65cdb6e7": {
   "name": "نامشخص",
@@ -11992,6 +11992,316 @@
   "level": "none",
   "confidence": 0.95,
   "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "dramiriparichehr.ir": {
+  "name": "دکتر پریچهر امیری",
+  "name_en": "Dr. Parichehr Amiri",
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:9017088ba1": {
+  "name": "دوربین مداربسته / مراقبت کودک",
+  "name_en": "Baby Monitor Camera",
+  "vertical": "digital",
+  "level": "vertical",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "didibood.ir": {
+  "name": "دیدی بود",
+  "name_en": "Didibood",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:04c2ac037e": {
+  "name": "پتروکراد",
+  "name_en": "PetroCrowd",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:31cb3b41ed": {
+  "name": "پتروکراد",
+  "name_en": "PetroCrowd",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:5e94b8097b": {
+  "name": "پتروکراد",
+  "name_en": "PetroCrowd",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:c7168cff87": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:923091af8a": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:9c6a885917": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:4017acd966": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "hamafarin.ir": {
+  "name": "هم آفرین",
+  "name_en": "Hamafarin",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:e41dc71c86": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.98,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:6fad57142b": {
+  "name": "ویرا",
+  "name_en": "Vira",
+  "vertical": "education",
+  "level": "none",
+  "confidence": 0.75,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "bsk.ir": {
+  "name": "بنیان سلامت کسری",
+  "name_en": "BSK (Bonyan Salamat Kasra)",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:46b50efe66": {
+  "name": "پودر جلبک اسپیرولینا",
+  "name_en": "Algae Powder",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:39e252a49e": {
+  "name": "پودر جلبک اسپیرولینا",
+  "name_en": "Algae Powder",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:c3508ca8c0": {
+  "name": "ملک نما / مسکن",
+  "name_en": "Real Estate",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:15182b821b": {
+  "name": "سرمایه گذاری",
+  "name_en": "Investment",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:86e9978f64": {
+  "name": "لوازم خانگی",
+  "name_en": "Home Appliances",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:e69ecaf55e": {
+  "name": "بانک ملی ایران",
+  "name_en": "Bank Melli Iran",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:3a7c451a40": {
+  "name": "خرید طلا",
+  "name_en": "Gold Investment",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.65,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:332fb9cd7e": {
+  "name": "خدمات گارانتی و بیمه",
+  "name_en": "Warranty Services",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:f6c16bbc65": {
+  "name": "نرم افزار حسابداری",
+  "name_en": "Accounting Software",
+  "vertical": "services",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:c0a87162f7": {
+  "name": "سرمایه گذاری",
+  "name_en": "Investment",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.5,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:8d20e80b9c": {
+  "name": "گوگل ریکپچا",
+  "name_en": "reCAPTCHA",
+  "vertical": "other",
+  "level": "none",
+  "confidence": 0.6,
+  "source": "llm",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:14e8eaa70c8969": {
+  "name": "متااسلیم",
+  "name_en": "MetaSlim",
+  "vertical": "beauty_health",
+  "level": "none",
+  "message": "لاغری موثر و کاهش سایز بدون جراحی با متد متااسلیم",
+  "domain_guess": "metaslim.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:d0bc5d22ebc6cb": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "services",
+  "level": "none",
+  "message": "عضویت در ناوگان اسنپ و کسب درآمد تا ۱۵۱ میلیون تومان در ماه",
+  "domain_guess": "snapp.ir",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:447327edba18c5": {
+  "name": "اسنپ پی",
+  "name_en": "SnappPay",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "کشبک آنی تا ۱۸٪ در خرید نقدی با اسنپ پی",
+  "domain_guess": "snapppay.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:31af1895bca687": {
+  "name": "اسنپ‌پی",
+  "name_en": "SnappPay",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "تا ۱۸ درصد بازگشت وجه آنی در خرید نقدی با اسنپ‌پی",
+  "domain_guess": "snapppay.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:9bc4bc0af76c30": {
+  "name": "اسنپ",
+  "name_en": "Snapp",
+  "vertical": "services",
+  "level": "none",
+  "message": "کسب درآمد ماهانه تا ۱۵۱ میلیون تومان با رانندگی در ناوگان اسنپ",
+  "domain_guess": "snapp.ir",
+  "confidence": 0.98,
+  "source": "vision",
   "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
  }
