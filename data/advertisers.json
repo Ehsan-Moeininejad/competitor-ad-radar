@@ -262,7 +262,8 @@
   "name": "داریک",
   "vertical": "digital_gold",
   "level": "vertical",
-  "source": "config"
+  "source": "config",
+  "last_seen": "2026-11-01"
  },
  "goldika.ir": {
   "name": "گلدیکا",
@@ -1503,7 +1504,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-22"
+  "last_seen": "2026-11-01"
  },
  "lg.com": {
   "name": "ال‌جی",
@@ -1583,7 +1584,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:d397dfeaae": {
   "name": "تبدیل",
@@ -2081,7 +2082,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "meschi.ir": {
   "name": "مس چی",
@@ -2571,7 +2572,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:dc8e838bf5": {
   "name": "فروش خودرو (خودرو45 / باما)",
@@ -2845,7 +2846,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:dee2c26cc2": {
   "name": "t:dee2c26cc2",
@@ -3015,7 +3016,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3369,7 +3370,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:999a9e775b": {
   "name": "مفید",
@@ -4319,7 +4320,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-01"
  },
  "t:d94b4b25d6": {
   "name": "نامشخص",
@@ -5805,7 +5806,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "t:bb1dc7b3c4": {
   "name": "توچال",
@@ -6183,7 +6184,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-01"
  },
  "t:332050123a": {
   "name": "نامشخص",
@@ -6745,7 +6746,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-01"
  },
  "t:a466cbae96": {
   "name": "هیسکا",
@@ -7731,7 +7732,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:dd5254cccd": {
   "name": "پلی‌پاد",
@@ -9085,7 +9086,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "t:de532dfac5": {
   "name": "اسپری چندمنظوره پاک‌کننده",
@@ -10117,7 +10118,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-29"
+  "last_seen": "2026-11-01"
  },
  "t:2c3b9def3c": {
   "name": "نامشخص",
@@ -10923,7 +10924,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "triboon.net": {
   "name": "تریبون",
@@ -10933,7 +10934,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:35d5be93ca": {
   "name": "آهن شیراز",
@@ -11309,7 +11310,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-01"
  },
  "miniqame.com": {
   "name": "مینی گیم",
@@ -11399,7 +11400,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-01"
  },
  "t:1f3c5332fe": {
   "name": "کاریزما",
@@ -12301,6 +12302,78 @@
   "message": "کسب درآمد ماهانه تا ۱۵۱ میلیون تومان با رانندگی در ناوگان اسنپ",
   "domain_guess": "snapp.ir",
   "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:2aed5ada85fafd": {
+  "name": "امداد باتری",
+  "name_en": "Emdad Battery",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "تحویل و تعویض رایگان باتری ماشین در محل با تماس با ۰۹۶۹۰",
+  "domain_guess": "battery.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:ea968feaaa2aef": {
+  "name": "امداد باتری",
+  "name_en": "Emdad Battery",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "تحویل و ارسال رایگان باتری ماشین در محل با شماره ۰۹۶۹۰",
+  "domain_guess": "emdadbattery.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:db0d84726341ac": {
+  "name": "پزشک یزدی",
+  "name_en": "Pezeshk Yazdi",
+  "vertical": "beauty_health",
+  "level": "none",
+  "message": "درمان ریزش موی ارثی با روش جدید پزشک یزدی",
+  "domain_guess": null,
+  "confidence": 0.9,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "img:484e08ff4c2843": {
+  "name": "مرکز سلامت ایران",
+  "name_en": "Iran Health Center",
+  "vertical": "beauty_health",
+  "level": "none",
+  "message": "آنالیز و مشاوره رایگان وضعیت موها در مرکز سلامت ایران",
+  "domain_guess": "markazsalamat.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:391e374b68": {
+  "name": "پی‌پال",
+  "name_en": "PayPal",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "افتتاح و استفاده از حساب پی‌پال برای پرداخت‌های بین‌المللی",
+  "domain_guess": "paypal.com",
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-11-01",
+  "last_seen": "2026-11-01"
+ },
+ "t:5999851099": {
+  "name": "کایا",
+  "name_en": "Kaya",
+  "vertical": "services",
+  "level": "none",
+  "message": "کسب درآمد دلاری و ارزی با گرفتن پروژه‌های خارجی از طریق کایا",
+  "domain_guess": "kaya.ir",
+  "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-01",
   "last_seen": "2026-11-01"
