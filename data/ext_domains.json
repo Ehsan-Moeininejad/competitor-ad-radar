@@ -323,7 +323,8 @@
   "technolife.com"
  ],
  "azkivam.com": [
-  "technolife.com"
+  "technolife.com",
+  "tgju.org"
  ],
  "filmnet.ir": [
   "technolife.com"
@@ -332,7 +333,8 @@
   "technolife.com"
  ],
  "exiraz.com": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "tgju.org"
  ],
  "rahenoonline.ir": [
   "khabaronline.ir"
@@ -1045,7 +1047,8 @@
   "gadgetnews.net"
  ],
  "l.karamad.com": [
-  "fararu.com"
+  "fararu.com",
+  "tgju.org"
  ],
  "smostafa.ir": [
   "soft98.ir"
@@ -1111,7 +1114,8 @@
   "gadgetnews.net"
  ],
  "ircd.me": [
-  "gadgetnews.net"
+  "gadgetnews.net",
+  "tgju.org"
  ],
  "dinu.ir": [
   "sakhtafzarmag.com"
@@ -1256,14 +1260,16 @@
  ],
  "myket.ir": [
   "footballi.net",
-  "kojaro.com"
+  "kojaro.com",
+  "tgju.org"
  ],
  "sibche.com": [
   "footballi.net"
  ],
  "pinterest.com": [
   "setare.com",
-  "delgarm.com"
+  "delgarm.com",
+  "tgju.org"
  ],
  "shad.ir": [
   "tebyan.net"
@@ -1806,5 +1812,74 @@
  ],
  "imdb.com": [
   "digimoviez.com"
+ ],
+ "emofid.com": [
+  "tgju.org"
+ ],
+ "iblink.ir": [
+  "tgju.org"
+ ],
+ "melligold.com": [
+  "tgju.org"
+ ],
+ "vistaamc.ir": [
+  "tgju.org"
+ ],
+ "ipgd.ir": [
+  "tgju.org"
+ ],
+ "zaya.io": [
+  "tgju.org"
+ ],
+ "bahman.ir": [
+  "tgju.org"
+ ],
+ "app.tgju.exchange": [
+  "tgju.org"
+ ],
+ "iwmf.ir": [
+  "tgju.org"
+ ],
+ "persianapi.com": [
+  "tgju.org"
+ ],
+ "tgju.gold": [
+  "tgju.org"
+ ],
+ "marketban.com": [
+  "tgju.org"
+ ],
+ "marketpanorama.com": [
+  "tgju.org"
+ ],
+ "play.google.com": [
+  "tgju.org"
+ ],
+ "iapps.ir": [
+  "tgju.org"
+ ],
+ "anardoni.com": [
+  "tgju.org"
+ ],
+ "sibirani.com": [
+  "tgju.org"
+ ],
+ "twitch.tv": [
+  "tgju.org"
+ ],
+ "me": [
+  "tgju.org"
+ ],
+ "slack.com": [
+  "tgju.org"
+ ],
+ "wa.me": [
+  "tgju.org"
+ ],
+ "filimo.school": [
+  "filimo.com"
+ ],
+ "filimo.goposhti.com": [
+  "filimo.com"
  ]
 }
