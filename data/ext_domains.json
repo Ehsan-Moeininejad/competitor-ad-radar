@@ -270,7 +270,8 @@
  ],
  "click.adtrace.io": [
   "digikala.com",
-  "mobile.ir"
+  "mobile.ir",
+  "drsaina.com"
  ],
  "sapra.ir": [
   "digikala.com",
@@ -419,7 +420,8 @@
   "mehrnews.com",
   "namnak.com",
   "asriran.com",
-  "alef.ir"
+  "alef.ir",
+  "hamshahrionline.ir"
  ],
  "irchem.ir": [
   "khabaronline.ir",
@@ -759,7 +761,8 @@
   "rokna.net",
   "ettelaat.com",
   "mojnews.com",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "sharghdaily.com"
  ],
  "tejaratnews.com": [
   "rokna.net"
@@ -1710,7 +1713,8 @@
   "hamshahrionline.ir"
  ],
  "realtimedentist.com": [
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "mehrnews.com"
  ],
  "karnameh.com": [
   "hamshahrionline.ir"
@@ -1775,5 +1779,32 @@
  ],
  "mihanbroker.com": [
   "khabarvarzeshi.com"
+ ],
+ "janebi.com": [
+  "alef.ir",
+  "hamshahrionline.ir",
+  "khabaronline.ir",
+  "rokna.net",
+  "namnak.com",
+  "asriran.com",
+  "sharghdaily.com"
+ ],
+ "atisbox.com": [
+  "hamshahrionline.ir"
+ ],
+ "adleiranian.co": [
+  "jamaran.news"
+ ],
+ "trc.metrix.ir": [
+  "drsaina.com"
+ ],
+ "maanapp.ir": [
+  "drsaina.com"
+ ],
+ "ecunion.ir": [
+  "drsaina.com"
+ ],
+ "imdb.com": [
+  "digimoviez.com"
  ]
 }
