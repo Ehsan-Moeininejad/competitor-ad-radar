@@ -423,7 +423,8 @@
   "namnak.com",
   "asriran.com",
   "alef.ir",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "sharghdaily.com"
  ],
  "irchem.ir": [
   "khabaronline.ir",
@@ -1261,7 +1262,8 @@
  "myket.ir": [
   "footballi.net",
   "kojaro.com",
-  "tgju.org"
+  "tgju.org",
+  "technolife.com"
  ],
  "sibche.com": [
   "footballi.net"
@@ -1883,5 +1885,35 @@
  ],
  "filimo.goposhti.com": [
   "filimo.com"
+ ],
+ "chartiran.com": [
+  "hamshahrionline.ir"
+ ],
+ "gamespot.com": [
+  "p30day.ir"
+ ],
+ "ign.com": [
+  "p30day.ir"
+ ],
+ "sangmazarr.com": [
+  "khabarfoori.com"
+ ],
+ "c-beautyshop.com": [
+  "rokna.net"
+ ],
+ "hacinhaseb.com": [
+  "daneshchi.ir"
+ ],
+ "mowb.ir": [
+  "modireweb.com"
+ ],
+ "loolebazkoni.com": [
+  "mojnews.com"
+ ],
+ "dr-baradaran.com": [
+  "mehrnews.com"
+ ],
+ "bazarganisib.com": [
+  "techrato.com"
  ]
 }
