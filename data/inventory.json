@@ -63,13 +63,13 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~190x200",
   "network": "yektanet",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "ninisite.com|home|header|native|desktop": {
   "first_seen": "2026-10-18",
   "size": "Native widget ×1",
   "network": "yektanet",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "ninisite.com|home|sidebar|native|desktop": {
   "first_seen": "2026-10-18",
@@ -81,7 +81,7 @@
   "first_seen": "2026-10-18",
   "size": "300x100",
   "network": "yektanet",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "digiato.com|home|sidebar|display|desktop": {
   "first_seen": "2026-10-18",
@@ -2385,7 +2385,7 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~300x340",
   "network": "yektanet",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "ilna.ir|home|below_fold|video|desktop": {
   "first_seen": "2026-10-18",
@@ -3245,7 +3245,7 @@
   "first_seen": "2026-10-23",
   "size": "Custom ~380x890",
   "network": "yektanet",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-11-04"
  },
  "etemadonline.com|home|header|native|desktop": {
   "first_seen": "2026-10-23",
@@ -3293,7 +3293,7 @@
   "first_seen": "2026-10-24",
   "size": "Custom ~190x120",
   "network": "yektanet",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-04"
  },
  "isignal.ir|home|above_fold|display|mobile": {
   "first_seen": "2026-10-24",
@@ -3664,6 +3664,10 @@
   "last_seen": "2026-11-04"
  },
  "hamshahrionline.ir|net|digiad": {
+  "first_seen": "2026-11-04",
+  "last_seen": "2026-11-04"
+ },
+ "fararu.com|net|digiad": {
   "first_seen": "2026-11-04",
   "last_seen": "2026-11-04"
  }

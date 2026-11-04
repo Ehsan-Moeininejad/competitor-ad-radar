@@ -1574,7 +1574,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:4c0d708c10": {
   "name": "تبدیل",
@@ -1704,7 +1704,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:3b50441119": {
   "name": "تبدیل",
@@ -1882,7 +1882,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-04"
  },
  "t:4da51be3ec": {
   "name": "خودرو45",
@@ -1902,7 +1902,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:80ed8cb878": {
   "name": "خودرو45",
@@ -1942,7 +1942,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:3ae7494ff6": {
   "name": "خودرو45",
@@ -2012,7 +2012,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:252489371f": {
   "name": "نامشخص",
@@ -2866,7 +2866,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "booranjobs.com": {
   "name": "booranjobs.com",
@@ -3198,7 +3198,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:2d32e437ee": {
   "name": "خودرو ۴۵",
@@ -3258,7 +3258,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-19"
+  "last_seen": "2026-11-04"
  },
  "t:af03327a1d": {
   "name": "خودرو ۴۵",
@@ -3294,7 +3294,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "yousefzadehcoffee.com": {
   "name": "انتخاب",
@@ -5994,7 +5994,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-04"
  },
  "t:be7b015b3c": {
   "name": "نیپوتو",
@@ -6134,7 +6134,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-04"
  },
  "t:2a8037a6bf": {
   "name": "هویا",
@@ -7416,7 +7416,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:e714c68ac5": {
   "name": "نامشخص",
@@ -7652,7 +7652,7 @@
   "confidence": 0.3,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-04"
  },
  "t:7b546a89bd": {
   "name": "صندوق ایران زمین (کارگزاری حافظ)",
@@ -8396,7 +8396,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-04"
  },
  "t:719755d7ff": {
   "name": "پیش بینی فوتبال",
@@ -8536,7 +8536,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-04"
  },
  "t:a27c644612": {
   "name": "گلورشن",
@@ -8586,7 +8586,7 @@
   "confidence": 0.88,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-04"
  },
  "t:f4592c05e6": {
   "name": "هاست ایران",
@@ -9050,7 +9050,7 @@
   "confidence": 0.8,
   "source": "vision",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-04"
  },
  "brand:نوار": {
   "name": "نوار",
@@ -9086,7 +9086,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-04"
  },
  "t:de532dfac5": {
   "name": "اسپری چندمنظوره پاک‌کننده",
@@ -9188,7 +9188,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-04"
  },
  "t:ab26e2b1c7": {
   "name": "بروکر فارکس",
@@ -10516,7 +10516,7 @@
   "confidence": 0.2,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:de5c7766ea": {
   "name": "اسنپ پی",
@@ -10536,7 +10536,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-04"
  },
  "t:d1f1b72193": {
   "name": "نامشخص (تحلیل بازار مالی)",
@@ -10708,7 +10708,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-04"
  },
  "t:69a0cf6a24": {
   "name": "خودرو۴۵",
@@ -10974,7 +10974,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:21c4b1a962": {
   "name": "نواتل",
@@ -12574,7 +12574,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-04"
  },
  "kaya.ir": {
   "name": "کایا",
@@ -12670,7 +12670,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "t:4559fc6094": {
   "name": "نامشخص",
@@ -13200,7 +13200,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-04"
  },
  "zhaket.com": {
   "name": "ژاکت",
