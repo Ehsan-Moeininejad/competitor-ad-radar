@@ -424,7 +424,10 @@
   "asriran.com",
   "alef.ir",
   "hamshahrionline.ir",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "rokna.net",
+  "khabarfoori.com",
+  "gadgetnews.net"
  ],
  "irchem.ir": [
   "khabaronline.ir",
@@ -755,7 +758,8 @@
   "shahrekhabar.com",
   "ettelaat.com",
   "gadgetnews.net",
-  "mehrnews.com"
+  "mehrnews.com",
+  "footballi.net"
  ],
  "ketabane.org": [
   "shahrekhabar.com"
@@ -1335,7 +1339,8 @@
   "aftabnews.ir"
  ],
  "ok-ex.io": [
-  "aftabnews.ir"
+  "aftabnews.ir",
+  "ettelaat.com"
  ],
  "musicchi.net": [
   "aftabnews.ir"
@@ -1922,5 +1927,11 @@
  ],
  "shermila.net": [
   "mehrnews.com"
+ ],
+ "l.snpy.ir": [
+  "technolife.com"
+ ],
+ "khodroshop.ir": [
+  "tejaratnews.com"
  ]
 }
