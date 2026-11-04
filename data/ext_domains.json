@@ -1797,7 +1797,8 @@
   "asriran.com",
   "sharghdaily.com",
   "aftabnews.ir",
-  "iranjib.ir"
+  "iranjib.ir",
+  "mehrnews.com"
  ],
  "atisbox.com": [
   "hamshahrionline.ir"
@@ -1918,5 +1919,8 @@
  ],
  "agbr.ir": [
   "tgju.org"
+ ],
+ "shermila.net": [
+  "mehrnews.com"
  ]
 }
