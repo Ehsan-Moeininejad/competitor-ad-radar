@@ -902,7 +902,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-05"
  },
  "delcook.kitchen": {
   "name": "دل کوک",
@@ -2082,7 +2082,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "meschi.ir": {
   "name": "مس چی",
@@ -4510,7 +4510,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-05"
  },
  "shatelmobile.ir": {
   "name": "شاتل موبایل",
@@ -4670,7 +4670,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-05"
  },
  "gisheh724.com": {
   "name": "گیشه ۷۲۴",
@@ -4830,7 +4830,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5482,7 +5482,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-05"
  },
  "t:5af72a2855": {
   "name": "پی کن دو",
@@ -5512,7 +5512,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:cadd2a8e67": {
   "name": "t:cadd2a8e67",
@@ -5846,7 +5846,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-05"
  },
  "t:75681ed909": {
   "name": "نامشخص",
@@ -5880,7 +5880,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "holootech.ir": {
   "name": "آکادمی هلو",
@@ -6054,7 +6054,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:4336b256e0": {
   "name": "استیم",
@@ -6144,7 +6144,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:56270d8945": {
   "name": "ازکی سلر",
@@ -6214,7 +6214,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-05"
  },
  "t:156c78de7d": {
   "name": "نامشخص",
@@ -6746,7 +6746,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:a466cbae96": {
   "name": "هیسکا",
@@ -7742,7 +7742,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "hamrahgold.com": {
   "name": "همراه گلد",
@@ -7782,7 +7782,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:52ac5718d9": {
   "name": "نامشخص",
@@ -7882,7 +7882,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-05"
  },
  "nujanco.com": {
   "name": "نوژن",
@@ -8286,7 +8286,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-05"
  },
  "t:d72651059a": {
   "name": "سرمایه بازار",
@@ -11300,7 +11300,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:048005a39c": {
   "name": "کاریزما",
@@ -11650,7 +11650,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:6b42819609": {
   "name": "نامشخص",
@@ -12384,7 +12384,7 @@
   "level": "core",
   "source": "name-match",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-05"
  },
  "ganje.net": {
   "name": "گنجه",
@@ -12524,7 +12524,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-05"
  },
  "t:89f6a76eec": {
   "name": "t:89f6a76eec",
@@ -12896,7 +12896,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-05"
  },
  "t:641fdbefd9": {
   "name": "نظرسنجی بازار خودرو",
@@ -13060,7 +13060,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-05"
  },
  "mashinaaa.com": {
   "name": "ماشینا",
@@ -13521,6 +13521,26 @@
   "level": "none",
   "message": "دعوت به شرکت در مسابقه شامانا با جوایز متنوع",
   "domain_guess": "shamana.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05"
+ },
+ "royaco.com": {
+  "name": "دیوار",
+  "vertical": "marketplace",
+  "level": "core",
+  "source": "name-match",
+  "first_seen": "2026-11-05",
+  "last_seen": "2026-11-05"
+ },
+ "t:ba59bf15be": {
+  "name": "همراه گلد",
+  "name_en": "Hamrah Gold",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "message": "هر هفته ۱۳ برنده طلایی با خرید طلا و انجام مأموریت‌ها در کمپین گنج‌ساز همراه گلد",
+  "domain_guess": "hamrahcard.ir",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-05",
