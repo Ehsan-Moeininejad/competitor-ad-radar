@@ -438,7 +438,7 @@
   "vertical": "auto",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "khodro45.com": {
   "name": "خودرو ۴۵",
@@ -2662,7 +2662,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:3a52be1356": {
   "name": "پیامک خونه",
@@ -3302,7 +3302,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "refah-bank.ir": {
   "name": "رفاه",
@@ -5282,7 +5282,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:02d9815128": {
   "name": "آنیسا",
@@ -7070,7 +7070,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-06"
  },
  "t:6849f67001": {
   "name": "فرنا",
@@ -8256,7 +8256,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-06"
  },
  "bitpin.ir": {
   "name": "بیت پین",
@@ -9116,7 +9116,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:cc80a8990d": {
   "name": "گوگل کلاد",
@@ -9258,7 +9258,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:eebd2926b1": {
   "name": "کاریزما",
@@ -10516,7 +10516,7 @@
   "confidence": 0.2,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:de5c7766ea": {
   "name": "اسنپ پی",
@@ -10854,7 +10854,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:40dd396290": {
   "name": "نامشخص",
@@ -10864,7 +10864,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:30f51960f0": {
   "name": "نامشخص",
@@ -10974,7 +10974,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-06"
  },
  "t:21c4b1a962": {
   "name": "نواتل",
@@ -11270,7 +11270,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-06"
  },
  "t:e345cbe71a": {
   "name": "نامشخص",
@@ -12936,7 +12936,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-06"
  },
  "t:18c73cb97d": {
   "name": "سرمایه گذاری نفت",
@@ -13260,7 +13260,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:ef15211a96": {
   "name": "کاریزما",
@@ -13270,7 +13270,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:caeb1908eb": {
   "name": "کاریزما",
@@ -13591,6 +13591,14 @@
   "domain_guess": "snappexpress.ir",
   "confidence": 0.95,
   "source": "vision",
+  "first_seen": "2026-11-06",
+  "last_seen": "2026-11-06"
+ },
+ "brand:وال‌گلد": {
+  "name": "وال‌گلد",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "source": "name-match",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-06"
  }
