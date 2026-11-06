@@ -1306,7 +1306,7 @@
   "confidence": 0.8,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "tokeniko.com": {
   "name": "توکنیکو",
@@ -1504,7 +1504,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "lg.com": {
   "name": "ال‌جی",
@@ -2092,7 +2092,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-06"
  },
  "jajiga.com": {
   "name": "جاجیگا",
@@ -2916,7 +2916,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-06"
  },
  "webzi.ir": {
   "name": "وبزی",
@@ -3580,7 +3580,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-06"
  },
  "t:678cd79822": {
   "name": "t:678cd79822",
@@ -3590,7 +3590,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-06"
  },
  "filimo.com": {
   "name": "فیلیمو",
@@ -3670,7 +3670,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-06"
  },
  "t:e5f6b99015": {
   "name": "t:e5f6b99015",
@@ -3910,7 +3910,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:e157cf02c0": {
   "name": "t:e157cf02c0",
@@ -4320,7 +4320,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:d94b4b25d6": {
   "name": "نامشخص",
@@ -4370,7 +4370,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-06"
  },
  "t:b774217976": {
   "name": "نامشخص",
@@ -5102,7 +5102,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:a0011c94af": {
   "name": "t:a0011c94af",
@@ -5122,7 +5122,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-06"
  },
  "holoospad.com": {
   "name": "اسپاد",
@@ -5522,7 +5522,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-06"
  },
  "t:bc0cebb1e3": {
   "name": "t:bc0cebb1e3",
@@ -5532,7 +5532,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-11-06"
  },
  "t:520f112525": {
   "name": "توچال گلد",
@@ -5994,7 +5994,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:be7b015b3c": {
   "name": "نیپوتو",
@@ -6004,7 +6004,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-21"
+  "last_seen": "2026-11-06"
  },
  "t:8703186d51": {
   "name": "نیپوتو",
@@ -6386,7 +6386,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-28"
+  "last_seen": "2026-11-06"
  },
  "t:a7b82fc436": {
   "name": "هوم پلاس",
@@ -6396,7 +6396,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-06"
  },
  "t:cf4fc67c3b": {
   "name": "آلپاری",
@@ -6656,7 +6656,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "agbr.ir": {
   "name": "کارگزاری آگاه",
@@ -7130,7 +7130,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:f6fdcaf97c": {
   "name": "توکینیکو",
@@ -7314,7 +7314,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "mahame.ir": {
   "name": "مهامه",
@@ -7842,7 +7842,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-06"
  },
  "t:faaf21d106": {
   "name": "مس چی",
@@ -7852,7 +7852,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-06"
  },
  "t:a7e4d4bf49": {
   "name": "نامشخص",
@@ -8586,7 +8586,7 @@
   "confidence": 0.88,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-06"
  },
  "t:f4592c05e6": {
   "name": "هاست ایران",
@@ -9058,7 +9058,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "briston.shop": {
   "name": "اسنپ‌پی",
@@ -10108,7 +10108,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:aebc2ad6fa": {
   "name": "کاریزما",
@@ -10138,7 +10138,7 @@
   "confidence": 0.3,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:3bfb990c04": {
   "name": "نامشخص",
@@ -10894,7 +10894,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-06"
  },
  "t:c5ccc3dfe8": {
   "name": "اسنپ اکسپرس",
@@ -10964,7 +10964,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-06"
  },
  "t:ce4dd1ecf1": {
   "name": "نامشخص",
@@ -11280,7 +11280,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-06"
  },
  "t:8c5269f0a7": {
   "name": "خودرو۴۵",
@@ -11558,7 +11558,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-06"
  },
  "t:ed1c42be17": {
   "name": "بامیلو",
@@ -12896,7 +12896,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:641fdbefd9": {
   "name": "نظرسنجی بازار خودرو",
@@ -13026,7 +13026,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-06"
  },
  "t:e6017fd187": {
   "name": "باکسیت",
@@ -13554,6 +13554,42 @@
   "message": "خرید، فروش و کارشناسی خودرو تیبا",
   "domain_guess": "karnameh.com",
   "confidence": 0.8,
+  "source": "vision",
+  "first_seen": "2026-11-06",
+  "last_seen": "2026-11-06"
+ },
+ "t:ea9fa3f241": {
+  "name": "اسنپ مارکت",
+  "name_en": "Snapp Market",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "تخفیف ۳۹ درصدی شامپو با ارسال رایگان از اسنپ مارکت",
+  "domain_guess": "snapp.market",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-11-06",
+  "last_seen": "2026-11-06"
+ },
+ "t:1bea1d5a35": {
+  "name": "سعادت رنت",
+  "name_en": "Saadat Rent",
+  "vertical": "travel_services",
+  "level": "none",
+  "message": "اجاره خودرو با راننده برای سفرهای شهری و جلسات کاری",
+  "domain_guess": "saadatrent.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-06",
+  "last_seen": "2026-11-06"
+ },
+ "img:89504570dde111": {
+  "name": "اسنپ اکسپرس",
+  "name_en": "SnappExpress",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "خرید چیپس با ۹ هزار تومان ویژه خرید اول همراه با ارسال رایگان",
+  "domain_guess": "snappexpress.ir",
+  "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-06",
   "last_seen": "2026-11-06"
