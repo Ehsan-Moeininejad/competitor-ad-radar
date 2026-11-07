@@ -440,7 +440,8 @@
  "digikala.com": [
   "khabaronline.ir",
   "mehrnews.com",
-  "asriran.com"
+  "asriran.com",
+  "iranjib.ir"
  ],
  "locoiran.com": [
   "khabaronline.ir",
@@ -806,7 +807,8 @@
  ],
  "heblexrazavi.com": [
   "rokna.net",
-  "khabarfoori.com"
+  "khabarfoori.com",
+  "namnak.com"
  ],
  "talajat.net": [
   "rokna.net",
@@ -832,7 +834,8 @@
  ],
  "ahoradarb.com": [
   "ettelaat.com",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "mehrnews.com"
  ],
  "silveerpack.com": [
   "ettelaat.com",
@@ -1951,5 +1954,29 @@
  ],
  "play1001.tv.fc-perspolis.com": [
   "varzesh3.com"
+ ],
+ "fmnt.ir": [
+  "technolife.com"
+ ],
+ "pezeshk24.com": [
+  "khabaronline.ir"
+ ],
+ "atronco.com": [
+  "khabaronline.ir"
+ ],
+ "pezeshktajhiz.com": [
+  "alef.ir"
+ ],
+ "hostdl.co": [
+  "soft98.ir"
+ ],
+ "grocery.snapp.ir": [
+  "tebyan.net"
+ ],
+ "yadakkia.com": [
+  "aftabnews.ir"
+ ],
+ "khane-bosch.com": [
+  "mojnews.com"
  ]
 }
