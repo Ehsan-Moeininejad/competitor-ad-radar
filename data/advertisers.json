@@ -1222,7 +1222,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "brand:جین‌وست": {
   "name": "جین‌وست",
@@ -1594,7 +1594,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-07"
  },
  "t:a47d538a17": {
   "name": "تبدیل",
@@ -2042,7 +2042,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "t:0158c2ad44": {
   "name": "نامشخص",
@@ -2062,7 +2062,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:bc3b5e9a58": {
   "name": "ازکی سلر",
@@ -2582,7 +2582,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "toranjcapital.com": {
   "name": "مدیریت دارایی ترنج",
@@ -2796,7 +2796,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:8ba70da1d4": {
   "name": "t:8ba70da1d4",
@@ -4190,7 +4190,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-07"
  },
  "rahyn.ir": {
   "name": "آریا اروند صنعت",
@@ -4330,7 +4330,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:26e6347e55": {
   "name": "شهر فرش",
@@ -4360,7 +4360,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:623e039029": {
   "name": "نامشخص",
@@ -4800,7 +4800,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "https%": {
   "name": "نامشخص",
@@ -4830,7 +4830,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5482,7 +5482,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "t:5af72a2855": {
   "name": "پی کن دو",
@@ -5532,7 +5532,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "t:520f112525": {
   "name": "توچال گلد",
@@ -5542,7 +5542,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-11-07"
  },
  "t:8831be73f3": {
   "name": "t:8831be73f3",
@@ -5788,7 +5788,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "brand:میلی": {
   "name": "میلی",
@@ -5816,7 +5816,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-11-07"
  },
  "t:9099d9f3cc": {
   "name": "نامشخص",
@@ -5904,7 +5904,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "bitpin.org": {
   "name": "بیت پین",
@@ -6054,7 +6054,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "t:4336b256e0": {
   "name": "استیم",
@@ -6194,7 +6194,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:5eba8f5a6f": {
   "name": "نامشخص",
@@ -6214,7 +6214,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:156c78de7d": {
   "name": "نامشخص",
@@ -6416,7 +6416,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "t:083c14e82e": {
   "name": "پیشگامان",
@@ -7182,7 +7182,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-11-07"
  },
  "metrix.ir": {
   "name": "متریکس",
@@ -7510,7 +7510,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-07"
  },
  "t:96464c0d65": {
   "name": "تبدیل",
@@ -7956,7 +7956,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "t:0bc011dc30": {
   "name": "زولا",
@@ -8466,7 +8466,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:1c2ca1d6c9": {
   "name": "تجهیزات خانه بازی",
@@ -8526,7 +8526,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-07"
  },
  "t:c6dfdd9282": {
   "name": "درمان زانودرد",
@@ -8646,7 +8646,7 @@
   "confidence": 0.88,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-07"
  },
  "img:c53164cc247b1a": {
   "name": "همراه گلد",
@@ -8770,7 +8770,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-07"
  },
  "t:797eeb0d2e": {
   "name": "t:797eeb0d2e",
@@ -10728,7 +10728,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:7aa37024ab": {
   "name": "قهوه ریو",
@@ -10934,7 +10934,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-07"
  },
  "t:35d5be93ca": {
   "name": "آهن شیراز",
@@ -11650,7 +11650,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-07"
  },
  "t:6b42819609": {
   "name": "نامشخص",
@@ -13006,7 +13006,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-07"
  },
  "t:961a0c3283": {
   "name": "درمان درد کمر",
@@ -13826,6 +13826,76 @@
   "message": "دعوت به ثبت نام در اپلیکیشن محک جهت حمایت از کودکان",
   "domain_guess": "mahak-charity.org",
   "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-07",
+  "last_seen": "2026-11-07"
+ },
+ "t:62dc9c270a": {
+  "name": "نقد فیلم",
+  "name_en": "Movie Review",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.7,
+  "source": "llm",
+  "first_seen": "2026-11-07",
+  "last_seen": "2026-11-07"
+ },
+ "img:041296853427cc": {
+  "name": "کمدا",
+  "name_en": "Komodaa",
+  "vertical": "fashion",
+  "level": "own",
+  "message": "تا ۸۰ درصد تخفیف برای ساخت استایل جدید",
+  "domain_guess": "komodaa.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-07",
+  "last_seen": "2026-11-07"
+ },
+ "hrtc.ir": {
+  "name": "ای استخدام",
+  "name_en": "E-Estekhdam",
+  "vertical": "services",
+  "level": "none",
+  "message": "اطلاع‌رسانی آزمون‌های استخدامی",
+  "domain_guess": "e-estekhdam.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-07",
+  "last_seen": "2026-11-07"
+ },
+ "img:7c909236ce8bb4": {
+  "name": "کلاسینو",
+  "name_en": "Classino",
+  "vertical": "education",
+  "level": "none",
+  "message": "۲ جلسه کلاس کنکور کاملاً رایگان در کلاسینو",
+  "domain_guess": "classino.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-07",
+  "last_seen": "2026-11-07"
+ },
+ "img:27275d81523ad8": {
+  "name": "کلاسینو",
+  "name_en": "Classino",
+  "vertical": "education",
+  "level": "none",
+  "message": "۲ جلسه کلاس کنکور کاملاً رایگان",
+  "domain_guess": "classino.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-07",
+  "last_seen": "2026-11-07"
+ },
+ "t:6e8bd2ddc7": {
+  "name": "انتخاب",
+  "name_en": "Entekhab",
+  "vertical": "media",
+  "level": "none",
+  "message": "پایگاه خبری تحلیلی انتخاب",
+  "domain_guess": "entekhab.ir",
+  "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-07",
   "last_seen": "2026-11-07"

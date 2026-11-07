@@ -441,7 +441,8 @@
   "khabaronline.ir",
   "mehrnews.com",
   "asriran.com",
-  "iranjib.ir"
+  "iranjib.ir",
+  "namnak.com"
  ],
  "locoiran.com": [
   "khabaronline.ir",
@@ -1845,7 +1846,8 @@
   "tgju.org"
  ],
  "zaya.io": [
-  "tgju.org"
+  "tgju.org",
+  "tarafdari.com"
  ],
  "bahman.ir": [
   "tgju.org"
@@ -1978,5 +1980,11 @@
  ],
  "khane-bosch.com": [
   "mojnews.com"
+ ],
+ "navaran.com": [
+  "ensafnews.com"
+ ],
+ "bishtarazyek.com": [
+  "soft98.ir"
  ]
 }
