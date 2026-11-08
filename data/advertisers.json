@@ -63,7 +63,7 @@
   "vertical": "marketplace",
   "level": "core",
   "source": "config",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-08"
  },
  "timcheh.com": {
   "name": "تیمچه",
@@ -2072,7 +2072,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "berjismed.com": {
   "name": "برجیس",
@@ -4830,7 +4830,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5402,7 +5402,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-11-08"
  },
  "t:9179441a2b": {
   "name": "شیدا",
@@ -5532,7 +5532,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "t:520f112525": {
   "name": "توچال گلد",
@@ -6416,7 +6416,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "t:083c14e82e": {
   "name": "پیشگامان",
@@ -7314,7 +7314,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "mahame.ir": {
   "name": "مهامه",
@@ -9760,7 +9760,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-08"
  },
  "t:33360ce535": {
   "name": "هاست ایران",
@@ -9790,7 +9790,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "t:f1cdd42c9c": {
   "name": "ال جی",
@@ -9840,7 +9840,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "t:fb1cb6d1f0": {
   "name": "هاست ایران",
@@ -13048,7 +13048,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "img:0c14feb35148da": {
   "name": "ازکی‌وام",
@@ -13210,7 +13210,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-08"
  },
  "t:ee2011246e": {
   "name": "نامشخص",
@@ -13580,7 +13580,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "img:89504570dde111": {
   "name": "اسنپ اکسپرس",
@@ -13898,7 +13898,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-08"
  },
  "t:90457680d6": {
   "name": "توچال گلد",
@@ -14307,6 +14307,74 @@
   "level": "none",
   "message": "دریافت ۳۰۰ میلیون تومان وام نقدی به پشتوانه صندوق بورسی ETF",
   "domain_guess": "charisma.ir",
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-08"
+ },
+ "tage.ir": {
+  "name": "انتخاب",
+  "vertical": "home_appliances",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-08"
+ },
+ "hoosha.ai": {
+  "name": "هوشا",
+  "name_en": "Hoosha",
+  "vertical": "services",
+  "level": "none",
+  "message": "۲۰ درصد تخفیف اولین خرید سرویس هوش مصنوعی هوشا با کد FRST20",
+  "domain_guess": "hoosha.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-08"
+ },
+ "img:483beb681c388f": {
+  "name": "کارگزاری مفید",
+  "name_en": "Mofid Securities",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "دریافت تا ۴۰۰ میلیون تومان اعتبار خرید به پشتوانه صندوق عیار",
+  "domain_guess": "emofid.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-08"
+ },
+ "img:0824a6554cb6ae": {
+  "name": "مفید",
+  "name_en": "Mofid",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "دریافت تا ۴۰۰ میلیون تومان اعتبار خرید به پشتوانه واحد‌های صندوق عیار",
+  "domain_guess": "emofid.com",
+  "confidence": 0.9,
+  "source": "vision",
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-08"
+ },
+ "autoplaza.ir": {
+  "name": "اتوپلازا تهران",
+  "name_en": "Tehran Auto Plaza",
+  "vertical": "auto",
+  "level": "vertical",
+  "message": "اولین و بزرگترین بازار خرید، فروش و خدمات خودرو در ایران",
+  "domain_guess": "tehranautoplaza.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-08",
+  "last_seen": "2026-11-08"
+ },
+ "img:873e426577d2f8": {
+  "name": "آیتول",
+  "name_en": "Itoll",
+  "vertical": "services",
+  "level": "none",
+  "message": "استعلام و پرداخت آنلاین خلافی خودرو",
+  "domain_guess": "itoll.ir",
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-08",
