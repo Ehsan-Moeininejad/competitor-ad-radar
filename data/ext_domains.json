@@ -492,13 +492,15 @@
   "mehrnews.com",
   "asriran.com",
   "sharghdaily.com",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "aftabnews.ir"
  ],
  "pezeshk24.com": [
   "khabaronline.ir"
  ],
  "atronco.com": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "hamshahrionline.ir"
  ],
  "nastooh.ir": [
   "khabaronline.ir",
@@ -527,7 +529,8 @@
   "asriran.com",
   "sharghdaily.com",
   "alef.ir",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "daneshchi.ir"
  ],
  "gamefa.net": [
   "gamefa.com"
@@ -963,7 +966,8 @@
  ],
  "cod24.ir": [
   "khabarvarzeshi.com",
-  "jamejamonline.ir"
+  "jamejamonline.ir",
+  "daneshchi.ir"
  ],
  "4sough.com": [
   "khabarvarzeshi.com",
@@ -1309,7 +1313,8 @@
  ],
  "omranmodern.com": [
   "jamejamonline.ir",
-  "aftabnews.ir"
+  "aftabnews.ir",
+  "iranjib.ir"
  ],
  "tanhapoulad.com": [
   "jamejamonline.ir"
@@ -1481,7 +1486,8 @@
   "hamshahrionline.ir"
  ],
  "iranchina.org": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "daneshchi.ir"
  ],
  "boardnegar.com": [
   "mehrnews.com"
@@ -1490,7 +1496,8 @@
   "mehrnews.com"
  ],
  "alibaba.ir": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "shahrekhabar.com"
  ],
  "pezeshkanbeauty.com": [
   "mehrnews.com"
@@ -1814,7 +1821,8 @@
   "hamshahrionline.ir"
  ],
  "geokhanjani.com": [
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "daneshchi.ir"
  ],
  "chartiran.com": [
   "hamshahrionline.ir"
@@ -1841,7 +1849,8 @@
   "hamshahrionline.ir"
  ],
  "jib.store": [
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "ettelaat.com"
  ],
  "roshaidservice.ir": [
   "hamshahrionline.ir"
@@ -1875,5 +1884,32 @@
  ],
  "send": [
   "ensafnews.com"
+ ],
+ "paytakhteketab.com": [
+  "daneshchi.ir"
+ ],
+ "soorano.com": [
+  "daneshchi.ir"
+ ],
+ "zerochap.com": [
+  "daneshchi.ir"
+ ],
+ "daric.gold": [
+  "daneshchi.ir"
+ ],
+ "decorikarino.ir": [
+  "daneshchi.ir"
+ ],
+ "baghfarhangshop.ir": [
+  "daneshchi.ir"
+ ],
+ "rabinland.com": [
+  "daneshchi.ir"
+ ],
+ "hacinhaseb.com": [
+  "daneshchi.ir"
+ ],
+ "kangorou.com": [
+  "shahrekhabar.com"
  ]
 }
