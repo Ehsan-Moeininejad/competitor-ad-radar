@@ -882,7 +882,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-09"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -2062,7 +2062,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:bc3b5e9a58": {
   "name": "ازکی سلر",
@@ -2522,7 +2522,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:988ce6a25a": {
   "name": "ارتباطات خراسان رضوی",
@@ -2582,7 +2582,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "toranjcapital.com": {
   "name": "مدیریت دارایی ترنج",
@@ -3470,7 +3470,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "alpariclub.com": {
   "name": "آلپاری",
@@ -3550,7 +3550,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "sigmatec.ir": {
   "name": "سیگما",
@@ -3560,7 +3560,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-09"
  },
  "aryacoupling.com": {
   "name": "آریا کوپلینگ",
@@ -4130,7 +4130,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-09"
  },
  "t:30a5c1926b": {
   "name": "نامشخص",
@@ -5472,7 +5472,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:aa7eca9f49": {
   "name": "t:aa7eca9f49",
@@ -5482,7 +5482,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-09"
  },
  "t:5af72a2855": {
   "name": "پی کن دو",
@@ -6134,7 +6134,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:2a8037a6bf": {
   "name": "هویا",
@@ -8396,7 +8396,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:719755d7ff": {
   "name": "پیش بینی فوتبال",
@@ -8596,7 +8596,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-10-27"
+  "last_seen": "2026-11-09"
  },
  "khosravani.com": {
   "name": "خسروانی",
@@ -9978,7 +9978,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:56d52aec10": {
   "name": "نامشخص",
@@ -9998,7 +9998,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:a0273f0070": {
   "name": "نامشخص",
@@ -10068,7 +10068,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-09"
  },
  "t:f09a20d260": {
   "name": "سگال نت",
@@ -11660,7 +11660,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:e2443279d1": {
   "name": "نامشخص",
@@ -13048,7 +13048,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "img:0c14feb35148da": {
   "name": "ازکی‌وام",
@@ -13600,7 +13600,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-09"
  },
  "ebidar.com": {
   "name": "ای بیدار",
@@ -13670,7 +13670,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:76dbd7c4d3": {
   "name": "صرافی ارز دیجیتال",
@@ -13898,7 +13898,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "t:90457680d6": {
   "name": "توچال گلد",
@@ -14158,7 +14158,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-09"
  },
  "fdrs.ir": {
   "name": "فرادرس",
@@ -14456,6 +14456,18 @@
   "message": "ثبت حساب وکالتی برای خرید خودرو در بانک تجارت",
   "domain_guess": "tejaratbank.ir",
   "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-09",
+  "last_seen": "2026-11-09"
+ },
+ "img:a9f4d073a84d5a": {
+  "name": "سعادت رنت",
+  "name_en": "Saadat Rent",
+  "vertical": "travel_services",
+  "level": "none",
+  "message": "اجاره خودرو با راننده و راننده در اختیار ساعتی در تهران",
+  "domain_guess": "saadatrent.com",
+  "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-11-09",
   "last_seen": "2026-11-09"
