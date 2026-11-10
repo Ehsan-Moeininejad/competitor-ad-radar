@@ -4,7 +4,7 @@
   "vertical": "marketplace",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "dgkala.com": {
   "name": "دیجی‌کالا",
@@ -23,7 +23,7 @@
   "vertical": "fintech_bnpl",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "digipay.ir": {
   "name": "دیجی‌پی",
@@ -36,7 +36,7 @@
   "vertical": "supermarket",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "digiexpress.ir": {
   "name": "دیجی‌اکسپرس",
@@ -56,14 +56,14 @@
   "vertical": "marketplace",
   "level": "core",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "basalam.com": {
   "name": "باسلام",
   "vertical": "marketplace",
   "level": "core",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "timcheh.com": {
   "name": "تیمچه",
@@ -120,7 +120,7 @@
   "vertical": "digital",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "technolife.ir": {
   "name": "تکنولایف",
@@ -249,14 +249,14 @@
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "talasea.ir": {
   "name": "طلاسی",
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "daric.gold": {
   "name": "داریک",
@@ -438,14 +438,14 @@
   "vertical": "auto",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "khodro45.com": {
   "name": "خودرو ۴۵",
   "vertical": "auto",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "abzarmart.com": {
   "name": "ابزارمارت",
@@ -653,14 +653,14 @@
   "vertical": "fintech_bnpl",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "azkivam.com": {
   "name": "ازکی‌وام",
   "vertical": "fintech_bnpl",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "lendo.ir": {
   "name": "لندو",
@@ -698,7 +698,7 @@
   "vertical": "fintech_bnpl",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "brand:خودرو ۴۵": {
   "name": "خودرو ۴۵",
@@ -722,7 +722,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "pspexpress.com": {
   "name": "پی اس پی اکسپرس",
@@ -732,7 +732,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "google.com": {
   "name": "گوگل",
@@ -772,7 +772,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "gifkart.com": {
   "name": "گیف کارت",
@@ -782,7 +782,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "mojogem.com": {
   "name": "موجوجم",
@@ -792,7 +792,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "psnex.ir": {
   "name": "پی اس نکس",
@@ -802,7 +802,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "lifelands.ir": {
   "name": "لایف لندز",
@@ -812,7 +812,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "xgamesstore.org": {
   "name": "ایکس گیم استور",
@@ -822,7 +822,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "shop-venturestorms.ir": {
   "name": "ونچر استورمز",
@@ -832,7 +832,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "diamond-land.org": {
   "name": "دایموند لند",
@@ -842,7 +842,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "numax.ir": {
   "name": "نیومکس",
@@ -852,7 +852,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "orixgame.ir": {
   "name": "اوریکس گیم",
@@ -862,7 +862,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:5627f52e68": {
   "name": "t:5627f52e68",
@@ -872,7 +872,7 @@
   "confidence": 0.2,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "amootsms.com": {
   "name": "آموت اس ام اس",
@@ -882,7 +882,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -952,7 +952,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:98d9dbc9ff": {
   "name": "میلی",
@@ -982,7 +982,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:c0292b394a": {
   "name": "صندوق طلای مثقال",
@@ -1062,7 +1062,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "mytendo.net": {
   "name": "مایتندو",
@@ -1072,7 +1072,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "ipinz.ir": {
   "name": "آی پینز",
@@ -1082,7 +1082,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:d6546acfb3": {
   "name": "استیم کلاب",
@@ -1102,7 +1102,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "zoomit.ir": {
   "name": "زومیت (زوبین)",
@@ -1112,7 +1112,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "numberland.ir": {
   "name": "نامبرلند",
@@ -1134,7 +1134,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "rightel.ir": {
   "name": "رایتل",
@@ -1146,7 +1146,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "comteltelecom.com": {
   "name": "کامتل",
@@ -1158,7 +1158,7 @@
   "confidence": 0.9,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "zarpay24.com": {
   "name": "زرپی",
@@ -1170,7 +1170,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "lbank.com": {
   "name": "ال‌بانک",
@@ -1182,7 +1182,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "asiatech.ir": {
   "name": "آسیاتک",
@@ -1194,7 +1194,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "iranrebate.com": {
   "name": "ایران ریبیت",
@@ -1206,7 +1206,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "brand:اسنپ‌مارکت": {
   "name": "اسنپ‌مارکت",
@@ -1238,7 +1238,7 @@
   "level": "own",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "brand:اسنپ‌پی": {
   "name": "اسنپ‌پی",
@@ -1246,7 +1246,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "hoosha.com": {
   "name": "هوشا",
@@ -1364,7 +1364,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "falnic.com": {
   "name": "فالنیک",
@@ -1374,7 +1374,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "yeklinks.ir": {
   "name": "یک لینک",
@@ -1414,7 +1414,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "tlyn.ir": {
   "name": "طالین",
@@ -1454,7 +1454,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "aminland.ir": {
   "name": "تامین سرمایه امین",
@@ -1534,7 +1534,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:b7238f3d27": {
   "name": "تبدیل",
@@ -1754,7 +1754,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "img:fa3f6dee1d18bb": {
   "name": "بانک تجارت",
@@ -1778,7 +1778,7 @@
   "confidence": 0.9,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "aco-battery.net": {
   "name": "آکو باتری",
@@ -2072,7 +2072,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "berjismed.com": {
   "name": "برجیس",
@@ -2092,7 +2092,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "jajiga.com": {
   "name": "جاجیگا",
@@ -2122,7 +2122,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "arvancloud.ir": {
   "name": "ابر آروان",
@@ -2142,7 +2142,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "hamshahrimarket.com": {
   "name": "همشهری مارکت",
@@ -2162,7 +2162,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:c919c939f3": {
   "name": "مس چی",
@@ -2202,7 +2202,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "ecotrust.ir": {
   "name": "مشاور سرمایه گذاری ترنج (اکوترست)",
@@ -2212,7 +2212,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "saraf.app": {
   "name": "صراف",
@@ -2242,7 +2242,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "bachehayeaseman.org": {
   "name": "بچه های آسمان",
@@ -2252,7 +2252,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "cdkeyshare.ir": {
   "name": "سی دی کی شیر",
@@ -2262,7 +2262,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "pcgame-shop.ir": {
   "name": "پی سی گیم شاپ",
@@ -2272,7 +2272,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "cloud.ir": {
   "name": "کلود آی آر",
@@ -2302,7 +2302,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "bsi.ir": {
   "name": "بانک صادرات ایران",
@@ -2312,7 +2312,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "bank-melli.ir": {
   "name": "بانک ملی ایران",
@@ -2322,7 +2322,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "omidbank.ir": {
   "name": "امید بانک (بانک سپه)",
@@ -2332,7 +2332,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "shahr-bank.ir": {
   "name": "بانک شهر",
@@ -2342,7 +2342,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "sbank.ir": {
   "name": "بانک سامان",
@@ -2362,7 +2362,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "raastin.com": {
   "name": "راستین",
@@ -2442,7 +2442,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:7671b4b882": {
   "name": "درمان ریزش مو",
@@ -2452,7 +2452,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:ce13682acd": {
   "name": "پیش بینی توپ طلا",
@@ -2472,7 +2472,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "makufz.ir": {
   "name": "منطقه آزاد ماکو",
@@ -2482,7 +2482,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "bmi.ir": {
   "name": "بانک ملی ایران",
@@ -2492,7 +2492,7 @@
   "confidence": 0.99,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "0-1.ir": {
   "name": "صفرویک",
@@ -2512,7 +2512,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "roxanmta.ir": {
   "name": "رکسان ام تی ای",
@@ -2552,7 +2552,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "kelarcin.com": {
   "name": "کلارسین",
@@ -2736,7 +2736,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "gpgaming.ir": {
   "name": "گیم پردایس",
@@ -2746,7 +2746,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "gamebato.ir": {
   "name": "گیم باتو",
@@ -2756,7 +2756,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "animeonapp.com": {
   "name": "انیمه اون",
@@ -2766,7 +2766,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "playpod.ir": {
   "name": "پلی پاد",
@@ -2776,7 +2776,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "arzplus.net": {
   "name": "ارزپلاس",
@@ -2806,7 +2806,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:ecd878f2c7": {
   "name": "t:ecd878f2c7",
@@ -2816,7 +2816,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:a91720af6a": {
   "name": "شهر لوازم خانگی",
@@ -2846,7 +2846,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:dee2c26cc2": {
   "name": "t:dee2c26cc2",
@@ -2896,7 +2896,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "bishtarazyek.com": {
   "name": "بیشتر از یک نفر",
@@ -2926,7 +2926,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "rsmta.ir": {
   "name": "راکستار ام تی ای",
@@ -2946,7 +2946,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "si24.ir": {
   "name": "بیمه سامان",
@@ -2996,7 +2996,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "saadatrent.com": {
   "name": "سعادت رنت",
@@ -3046,7 +3046,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "myket.ir": {
   "name": "مایکت",
@@ -3056,7 +3056,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:9def7c8c81": {
   "name": "t:9def7c8c81",
@@ -3066,7 +3066,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "venka.ir": {
   "name": "ونکا",
@@ -3076,7 +3076,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "filimo.school": {
   "name": "فیلیمو مدرسه",
@@ -3086,7 +3086,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:5c098f6d70": {
   "name": "t:5c098f6d70",
@@ -3106,7 +3106,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "tapsell.ir": {
   "name": "تپسل",
@@ -3126,7 +3126,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "findsearchresults.com": {
   "name": "فایند سرچ ریزالتز",
@@ -3156,7 +3156,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "vibe.ir": {
   "name": "وایب",
@@ -3166,7 +3166,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "maanapp.ir": {
   "name": "مان",
@@ -3176,7 +3176,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "adexo.ir": {
   "name": "ادکسو",
@@ -3320,7 +3320,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "orbexforex.com": {
   "name": "اوربکس",
@@ -3450,7 +3450,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:6f6c649a99": {
   "name": "t:6f6c649a99",
@@ -3470,7 +3470,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "alpariclub.com": {
   "name": "آلپاری",
@@ -3640,7 +3640,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:1b45065b72": {
   "name": "t:1b45065b72",
@@ -3730,7 +3730,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:04c7e807c2": {
   "name": "t:04c7e807c2",
@@ -3880,7 +3880,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:4d36cbf17a": {
   "name": "همکاران سیستم",
@@ -4750,7 +4750,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "arz.digital": {
   "name": "ارزدیجیتال",
@@ -4780,7 +4780,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-11"
  },
  "rtl-theme.com": {
   "name": "راست چین",
@@ -4800,7 +4800,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "https%": {
   "name": "نامشخص",
@@ -5032,7 +5032,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "pandco.com": {
   "name": "صنایع پند",
@@ -5472,7 +5472,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:aa7eca9f49": {
   "name": "t:aa7eca9f49",
@@ -5994,7 +5994,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:be7b015b3c": {
   "name": "نیپوتو",
@@ -6134,7 +6134,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:2a8037a6bf": {
   "name": "هویا",
@@ -6416,7 +6416,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:083c14e82e": {
   "name": "پیشگامان",
@@ -6516,7 +6516,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:b12a3953b0": {
   "name": "نامشخص",
@@ -6646,7 +6646,7 @@
   "confidence": 0.65,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "isport.ir": {
   "name": "آی اسپورت",
@@ -7232,7 +7232,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "brand:کارنامه": {
   "name": "کارنامه",
@@ -7662,7 +7662,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:a9f10a21b6": {
   "name": "نامشخص",
@@ -7712,7 +7712,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:c2a0e58682": {
   "name": "پلی‌پاد",
@@ -7752,7 +7752,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:1b35333f7e": {
   "name": "نامشخص",
@@ -7782,7 +7782,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:52ac5718d9": {
   "name": "نامشخص",
@@ -7892,7 +7892,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:f9bf10a559": {
   "name": "ویجیاتو / زومجی",
@@ -8246,7 +8246,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "balinex.com": {
   "name": "بالینکس",
@@ -8316,7 +8316,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:b7d7b2793b": {
   "name": "آلپاری",
@@ -8396,7 +8396,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:719755d7ff": {
   "name": "پیش بینی فوتبال",
@@ -8466,7 +8466,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:1c2ca1d6c9": {
   "name": "تجهیزات خانه بازی",
@@ -8616,7 +8616,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "tirzacto.com": {
   "name": "تیرزکتو",
@@ -8626,7 +8626,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:cc83017961": {
   "name": "گیمفا",
@@ -9106,7 +9106,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:5edcaad1d7": {
   "name": "صندوق سرمایه‌گذاری / بورس",
@@ -9126,7 +9126,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:9c72400139": {
   "name": "قهوه ترک",
@@ -9168,7 +9168,7 @@
   "confidence": 0.99,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:9c0f5d3f99": {
   "name": "بانک سرمایه",
@@ -9298,7 +9298,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-11"
  },
  "t:86541b93bd": {
   "name": "ابریون (هاست ایران)",
@@ -9308,7 +9308,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-11"
  },
  "t:e995f9bf4a": {
   "name": "هاست ایران",
@@ -9660,7 +9660,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-11"
  },
  "t:f9df4b7fad": {
   "name": "هاست ایران",
@@ -9680,7 +9680,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:786617d874": {
   "name": "هاست ایران",
@@ -9780,7 +9780,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:2c12c25943": {
   "name": "میلی",
@@ -9790,7 +9790,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:f1cdd42c9c": {
   "name": "ال جی",
@@ -9840,7 +9840,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:fb1cb6d1f0": {
   "name": "هاست ایران",
@@ -10138,7 +10138,7 @@
   "confidence": 0.3,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:3bfb990c04": {
   "name": "نامشخص",
@@ -10396,7 +10396,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-11"
  },
  "t:558f44b100": {
   "name": "کاریزما",
@@ -10516,7 +10516,7 @@
   "confidence": 0.2,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:de5c7766ea": {
   "name": "اسنپ پی",
@@ -10668,7 +10668,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "snappbimeh.ir": {
   "name": "اسنپ بیمه",
@@ -10728,7 +10728,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-11"
  },
  "t:7aa37024ab": {
   "name": "قهوه ریو",
@@ -10854,7 +10854,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:40dd396290": {
   "name": "نامشخص",
@@ -11660,7 +11660,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:e2443279d1": {
   "name": "نامشخص",
@@ -12064,7 +12064,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-11"
  },
  "t:923091af8a": {
   "name": "اسنپ",
@@ -12394,7 +12394,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:31c32a3a4a": {
   "name": "t:31c32a3a4a",
@@ -12424,7 +12424,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:750a997ad7": {
   "name": "t:750a997ad7",
@@ -12564,7 +12564,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "nokhod.me": {
   "name": "نخود",
@@ -13680,7 +13680,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-11"
  },
  "t:9cdd7587a2": {
   "name": "صرافی ارز دیجیتال",
@@ -13690,7 +13690,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-11"
  },
  "t:25975f0c3c": {
   "name": "طلای آنلاین",
@@ -13700,7 +13700,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:32d9678ead": {
   "name": "فروش خودرو",
@@ -13730,7 +13730,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:0046390391": {
   "name": "قیمت آنلاین طلا",
@@ -13740,7 +13740,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:89bcfca0a4": {
   "name": "اسنپ",
@@ -13750,7 +13750,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-11"
  },
  "t:232b960af6": {
   "name": "میلی",
@@ -13760,7 +13760,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "mowb.ir": {
   "name": "مدیر وب",
@@ -13770,7 +13770,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:01a3518329": {
   "name": "نقد فیلم",
@@ -13792,7 +13792,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "img:94a5551041f5f7": {
   "name": "شاتل موبایل",
@@ -14018,7 +14018,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:6726557c30": {
   "name": "نامشخص",
@@ -14038,7 +14038,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:13b59dd59e": {
   "name": "نامشخص",
@@ -14078,7 +14078,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:c1e9f82d01": {
   "name": "نامشخص",
@@ -14318,7 +14318,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "hoosha.ai": {
   "name": "هوشا",
@@ -14330,7 +14330,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "img:483beb681c388f": {
   "name": "کارگزاری مفید",
@@ -14422,7 +14422,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-09",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:bd268a2f12": {
   "name": "مگا جی‌پی‌تی",
@@ -14527,5 +14527,41 @@
   "source": "vision",
   "first_seen": "2026-11-10",
   "last_seen": "2026-11-10"
+ },
+ "img:70f9da6ecd1836": {
+  "name": "میلی",
+  "name_en": "Milli",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "message": "۱۰ سوت طلا هدیه با اولین خرید",
+  "domain_guess": "milli.gold",
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11"
+ },
+ "img:7e21dc6524f732": {
+  "name": "اوانو",
+  "name_en": "Ewano",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "خرید اقساطی ۶ ماهه و شرکت در قرعه‌کشی ۱۰ میلیارد تومانی با اعتبار اوانو",
+  "domain_guess": "ewano.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11"
+ },
+ "img:2413963a28f37e": {
+  "name": "همراه گلد",
+  "name_en": "Hamrah Gold",
+  "vertical": "digital_gold",
+  "level": "none",
+  "message": "با خرید طلا شانس جمع کن و در قرعه کشی شرکت کن",
+  "domain_guess": "hamrahgold.ir",
+  "confidence": 0.9,
+  "source": "vision",
+  "first_seen": "2026-11-11",
+  "last_seen": "2026-11-11"
  }
 }
