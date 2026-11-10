@@ -50,7 +50,8 @@
   "digiato.com"
  ],
  "my.tlyn.ir": [
-  "tgju.org"
+  "tgju.org",
+  "zoomon.ir"
  ],
  "panel.tgju.gold": [
   "tgju.org"
@@ -256,7 +257,8 @@
  ],
  "zaya.io": [
   "tgju.org",
-  "tarafdari.com"
+  "tarafdari.com",
+  "shahrekhabar.com"
  ],
  "exiraz.com": [
   "tgju.org",
@@ -446,7 +448,8 @@
   "asriran.com",
   "sharghdaily.com",
   "alef.ir",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "ilna.ir"
  ],
  "doctor-yab.ir": [
   "khabaronline.ir",
@@ -493,7 +496,8 @@
   "asriran.com",
   "sharghdaily.com",
   "hamshahrionline.ir",
-  "aftabnews.ir"
+  "aftabnews.ir",
+  "alef.ir"
  ],
  "pezeshk24.com": [
   "khabaronline.ir"
@@ -1005,7 +1009,9 @@
   "rokna.net",
   "sharghdaily.com",
   "downloadha.com",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "ettelaat.com",
+  "namnak.com"
  ],
  "gaminodena.com": [
   "rokna.net"
@@ -1918,5 +1924,14 @@
  ],
  "newcolourco.ir": [
   "khabarfoori.com"
+ ],
+ "oab.ir": [
+  "hamshahrionline.ir"
+ ],
+ "drnalavi.clinic": [
+  "rokna.net"
+ ],
+ "wordpress.org": [
+  "musics-fa.com"
  ]
 }
