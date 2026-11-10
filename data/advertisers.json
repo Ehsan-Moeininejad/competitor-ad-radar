@@ -289,7 +289,7 @@
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-10-25"
+  "last_seen": "2026-11-10"
  },
  "noghresea.ir": {
   "name": "نقره‌سی",
@@ -882,7 +882,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -2082,7 +2082,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "meschi.ir": {
   "name": "مس چی",
@@ -2638,7 +2638,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-10"
  },
  "t:6c7f6da1f8": {
   "name": "بیمه‌سنج",
@@ -2662,7 +2662,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-10"
  },
  "t:3a52be1356": {
   "name": "پیامک خونه",
@@ -4830,7 +4830,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5582,7 +5582,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-01"
+  "last_seen": "2026-11-10"
  },
  "t:05d9184e9e": {
   "name": "t:05d9184e9e",
@@ -6656,7 +6656,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-10"
  },
  "agbr.ir": {
   "name": "کارگزاری آگاه",
@@ -7662,7 +7662,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "t:a9f10a21b6": {
   "name": "نامشخص",
@@ -7712,7 +7712,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-10"
  },
  "t:c2a0e58682": {
   "name": "پلی‌پاد",
@@ -7852,7 +7852,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-10"
  },
  "t:a7e4d4bf49": {
   "name": "نامشخص",
@@ -8046,7 +8046,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-10"
  },
  "img:8413ff5986e795": {
   "name": "بانک تجارت",
@@ -9106,7 +9106,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "t:5edcaad1d7": {
   "name": "صندوق سرمایه‌گذاری / بورس",
@@ -9680,7 +9680,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "t:786617d874": {
   "name": "هاست ایران",
@@ -12670,7 +12670,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-10"
  },
  "t:4559fc6094": {
   "name": "نامشخص",
@@ -12720,7 +12720,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-10"
  },
  "t:4dd70874e3": {
   "name": "نامشخص",
@@ -13360,7 +13360,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "proplynq.com": {
   "name": "پروپ لینک",
@@ -13740,7 +13740,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "t:89bcfca0a4": {
   "name": "اسنپ",
@@ -13760,7 +13760,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "mowb.ir": {
   "name": "مدیر وب",
