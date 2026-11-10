@@ -1214,9 +1214,10 @@
    "2026-11-04",
    "2026-11-05",
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-10"
   ],
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-10",
   "sites": [
    "alef.ir",
    "bahalmag.ir",
@@ -1700,9 +1701,10 @@
    "2026-10-24",
    "2026-10-25",
    "2026-11-07",
-   "2026-11-08"
+   "2026-11-08",
+   "2026-11-10"
   ],
-  "last_seen": "2026-11-08",
+  "last_seen": "2026-11-10",
   "sites": [
    "entekhab.ir",
    "khabarfoori.com"
@@ -3792,7 +3794,8 @@
    "jamaran.news",
    "khabarfoori.com",
    "khabaronline.ir",
-   "tala.ir"
+   "tala.ir",
+   "tgju.org"
   ]
  },
  "انتخاب|tage_digital_promotion": {

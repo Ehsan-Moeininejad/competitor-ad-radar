@@ -1230,7 +1230,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "brand:دیجی‌کالا": {
   "name": "دیجی‌کالا",
@@ -2796,7 +2796,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-10"
  },
  "t:8ba70da1d4": {
   "name": "t:8ba70da1d4",
@@ -4490,7 +4490,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-10"
  },
  "t:7a7d079f33": {
   "name": "نامشخص",
@@ -4520,7 +4520,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "t:a34b2b9b4e": {
   "name": "نامشخص",
@@ -5512,7 +5512,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "t:cadd2a8e67": {
   "name": "t:cadd2a8e67",
@@ -5572,7 +5572,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "t:29b84d5e49": {
   "name": "t:29b84d5e49",
@@ -5816,7 +5816,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "t:9099d9f3cc": {
   "name": "نامشخص",
@@ -6054,7 +6054,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "t:4336b256e0": {
   "name": "استیم",
@@ -6144,7 +6144,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "t:56270d8945": {
   "name": "ازکی سلر",
@@ -6204,7 +6204,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "t:77274aa570": {
   "name": "نامشخص",
@@ -7182,7 +7182,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "metrix.ir": {
   "name": "متریکس",
@@ -8646,7 +8646,7 @@
   "confidence": 0.88,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-10"
  },
  "img:c53164cc247b1a": {
   "name": "همراه گلد",
@@ -11410,7 +11410,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-10"
  },
  "t:26c18a8fdb": {
   "name": "کانکت چی",
@@ -11600,7 +11600,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-10"
  },
  "t:955a181b5f": {
   "name": "نامشخص",
@@ -13998,7 +13998,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-10"
  },
  "t:9063114ef7": {
   "name": "نامشخص",
