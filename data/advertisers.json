@@ -2042,7 +2042,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:0158c2ad44": {
   "name": "نامشخص",
@@ -2674,7 +2674,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:623a90a45f": {
   "name": "پیامک خونه",
@@ -3970,7 +3970,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-11"
  },
  "t:1d1f48e5c3": {
   "name": "خودرو45",
@@ -5816,7 +5816,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:9099d9f3cc": {
   "name": "نامشخص",
@@ -6054,7 +6054,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:4336b256e0": {
   "name": "استیم",
@@ -6114,7 +6114,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-11"
  },
  "shahrkhanegi.com": {
   "name": "شهر لوازم خانگی",
@@ -6154,7 +6154,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:33f7f717b4": {
   "name": "صندوق طلای زمرد",
@@ -6194,7 +6194,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-11"
  },
  "t:5eba8f5a6f": {
   "name": "نامشخص",
@@ -7070,7 +7070,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:6849f67001": {
   "name": "فرنا",
@@ -9740,7 +9740,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-11"
  },
  "t:f73d4a5f43": {
   "name": "هاست ایران",
@@ -10038,7 +10038,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:9c26c68a37": {
   "name": "نامشخص",
@@ -10536,7 +10536,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:d1f1b72193": {
   "name": "نامشخص (تحلیل بازار مالی)",
@@ -11004,7 +11004,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-11"
  },
  "t:5ea9240bc5": {
   "name": "کیلید",
@@ -11300,7 +11300,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:048005a39c": {
   "name": "کاریزما",
@@ -11400,7 +11400,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:1f3c5332fe": {
   "name": "کاریزما",
@@ -11794,7 +11794,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:93e255ef8e": {
   "name": "فراز",
@@ -12524,7 +12524,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:89f6a76eec": {
   "name": "t:89f6a76eec",
@@ -12534,7 +12534,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-11"
  },
  "mahamimensaz.com": {
   "name": "ماهامی من ساز",
@@ -13610,7 +13610,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:842f7aa8c9": {
   "name": "بامداد خمار",
@@ -13968,7 +13968,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-11"
  },
  "t:eee286f86c": {
   "name": "ایران تندر",
@@ -14246,7 +14246,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-11"
  },
  "pandora-iran.ir": {
   "name": "پاندورا",

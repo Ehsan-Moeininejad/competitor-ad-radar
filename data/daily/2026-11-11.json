@@ -1,0 +1,1938 @@
+{
+ "date": "2026-11-11",
+ "competitors": {
+  "اسنپ‌پی": {
+   "sov": 0.0754,
+   "sov_vertical": 0.3116,
+   "weight": 86.8,
+   "sites": [
+    "alef.ir",
+    "bahalmag.ir",
+    "chishi.ir",
+    "daneshchi.ir",
+    "entekhab.ir",
+    "fararu.com",
+    "fardayetaze.ir",
+    "ilna.ir",
+    "khabarfoori.com",
+    "khabaronline.ir",
+    "musicviral.ir",
+    "nexload.ir",
+    "par30games.net",
+    "technolife.com",
+    "teh-dl.ir",
+    "testchi.ir"
+   ],
+   "threat": 55,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 78
+  },
+  "کارنامه": {
+   "sov": 0.0699,
+   "sov_vertical": 0.6053,
+   "weight": 80.5,
+   "sites": [
+    "7sobh.com",
+    "aftabnews.ir",
+    "ettelaat.com",
+    "hamshahrionline.ir",
+    "jamejamonline.ir",
+    "mojnews.com",
+    "rokna.net",
+    "tebyan.net"
+   ],
+   "threat": 68,
+   "level": "vertical",
+   "vertical": "auto",
+   "ads": 61
+  },
+  "ازکی‌وام": {
+   "sov": 0.0539,
+   "sov_vertical": 0.2229,
+   "weight": 62.1,
+   "sites": [
+    "delgarm.com",
+    "entekhab.ir",
+    "namnak.com",
+    "nexload.ir",
+    "tala.ir",
+    "technolife.com",
+    "tgju.org"
+   ],
+   "threat": 26,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 53
+  },
+  "دیجی‌کالا": {
+   "sov": 0.0527,
+   "sov_vertical": 0.7475,
+   "weight": 60.7,
+   "sites": [
+    "alef.ir",
+    "ecoiran.com",
+    "ensafnews.com",
+    "entekhab.ir",
+    "fararu.com",
+    "hamshahrionline.ir",
+    "ilna.ir",
+    "iranpokht.ir",
+    "mobile.ir",
+    "nexload.ir",
+    "par30games.net",
+    "shahraranews.ir"
+   ],
+   "threat": 0,
+   "level": "own",
+   "vertical": "marketplace",
+   "ads": 61
+  },
+  "تیرزکتو": {
+   "sov": 0.0448,
+   "sov_vertical": 0.4882,
+   "weight": 51.6,
+   "sites": [
+    "darooyab.ir"
+   ],
+   "threat": 48,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 36
+  },
+  "ازکی": {
+   "sov": 0.0432,
+   "sov_vertical": 0.1788,
+   "weight": 49.8,
+   "sites": [
+    "entekhab.ir",
+    "khabaronline.ir",
+    "mojnews.com",
+    "tala.ir",
+    "tebyan.net"
+   ],
+   "threat": 25,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 36
+  },
+  "میلی": {
+   "sov": 0.0418,
+   "sov_vertical": 0.2371,
+   "weight": 48.1,
+   "sites": [
+    "alef.ir",
+    "etemadonline.com",
+    "jamaran.news",
+    "khabaronline.ir",
+    "nexload.ir",
+    "par30games.net",
+    "tarafdari.com",
+    "tgju.org"
+   ],
+   "threat": 49,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 35
+  },
+  "ایکس گیم استور": {
+   "sov": 0.0323,
+   "sov_vertical": 0.2002,
+   "weight": 37.2,
+   "sites": [
+    "gamefa.com",
+    "p30day.ir",
+    "par30games.net"
+   ],
+   "threat": 17,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 36
+  },
+  "خودرو ۴۵": {
+   "sov": 0.0283,
+   "sov_vertical": 0.2451,
+   "weight": 32.6,
+   "sites": [
+    "alef.ir",
+    "ensafnews.com",
+    "entekhab.ir",
+    "fararu.com",
+    "hamshahrionline.ir",
+    "ilna.ir",
+    "iranpokht.ir",
+    "musicviral.ir",
+    "nexload.ir",
+    "teh-dl.ir"
+   ],
+   "threat": 21,
+   "level": "vertical",
+   "vertical": "auto",
+   "ads": 35
+  },
+  "انتخاب": {
+   "sov": 0.0237,
+   "sov_vertical": 0.5332,
+   "weight": 27.3,
+   "sites": [
+    "delgarm.com",
+    "entekhab.ir",
+    "fardayetaze.ir",
+    "vgdl.ir"
+   ],
+   "threat": 43,
+   "level": "vertical",
+   "vertical": "home_appliances",
+   "ads": 19
+  },
+  "تکنوپی": {
+   "sov": 0.0188,
+   "sov_vertical": 0.0775,
+   "weight": 21.6,
+   "sites": [
+    "technolife.com"
+   ],
+   "threat": 7,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 26
+  },
+  "تکنوگلد": {
+   "sov": 0.0188,
+   "sov_vertical": 0.1065,
+   "weight": 21.6,
+   "sites": [
+    "technolife.com"
+   ],
+   "threat": 12,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 26
+  },
+  "وب گیفت": {
+   "sov": 0.0181,
+   "sov_vertical": 0.1119,
+   "weight": 20.8,
+   "sites": [
+    "par30games.net"
+   ],
+   "threat": 21,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 14
+  },
+  "همراه گلد": {
+   "sov": 0.0179,
+   "sov_vertical": 0.1015,
+   "weight": 20.6,
+   "sites": [
+    "entekhab.ir",
+    "ettelaat.com",
+    "fararu.com",
+    "hamshahrionline.ir",
+    "khabaronline.ir",
+    "mojnews.com",
+    "tebyan.net"
+   ],
+   "threat": 33,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 15
+  },
+  "قیمت آنلاین طلا": {
+   "sov": 0.0175,
+   "sov_vertical": 0.0991,
+   "weight": 20.1,
+   "sites": [
+    "alef.ir",
+    "khabaronline.ir",
+    "nexload.ir",
+    "par30games.net",
+    "tarafdari.com"
+   ],
+   "threat": 35,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 16
+  },
+  "پی اس نکس": {
+   "sov": 0.0167,
+   "sov_vertical": 0.1033,
+   "weight": 19.2,
+   "sites": [
+    "p30day.ir"
+   ],
+   "threat": 13,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 24
+  },
+  "کاریزما": {
+   "sov": 0.0162,
+   "sov_vertical": 0.0671,
+   "weight": 18.7,
+   "sites": [
+    "ensafnews.com",
+    "entekhab.ir",
+    "iranjib.ir",
+    "shahraranews.ir"
+   ],
+   "threat": 7,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 20
+  },
+  "ناب پارتس": {
+   "sov": 0.016,
+   "sov_vertical": 0.1383,
+   "weight": 18.4,
+   "sites": [
+    "jamaran.news"
+   ],
+   "threat": 39,
+   "level": "vertical",
+   "vertical": "auto",
+   "ads": 13
+  },
+  "اکسیر": {
+   "sov": 0.0158,
+   "sov_vertical": 0.0897,
+   "weight": 18.2,
+   "sites": [
+    "khabaronline.ir",
+    "tgju.org"
+   ],
+   "threat": 24,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 15
+  },
+  "شاپینو": {
+   "sov": 0.0153,
+   "sov_vertical": 0.2978,
+   "weight": 17.6,
+   "sites": [
+    "bahalmag.ir",
+    "chishi.ir"
+   ],
+   "threat": 49,
+   "level": "vertical",
+   "vertical": "fashion",
+   "ads": 12
+  },
+  "مایتندو": {
+   "sov": 0.0151,
+   "sov_vertical": 0.0936,
+   "weight": 17.4,
+   "sites": [
+    "zoomg.ir"
+   ],
+   "threat": 11,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 18
+  },
+  "وایب": {
+   "sov": 0.0149,
+   "sov_vertical": 0.291,
+   "weight": 17.2,
+   "sites": [
+    "technolife.com"
+   ],
+   "threat": 28,
+   "level": "vertical",
+   "vertical": "fashion",
+   "ads": 14
+  },
+  "وال‌گلد": {
+   "sov": 0.0146,
+   "sov_vertical": 0.0828,
+   "weight": 16.8,
+   "sites": [
+    "hamshahrionline.ir",
+    "khabarvarzeshi.com"
+   ],
+   "threat": 14,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 12
+  },
+  "طلای آنلاین": {
+   "sov": 0.0142,
+   "sov_vertical": 0.0808,
+   "weight": 16.4,
+   "sites": [
+    "chishi.ir",
+    "khabaronline.ir",
+    "nexload.ir"
+   ],
+   "threat": 35,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 11
+  },
+  "تارا": {
+   "sov": 0.0141,
+   "sov_vertical": 0.0581,
+   "weight": 16.2,
+   "sites": [
+    "technolife.com"
+   ],
+   "threat": 10,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 14
+  },
+  "دینو": {
+   "sov": 0.0139,
+   "sov_vertical": 1.0,
+   "weight": 16.0,
+   "sites": [
+    "sakhtafzarmag.com"
+   ],
+   "threat": 37,
+   "level": "vertical",
+   "vertical": "pet",
+   "ads": 20
+  },
+  "دیجی‌کالا جت": {
+   "sov": 0.0137,
+   "sov_vertical": 0.9186,
+   "weight": 15.8,
+   "sites": [
+    "digikala.com"
+   ],
+   "threat": 0,
+   "level": "own",
+   "vertical": "supermarket",
+   "ads": 12
+  },
+  "پی جم شاپ": {
+   "sov": 0.0135,
+   "sov_vertical": 0.084,
+   "weight": 15.6,
+   "sites": [
+    "gamefa.com"
+   ],
+   "threat": 20,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 12
+  },
+  "فالنیک": {
+   "sov": 0.0128,
+   "sov_vertical": 0.0791,
+   "weight": 14.7,
+   "sites": [
+    "soft98.ir",
+    "zoomit.ir"
+   ],
+   "threat": 7,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 17
+  },
+  "ملی گلد": {
+   "sov": 0.0124,
+   "sov_vertical": 0.0705,
+   "weight": 14.3,
+   "sites": [
+    "entekhab.ir",
+    "jamaran.news",
+    "tala.ir",
+    "tgju.org"
+   ],
+   "threat": 13,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 14
+  },
+  "اورلوم": {
+   "sov": 0.012,
+   "sov_vertical": 0.1306,
+   "weight": 13.8,
+   "sites": [
+    "par30games.net"
+   ],
+   "threat": 20,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 12
+  },
+  "تکنولایف": {
+   "sov": 0.0114,
+   "sov_vertical": 0.0705,
+   "weight": 13.1,
+   "sites": [
+    "mobile.ir"
+   ],
+   "threat": 9,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 12
+  },
+  "نوژن": {
+   "sov": 0.0108,
+   "sov_vertical": 0.2422,
+   "weight": 12.4,
+   "sites": [
+    "mehrnews.com"
+   ],
+   "threat": 17,
+   "level": "vertical",
+   "vertical": "home_appliances",
+   "ads": 12
+  },
+  "بانی مد": {
+   "sov": 0.0107,
+   "sov_vertical": 0.2081,
+   "weight": 12.3,
+   "sites": [
+    "alef.ir",
+    "etemadonline.com",
+    "iranjib.ir",
+    "ninisite.com",
+    "setare.com"
+   ],
+   "threat": 50,
+   "level": "vertical",
+   "vertical": "fashion",
+   "ads": 14
+  },
+  "درمان ریزش مو": {
+   "sov": 0.0097,
+   "sov_vertical": 0.106,
+   "weight": 11.2,
+   "sites": [
+    "entekhab.ir"
+   ],
+   "threat": 17,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 16
+  },
+  "بازیکس": {
+   "sov": 0.0097,
+   "sov_vertical": 0.0603,
+   "weight": 11.2,
+   "sites": [
+    "zoomg.ir"
+   ],
+   "threat": 10,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 12
+  },
+  "رویش سبز": {
+   "sov": 0.0094,
+   "sov_vertical": 0.1022,
+   "weight": 10.8,
+   "sites": [
+    "entekhab.ir",
+    "khabaronline.ir"
+   ],
+   "threat": 31,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 7
+  },
+  "گیم پردایس": {
+   "sov": 0.0083,
+   "sov_vertical": 0.0517,
+   "weight": 9.6,
+   "sites": [
+    "p30day.ir"
+   ],
+   "threat": 10,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 12
+  },
+  "۱۹ کالا": {
+   "sov": 0.0083,
+   "sov_vertical": 0.1182,
+   "weight": 9.6,
+   "sites": [
+    "mobile.ir"
+   ],
+   "threat": 8,
+   "level": "core",
+   "vertical": "marketplace",
+   "ads": 12
+  },
+  "زرپی": {
+   "sov": 0.0079,
+   "sov_vertical": 0.0448,
+   "weight": 9.1,
+   "sites": [
+    "zoomit.ir"
+   ],
+   "threat": 9,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 9
+  },
+  "طلاسی": {
+   "sov": 0.0076,
+   "sov_vertical": 0.0434,
+   "weight": 8.8,
+   "sites": [
+    "tejaratnews.com"
+   ],
+   "threat": 8,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 12
+  },
+  "عمران مدرن": {
+   "sov": 0.0076,
+   "sov_vertical": 1.0,
+   "weight": 8.8,
+   "sites": [
+    "tejaratnews.com"
+   ],
+   "threat": 41,
+   "level": "vertical",
+   "vertical": "tools",
+   "ads": 12
+  },
+  "اسنپ‌شاپ": {
+   "sov": 0.0076,
+   "sov_vertical": 0.1084,
+   "weight": 8.8,
+   "sites": [
+    "tejaratnews.com"
+   ],
+   "threat": 7,
+   "level": "core",
+   "vertical": "marketplace",
+   "ads": 12
+  },
+  "اسنپ پی": {
+   "sov": 0.0076,
+   "sov_vertical": 0.0316,
+   "weight": 8.8,
+   "sites": [
+    "ninisite.com",
+    "par30games.net",
+    "tarafdari.com"
+   ],
+   "threat": 31,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 9
+  },
+  "فروشگاه آنلاین کیف": {
+   "sov": 0.0075,
+   "sov_vertical": 1.0,
+   "weight": 8.6,
+   "sites": [
+    "jamaran.news",
+    "tarafdari.com"
+   ],
+   "threat": 47,
+   "level": "vertical",
+   "vertical": "sports_travel",
+   "ads": 7
+  },
+  "دل کوک": {
+   "sov": 0.0073,
+   "sov_vertical": 0.1641,
+   "weight": 8.4,
+   "sites": [
+    "rokna.net"
+   ],
+   "threat": 12,
+   "level": "vertical",
+   "vertical": "home_appliances",
+   "ads": 9
+  },
+  "صمیم": {
+   "sov": 0.0063,
+   "sov_vertical": 0.0681,
+   "weight": 7.2,
+   "sites": [
+    "footballi.net",
+    "teh-dl.ir"
+   ],
+   "threat": 29,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 9
+  },
+  "کامتل": {
+   "sov": 0.0061,
+   "sov_vertical": 0.0377,
+   "weight": 7.0,
+   "sites": [
+    "zoomit.ir"
+   ],
+   "threat": 8,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 6
+  },
+  "دیجی‌پی": {
+   "sov": 0.006,
+   "sov_vertical": 0.0248,
+   "weight": 6.9,
+   "sites": [
+    "hamshahrionline.ir",
+    "khabaronline.ir",
+    "musicviral.ir",
+    "teh-dl.ir"
+   ],
+   "threat": 0,
+   "level": "own",
+   "vertical": "fintech_bnpl",
+   "ads": 7
+  },
+  "گردونه طلا": {
+   "sov": 0.0059,
+   "sov_vertical": 0.0335,
+   "weight": 6.8,
+   "sites": [
+    "chishi.ir",
+    "entekhab.ir",
+    "par30games.net"
+   ],
+   "threat": 29,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 9
+  },
+  "جین‌وست": {
+   "sov": 0.0059,
+   "sov_vertical": 0.1151,
+   "weight": 6.8,
+   "sites": [
+    "iranpokht.ir",
+    "testchi.ir"
+   ],
+   "threat": 18,
+   "level": "vertical",
+   "vertical": "fashion",
+   "ads": 6
+  },
+  "کلارسین": {
+   "sov": 0.0057,
+   "sov_vertical": 0.0624,
+   "weight": 6.6,
+   "sites": [
+    "ensafnews.com"
+   ],
+   "threat": 5,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 6
+  },
+  "سی دی کی شیر": {
+   "sov": 0.0056,
+   "sov_vertical": 0.0344,
+   "weight": 6.4,
+   "sites": [
+    "p30day.ir"
+   ],
+   "threat": 9,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 8
+  },
+  "ونکا": {
+   "sov": 0.0049,
+   "sov_vertical": 0.0301,
+   "weight": 5.6,
+   "sites": [
+    "p30download.ir"
+   ],
+   "threat": 22,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 4
+  },
+  "گروه فیروزه": {
+   "sov": 0.004,
+   "sov_vertical": 0.0165,
+   "weight": 4.6,
+   "sites": [
+    "entekhab.ir",
+    "tgju.org"
+   ],
+   "threat": 4,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 5
+  },
+  "سلیمی گالری": {
+   "sov": 0.0038,
+   "sov_vertical": 0.0745,
+   "weight": 4.4,
+   "sites": [
+    "tarafdari.com"
+   ],
+   "threat": 38,
+   "level": "vertical",
+   "vertical": "fashion",
+   "ads": 3
+  },
+  "آل موبایل": {
+   "sov": 0.0035,
+   "sov_vertical": 0.0215,
+   "weight": 4.0,
+   "sites": [
+    "entekhab.ir"
+   ],
+   "threat": 16,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 5
+  },
+  "پی سی گیم شاپ": {
+   "sov": 0.0028,
+   "sov_vertical": 0.0172,
+   "weight": 3.2,
+   "sites": [
+    "p30day.ir"
+   ],
+   "threat": 3,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 4
+  },
+  "مبین‌نت": {
+   "sov": 0.0019,
+   "sov_vertical": 1.0,
+   "weight": 2.2,
+   "sites": [
+    "alef.ir",
+    "namnak.com"
+   ],
+   "threat": 52,
+   "level": "vertical",
+   "vertical": "telecom",
+   "ads": 2
+  },
+  "باسلام": {
+   "sov": 0.0018,
+   "sov_vertical": 0.0259,
+   "weight": 2.1,
+   "sites": [
+    "etemadonline.com"
+   ],
+   "threat": 14,
+   "level": "core",
+   "vertical": "marketplace",
+   "ads": 3
+  },
+  "بانک تجارت": {
+   "sov": 0.0014,
+   "sov_vertical": 0.0057,
+   "weight": 1.6,
+   "sites": [
+    "par30games.net"
+   ],
+   "threat": 26,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 2
+  },
+  "ظروف یکبار مصرف": {
+   "sov": 0.0014,
+   "sov_vertical": 0.0312,
+   "weight": 1.6,
+   "sites": [
+    "chishi.ir"
+   ],
+   "threat": 12,
+   "level": "vertical",
+   "vertical": "home_appliances",
+   "ads": 1
+  },
+  "اوانو": {
+   "sov": 0.0013,
+   "sov_vertical": 0.0054,
+   "weight": 1.5,
+   "sites": [
+    "khabaronline.ir"
+   ],
+   "threat": 30,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "ads": 1
+  },
+  "ال‌جی": {
+   "sov": 0.0013,
+   "sov_vertical": 0.0293,
+   "weight": 1.5,
+   "sites": [
+    "zoomit.ir"
+   ],
+   "threat": 11,
+   "level": "vertical",
+   "vertical": "home_appliances",
+   "ads": 1
+  },
+  "برجیس": {
+   "sov": 0.0013,
+   "sov_vertical": 0.0142,
+   "weight": 1.5,
+   "sites": [
+    "khabaronline.ir"
+   ],
+   "threat": 10,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 1
+  },
+  "اتوموبی": {
+   "sov": 0.0013,
+   "sov_vertical": 0.0113,
+   "weight": 1.5,
+   "sites": [
+    "iranjib.ir"
+   ],
+   "threat": 21,
+   "level": "vertical",
+   "vertical": "auto",
+   "ads": 2
+  },
+  "اسنپ": {
+   "sov": 0.0013,
+   "sov_vertical": 1.0,
+   "weight": 1.5,
+   "sites": [
+    "namnak.com"
+   ],
+   "threat": 56,
+   "level": "core",
+   "vertical": "services",
+   "ads": 1
+  },
+  "قهوه ریو": {
+   "sov": 0.0012,
+   "sov_vertical": 0.0814,
+   "weight": 1.4,
+   "sites": [
+    "bahalmag.ir"
+   ],
+   "threat": 14,
+   "level": "vertical",
+   "vertical": "supermarket",
+   "ads": 1
+  },
+  "اپتیمم نوتریشن": {
+   "sov": 0.0012,
+   "sov_vertical": 0.0132,
+   "weight": 1.4,
+   "sites": [
+    "khabaronline.ir"
+   ],
+   "threat": 30,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 1
+  },
+  "توچال": {
+   "sov": 0.0012,
+   "sov_vertical": 0.0069,
+   "weight": 1.4,
+   "sites": [
+    "namnak.com"
+   ],
+   "threat": 15,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 1
+  },
+  "گرناهیر": {
+   "sov": 0.0007,
+   "sov_vertical": 0.0076,
+   "weight": 0.8,
+   "sites": [
+    "entekhab.ir"
+   ],
+   "threat": 6,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 1
+  },
+  "کتونی خان": {
+   "sov": 0.0007,
+   "sov_vertical": 0.0135,
+   "weight": 0.8,
+   "sites": [
+    "jamaran.news"
+   ],
+   "threat": 37,
+   "level": "vertical",
+   "vertical": "fashion",
+   "ads": 1
+  },
+  "فرنا": {
+   "sov": 0.0007,
+   "sov_vertical": 0.0043,
+   "weight": 0.8,
+   "sites": [
+    "entekhab.ir"
+   ],
+   "threat": 1,
+   "level": "vertical",
+   "vertical": "digital",
+   "ads": 1
+  },
+  "هویا": {
+   "sov": 0.0007,
+   "sov_vertical": 0.0076,
+   "weight": 0.8,
+   "sites": [
+    "alef.ir"
+   ],
+   "threat": 1,
+   "level": "vertical",
+   "vertical": "beauty_health",
+   "ads": 1
+  },
+  "توچال گلد": {
+   "sov": 0.0006,
+   "sov_vertical": 0.0034,
+   "weight": 0.7,
+   "sites": [
+    "ilna.ir"
+   ],
+   "threat": 6,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "ads": 1
+  }
+ },
+ "sites": {
+  "tgju.org": {
+   "pressure": 54,
+   "opportunity": 81,
+   "advertisers": 11,
+   "competitors": [
+    "ازکی‌وام",
+    "اکسیر",
+    "ملی گلد",
+    "میلی",
+    "گروه فیروزه"
+   ],
+   "own_present": false
+  },
+  "digikala.com": {
+   "pressure": 15,
+   "opportunity": 80,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": true
+  },
+  "ninisite.com": {
+   "pressure": 46,
+   "opportunity": 79,
+   "advertisers": 15,
+   "competitors": [
+    "اسنپ پی",
+    "بانی مد"
+   ],
+   "own_present": false
+  },
+  "namnak.com": {
+   "pressure": 33,
+   "opportunity": 79,
+   "advertisers": 7,
+   "competitors": [
+    "ازکی‌وام",
+    "اسنپ",
+    "توچال",
+    "مبین‌نت"
+   ],
+   "own_present": false
+  },
+  "iranjib.ir": {
+   "pressure": 27,
+   "opportunity": 78,
+   "advertisers": 7,
+   "competitors": [
+    "اتوموبی",
+    "بانی مد",
+    "کاریزما"
+   ],
+   "own_present": false
+  },
+  "mehrnews.com": {
+   "pressure": 29,
+   "opportunity": 78,
+   "advertisers": 1,
+   "competitors": [
+    "نوژن"
+   ],
+   "own_present": false
+  },
+  "musicviral.ir": {
+   "pressure": 27,
+   "opportunity": 73,
+   "advertisers": 5,
+   "competitors": [
+    "اسنپ‌پی",
+    "خودرو ۴۵"
+   ],
+   "own_present": true
+  },
+  "delgarm.com": {
+   "pressure": 31,
+   "opportunity": 73,
+   "advertisers": 2,
+   "competitors": [
+    "ازکی‌وام",
+    "انتخاب"
+   ],
+   "own_present": false
+  },
+  "tala.ir": {
+   "pressure": 48,
+   "opportunity": 71,
+   "advertisers": 9,
+   "competitors": [
+    "ازکی",
+    "ازکی‌وام",
+    "ملی گلد"
+   ],
+   "own_present": false
+  },
+  "fardayetaze.ir": {
+   "pressure": 31,
+   "opportunity": 71,
+   "advertisers": 6,
+   "competitors": [
+    "اسنپ‌پی",
+    "انتخاب"
+   ],
+   "own_present": false
+  },
+  "donya-e-eqtesad.com": {
+   "pressure": 16,
+   "opportunity": 71,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "musics-fa.com": {
+   "pressure": 15,
+   "opportunity": 69,
+   "advertisers": 0,
+   "competitors": [],
+   "own_present": false
+  },
+  "asriran.com": {
+   "pressure": 17,
+   "opportunity": 68,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "zoomit.ir": {
+   "pressure": 70,
+   "opportunity": 67,
+   "advertisers": 15,
+   "competitors": [
+    "ال‌جی",
+    "زرپی",
+    "فالنیک",
+    "کامتل"
+   ],
+   "own_present": false
+  },
+  "shahrekhabar.com": {
+   "pressure": 20,
+   "opportunity": 67,
+   "advertisers": 3,
+   "competitors": [],
+   "own_present": false
+  },
+  "khabaronline.ir": {
+   "pressure": 81,
+   "opportunity": 65,
+   "advertisers": 45,
+   "competitors": [
+    "ازکی",
+    "اسنپ‌پی",
+    "اوانو",
+    "اپتیمم نوتریشن",
+    "اکسیر",
+    "برجیس",
+    "رویش سبز",
+    "طلای آنلاین",
+    "قیمت آنلاین طلا",
+    "میلی",
+    "همراه گلد"
+   ],
+   "own_present": true
+  },
+  "techrato.com": {
+   "pressure": 5,
+   "opportunity": 64,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "fararu.com": {
+   "pressure": 41,
+   "opportunity": 63,
+   "advertisers": 13,
+   "competitors": [
+    "اسنپ‌پی",
+    "خودرو ۴۵",
+    "همراه گلد"
+   ],
+   "own_present": true
+  },
+  "filimo.com": {
+   "pressure": 9,
+   "opportunity": 62,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "entekhab.ir": {
+   "pressure": 73,
+   "opportunity": 61,
+   "advertisers": 47,
+   "competitors": [
+    "آل موبایل",
+    "ازکی",
+    "ازکی‌وام",
+    "اسنپ‌پی",
+    "انتخاب",
+    "خودرو ۴۵",
+    "درمان ریزش مو",
+    "رویش سبز",
+    "فرنا",
+    "ملی گلد",
+    "همراه گلد",
+    "کاریزما",
+    "گردونه طلا",
+    "گرناهیر",
+    "گروه فیروزه"
+   ],
+   "own_present": true
+  },
+  "modireweb.com": {
+   "pressure": 14,
+   "opportunity": 61,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": false
+  },
+  "footballi.net": {
+   "pressure": 18,
+   "opportunity": 61,
+   "advertisers": 2,
+   "competitors": [
+    "صمیم"
+   ],
+   "own_present": false
+  },
+  "iranpokht.ir": {
+   "pressure": 31,
+   "opportunity": 59,
+   "advertisers": 8,
+   "competitors": [
+    "جین‌وست",
+    "خودرو ۴۵"
+   ],
+   "own_present": true
+  },
+  "setare.com": {
+   "pressure": 21,
+   "opportunity": 58,
+   "advertisers": 3,
+   "competitors": [
+    "بانی مد"
+   ],
+   "own_present": false
+  },
+  "yjc.ir": {
+   "pressure": 16,
+   "opportunity": 58,
+   "advertisers": 0,
+   "competitors": [],
+   "own_present": false
+  },
+  "bahalmag.ir": {
+   "pressure": 55,
+   "opportunity": 57,
+   "advertisers": 15,
+   "competitors": [
+    "اسنپ‌پی",
+    "شاپینو",
+    "قهوه ریو"
+   ],
+   "own_present": false
+  },
+  "tejaratnews.com": {
+   "pressure": 37,
+   "opportunity": 56,
+   "advertisers": 5,
+   "competitors": [
+    "اسنپ‌شاپ",
+    "طلاسی",
+    "عمران مدرن"
+   ],
+   "own_present": false
+  },
+  "ilna.ir": {
+   "pressure": 45,
+   "opportunity": 55,
+   "advertisers": 23,
+   "competitors": [
+    "اسنپ‌پی",
+    "توچال گلد",
+    "خودرو ۴۵"
+   ],
+   "own_present": true
+  },
+  "ensafnews.com": {
+   "pressure": 34,
+   "opportunity": 54,
+   "advertisers": 7,
+   "competitors": [
+    "خودرو ۴۵",
+    "کاریزما",
+    "کلارسین"
+   ],
+   "own_present": true
+  },
+  "farsnews.ir": {
+   "pressure": 41,
+   "opportunity": 54,
+   "advertisers": 7,
+   "competitors": [],
+   "own_present": false
+  },
+  "tarafdari.com": {
+   "pressure": 43,
+   "opportunity": 54,
+   "advertisers": 10,
+   "competitors": [
+    "اسنپ پی",
+    "سلیمی گالری",
+    "فروشگاه آنلاین کیف",
+    "قیمت آنلاین طلا",
+    "میلی"
+   ],
+   "own_present": false
+  },
+  "jobvision.ir": {
+   "pressure": 19,
+   "opportunity": 54,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": false
+  },
+  "chishi.ir": {
+   "pressure": 46,
+   "opportunity": 52,
+   "advertisers": 9,
+   "competitors": [
+    "اسنپ‌پی",
+    "شاپینو",
+    "طلای آنلاین",
+    "ظروف یکبار مصرف",
+    "گردونه طلا"
+   ],
+   "own_present": false
+  },
+  "tebyan.net": {
+   "pressure": 49,
+   "opportunity": 52,
+   "advertisers": 8,
+   "competitors": [
+    "ازکی",
+    "همراه گلد",
+    "کارنامه"
+   ],
+   "own_present": false
+  },
+  "testchi.ir": {
+   "pressure": 34,
+   "opportunity": 52,
+   "advertisers": 6,
+   "competitors": [
+    "اسنپ‌پی",
+    "جین‌وست"
+   ],
+   "own_present": false
+  },
+  "akharinkhabar.ir": {
+   "pressure": 7,
+   "opportunity": 52,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "digiato.com": {
+   "pressure": 10,
+   "opportunity": 51,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": false
+  },
+  "gamefa.com": {
+   "pressure": 55,
+   "opportunity": 51,
+   "advertisers": 10,
+   "competitors": [
+    "ایکس گیم استور",
+    "پی جم شاپ"
+   ],
+   "own_present": false
+  },
+  "jamaran.news": {
+   "pressure": 52,
+   "opportunity": 51,
+   "advertisers": 19,
+   "competitors": [
+    "فروشگاه آنلاین کیف",
+    "ملی گلد",
+    "میلی",
+    "ناب پارتس",
+    "کتونی خان"
+   ],
+   "own_present": false
+  },
+  "teh-dl.ir": {
+   "pressure": 48,
+   "opportunity": 51,
+   "advertisers": 14,
+   "competitors": [
+    "اسنپ‌پی",
+    "خودرو ۴۵",
+    "صمیم"
+   ],
+   "own_present": true
+  },
+  "rokna.net": {
+   "pressure": 38,
+   "opportunity": 51,
+   "advertisers": 9,
+   "competitors": [
+    "دل کوک",
+    "کارنامه"
+   ],
+   "own_present": false
+  },
+  "khabarvarzeshi.com": {
+   "pressure": 41,
+   "opportunity": 51,
+   "advertisers": 7,
+   "competitors": [
+    "وال‌گلد"
+   ],
+   "own_present": false
+  },
+  "hamshahrionline.ir": {
+   "pressure": 80,
+   "opportunity": 50,
+   "advertisers": 32,
+   "competitors": [
+    "خودرو ۴۵",
+    "همراه گلد",
+    "وال‌گلد",
+    "کارنامه"
+   ],
+   "own_present": true
+  },
+  "technolife.com": {
+   "pressure": 72,
+   "opportunity": 50,
+   "advertisers": 12,
+   "competitors": [
+    "ازکی‌وام",
+    "اسنپ‌پی",
+    "تارا",
+    "تکنوپی",
+    "تکنوگلد",
+    "وایب"
+   ],
+   "own_present": false
+  },
+  "mobile.ir": {
+   "pressure": 36,
+   "opportunity": 50,
+   "advertisers": 3,
+   "competitors": [
+    "تکنولایف",
+    "۱۹ کالا"
+   ],
+   "own_present": true
+  },
+  "soft98.ir": {
+   "pressure": 29,
+   "opportunity": 50,
+   "advertisers": 4,
+   "competitors": [
+    "فالنیک"
+   ],
+   "own_present": false
+  },
+  "sharghdaily.com": {
+   "pressure": 13,
+   "opportunity": 50,
+   "advertisers": 0,
+   "competitors": [],
+   "own_present": false
+  },
+  "darooyab.ir": {
+   "pressure": 47,
+   "opportunity": 49,
+   "advertisers": 2,
+   "competitors": [
+    "تیرزکتو"
+   ],
+   "own_present": false
+  },
+  "daneshchi.ir": {
+   "pressure": 24,
+   "opportunity": 49,
+   "advertisers": 7,
+   "competitors": [
+    "اسنپ‌پی"
+   ],
+   "own_present": false
+  },
+  "shahraranews.ir": {
+   "pressure": 27,
+   "opportunity": 49,
+   "advertisers": 8,
+   "competitors": [
+    "کاریزما"
+   ],
+   "own_present": true
+  },
+  "mojnews.com": {
+   "pressure": 50,
+   "opportunity": 49,
+   "advertisers": 8,
+   "competitors": [
+    "ازکی",
+    "همراه گلد",
+    "کارنامه"
+   ],
+   "own_present": false
+  },
+  "nexload.ir": {
+   "pressure": 57,
+   "opportunity": 48,
+   "advertisers": 17,
+   "competitors": [
+    "ازکی‌وام",
+    "اسنپ‌پی",
+    "خودرو ۴۵",
+    "طلای آنلاین",
+    "قیمت آنلاین طلا",
+    "میلی"
+   ],
+   "own_present": true
+  },
+  "vigiato.net": {
+   "pressure": 15,
+   "opportunity": 48,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": false
+  },
+  "pedal.ir": {
+   "pressure": 14,
+   "opportunity": 48,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "filmzi.com": {
+   "pressure": 9,
+   "opportunity": 48,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "etemadonline.com": {
+   "pressure": 58,
+   "opportunity": 47,
+   "advertisers": 24,
+   "competitors": [
+    "باسلام",
+    "بانی مد",
+    "میلی"
+   ],
+   "own_present": false
+  },
+  "khabarfoori.com": {
+   "pressure": 37,
+   "opportunity": 47,
+   "advertisers": 12,
+   "competitors": [
+    "اسنپ‌پی"
+   ],
+   "own_present": false
+  },
+  "zoomon.ir": {
+   "pressure": 10,
+   "opportunity": 47,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": false
+  },
+  "downloadha.com": {
+   "pressure": 14,
+   "opportunity": 47,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "par30games.net": {
+   "pressure": 63,
+   "opportunity": 46,
+   "advertisers": 19,
+   "competitors": [
+    "اسنپ پی",
+    "اسنپ‌پی",
+    "اورلوم",
+    "ایکس گیم استور",
+    "بانک تجارت",
+    "قیمت آنلاین طلا",
+    "میلی",
+    "وب گیفت",
+    "گردونه طلا"
+   ],
+   "own_present": true
+  },
+  "aftabnews.ir": {
+   "pressure": 37,
+   "opportunity": 46,
+   "advertisers": 7,
+   "competitors": [
+    "کارنامه"
+   ],
+   "own_present": false
+  },
+  "jamejamonline.ir": {
+   "pressure": 32,
+   "opportunity": 46,
+   "advertisers": 5,
+   "competitors": [
+    "کارنامه"
+   ],
+   "own_present": false
+  },
+  "p30download.ir": {
+   "pressure": 30,
+   "opportunity": 46,
+   "advertisers": 3,
+   "competitors": [
+    "ونکا"
+   ],
+   "own_present": false
+  },
+  "drsaina.com": {
+   "pressure": 15,
+   "opportunity": 46,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "zoomg.ir": {
+   "pressure": 53,
+   "opportunity": 45,
+   "advertisers": 8,
+   "competitors": [
+    "بازیکس",
+    "مایتندو"
+   ],
+   "own_present": false
+  },
+  "gadgetnews.net": {
+   "pressure": 26,
+   "opportunity": 45,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": false
+  },
+  "sakhtafzarmag.com": {
+   "pressure": 32,
+   "opportunity": 45,
+   "advertisers": 1,
+   "competitors": [
+    "دینو"
+   ],
+   "own_present": false
+  },
+  "vgdl.ir": {
+   "pressure": 38,
+   "opportunity": 45,
+   "advertisers": 2,
+   "competitors": [
+    "انتخاب"
+   ],
+   "own_present": false
+  },
+  "ecoiran.com": {
+   "pressure": 19,
+   "opportunity": 45,
+   "advertisers": 5,
+   "competitors": [],
+   "own_present": true
+  },
+  "p30day.ir": {
+   "pressure": 70,
+   "opportunity": 44,
+   "advertisers": 12,
+   "competitors": [
+    "ایکس گیم استور",
+    "سی دی کی شیر",
+    "پی اس نکس",
+    "پی سی گیم شاپ",
+    "گیم پردایس"
+   ],
+   "own_present": false
+  },
+  "7sobh.com": {
+   "pressure": 36,
+   "opportunity": 44,
+   "advertisers": 7,
+   "competitors": [
+    "کارنامه"
+   ],
+   "own_present": false
+  },
+  "kojaro.com": {
+   "pressure": 21,
+   "opportunity": 44,
+   "advertisers": 1,
+   "competitors": [],
+   "own_present": false
+  },
+  "alef.ir": {
+   "pressure": 68,
+   "opportunity": 43,
+   "advertisers": 36,
+   "competitors": [
+    "اسنپ‌پی",
+    "بانی مد",
+    "خودرو ۴۵",
+    "قیمت آنلاین طلا",
+    "مبین‌نت",
+    "میلی",
+    "هویا"
+   ],
+   "own_present": true
+  },
+  "rasekhoon.net": {
+   "pressure": 25,
+   "opportunity": 43,
+   "advertisers": 4,
+   "competitors": [],
+   "own_present": false
+  },
+  "ettelaat.com": {
+   "pressure": 54,
+   "opportunity": 42,
+   "advertisers": 8,
+   "competitors": [
+    "همراه گلد",
+    "کارنامه"
+   ],
+   "own_present": false
+  },
+  "downloadly.ir": {
+   "pressure": 27,
+   "opportunity": 42,
+   "advertisers": 2,
+   "competitors": [],
+   "own_present": false
+  }
+ },
+ "verticals": {
+  "auto": {
+   "risk": 81,
+   "own_sov": 0,
+   "weight": 133.0,
+   "leaders": [
+    "کارنامه",
+    "خودرو ۴۵",
+    "ناب پارتس",
+    "اتوموبی"
+   ]
+  },
+  "services": {
+   "risk": 74,
+   "own_sov": 0,
+   "weight": 1.5,
+   "leaders": [
+    "اسنپ"
+   ]
+  },
+  "fintech_bnpl": {
+   "risk": 72,
+   "own_sov": 0.025,
+   "weight": 278.6,
+   "leaders": [
+    "اسنپ‌پی",
+    "ازکی‌وام",
+    "ازکی",
+    "تکنوپی",
+    "کاریزما"
+   ]
+  },
+  "telecom": {
+   "risk": 71,
+   "own_sov": 0,
+   "weight": 2.2,
+   "leaders": [
+    "مبین‌نت"
+   ]
+  },
+  "fashion": {
+   "risk": 70,
+   "own_sov": 0,
+   "weight": 59.1,
+   "leaders": [
+    "شاپینو",
+    "وایب",
+    "بانی مد",
+    "جین‌وست",
+    "سلیمی گالری"
+   ]
+  },
+  "digital_gold": {
+   "risk": 69,
+   "own_sov": 0,
+   "weight": 202.9,
+   "leaders": [
+    "میلی",
+    "تکنوگلد",
+    "همراه گلد",
+    "قیمت آنلاین طلا",
+    "اکسیر"
+   ]
+  },
+  "beauty_health": {
+   "risk": 69,
+   "own_sov": 0,
+   "weight": 105.7,
+   "leaders": [
+    "تیرزکتو",
+    "اورلوم",
+    "درمان ریزش مو",
+    "رویش سبز",
+    "صمیم"
+   ]
+  },
+  "sports_travel": {
+   "risk": 68,
+   "own_sov": 0,
+   "weight": 8.6,
+   "leaders": [
+    "فروشگاه آنلاین کیف"
+   ]
+  },
+  "home_appliances": {
+   "risk": 66,
+   "own_sov": 0,
+   "weight": 51.2,
+   "leaders": [
+    "انتخاب",
+    "نوژن",
+    "دل کوک",
+    "ظروف یکبار مصرف",
+    "ال‌جی"
+   ]
+  },
+  "tools": {
+   "risk": 65,
+   "own_sov": 0,
+   "weight": 8.8,
+   "leaders": [
+    "عمران مدرن"
+   ]
+  },
+  "pet": {
+   "risk": 62,
+   "own_sov": 0,
+   "weight": 16.0,
+   "leaders": [
+    "دینو"
+   ]
+  },
+  "digital": {
+   "risk": 53,
+   "own_sov": 0,
+   "weight": 185.8,
+   "leaders": [
+    "ایکس گیم استور",
+    "وب گیفت",
+    "پی اس نکس",
+    "مایتندو",
+    "پی جم شاپ"
+   ]
+  },
+  "marketplace": {
+   "risk": 18,
+   "own_sov": 0.748,
+   "weight": 81.2,
+   "leaders": [
+    "دیجی‌کالا",
+    "۱۹ کالا",
+    "اسنپ‌شاپ",
+    "باسلام"
+   ]
+  },
+  "supermarket": {
+   "risk": 12,
+   "own_sov": 0.919,
+   "weight": 17.2,
+   "leaders": [
+    "دیجی‌کالا جت",
+    "قهوه ریو"
+   ]
+  }
+ },
+ "campaign_mix": {
+  "installment": 324,
+  "promo": 254,
+  "unknown": 233,
+  "gamified": 120,
+  "lead_gen": 100,
+  "product": 97,
+  "native_content": 96,
+  "brand": 61,
+  "app_install": 38,
+  "targeted": 13,
+  "seasonal": 12,
+  "retargeting": 10
+ },
+ "network_share": {
+  "direct": 1785,
+  "yektanet": 1606,
+  "mediaad_tapsell": 404,
+  "kaprila": 74,
+  "unknown:ad.a-ads.com": 24,
+  "unknown:recaptcha.net": 24,
+  "digiad": 22,
+  "unknown:app.gapify.ai": 15,
+  "unknown:acceptable.a-ads.com": 12,
+  "unknown:arenasports.ir": 12,
+  "unknown:google.com": 11,
+  "unknown:app.nim.chat": 9
+ },
+ "format_share": {
+  "display": 1926,
+  "native": 1185,
+  "sticky_banner": 477,
+  "video": 183,
+  "interstitial": 122,
+  "reportage": 57,
+  "text": 48
+ },
+ "coverage_pct": 79,
+ "n_obs": 3998
+}
