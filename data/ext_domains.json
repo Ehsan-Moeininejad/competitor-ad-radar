@@ -449,7 +449,8 @@
   "sharghdaily.com",
   "alef.ir",
   "hamshahrionline.ir",
-  "ilna.ir"
+  "ilna.ir",
+  "rokna.net"
  ],
  "doctor-yab.ir": [
   "khabaronline.ir",
@@ -483,7 +484,9 @@
   "asriran.com",
   "sharghdaily.com",
   "alef.ir",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "gadgetnews.net",
+  "techrato.com"
  ],
  "snapppay.ir": [
   "khabaronline.ir",
@@ -805,7 +808,8 @@
  ],
  "estelamplus.net": [
   "ilna.ir",
-  "alef.ir"
+  "alef.ir",
+  "techrato.com"
  ],
  "samaktaranom.com": [
   "ilna.ir"
@@ -878,7 +882,9 @@
  "irfarabi.com": [
   "ettelaat.com",
   "mehrnews.com",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "rokna.net",
+  "sharghdaily.com"
  ],
  "ahoradarb.com": [
   "ettelaat.com",
@@ -1936,5 +1942,26 @@
  ],
  "hasanzadefinance.com": [
   "ensafnews.com"
+ ],
+ "etemadcable.com": [
+  "khabaronline.ir"
+ ],
+ "eitaa.shop": [
+  "rokna.net"
+ ],
+ "tajsara.com": [
+  "aftabnews.ir"
+ ],
+ "lockposht.com": [
+  "jamejamonline.ir"
+ ],
+ "mofidx.com": [
+  "shahrekhabar.com"
+ ],
+ "baharnews.ir": [
+  "mojnews.com"
+ ],
+ "maktabkhooneh.org": [
+  "jobvision.ir"
  ]
 }
