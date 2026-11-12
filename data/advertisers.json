@@ -1230,7 +1230,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "brand:دیجی‌کالا": {
   "name": "دیجی‌کالا",
@@ -2352,7 +2352,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "rkb24.ir": {
   "name": "بانک رفاه کارگران",
@@ -2662,7 +2662,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:3a52be1356": {
   "name": "پیامک خونه",
@@ -2796,7 +2796,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:8ba70da1d4": {
   "name": "t:8ba70da1d4",
@@ -3210,7 +3210,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-12"
  },
  "t:eb8fcdd96b": {
   "name": "خودرو۴۵",
@@ -3650,7 +3650,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:155f70d543": {
   "name": "t:155f70d543",
@@ -3680,7 +3680,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:5b09039ac1": {
   "name": "نواتل",
@@ -4190,7 +4190,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-12"
  },
  "rahyn.ir": {
   "name": "آریا اروند صنعت",
@@ -4490,7 +4490,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:7a7d079f33": {
   "name": "نامشخص",
@@ -5532,7 +5532,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-12"
  },
  "t:520f112525": {
   "name": "توچال گلد",
@@ -5904,7 +5904,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "bitpin.org": {
   "name": "بیت پین",
@@ -7162,7 +7162,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:7336c2726f": {
   "name": "نامشخص (فروشگاه کتاب)",
@@ -9948,7 +9948,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:e42f48096f": {
   "name": "همدست",
@@ -9978,7 +9978,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-12"
  },
  "t:56d52aec10": {
   "name": "نامشخص",
@@ -10536,7 +10536,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:d1f1b72193": {
   "name": "نامشخص (تحلیل بازار مالی)",
@@ -11280,7 +11280,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-12"
  },
  "t:8c5269f0a7": {
   "name": "خودرو۴۵",
@@ -11650,7 +11650,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-12"
  },
  "t:6b42819609": {
   "name": "نامشخص",
@@ -12524,7 +12524,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:89f6a76eec": {
   "name": "t:89f6a76eec",
