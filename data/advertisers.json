@@ -249,7 +249,7 @@
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "talasea.ir": {
   "name": "طلاسی",
@@ -2092,7 +2092,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "jajiga.com": {
   "name": "جاجیگا",
@@ -2182,7 +2182,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-12"
  },
  "t:d14aa3fc9d": {
   "name": "نامشخص",
@@ -3016,7 +3016,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3480,7 +3480,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:5578b23e68": {
   "name": "آلپاری",
@@ -4130,7 +4130,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:30a5c1926b": {
   "name": "نامشخص",
@@ -4830,7 +4830,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5102,7 +5102,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-12"
  },
  "t:a0011c94af": {
   "name": "t:a0011c94af",
@@ -5482,7 +5482,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:5af72a2855": {
   "name": "پی کن دو",
@@ -5892,7 +5892,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:130e18d799": {
   "name": "خودرو۴۵",
@@ -6054,7 +6054,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:4336b256e0": {
   "name": "استیم",
@@ -6144,7 +6144,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:56270d8945": {
   "name": "ازکی سلر",
@@ -6204,7 +6204,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:77274aa570": {
   "name": "نامشخص",
@@ -7000,7 +7000,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-12"
  },
  "farshsajadeh.com": {
   "name": "فرش سجاده آریا",
@@ -7070,7 +7070,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:6849f67001": {
   "name": "فرنا",
@@ -7380,7 +7380,7 @@
   "level": "own",
   "source": "name-match",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:c61a523c01": {
   "name": "زرین",
@@ -7426,7 +7426,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:e70efc2809": {
   "name": "خدمات بیمه",
@@ -7722,7 +7722,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:592563505d": {
   "name": "پلی‌پاد",
@@ -8970,7 +8970,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:2125600550": {
   "name": "بانک سرمایه",
@@ -9258,7 +9258,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:eebd2926b1": {
   "name": "کاریزما",
@@ -9998,7 +9998,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:a0273f0070": {
   "name": "نامشخص",
@@ -10346,7 +10346,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-12"
  },
  "t:73fea13788": {
   "name": "بیمه دات کام",
@@ -10566,7 +10566,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-05"
+  "last_seen": "2026-11-12"
  },
  "t:1bd6b20200": {
   "name": "لنزمارکت",
@@ -10698,7 +10698,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-12"
  },
  "t:f77b8bf405": {
   "name": "خودرو۴۵",
@@ -10934,7 +10934,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:35d5be93ca": {
   "name": "آهن شیراز",
@@ -11044,7 +11044,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-12"
  },
  "t:a2bf6b584a": {
   "name": "اسنپ مارکت",
@@ -11580,7 +11580,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-12"
  },
  "t:783fd7826c": {
   "name": "نامشخص",
@@ -12670,7 +12670,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-12"
  },
  "t:4559fc6094": {
   "name": "نامشخص",
@@ -12896,7 +12896,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "t:641fdbefd9": {
   "name": "نظرسنجی بازار خودرو",
@@ -13048,7 +13048,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "img:0c14feb35148da": {
   "name": "ازکی‌وام",
@@ -13360,7 +13360,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-12"
  },
  "proplynq.com": {
   "name": "پروپ لینک",
