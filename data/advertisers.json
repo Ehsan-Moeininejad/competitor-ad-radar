@@ -2062,7 +2062,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:bc3b5e9a58": {
   "name": "ازکی سلر",
@@ -2806,7 +2806,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:ecd878f2c7": {
   "name": "t:ecd878f2c7",
@@ -2816,7 +2816,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:a91720af6a": {
   "name": "شهر لوازم خانگی",
@@ -2866,7 +2866,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-14"
  },
  "booranjobs.com": {
   "name": "booranjobs.com",
@@ -4540,7 +4540,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:efc78dde73": {
   "name": "نامشخص",
@@ -5472,7 +5472,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:aa7eca9f49": {
   "name": "t:aa7eca9f49",
@@ -5788,7 +5788,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "brand:میلی": {
   "name": "میلی",
@@ -5994,7 +5994,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:be7b015b3c": {
   "name": "نیپوتو",
@@ -6134,7 +6134,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:2a8037a6bf": {
   "name": "هویا",
@@ -7712,7 +7712,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:c2a0e58682": {
   "name": "پلی‌پاد",
@@ -8396,7 +8396,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-14"
  },
  "t:719755d7ff": {
   "name": "پیش بینی فوتبال",
@@ -8900,7 +8900,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-14"
  },
  "t:091f022df9": {
   "name": "t:091f022df9",
@@ -9308,7 +9308,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-14"
  },
  "t:e995f9bf4a": {
   "name": "هاست ایران",
@@ -10446,7 +10446,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-30"
+  "last_seen": "2026-11-14"
  },
  "t:19be6d79b4": {
   "name": "مرکز سلامت ایران",
@@ -11094,7 +11094,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-14"
  },
  "t:fa86577699": {
   "name": "اسنپ اکسپرس",
@@ -12524,7 +12524,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "t:89f6a76eec": {
   "name": "t:89f6a76eec",
@@ -13048,7 +13048,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-14"
  },
  "img:0c14feb35148da": {
   "name": "ازکی‌وام",
@@ -14948,7 +14948,7 @@
   "confidence": 0.9,
   "source": "vision",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-14"
  },
  "img:8c0462b4a5e056": {
   "name": "اپتیمم نوتریشن",
@@ -15513,6 +15513,50 @@
   "level": "vertical",
   "message": "مراقبت از سلامت ستون فقرات با محصولات ارگوتک",
   "domain_guess": "ergotech.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14"
+ },
+ "brand:ازکی‌وام": {
+  "name": "ازکی‌وام",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "source": "name-match",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14"
+ },
+ "img:86357ef335f343": {
+  "name": "برجیس",
+  "name_en": "Berje",
+  "vertical": "beauty_health",
+  "level": "vertical",
+  "message": "دستگاه تقویت عضلات و درمان درد سیاتیک و لاغری خانگی با ۳۶ ماه گارانتی",
+  "domain_guess": "berje.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14"
+ },
+ "img:8842b13a78dd73": {
+  "name": "اکوتراست",
+  "name_en": "Ecotrust",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "message": "ارائه پیشنهادهای شخصی برای سرمایه‌گذاری جهت سودآوری در خرید و فروش",
+  "domain_guess": "ecotrust.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-14",
+  "last_seen": "2026-11-14"
+ },
+ "t:f89482e570": {
+  "name": "عدل ایرانیان",
+  "name_en": "Adl Iranian",
+  "vertical": "services",
+  "level": "none",
+  "message": "مشاوره اولیه رایگان برای دعاوی حقوقی و کیفری توسط گروه وکلای عدل ایرانیان",
+  "domain_guess": "adliranian.com",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-14",
