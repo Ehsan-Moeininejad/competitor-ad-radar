@@ -471,7 +471,8 @@
   "khabaronline.ir",
   "namnak.com",
   "asriran.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "mehrnews.com"
  ],
  "fardadgroup.com": [
   "khabaronline.ir"
@@ -681,7 +682,8 @@
  "liliome.com": [
   "bahalmag.ir",
   "ilna.ir",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "ettelaat.com"
  ],
  "hesehaftom.com": [
   "bahalmag.ir"
@@ -1815,7 +1817,8 @@
   "alef.ir"
  ],
  "irchem.ir": [
-  "alef.ir"
+  "alef.ir",
+  "khabaronline.ir"
  ],
  "lunarshop.ir": [
   "alef.ir"
@@ -1861,7 +1864,8 @@
   "hamshahrionline.ir"
  ],
  "doctorvaghefi.com": [
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "ettelaat.com"
  ],
  "shishex.com": [
   "hamshahrionline.ir"
@@ -1977,5 +1981,11 @@
  ],
  "actoverco.com": [
   "darooyab.ir"
+ ],
+ "asangem.com": [
+  "gadgetnews.net"
+ ],
+ "tradist.ir": [
+  "jamejamonline.ir"
  ]
 }
