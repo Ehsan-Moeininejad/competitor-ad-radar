@@ -1,1 +1,1584 @@
-{}
+{
+ "ninishop.ir": [
+  "ninisite.com"
+ ],
+ "charmeshiz.com": [
+  "ninisite.com"
+ ],
+ "unicef.org": [
+  "ninisite.com"
+ ],
+ "falnic.com": [
+  "zoomit.ir"
+ ],
+ "kojaro.com": [
+  "zoomit.ir",
+  "zoomg.ir",
+  "pedal.ir",
+  "filmzi.com",
+  "zoomon.ir"
+ ],
+ "zoomon.ir": [
+  "zoomit.ir",
+  "zoomg.ir",
+  "pedal.ir",
+  "kojaro.com",
+  "filmzi.com"
+ ],
+ "zoomg.ir": [
+  "zoomit.ir",
+  "pedal.ir",
+  "kojaro.com",
+  "filmzi.com",
+  "zoomon.ir"
+ ],
+ "pedal.ir": [
+  "zoomit.ir",
+  "zoomg.ir",
+  "kojaro.com",
+  "filmzi.com",
+  "zoomon.ir"
+ ],
+ "filmzi.com": [
+  "zoomit.ir",
+  "zoomg.ir",
+  "pedal.ir",
+  "kojaro.com",
+  "zoomon.ir"
+ ],
+ "parspack.com": [
+  "zoomit.ir",
+  "digiato.com",
+  "zoomg.ir",
+  "pedal.ir",
+  "kojaro.com",
+  "filmzi.com",
+  "zoomon.ir"
+ ],
+ "a1.parto.media": [
+  "digiato.com",
+  "vigiato.net"
+ ],
+ "ble.ir": [
+  "digiato.com",
+  "khabaronline.ir",
+  "tejaratnews.com",
+  "khabarfoori.com",
+  "shahrekhabar.com",
+  "shahraranews.ir",
+  "tebyan.net",
+  "yjc.ir",
+  "mehrnews.com",
+  "mojnews.com",
+  "asriran.com",
+  "digikala.com",
+  "akharinkhabar.ir",
+  "rasekhoon.net"
+ ],
+ "my.tlyn.ir": [
+  "tgju.org"
+ ],
+ "panel.tgju.gold": [
+  "tgju.org"
+ ],
+ "cafebazaar.ir": [
+  "tgju.org",
+  "footballi.net",
+  "rasekhoon.net"
+ ],
+ "agbr.ir": [
+  "tgju.org"
+ ],
+ "shakhesban.com": [
+  "tgju.org"
+ ],
+ "af.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "al.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "dz.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ar.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "am.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "au.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "az.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "bh.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "bd.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "by.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "be.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "bj.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "bo.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ba.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "br.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "bg.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "kh.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ca.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "cl.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "cn.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "co.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "cr.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "hr.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "cy.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "cz.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "dk.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "dj.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ec.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "eg.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "sv.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ee.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "fr.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ge.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "de.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "gr.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "gt.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ht.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "hn.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "hk.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "hu.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "is.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "in.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "id.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "iq.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ie.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "it.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "jp.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "jo.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "kz.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "kw.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "kg.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "lv.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "lb.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "ly.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "li.marketpanorama.com": [
+  "tgju.org"
+ ],
+ "traia.ir": [
+  "iranbroker.net"
+ ],
+ "exino.org": [
+  "iranbroker.net"
+ ],
+ "registration.rabin.ir": [
+  "iranbroker.net"
+ ],
+ "emofid.com": [
+  "iranbroker.net"
+ ],
+ "agah.com": [
+  "iranbroker.net"
+ ],
+ "irfarabi.com": [
+  "iranbroker.net",
+  "rokna.net",
+  "tejaratnews.com",
+  "mehrnews.com",
+  "sharghdaily.com"
+ ],
+ "br.charisma.ir": [
+  "iranbroker.net"
+ ],
+ "mobinsb.ir": [
+  "iranbroker.net"
+ ],
+ "nahayatnegar.com": [
+  "iranbroker.net"
+ ],
+ "mellatbroker.ir": [
+  "iranbroker.net"
+ ],
+ "samanbourse.ir": [
+  "iranbroker.net"
+ ],
+ "ebidar.com": [
+  "iranbroker.net"
+ ],
+ "bmibourse.ir": [
+  "iranbroker.net"
+ ],
+ "sarmayegozarebartar.com": [
+  "iranbroker.net"
+ ],
+ "daric.gold": [
+  "iranbroker.net",
+  "daneshchi.ir"
+ ],
+ "goldika.ir": [
+  "iranbroker.net"
+ ],
+ "digikala.com": [
+  "iranbroker.net",
+  "khabaronline.ir",
+  "gamefa.com",
+  "iranjib.ir",
+  "mehrnews.com",
+  "namnak.com",
+  "asriran.com"
+ ],
+ "zarpay24.com": [
+  "iranbroker.net"
+ ],
+ "zarafza.com": [
+  "iranbroker.net"
+ ],
+ "invi.ir": [
+  "iranbroker.net"
+ ],
+ "ayaretf.com": [
+  "iranbroker.net"
+ ],
+ "iran-kfunds5.ir": [
+  "iranbroker.net"
+ ],
+ "kahroba.charismafunds.ir": [
+  "iranbroker.net"
+ ],
+ "goldvista.ir": [
+  "iranbroker.net"
+ ],
+ "dafund.ir": [
+  "iranbroker.net"
+ ],
+ "lotusgoldfund.capital": [
+  "iranbroker.net"
+ ],
+ "kianfunds3.ir": [
+  "iranbroker.net"
+ ],
+ "zarinagahfund.com": [
+  "iranbroker.net"
+ ],
+ "goldisfund.ir": [
+  "iranbroker.net"
+ ],
+ "nafis.sabaamc.ir": [
+  "iranbroker.net"
+ ],
+ "irannsr.org": [
+  "iranbroker.net"
+ ],
+ "jobinja.ir": [
+  "iranbroker.net"
+ ],
+ "mizito.ir": [
+  "zoomit.ir"
+ ],
+ "wa.me": [
+  "bitfa.io"
+ ],
+ "utotimes.com": [
+  "utobrokers.com",
+  "khabaronline.ir"
+ ],
+ "exiraz.com": [
+  "khabaronline.ir"
+ ],
+ "rahenoonline.ir": [
+  "khabaronline.ir"
+ ],
+ "khanesony.co": [
+  "khabaronline.ir"
+ ],
+ "flytoday.ir": [
+  "khabaronline.ir",
+  "etemadonline.com",
+  "jamaran.news",
+  "bahalmag.ir",
+  "rokna.net",
+  "khabarfoori.com",
+  "iranjib.ir",
+  "aftabnews.ir",
+  "mehrnews.com",
+  "mojnews.com",
+  "asriran.com",
+  "techrato.com",
+  "sharghdaily.com"
+ ],
+ "mysafar.com": [
+  "khabaronline.ir",
+  "gadgetnews.net"
+ ],
+ "mahdokhtclinic.com": [
+  "khabaronline.ir",
+  "namnak.com"
+ ],
+ "locoiran.com": [
+  "khabaronline.ir"
+ ],
+ "technolife.com": [
+  "khabaronline.ir",
+  "rokna.net",
+  "mobile.ir",
+  "gadgetnews.net",
+  "mehrnews.com",
+  "asriran.com",
+  "sharghdaily.com"
+ ],
+ "doctor-yab.ir": [
+  "khabaronline.ir",
+  "namnak.com"
+ ],
+ "estelamonline.net": [
+  "khabaronline.ir",
+  "mehrnews.com"
+ ],
+ "ravandarman.com": [
+  "khabaronline.ir",
+  "mehrnews.com"
+ ],
+ "khanoumi.com": [
+  "khabaronline.ir",
+  "mehrnews.com",
+  "namnak.com",
+  "asriran.com",
+  "sharghdaily.com"
+ ],
+ "fardadgroup.com": [
+  "khabaronline.ir"
+ ],
+ "janebi.com": [
+  "khabaronline.ir",
+  "rokna.net",
+  "gadgetnews.net",
+  "iranjib.ir",
+  "aftabnews.ir",
+  "mehrnews.com",
+  "namnak.com",
+  "asriran.com",
+  "techrato.com",
+  "sharghdaily.com"
+ ],
+ "snapppay.ir": [
+  "khabaronline.ir",
+  "rokna.net",
+  "khabarfoori.com",
+  "gadgetnews.net",
+  "iranjib.ir",
+  "aftabnews.ir",
+  "mehrnews.com",
+  "namnak.com",
+  "asriran.com",
+  "sharghdaily.com"
+ ],
+ "pezeshk24.com": [
+  "khabaronline.ir"
+ ],
+ "atronco.com": [
+  "khabaronline.ir"
+ ],
+ "etemadcable.com": [
+  "khabaronline.ir"
+ ],
+ "snapptrip.com": [
+  "khabaronline.ir",
+  "etemadonline.com",
+  "jamaran.news",
+  "khabarfoori.com",
+  "shahrekhabar.com",
+  "mehrnews.com",
+  "sharghdaily.com"
+ ],
+ "sheyda.tv": [
+  "khabaronline.ir",
+  "gadgetnews.net"
+ ],
+ "irchem.ir": [
+  "khabaronline.ir"
+ ],
+ "nastooh.ir": [
+  "khabaronline.ir",
+  "tebyan.net",
+  "mehrnews.com"
+ ],
+ "tara360.ir": [
+  "technolife.com"
+ ],
+ "technogold.gold": [
+  "technolife.com"
+ ],
+ "technolife.ir": [
+  "technolife.com"
+ ],
+ "iransamaneh.com": [
+  "entekhab.ir",
+  "shahraranews.ir",
+  "yjc.ir",
+  "aftabnews.ir",
+  "jamejamonline.ir",
+  "asriran.com"
+ ],
+ "diginoy.com": [
+  "gamefa.com"
+ ],
+ "snappshop.ir": [
+  "gamefa.com",
+  "etemadonline.com",
+  "rokna.net",
+  "khabarfoori.com",
+  "gadgetnews.net",
+  "daneshchi.ir",
+  "iranjib.ir",
+  "tebyan.net",
+  "aftabnews.ir",
+  "jamejamonline.ir",
+  "namnak.com",
+  "asriran.com",
+  "footballi.net",
+  "sharghdaily.com"
+ ],
+ "gamefa.net": [
+  "gamefa.com"
+ ],
+ "xgamesstore.org": [
+  "p30day.ir",
+  "par30games.net"
+ ],
+ "psnex.ir": [
+  "p30day.ir"
+ ],
+ "metacritic.com": [
+  "p30day.ir"
+ ],
+ "playpod.ir": [
+  "p30day.ir"
+ ],
+ "everlum.ir": [
+  "par30games.net"
+ ],
+ "lifelands.ir": [
+  "par30games.net"
+ ],
+ "webgift.net": [
+  "par30games.net"
+ ],
+ "diamond-land.org": [
+  "par30games.net"
+ ],
+ "resolve": [
+  "par30games.net"
+ ],
+ "khabargardoon.ir": [
+  "etemadonline.com"
+ ],
+ "taadolnewspaper.ir": [
+  "etemadonline.com"
+ ],
+ "modema.com": [
+  "etemadonline.com"
+ ],
+ "nipoto.com": [
+  "etemadonline.com",
+  "rokna.net",
+  "aftabnews.ir"
+ ],
+ "saadatrent.com": [
+  "etemadonline.com"
+ ],
+ "avafarhang.com": [
+  "etemadonline.com"
+ ],
+ "rotecgroup.com": [
+  "etemadonline.com"
+ ],
+ "jenayi.com": [
+  "etemadonline.com"
+ ],
+ "cinemaetemad.ir": [
+  "etemadonline.com"
+ ],
+ "taline.ir": [
+  "etemadonline.com",
+  "rokna.net",
+  "mojnews.com",
+  "sharghdaily.com"
+ ],
+ "asam.company": [
+  "etemadonline.com",
+  "rokna.net",
+  "khabarfoori.com",
+  "mojnews.com",
+  "ecoiran.com",
+  "donya-e-eqtesad.com",
+  "sharghdaily.com"
+ ],
+ "satiakhodro.com": [
+  "jamaran.news"
+ ],
+ "milan-group.ir": [
+  "jamaran.news"
+ ],
+ "adleiranian.co": [
+  "jamaran.news"
+ ],
+ "jamaran.ir": [
+  "jamaran.news"
+ ],
+ "imam-khomeini.ir": [
+  "jamaran.news"
+ ],
+ "hasankhomeini.ir": [
+  "jamaran.news"
+ ],
+ "qom.icpikw.ir": [
+  "jamaran.news"
+ ],
+ "isf.icpikw.ir": [
+  "jamaran.news"
+ ],
+ "ri-khomeini.ac.ir": [
+  "jamaran.news"
+ ],
+ "wiki.khomeini.ir": [
+  "jamaran.news"
+ ],
+ "vebeet.com": [
+  "teh-dl.ir",
+  "musicviral.ir",
+  "musics-fa.com"
+ ],
+ "gandommusic.ir": [
+  "bahalmag.ir"
+ ],
+ "liliome.com": [
+  "bahalmag.ir",
+  "jamejamonline.ir"
+ ],
+ "hesehaftom.com": [
+  "bahalmag.ir"
+ ],
+ "emdadkhadamat.com": [
+  "bahalmag.ir"
+ ],
+ "shopix24.com": [
+  "bahalmag.ir"
+ ],
+ "exochange.ir": [
+  "bahalmag.ir"
+ ],
+ "tehranapprepair.ir": [
+  "bahalmag.ir"
+ ],
+ "bitfa.io": [
+  "bahalmag.ir",
+  "aftabnews.ir"
+ ],
+ "parsismode.com": [
+  "bahalmag.ir"
+ ],
+ "bitpin.ir": [
+  "bahalmag.ir",
+  "mehrnews.com",
+  "mojnews.com",
+  "footballi.net",
+  "sharghdaily.com"
+ ],
+ "digichoob.com": [
+  "bahalmag.ir"
+ ],
+ "luxechin.ir": [
+  "bahalmag.ir"
+ ],
+ "casiostore.watch": [
+  "bahalmag.ir"
+ ],
+ "emalls.ir": [
+  "bahalmag.ir",
+  "rokna.net",
+  "iranjib.ir",
+  "aftabnews.ir",
+  "sharghdaily.com"
+ ],
+ "komakkar.com": [
+  "bahalmag.ir"
+ ],
+ "arabiplus.ir": [
+  "bahalmag.ir"
+ ],
+ "balishma.com": [
+  "bahalmag.ir"
+ ],
+ "besigraphic.com": [
+  "bahalmag.ir"
+ ],
+ "didedecor.com": [
+  "bahalmag.ir"
+ ],
+ "xn--mgbndhc8gwa6aa82k.com": [
+  "bahalmag.ir"
+ ],
+ "mrkalla.com": [
+  "bahalmag.ir"
+ ],
+ "digitamir.com": [
+  "bahalmag.ir"
+ ],
+ "lonisssa.com": [
+  "bahalmag.ir"
+ ],
+ "asrmusics.com": [
+  "bahalmag.ir"
+ ],
+ "cafemajazi.net": [
+  "bahalmag.ir"
+ ],
+ "tagsino.com": [
+  "bahalmag.ir",
+  "mehrnews.com",
+  "sharghdaily.com"
+ ],
+ "zoomit.ir": [
+  "zoomg.ir",
+  "aftabnews.ir",
+  "pedal.ir",
+  "kojaro.com",
+  "filmzi.com",
+  "zoomon.ir"
+ ],
+ "zoomapp.app": [
+  "zoomg.ir",
+  "pedal.ir",
+  "kojaro.com",
+  "zoomon.ir"
+ ],
+ "tejaratnews.com": [
+  "rokna.net"
+ ],
+ "eghtesadeirani.ir": [
+  "rokna.net"
+ ],
+ "niniban.com": [
+  "rokna.net"
+ ],
+ "hamrah-mechanic.com": [
+  "rokna.net"
+ ],
+ "androidha.com": [
+  "rokna.net"
+ ],
+ "kifpool.me": [
+  "rokna.net",
+  "namnak.com",
+  "sharghdaily.com",
+  "downloadha.com"
+ ],
+ "gaminodena.com": [
+  "rokna.net"
+ ],
+ "heblexrazavi.com": [
+  "rokna.net",
+  "namnak.com"
+ ],
+ "talajat.net": [
+  "rokna.net",
+  "namnak.com"
+ ],
+ "moshkestan.com": [
+  "rokna.net",
+  "jamejamonline.ir"
+ ],
+ "c-beautyshop.com": [
+  "rokna.net"
+ ],
+ "toyotabazaar.com": [
+  "rokna.net",
+  "khabarfoori.com",
+  "namnak.com"
+ ],
+ "drnalavi.clinic": [
+  "rokna.net"
+ ],
+ "eitaa.shop": [
+  "rokna.net"
+ ],
+ "tirzacto.com": [
+  "darooyab.ir"
+ ],
+ "abidipharma.com": [
+  "darooyab.ir"
+ ],
+ "ofoghdarou.com": [
+  "darooyab.ir"
+ ],
+ "actoverco.com": [
+  "darooyab.ir"
+ ],
+ "tabdeal.org": [
+  "tejaratnews.com"
+ ],
+ "khodroshop.ir": [
+  "tejaratnews.com"
+ ],
+ "sarvcrm.com": [
+  "tejaratnews.com"
+ ],
+ "pspexpress.com": [
+  "khabarfoori.com"
+ ],
+ "tamasha.com": [
+  "khabarfoori.com"
+ ],
+ "splus.ir": [
+  "khabarfoori.com",
+  "shahraranews.ir",
+  "tebyan.net",
+  "yjc.ir",
+  "mehrnews.com",
+  "rasekhoon.net"
+ ],
+ "namasha.com": [
+  "khabarfoori.com"
+ ],
+ "gap.im": [
+  "khabarfoori.com",
+  "shahraranews.ir"
+ ],
+ "sornakhabar.com": [
+  "khabarfoori.com"
+ ],
+ "titrtejarat.com": [
+  "khabarfoori.com"
+ ],
+ "mashhadfori.com": [
+  "khabarfoori.com"
+ ],
+ "khatarfori.com": [
+  "khabarfoori.com"
+ ],
+ "jaygahevizheh.ir": [
+  "khabarfoori.com"
+ ],
+ "mousighayearamesh.ir": [
+  "khabarfoori.com"
+ ],
+ "khabarfarda.com": [
+  "khabarfoori.com"
+ ],
+ "pishgamfanavari.ir": [
+  "khabarfoori.com"
+ ],
+ "diroozban.ir": [
+  "khabarfoori.com"
+ ],
+ "sangmazarr.com": [
+  "khabarfoori.com"
+ ],
+ "booking.ir": [
+  "khabarfoori.com",
+  "aftabnews.ir",
+  "footballi.net",
+  "sharghdaily.com"
+ ],
+ "mrestate.ir": [
+  "khabarfoori.com"
+ ],
+ "musicdel.ir": [
+  "khabarfoori.com"
+ ],
+ "nikogem.com": [
+  "khabarfoori.com"
+ ],
+ "tetraglass.net": [
+  "khabarfoori.com"
+ ],
+ "aryadoorsam.com": [
+  "khabarfoori.com"
+ ],
+ "kgy-ind.com": [
+  "khabarfoori.com"
+ ],
+ "hotelyar.com": [
+  "iranpokht.ir"
+ ],
+ "cafe33.ir": [
+  "iranpokht.ir"
+ ],
+ "caspian.demo-qaleb.ir": [
+  "iranpokht.ir"
+ ],
+ "google.com": [
+  "shahrekhabar.com"
+ ],
+ "zaya.io": [
+  "shahrekhabar.com"
+ ],
+ "bnmod.ir": [
+  "shahrekhabar.com"
+ ],
+ "mofidx.com": [
+  "shahrekhabar.com"
+ ],
+ "alibaba.ir": [
+  "shahrekhabar.com",
+  "mehrnews.com"
+ ],
+ "kangorou.com": [
+  "shahrekhabar.com"
+ ],
+ "bimeh.com": [
+  "shahrekhabar.com",
+  "gadgetnews.net",
+  "mehrnews.com",
+  "footballi.net"
+ ],
+ "ketabane.org": [
+  "shahrekhabar.com"
+ ],
+ "farnaa.com": [
+  "mobile.ir"
+ ],
+ "19kala.com": [
+  "mobile.ir"
+ ],
+ "aflo.ir": [
+  "mobile.ir"
+ ],
+ "click.adtrace.io": [
+  "mobile.ir",
+  "digikala.com",
+  "drsaina.com"
+ ],
+ "xchief.com": [
+  "gadgetnews.net"
+ ],
+ "grnm.ir": [
+  "gadgetnews.net"
+ ],
+ "shatel.ir": [
+  "gadgetnews.net"
+ ],
+ "pubg-sell.ir": [
+  "gadgetnews.net"
+ ],
+ "subtg.com": [
+  "gadgetnews.net"
+ ],
+ "milli.gold": [
+  "gadgetnews.net"
+ ],
+ "namnak.com": [
+  "gadgetnews.net"
+ ],
+ "yektabot.com": [
+  "gadgetnews.net",
+  "techrato.com"
+ ],
+ "asangem.com": [
+  "gadgetnews.net"
+ ],
+ "shop.rightel.ir": [
+  "gadgetnews.net"
+ ],
+ "ircd.me": [
+  "gadgetnews.net"
+ ],
+ "idc0-cdn0.khamenei.ir": [
+  "downloadly.ir"
+ ],
+ "downloadlynet.ir": [
+  "downloadly.ir"
+ ],
+ "faradars.org": [
+  "downloadly.ir"
+ ],
+ "mobinhost.com": [
+  "downloadly.ir"
+ ],
+ "shrr.ir": [
+  "shahraranews.ir"
+ ],
+ "mowb.ir": [
+  "modireweb.com"
+ ],
+ "paytakhteketab.com": [
+  "daneshchi.ir"
+ ],
+ "soorano.com": [
+  "daneshchi.ir"
+ ],
+ "zerochap.com": [
+  "daneshchi.ir"
+ ],
+ "decorikarino.ir": [
+  "daneshchi.ir"
+ ],
+ "iranchina.org": [
+  "daneshchi.ir",
+  "mehrnews.com"
+ ],
+ "cod24.ir": [
+  "daneshchi.ir",
+  "jamejamonline.ir"
+ ],
+ "baghfarhangshop.ir": [
+  "daneshchi.ir"
+ ],
+ "rabinland.com": [
+  "daneshchi.ir"
+ ],
+ "geokhanjani.com": [
+  "daneshchi.ir"
+ ],
+ "hacinhaseb.com": [
+  "daneshchi.ir"
+ ],
+ "smostafa.ir": [
+  "soft98.ir"
+ ],
+ "bishtarazyek.com": [
+  "soft98.ir"
+ ],
+ "join": [
+  "iranjib.ir"
+ ],
+ "pivan.co": [
+  "iranjib.ir"
+ ],
+ "pateh.com": [
+  "iranjib.ir"
+ ],
+ "rasmio.com": [
+  "iranjib.ir"
+ ],
+ "omranmodern.com": [
+  "iranjib.ir",
+  "aftabnews.ir"
+ ],
+ "hostdl.co": [
+  "soft98.ir"
+ ],
+ "asiatech.ir": [
+  "soft98.ir"
+ ],
+ "coffeete.ir": [
+  "soft98.ir"
+ ],
+ "shad.ir": [
+  "tebyan.net"
+ ],
+ "ravaqschool.ir": [
+  "tebyan.net"
+ ],
+ "bamazifamily.com": [
+  "tebyan.net"
+ ],
+ "tekye.net": [
+  "tebyan.net"
+ ],
+ "porsan.ir": [
+  "tebyan.net"
+ ],
+ "hamdamapp.ir": [
+  "tebyan.net"
+ ],
+ "kodoumo.ir": [
+  "tebyan.net"
+ ],
+ "grocery.snapp.ir": [
+  "tebyan.net"
+ ],
+ "nilforoushzadeh.clinic": [
+  "tebyan.net"
+ ],
+ "emdadyar24.com": [
+  "tebyan.net",
+  "jamejamonline.ir"
+ ],
+ "sofamobl.com": [
+  "tebyan.net",
+  "mehrnews.com"
+ ],
+ "tebyan.getnews.ir": [
+  "tebyan.net"
+ ],
+ "dinu.ir": [
+  "sakhtafzarmag.com"
+ ],
+ "green.ir": [
+  "sakhtafzarmag.com"
+ ],
+ "kalamag.com": [
+  "sakhtafzarmag.com"
+ ],
+ "sarzamineno.com": [
+  "aftabnews.ir"
+ ],
+ "tajsara.com": [
+  "aftabnews.ir"
+ ],
+ "yadakkia.com": [
+  "aftabnews.ir"
+ ],
+ "pardad-group.com": [
+  "aftabnews.ir"
+ ],
+ "samsung-sam.com": [
+  "aftabnews.ir"
+ ],
+ "iranbroker.net": [
+  "aftabnews.ir",
+  "mojnews.com",
+  "sharghdaily.com"
+ ],
+ "irancompare.com": [
+  "aftabnews.ir"
+ ],
+ "exirpergas.com": [
+  "aftabnews.ir"
+ ],
+ "emdadkhodrokermanmotor.com": [
+  "aftabnews.ir"
+ ],
+ "volkanserver.com": [
+  "aftabnews.ir"
+ ],
+ "xn--mgbaaanvhpcdt8npbvj3aa47pnpia.com": [
+  "aftabnews.ir"
+ ],
+ "musicchi.net": [
+  "aftabnews.ir"
+ ],
+ "tahlilbazaar.com": [
+  "aftabnews.ir"
+ ],
+ "virgool.io": [
+  "aftabnews.ir"
+ ],
+ "eghtesadonline.com": [
+  "aftabnews.ir"
+ ],
+ "adexo.ir": [
+  "tebyan.net",
+  "aftabnews.ir",
+  "jamejamonline.ir",
+  "mojnews.com",
+  "asriran.com",
+  "rasekhoon.net"
+ ],
+ "sapp.ir": [
+  "jamejamonline.ir"
+ ],
+ "tradist.ir": [
+  "jamejamonline.ir"
+ ],
+ "keyhanserver.com": [
+  "jamejamonline.ir"
+ ],
+ "lockposht.com": [
+  "jamejamonline.ir"
+ ],
+ "behbodchem.com": [
+  "jamejamonline.ir"
+ ],
+ "rapop.ir": [
+  "jamejamonline.ir"
+ ],
+ "pandco.com": [
+  "jamejamonline.ir"
+ ],
+ "tamertmarkzi.com": [
+  "jamejamonline.ir"
+ ],
+ "mahanshabake.com": [
+  "jamejamonline.ir"
+ ],
+ "faazino.com": [
+  "jamejamonline.ir",
+  "mehrnews.com"
+ ],
+ "tamironline.com": [
+  "jamejamonline.ir"
+ ],
+ "basparstore.com": [
+  "jamejamonline.ir"
+ ],
+ "sedayehonar.com": [
+  "jamejamonline.ir"
+ ],
+ "upseo.ir": [
+  "jamejamonline.ir"
+ ],
+ "zohal.io": [
+  "jamejamonline.ir"
+ ],
+ "utobrokers.com": [
+  "jamejamonline.ir",
+  "namnak.com"
+ ],
+ "vaghardoost.com": [
+  "jamejamonline.ir",
+  "mehrnews.com"
+ ],
+ "download1music.ir": [
+  "jamejamonline.ir"
+ ],
+ "rayapars.ir": [
+  "jamejamonline.ir"
+ ],
+ "parsvt.com": [
+  "jamejamonline.ir"
+ ],
+ "webone.co": [
+  "jamejamonline.ir"
+ ],
+ "entekhabeman.com": [
+  "jamejamonline.ir"
+ ],
+ "bachehayeaseman.org": [
+  "jamejamonline.ir"
+ ],
+ "mahsakazemi.com": [
+  "jamejamonline.ir"
+ ],
+ "services": [
+  "jamejamonline.ir"
+ ],
+ "pinterest.com": [
+  "setare.com",
+  "delgarm.com"
+ ],
+ "igap.net": [
+  "mehrnews.com"
+ ],
+ "nujanco.com": [
+  "mehrnews.com"
+ ],
+ "ahoradarb.com": [
+  "mehrnews.com"
+ ],
+ "shermila.net": [
+  "mehrnews.com"
+ ],
+ "dr-baradaran.com": [
+  "mehrnews.com"
+ ],
+ "rotbebandi.co": [
+  "mehrnews.com"
+ ],
+ "najiweblog.ir": [
+  "mehrnews.com"
+ ],
+ "tamirbosch.com": [
+  "mehrnews.com"
+ ],
+ "shomalbar.com": [
+  "mehrnews.com"
+ ],
+ "playstory.ir": [
+  "mehrnews.com"
+ ],
+ "samakpirozi.com": [
+  "mehrnews.com"
+ ],
+ "sepahanhamrah.com": [
+  "mehrnews.com"
+ ],
+ "gashtanik.com": [
+  "mehrnews.com"
+ ],
+ "narijeh.com": [
+  "mehrnews.com"
+ ],
+ "ahmadabadi.co": [
+  "mehrnews.com"
+ ],
+ "boardnegar.com": [
+  "mehrnews.com"
+ ],
+ "astel.ir": [
+  "mehrnews.com"
+ ],
+ "pezeshkanbeauty.com": [
+  "mehrnews.com"
+ ],
+ "simorghedarmangar.com": [
+  "mehrnews.com"
+ ],
+ "drhast.com": [
+  "mehrnews.com"
+ ],
+ "realtimedentist.com": [
+  "mehrnews.com"
+ ],
+ "4sough.com": [
+  "mehrnews.com"
+ ],
+ "danesh.land": [
+  "mehrnews.com"
+ ],
+ "tehrantimes.com": [
+  "mehrnews.com"
+ ],
+ "agaah.ir": [
+  "mehrnews.com"
+ ],
+ "pixelstudio.ir": [
+  "mehrnews.com"
+ ],
+ "musicviral.musitraf.com": [
+  "musicviral.ir"
+ ],
+ "chargechi.com": [
+  "p30download.ir"
+ ],
+ "shop.javaz.ir": [
+  "p30download.ir"
+ ],
+ "filestore.persiangfx.com": [
+  "p30download.ir"
+ ],
+ "persiangfx.com": [
+  "p30download.ir"
+ ],
+ "portable.ir": [
+  "p30download.ir"
+ ],
+ "moroornews.com": [
+  "mojnews.com"
+ ],
+ "ubitex.io": [
+  "mojnews.com"
+ ],
+ "cooldl.net": [
+  "mojnews.com"
+ ],
+ "pezhvakkhodro.com": [
+  "mojnews.com"
+ ],
+ "mpn101.com": [
+  "mojnews.com"
+ ],
+ "zibafarin.beauty": [
+  "mojnews.com"
+ ],
+ "irantst.com": [
+  "mojnews.com"
+ ],
+ "akotajhiz.com": [
+  "mojnews.com"
+ ],
+ "loolebazkoni.com": [
+  "mojnews.com"
+ ],
+ "royalmohajerat.com": [
+  "mojnews.com"
+ ],
+ "silveerpack.com": [
+  "mojnews.com"
+ ],
+ "paydarservice.org": [
+  "mojnews.com",
+  "sharghdaily.com"
+ ],
+ "acofidarnovin.com": [
+  "mojnews.com"
+ ],
+ "khane-bosch.com": [
+  "mojnews.com"
+ ],
+ "baharnews.ir": [
+  "mojnews.com"
+ ],
+ "photo-editor.ir": [
+  "delgarm.com"
+ ],
+ "drhosnani.com": [
+  "namnak.com"
+ ],
+ "balabansanat.com": [
+  "namnak.com"
+ ],
+ "gostaresh.news": [
+  "namnak.com"
+ ],
+ "gooyait.com": [
+  "namnak.com"
+ ],
+ "setare.com": [
+  "namnak.com"
+ ],
+ "numax.ir": [
+  "namnak.com"
+ ],
+ "filimo.school": [
+  "filimo.com"
+ ],
+ "savadezendegi.com": [
+  "asriran.com"
+ ],
+ "pishkhanak.com": [
+  "asriran.com"
+ ],
+ "irfollower.com": [
+  "asriran.com"
+ ],
+ "filimo.goposhti.com": [
+  "filimo.com"
+ ],
+ "digikalajet.com": [
+  "digikala.com"
+ ],
+ "dgka.me": [
+  "digikala.com"
+ ],
+ "bazaar.digify.shop": [
+  "digikala.com"
+ ],
+ "discord.gg": [
+  "vigiato.net"
+ ],
+ "cloopy.ir": [
+  "footballi.net"
+ ],
+ "getmefollowers.org": [
+  "footballi.net"
+ ],
+ "arzdigital.com": [
+  "footballi.net"
+ ],
+ "digistyle.com": [
+  "digikala.com"
+ ],
+ "digikalagroup-rac.com": [
+  "digikala.com"
+ ],
+ "sapra.ir": [
+  "digikala.com"
+ ],
+ "mydigipay.com": [
+  "digikala.com"
+ ],
+ "digikalaads.com": [
+  "digikala.com"
+ ],
+ "diginext.ir": [
+  "digikala.com"
+ ],
+ "digiexpress.ir": [
+  "digikala.com"
+ ],
+ "ganje.net": [
+  "digikala.com"
+ ],
+ "digify.shop": [
+  "digikala.com"
+ ],
+ "smartech.ir": [
+  "digikala.com"
+ ],
+ "miare.ir": [
+  "digikala.com"
+ ],
+ "vidomart.shop": [
+  "digikala.com"
+ ],
+ "pakhshmusic.ir": [
+  "musics-fa.com"
+ ],
+ "upmusics.com": [
+  "musics-fa.com"
+ ],
+ "musico.ir": [
+  "musics-fa.com"
+ ],
+ "myket.ir": [
+  "footballi.net",
+  "kojaro.com"
+ ],
+ "sibche.com": [
+  "footballi.net"
+ ],
+ "smoothie.tavoos.net": [
+  "ecoiran.com",
+  "donya-e-eqtesad.com"
+ ],
+ "dengroup.org": [
+  "ecoiran.com",
+  "donya-e-eqtesad.com"
+ ],
+ "donya-e-eqtesad.com": [
+  "ecoiran.com"
+ ],
+ "eghtesadnews.com": [
+  "ecoiran.com",
+  "donya-e-eqtesad.com"
+ ],
+ "financialtribune.com": [
+  "ecoiran.com",
+  "donya-e-eqtesad.com"
+ ],
+ "events.donya-e-eqtesad.com": [
+  "ecoiran.com"
+ ],
+ "donyayebourse.com": [
+  "ecoiran.com"
+ ],
+ "tejaratefarda.com": [
+  "ecoiran.com",
+  "donya-e-eqtesad.com"
+ ],
+ "book.donya-e-eqtesad.com": [
+  "ecoiran.com"
+ ],
+ "deic.vc": [
+  "ecoiran.com",
+  "donya-e-eqtesad.com"
+ ],
+ "barayand.net": [
+  "ecoiran.com"
+ ],
+ "l.24d.ir": [
+  "techrato.com"
+ ],
+ "pandora-iran.ir": [
+  "techrato.com"
+ ],
+ "bazarganisib.com": [
+  "techrato.com"
+ ],
+ "estelamplus.net": [
+  "techrato.com"
+ ],
+ "ecoiran.com": [
+  "donya-e-eqtesad.com"
+ ],
+ "clubhouse.com": [
+  "sharghdaily.com"
+ ],
+ "cliniczibayi.com": [
+  "sharghdaily.com"
+ ],
+ "arta-door.com": [
+  "sharghdaily.com"
+ ],
+ "appleidshop.com": [
+  "sharghdaily.com"
+ ],
+ "musics-fa.com": [
+  "sharghdaily.com"
+ ],
+ "akharinkhabar.ir": [
+  "sharghdaily.com"
+ ],
+ "attrin.com": [
+  "sharghdaily.com"
+ ],
+ "maanapp.ir": [
+  "drsaina.com"
+ ],
+ "trc.metrix.ir": [
+  "drsaina.com"
+ ],
+ "ecunion.ir": [
+  "drsaina.com"
+ ],
+ "img5.dlhas.ir": [
+  "downloadha.com"
+ ],
+ "cdn.hostdl.com": [
+  "downloadha.com"
+ ]
+}
