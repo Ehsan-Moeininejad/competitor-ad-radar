@@ -63,7 +63,7 @@
   "vertical": "marketplace",
   "level": "core",
   "source": "config",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "timcheh.com": {
   "name": "تیمچه",
@@ -249,7 +249,7 @@
   "vertical": "digital_gold",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-12"
+  "last_seen": "2026-11-15"
  },
  "talasea.ir": {
   "name": "طلاسی",
@@ -438,7 +438,7 @@
   "vertical": "auto",
   "level": "vertical",
   "source": "config",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "khodro45.com": {
   "name": "خودرو ۴۵",
@@ -882,7 +882,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-15"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -1384,7 +1384,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-26"
+  "last_seen": "2026-11-15"
  },
  "zarpin.com": {
   "name": "زرپین",
@@ -1484,7 +1484,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-23"
+  "last_seen": "2026-11-15"
  },
  "yektanet.com": {
   "name": "یکتانت",
@@ -1514,7 +1514,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "zoomon.ir": {
   "name": "زومان",
@@ -1962,7 +1962,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-15"
  },
  "t:e6cc860dd3": {
   "name": "نامشخص",
@@ -2202,7 +2202,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "ecotrust.ir": {
   "name": "مشاور سرمایه گذاری ترنج (اکوترست)",
@@ -2846,7 +2846,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:dee2c26cc2": {
   "name": "t:dee2c26cc2",
@@ -3016,7 +3016,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3540,7 +3540,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "etender.ir": {
   "name": "ایران تندر",
@@ -3550,7 +3550,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-15"
  },
  "sigmatec.ir": {
   "name": "سیگما",
@@ -3640,7 +3640,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:1b45065b72": {
   "name": "t:1b45065b72",
@@ -4130,7 +4130,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:30a5c1926b": {
   "name": "نامشخص",
@@ -4370,7 +4370,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:b774217976": {
   "name": "نامشخص",
@@ -5602,7 +5602,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-15"
  },
  "t:3c3299c263": {
   "name": "t:3c3299c263",
@@ -5788,7 +5788,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "brand:میلی": {
   "name": "میلی",
@@ -7000,7 +7000,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "farshsajadeh.com": {
   "name": "فرش سجاده آریا",
@@ -7162,7 +7162,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-23",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:7336c2726f": {
   "name": "نامشخص (فروشگاه کتاب)",
@@ -9408,7 +9408,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:9fad1504e3": {
   "name": "پارالاکس",
@@ -9730,7 +9730,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-15"
  },
  "t:faf67f0668": {
   "name": "کلینیک دندانپزشکی",
@@ -9760,7 +9760,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-15"
  },
  "t:33360ce535": {
   "name": "هاست ایران",
@@ -10068,7 +10068,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-09"
+  "last_seen": "2026-11-15"
  },
  "t:f09a20d260": {
   "name": "سگال نت",
@@ -11034,7 +11034,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-10-31"
+  "last_seen": "2026-11-15"
  },
  "t:5e4ddbbdfa": {
   "name": "کاریزما",
@@ -11094,7 +11094,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:fa86577699": {
   "name": "اسنپ اکسپرس",
@@ -11590,7 +11590,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-15"
  },
  "t:f6c12f0d03": {
   "name": "نامشخص",
@@ -12800,7 +12800,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-04"
+  "last_seen": "2026-11-15"
  },
  "img:ffa921a7a8172c": {
   "name": "جاجیگا",
@@ -13006,7 +13006,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:961a0c3283": {
   "name": "درمان درد کمر",
@@ -13270,7 +13270,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-15"
  },
  "t:caeb1908eb": {
   "name": "کاریزما",
@@ -13710,7 +13710,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-15"
  },
  "t:092ddeecbb": {
   "name": "مشاوره ریزش مو",
@@ -13898,7 +13898,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-15"
  },
  "t:90457680d6": {
   "name": "توچال گلد",
@@ -14286,7 +14286,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "img:bac29305df2b02": {
   "name": "اسنپ",
@@ -15146,7 +15146,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-13",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "mashhadreserve.com": {
   "name": "دیجی‌پی",
@@ -15380,7 +15380,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-15"
  },
  "t:0fe812539d": {
   "name": "تویوتا کرولا کراس",
@@ -15701,6 +15701,232 @@
   "level": "vertical",
   "message": "مراقبت از سلامت ستون فقرات با محصولات ارگونومیک ارگوتک",
   "domain_guess": "ergotech.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:9fa2433e07": {
+  "name": "درمان جای عمل بلافرو",
+  "name_en": null,
+  "vertical": "beauty_health",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:2b1cf0402d": {
+  "name": "وام نقدی بورس",
+  "name_en": null,
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:6e3e30bd35": {
+  "name": "کاریزما",
+  "name_en": "Charisma",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:9139b98460": {
+  "name": "کاریزما",
+  "name_en": "Charisma",
+  "vertical": "digital_gold",
+  "level": "vertical",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:5854896a39": {
+  "name": "مفید",
+  "name_en": "Mofid Financial Group",
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:024f2f1a9b": {
+  "name": "t:024f2f1a9b",
+  "name_en": null,
+  "vertical": "crypto_finance",
+  "level": "none",
+  "confidence": 0.8,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:80c1dee574": {
+  "name": "مدیران خودرو",
+  "name_en": "Modiran Khodro",
+  "vertical": "auto",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:53eeac44d7": {
+  "name": "t:53eeac44d7",
+  "name_en": null,
+  "vertical": "travel_services",
+  "level": "none",
+  "confidence": 0.85,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "baharoil.com": {
+  "name": "روغن بهار",
+  "name_en": "Bahar Oil",
+  "vertical": "supermarket",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "expoguide.ir": {
+  "name": "اکسپو گاید",
+  "name_en": "Expoguide",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.9,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:126ed6c2f8": {
+  "name": "کاپریلا",
+  "name_en": "Kaprila",
+  "vertical": "media",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:edebeac62f": {
+  "name": "نواتل",
+  "name_en": "Novatel",
+  "vertical": "telecom",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "samanvoip.com": {
+  "name": "سامان ویپ",
+  "name_en": "SamanVoip",
+  "vertical": "telecom",
+  "level": "none",
+  "confidence": 0.95,
+  "source": "llm",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "adtrace.io": {
+  "name": "افق کوروش",
+  "name_en": "Ofoq Kourosh",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "message": "اپلیکیشن افق کوروش را نصب کن و برنده خودرو ۲۰۷ شو",
+  "domain_guess": "okala.com",
+  "confidence": 0.98,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "viraidc.ir": {
+  "name": "ابرویدا",
+  "name_en": "Abrvida",
+  "vertical": "services",
+  "level": "none",
+  "message": "سرور ابری ایران، آماده در چند دقیقه با پرداخت ساعتی",
+  "domain_guess": "abrevida.ir",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "img:275a584ff9d201": {
+  "name": "ابر دراک",
+  "name_en": "Abr Derak",
+  "vertical": "services",
+  "level": "none",
+  "message": "تحویل سرور ابری ایران در کمتر از ۶۰ ثانیه",
+  "domain_guess": "abrdrak.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "invi.ir": {
+  "name": "ایزی‌پی",
+  "name_en": "Ezpay",
+  "vertical": "fintech_bnpl",
+  "level": "vertical",
+  "message": "۵۰۰ میلیون تومان اعتبار خرید طلای قسطی",
+  "domain_guess": "ezpay.ir",
+  "confidence": 0.85,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:7d181c5834": {
+  "name": "دیجی‌پی",
+  "name_en": "Digipay",
+  "vertical": "fintech_bnpl",
+  "level": "own",
+  "message": "دریافت تا ۴۰۰ میلیون تومان اعتبار خرید با وثیقه‌گذاری سهام وتجارت",
+  "domain_guess": "mydigipay.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:233f4620e8": {
+  "name": "فیروزه",
+  "name_en": "Firouzeh",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "۴۰۰ میلیون تومان اعتبار خرید اقساطی برای سهامداران نماد شستا",
+  "domain_guess": "firouzeh.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:78573e9f53": {
+  "name": "مفید",
+  "name_en": "Mofid",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "دریافت تا ۴۰۰ میلیون تومان اعتبار خرید قسطی با وثیقه‌گذاری صندوق عیار",
+  "domain_guess": "emofid.com",
+  "confidence": 0.95,
+  "source": "vision",
+  "first_seen": "2026-11-15",
+  "last_seen": "2026-11-15"
+ },
+ "t:746cedda55": {
+  "name": "فیروزه",
+  "name_en": "Firouzeh",
+  "vertical": "fintech_bnpl",
+  "level": "none",
+  "message": "۴۰۰ میلیون تومان اعتبار خرید اقساطی برای سهامداران نماد شستا",
+  "domain_guess": "firouzeh.com",
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-15",
