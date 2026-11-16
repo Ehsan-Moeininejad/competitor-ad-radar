@@ -23,7 +23,7 @@
   "vertical": "fintech_bnpl",
   "level": "own",
   "source": "config",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "digipay.ir": {
   "name": "دیجی‌پی",
@@ -882,7 +882,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -2042,7 +2042,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-12"
+  "last_seen": "2026-11-16"
  },
  "t:0158c2ad44": {
   "name": "نامشخص",
@@ -2806,7 +2806,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "t:ecd878f2c7": {
   "name": "t:ecd878f2c7",
@@ -8396,7 +8396,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "t:719755d7ff": {
   "name": "پیش بینی فوتبال",
@@ -8970,7 +8970,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "t:2125600550": {
   "name": "بانک سرمایه",
@@ -9050,7 +9050,7 @@
   "confidence": 0.8,
   "source": "vision",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-06"
+  "last_seen": "2026-11-16"
  },
  "brand:نوار": {
   "name": "نوار",
@@ -9408,7 +9408,7 @@
   "confidence": 0.5,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "t:9fad1504e3": {
   "name": "پارالاکس",
@@ -12896,7 +12896,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-16"
  },
  "t:641fdbefd9": {
   "name": "نظرسنجی بازار خودرو",
@@ -13048,7 +13048,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "img:0c14feb35148da": {
   "name": "ازکی‌وام",
@@ -13898,7 +13898,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "t:90457680d6": {
   "name": "توچال گلد",
@@ -15050,7 +15050,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-12",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "t:d53efad6e2": {
   "name": "کاریزما",
@@ -15560,7 +15560,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "img:cb517871052ae0": {
   "name": "زمرد ۲۴",
@@ -15764,7 +15764,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-16"
  },
  "t:80c1dee574": {
   "name": "مدیران خودرو",
