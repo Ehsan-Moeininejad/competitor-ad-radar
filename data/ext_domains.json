@@ -277,7 +277,8 @@
   "rokna.net",
   "tejaratnews.com",
   "mehrnews.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "br.charisma.ir": [
   "iranbroker.net"
@@ -396,7 +397,8 @@
   "mojnews.com",
   "asriran.com",
   "techrato.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "mysafar.com": [
   "khabaronline.ir",
@@ -404,7 +406,8 @@
  ],
  "mahdokhtclinic.com": [
   "khabaronline.ir",
-  "namnak.com"
+  "namnak.com",
+  "ettelaat.com"
  ],
  "locoiran.com": [
   "khabaronline.ir"
@@ -480,7 +483,8 @@
   "khabarfoori.com",
   "shahrekhabar.com",
   "mehrnews.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "sheyda.tv": [
   "khabaronline.ir",
@@ -492,7 +496,8 @@
  "nastooh.ir": [
   "khabaronline.ir",
   "tebyan.net",
-  "mehrnews.com"
+  "mehrnews.com",
+  "ettelaat.com"
  ],
  "tara360.ir": [
   "technolife.com"
@@ -528,7 +533,8 @@
   "namnak.com",
   "asriran.com",
   "footballi.net",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "gamefa.net": [
   "gamefa.com"
@@ -594,7 +600,8 @@
   "etemadonline.com",
   "rokna.net",
   "mojnews.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "asam.company": [
   "etemadonline.com",
@@ -645,7 +652,8 @@
  ],
  "liliome.com": [
   "bahalmag.ir",
-  "jamejamonline.ir"
+  "jamejamonline.ir",
+  "ettelaat.com"
  ],
  "hesehaftom.com": [
   "bahalmag.ir"
@@ -664,7 +672,8 @@
  ],
  "bitfa.io": [
   "bahalmag.ir",
-  "aftabnews.ir"
+  "aftabnews.ir",
+  "ettelaat.com"
  ],
  "parsismode.com": [
   "bahalmag.ir"
@@ -674,7 +683,8 @@
   "mehrnews.com",
   "mojnews.com",
   "footballi.net",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "digichoob.com": [
   "bahalmag.ir"
@@ -728,7 +738,8 @@
  "tagsino.com": [
   "bahalmag.ir",
   "mehrnews.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "zoomit.ir": [
   "zoomg.ir",
@@ -763,7 +774,8 @@
   "rokna.net",
   "namnak.com",
   "sharghdaily.com",
-  "downloadha.com"
+  "downloadha.com",
+  "ettelaat.com"
  ],
  "gaminodena.com": [
   "rokna.net"
@@ -1121,13 +1133,15 @@
  "iranbroker.net": [
   "aftabnews.ir",
   "mojnews.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "ettelaat.com"
  ],
  "irancompare.com": [
   "aftabnews.ir"
  ],
  "exirpergas.com": [
-  "aftabnews.ir"
+  "aftabnews.ir",
+  "ettelaat.com"
  ],
  "emdadkhodrokermanmotor.com": [
   "aftabnews.ir"
@@ -1136,7 +1150,8 @@
   "aftabnews.ir"
  ],
  "xn--mgbaaanvhpcdt8npbvj3aa47pnpia.com": [
-  "aftabnews.ir"
+  "aftabnews.ir",
+  "ettelaat.com"
  ],
  "musicchi.net": [
   "aftabnews.ir"
@@ -1247,7 +1262,8 @@
   "mehrnews.com"
  ],
  "ahoradarb.com": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "ettelaat.com"
  ],
  "shermila.net": [
   "mehrnews.com"
@@ -1367,7 +1383,8 @@
   "mojnews.com"
  ],
  "silveerpack.com": [
-  "mojnews.com"
+  "mojnews.com",
+  "ettelaat.com"
  ],
  "paydarservice.org": [
   "mojnews.com",
@@ -1580,5 +1597,66 @@
  ],
  "cdn.hostdl.com": [
   "downloadha.com"
+ ],
+ "ketabettelaat.com": [
+  "ettelaat.com"
+ ],
+ "doctorvaghefi.com": [
+  "ettelaat.com"
+ ],
+ "jib.store": [
+  "ettelaat.com"
+ ],
+ "ssco.tv": [
+  "ettelaat.com"
+ ],
+ "moblemassage.com": [
+  "ettelaat.com"
+ ],
+ "ok-ex.io": [
+  "ettelaat.com"
+ ],
+ "megatowzin.com": [
+  "ettelaat.com"
+ ],
+ "bolurtarabar.ir": [
+  "ettelaat.com"
+ ],
+ "drkarimidokhtclinic.com": [
+  "ettelaat.com"
+ ],
+ "khalijbearings.com": [
+  "ettelaat.com"
+ ],
+ "kwciran.com": [
+  "ettelaat.com"
+ ],
+ "asanstars.com": [
+  "ettelaat.com"
+ ],
+ "niliplus.com": [
+  "ettelaat.com",
+  "bahalmag.ir"
+ ],
+ "kalasanati.com": [
+  "ettelaat.com"
+ ],
+ "porsline.ir": [
+  "ettelaat.com"
+ ],
+ "lenzolamp.com": [
+  "ettelaat.com"
+ ],
+ "zarfampool.ir": [
+  "ettelaat.com"
+ ],
+ "tahsilbama.com": [
+  "ettelaat.com"
+ ],
+ "drkhosrowmoghtader.com": [
+  "ettelaat.com"
+ ],
+ "payaneha.com": [
+  "ettelaat.com"
  ]
 }
