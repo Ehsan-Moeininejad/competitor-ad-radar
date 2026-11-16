@@ -281,7 +281,8 @@
   "tejaratnews.com",
   "mehrnews.com",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "br.charisma.ir": [
   "iranbroker.net"
@@ -402,7 +403,9 @@
   "asriran.com",
   "techrato.com",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir",
+  "ensafnews.com"
  ],
  "mysafar.com": [
   "khabaronline.ir",
@@ -411,11 +414,13 @@
  "mahdokhtclinic.com": [
   "khabaronline.ir",
   "namnak.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "locoiran.com": [
   "khabaronline.ir",
-  "khabarfoori.com"
+  "khabarfoori.com",
+  "alef.ir"
  ],
  "technolife.com": [
   "khabaronline.ir",
@@ -425,7 +430,9 @@
   "mehrnews.com",
   "asriran.com",
   "sharghdaily.com",
-  "ilna.ir"
+  "ilna.ir",
+  "alef.ir",
+  "hamshahrionline.ir"
  ],
  "doctor-yab.ir": [
   "khabaronline.ir",
@@ -433,7 +440,8 @@
  ],
  "estelamonline.net": [
   "khabaronline.ir",
-  "mehrnews.com"
+  "mehrnews.com",
+  "alef.ir"
  ],
  "ravandarman.com": [
   "khabaronline.ir",
@@ -459,7 +467,9 @@
   "namnak.com",
   "asriran.com",
   "techrato.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "alef.ir",
+  "hamshahrionline.ir"
  ],
  "snapppay.ir": [
   "khabaronline.ir",
@@ -471,13 +481,16 @@
   "mehrnews.com",
   "namnak.com",
   "asriran.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "alef.ir",
+  "hamshahrionline.ir"
  ],
  "pezeshk24.com": [
   "khabaronline.ir"
  ],
  "atronco.com": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "hamshahrionline.ir"
  ],
  "etemadcable.com": [
   "khabaronline.ir"
@@ -490,21 +503,25 @@
   "shahrekhabar.com",
   "mehrnews.com",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "alef.ir",
+  "hamshahrionline.ir"
  ],
  "sheyda.tv": [
   "khabaronline.ir",
   "gadgetnews.net"
  ],
  "irchem.ir": [
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "alef.ir"
  ],
  "nastooh.ir": [
   "khabaronline.ir",
   "tebyan.net",
   "mehrnews.com",
   "ettelaat.com",
-  "khabarvarzeshi.com"
+  "khabarvarzeshi.com",
+  "hamshahrionline.ir"
  ],
  "tara360.ir": [
   "technolife.com"
@@ -541,7 +558,9 @@
   "asriran.com",
   "footballi.net",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "alef.ir",
+  "hamshahrionline.ir"
  ],
  "gamefa.net": [
   "gamefa.com"
@@ -609,7 +628,8 @@
   "rokna.net",
   "mojnews.com",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "asam.company": [
   "etemadonline.com",
@@ -627,7 +647,8 @@
   "jamaran.news"
  ],
  "milan-group.ir": [
-  "jamaran.news"
+  "jamaran.news",
+  "hamshahrionline.ir"
  ],
  "adleiranian.co": [
   "jamaran.news"
@@ -665,7 +686,8 @@
   "bahalmag.ir",
   "jamejamonline.ir",
   "ettelaat.com",
-  "ilna.ir"
+  "ilna.ir",
+  "hamshahrionline.ir"
  ],
  "hesehaftom.com": [
   "bahalmag.ir"
@@ -697,7 +719,8 @@
   "footballi.net",
   "sharghdaily.com",
   "ettelaat.com",
-  "khabarvarzeshi.com"
+  "khabarvarzeshi.com",
+  "hamshahrionline.ir"
  ],
  "digichoob.com": [
   "bahalmag.ir"
@@ -713,7 +736,8 @@
   "rokna.net",
   "iranjib.ir",
   "aftabnews.ir",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "hamshahrionline.ir"
  ],
  "komakkar.com": [
   "bahalmag.ir",
@@ -753,7 +777,8 @@
   "bahalmag.ir",
   "mehrnews.com",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "zoomit.ir": [
   "zoomg.ir",
@@ -899,7 +924,8 @@
   "footballi.net",
   "sharghdaily.com",
   "ilna.ir",
-  "khabarvarzeshi.com"
+  "khabarvarzeshi.com",
+  "hamshahrionline.ir"
  ],
  "mrestate.ir": [
   "khabarfoori.com"
@@ -920,7 +946,8 @@
   "khabarfoori.com"
  ],
  "hotelyar.com": [
-  "iranpokht.ir"
+  "iranpokht.ir",
+  "ensafnews.com"
  ],
  "cafe33.ir": [
   "iranpokht.ir"
@@ -983,7 +1010,8 @@
   "gadgetnews.net"
  ],
  "subtg.com": [
-  "gadgetnews.net"
+  "gadgetnews.net",
+  "alef.ir"
  ],
  "milli.gold": [
   "gadgetnews.net"
@@ -1050,7 +1078,8 @@
   "daneshchi.ir"
  ],
  "geokhanjani.com": [
-  "daneshchi.ir"
+  "daneshchi.ir",
+  "hamshahrionline.ir"
  ],
  "hacinhaseb.com": [
   "daneshchi.ir"
@@ -1153,7 +1182,8 @@
   "aftabnews.ir",
   "mojnews.com",
   "sharghdaily.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "irancompare.com": [
   "aftabnews.ir"
@@ -1193,7 +1223,9 @@
   "rasekhoon.net",
   "khabarvarzeshi.com",
   "7sobh.com",
-  "rokna.net"
+  "rokna.net",
+  "hamshahrionline.ir",
+  "ettelaat.com"
  ],
  "sapp.ir": [
   "jamejamonline.ir"
@@ -1224,10 +1256,13 @@
  ],
  "faazino.com": [
   "jamejamonline.ir",
-  "mehrnews.com"
+  "mehrnews.com",
+  "hamshahrionline.ir"
  ],
  "tamironline.com": [
-  "jamejamonline.ir"
+  "jamejamonline.ir",
+  "alef.ir",
+  "hamshahrionline.ir"
  ],
  "basparstore.com": [
   "jamejamonline.ir"
@@ -1243,7 +1278,8 @@
  ],
  "utobrokers.com": [
   "jamejamonline.ir",
-  "namnak.com"
+  "namnak.com",
+  "hamshahrionline.ir"
  ],
  "vaghardoost.com": [
   "jamejamonline.ir",
@@ -1286,7 +1322,8 @@
  ],
  "ahoradarb.com": [
   "mehrnews.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "shermila.net": [
   "mehrnews.com"
@@ -1295,7 +1332,8 @@
   "mehrnews.com"
  ],
  "rotbebandi.co": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "alef.ir"
  ],
  "najiweblog.ir": [
   "mehrnews.com"
@@ -1322,7 +1360,8 @@
   "mehrnews.com"
  ],
  "ahmadabadi.co": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "hamshahrionline.ir"
  ],
  "boardnegar.com": [
   "mehrnews.com"
@@ -1334,13 +1373,15 @@
   "mehrnews.com"
  ],
  "simorghedarmangar.com": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "hamshahrionline.ir"
  ],
  "drhast.com": [
   "mehrnews.com"
  ],
  "realtimedentist.com": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "hamshahrionline.ir"
  ],
  "4sough.com": [
   "mehrnews.com",
@@ -1546,7 +1587,8 @@
  ],
  "eghtesadnews.com": [
   "ecoiran.com",
-  "donya-e-eqtesad.com"
+  "donya-e-eqtesad.com",
+  "alef.ir"
  ],
  "financialtribune.com": [
   "ecoiran.com",
@@ -1583,7 +1625,8 @@
  ],
  "estelamplus.net": [
   "techrato.com",
-  "ilna.ir"
+  "ilna.ir",
+  "alef.ir"
  ],
  "ecoiran.com": [
   "donya-e-eqtesad.com"
@@ -1628,10 +1671,12 @@
   "ettelaat.com"
  ],
  "doctorvaghefi.com": [
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "jib.store": [
-  "ettelaat.com"
+  "ettelaat.com",
+  "hamshahrionline.ir"
  ],
  "ssco.tv": [
   "ettelaat.com"
@@ -1668,7 +1713,8 @@
   "ettelaat.com"
  ],
  "porsline.ir": [
-  "ettelaat.com"
+  "ettelaat.com",
+  "alef.ir"
  ],
  "lenzolamp.com": [
   "ettelaat.com"
@@ -1746,5 +1792,95 @@
  ],
  "hrcando.ir": [
   "jobvision.ir"
+ ],
+ "panel.triboon.net": [
+  "alef.ir"
+ ],
+ "sepino.bsi.ir": [
+  "alef.ir"
+ ],
+ "katannama.com": [
+  "alef.ir"
+ ],
+ "vakilkadeh.com": [
+  "alef.ir"
+ ],
+ "pezeshktajhiz.com": [
+  "alef.ir"
+ ],
+ "salamat.academy": [
+  "alef.ir"
+ ],
+ "lunarshop.ir": [
+  "alef.ir"
+ ],
+ "yadaki.shop": [
+  "alef.ir"
+ ],
+ "vakilbin.com": [
+  "alef.ir"
+ ],
+ "refah-bank.rkb24.ir": [
+  "alef.ir"
+ ],
+ "rahnama.com": [
+  "hamshahrionline.ir"
+ ],
+ "hamshahri.ir": [
+  "hamshahrionline.ir"
+ ],
+ "hamshahri.org": [
+  "hamshahrionline.ir"
+ ],
+ "oab.ir": [
+  "hamshahrionline.ir"
+ ],
+ "chartiran.com": [
+  "hamshahrionline.ir"
+ ],
+ "atisbox.com": [
+  "hamshahrionline.ir"
+ ],
+ "theglama.com": [
+  "hamshahrionline.ir"
+ ],
+ "ariabehkarco.com": [
+  "hamshahrionline.ir"
+ ],
+ "behfarmachine.com": [
+  "hamshahrionline.ir"
+ ],
+ "tamirchi724.com": [
+  "hamshahrionline.ir"
+ ],
+ "shishex.com": [
+  "hamshahrionline.ir"
+ ],
+ "roshaidservice.ir": [
+  "hamshahrionline.ir"
+ ],
+ "emdadservices.com": [
+  "hamshahrionline.ir"
+ ],
+ "bosch-guarantee.com": [
+  "hamshahrionline.ir"
+ ],
+ "setaresim.com": [
+  "hamshahrionline.ir"
+ ],
+ "zoku.ir": [
+  "nexload.ir"
+ ],
+ "navaran.com": [
+  "ensafnews.com"
+ ],
+ "hasanzadefinance.com": [
+  "ensafnews.com"
+ ],
+ "lyamclinic.com": [
+  "ensafnews.com"
+ ],
+ "send": [
+  "ensafnews.com"
  ]
 }
