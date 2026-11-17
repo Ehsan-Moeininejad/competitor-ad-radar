@@ -817,7 +817,8 @@
   "namnak.com",
   "sharghdaily.com",
   "downloadha.com",
-  "ettelaat.com"
+  "ettelaat.com",
+  "mojnews.com"
  ],
  "gaminodena.com": [
   "rokna.net"
@@ -1898,12 +1899,19 @@
   "hamshahrionline.ir",
   "ettelaat.com",
   "khabarvarzeshi.com",
-  "sharghdaily.com"
+  "sharghdaily.com",
+  "mojnews.com"
  ],
  "padmaan.com": [
   "ettelaat.com"
  ],
  "runningshopmhb.com": [
   "khabarvarzeshi.com"
+ ],
+ "drpar.shop": [
+  "namnak.com"
+ ],
+ "digikalacars.com": [
+  "digikala.com"
  ]
 }

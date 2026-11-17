@@ -2442,7 +2442,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:7671b4b882": {
   "name": "درمان ریزش مو",
@@ -5402,7 +5402,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-17"
  },
  "t:9179441a2b": {
   "name": "شیدا",
@@ -5892,7 +5892,7 @@
   "confidence": 0.98,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:130e18d799": {
   "name": "خودرو۴۵",
@@ -7000,7 +7000,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "farshsajadeh.com": {
   "name": "فرش سجاده آریا",
@@ -7722,7 +7722,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:592563505d": {
   "name": "پلی‌پاد",
@@ -8738,7 +8738,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-07"
+  "last_seen": "2026-11-17"
  },
  "img:14199a7c3ce24a": {
   "name": "اکوتراست",
@@ -8770,7 +8770,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-08"
+  "last_seen": "2026-11-17"
  },
  "t:797eeb0d2e": {
   "name": "t:797eeb0d2e",
@@ -8970,7 +8970,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-27",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:2125600550": {
   "name": "بانک سرمایه",
@@ -9660,7 +9660,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-11"
+  "last_seen": "2026-11-17"
  },
  "t:f9df4b7fad": {
   "name": "هاست ایران",
@@ -9850,7 +9850,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "segalnet.net": {
   "name": "سگال نت",
@@ -13048,7 +13048,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "img:0c14feb35148da": {
   "name": "ازکی‌وام",
@@ -14602,7 +14602,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "t:03cbd4c103": {
   "name": "اسنپ پی",
@@ -15380,7 +15380,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "t:0fe812539d": {
   "name": "تویوتا کرولا کراس",
@@ -16237,6 +16237,14 @@
   "domain_guess": "mahak-charity.org",
   "confidence": 0.95,
   "source": "vision",
+  "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17"
+ },
+ "digikalacars.com": {
+  "name": "دیجی‌کالا",
+  "vertical": "marketplace",
+  "level": "own",
+  "source": "name-match",
   "first_seen": "2026-11-17",
   "last_seen": "2026-11-17"
  }
