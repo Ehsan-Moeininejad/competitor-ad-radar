@@ -405,7 +405,8 @@
   "sharghdaily.com",
   "ettelaat.com",
   "hamshahrionline.ir",
-  "ensafnews.com"
+  "ensafnews.com",
+  "footballi.net"
  ],
  "mysafar.com": [
   "khabaronline.ir",
@@ -560,7 +561,8 @@
   "sharghdaily.com",
   "ettelaat.com",
   "alef.ir",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "khabaronline.ir"
  ],
  "gamefa.net": [
   "gamefa.com"
@@ -1888,5 +1890,20 @@
  ],
  "spartina.ir": [
   "darooyab.ir"
+ ],
+ "khabarforiarzdigital.net": [
+  "alef.ir"
+ ],
+ "versland.io": [
+  "hamshahrionline.ir",
+  "ettelaat.com",
+  "khabarvarzeshi.com",
+  "sharghdaily.com"
+ ],
+ "padmaan.com": [
+  "ettelaat.com"
+ ],
+ "runningshopmhb.com": [
+  "khabarvarzeshi.com"
  ]
 }

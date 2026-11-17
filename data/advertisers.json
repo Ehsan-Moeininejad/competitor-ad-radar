@@ -882,7 +882,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "pars.host": {
   "name": "پارس هاست",
@@ -2082,7 +2082,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "meschi.ir": {
   "name": "مس چی",
@@ -3016,7 +3016,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "splusfund.com": {
   "name": "اس پلاس فاند",
@@ -3590,7 +3590,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "filimo.com": {
   "name": "فیلیمو",
@@ -4130,7 +4130,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "t:30a5c1926b": {
   "name": "نامشخص",
@@ -4140,7 +4140,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "t:a2c72ca11b": {
   "name": "سورملینا",
@@ -5362,7 +5362,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:8fdef83c85": {
   "name": "بای کیف",
@@ -8326,7 +8326,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:26f24be778": {
   "name": "آلپاری",
@@ -8386,7 +8386,7 @@
   "confidence": 0.98,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:6b458db67b": {
   "name": "اکوتراست",
@@ -13600,7 +13600,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-11-06",
-  "last_seen": "2026-11-12"
+  "last_seen": "2026-11-17"
  },
  "ebidar.com": {
   "name": "ای بیدار",
@@ -13610,7 +13610,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:842f7aa8c9": {
   "name": "بامداد خمار",
@@ -14286,7 +14286,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "img:bac29305df2b02": {
   "name": "اسنپ",
@@ -15390,7 +15390,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-17"
  },
  "t:da1b371994": {
   "name": "پیشگامان",
@@ -15560,7 +15560,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "img:cb517871052ae0": {
   "name": "زمرد ۲۴",
@@ -15744,7 +15744,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "t:5854896a39": {
   "name": "مفید",
@@ -15774,7 +15774,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "t:53eeac44d7": {
   "name": "t:53eeac44d7",
