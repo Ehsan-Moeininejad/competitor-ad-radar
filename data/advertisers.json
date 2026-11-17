@@ -2022,7 +2022,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:89e83dcb39": {
   "name": "آکادمی هلو",
@@ -2042,7 +2042,7 @@
   "confidence": 0.4,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:0158c2ad44": {
   "name": "نامشخص",
@@ -5282,7 +5282,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:02d9815128": {
   "name": "آنیسا",
@@ -7446,7 +7446,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-10-24"
+  "last_seen": "2026-11-17"
  },
  "autokhosravani.com": {
   "name": "اتو خسروانی",
@@ -8046,7 +8046,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-25",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "img:8413ff5986e795": {
   "name": "بانک تجارت",
@@ -11360,7 +11360,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:297060d6d3": {
   "name": "تمدن ایران",
@@ -11660,7 +11660,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:e2443279d1": {
   "name": "نامشخص",
@@ -13270,7 +13270,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:caeb1908eb": {
   "name": "کاریزما",
@@ -13968,7 +13968,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "t:eee286f86c": {
   "name": "ایران تندر",

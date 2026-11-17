@@ -1125,7 +1125,7 @@
   "first_seen": "2026-10-18",
   "size": "Custom ~140x100",
   "network": "yektanet",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-17"
  },
  "entekhab.ir|home|below_fold|video|mobile": {
   "first_seen": "2026-10-18",
@@ -3635,7 +3635,7 @@
   "first_seen": "2026-11-03",
   "size": "Square 250x250",
   "network": "direct",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-17"
  },
  "modireweb.com|home|header|display|mobile": {
   "first_seen": "2026-11-03",
@@ -3935,6 +3935,12 @@
  },
  "downloadha.com|net|mediaad_tapsell": {
   "first_seen": "2026-11-17",
+  "last_seen": "2026-11-17"
+ },
+ "delgarm.com|home|header|native|desktop": {
+  "first_seen": "2026-11-17",
+  "size": "Native widget ×1",
+  "network": "yektanet",
   "last_seen": "2026-11-17"
  }
 }

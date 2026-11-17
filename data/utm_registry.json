@@ -4432,6 +4432,7 @@
    "aftabnews.ir",
    "ettelaat.com",
    "jamejamonline.ir",
+   "khabarvarzeshi.com",
    "mojnews.com",
    "rasekhoon.net",
    "tebyan.net"
@@ -4532,6 +4533,16 @@
   "last_seen": "2026-11-17",
   "sites": [
    "digikala.com"
+  ]
+ },
+ "وال‌گلد|5_8_30010_yek_10sot_experiment": {
+  "first_seen": "2026-11-17",
+  "days": [
+   "2026-11-17"
+  ],
+  "last_seen": "2026-11-17",
+  "sites": [
+   "khabaronline.ir"
   ]
  }
 }
