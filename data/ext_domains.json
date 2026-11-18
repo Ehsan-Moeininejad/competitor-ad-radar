@@ -522,7 +522,8 @@
   "mehrnews.com",
   "ettelaat.com",
   "khabarvarzeshi.com",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "mashreghnews.ir"
  ],
  "tara360.ir": [
   "technolife.com"
@@ -643,7 +644,9 @@
   "sharghdaily.com",
   "ilna.ir",
   "7sobh.com",
-  "fararu.com"
+  "fararu.com",
+  "bartarinha.ir",
+  "didbaniran.ir"
  ],
  "satiakhodro.com": [
   "jamaran.news"
@@ -1572,10 +1575,12 @@
  ],
  "myket.ir": [
   "footballi.net",
-  "kojaro.com"
+  "kojaro.com",
+  "bartarinha.ir"
  ],
  "sibche.com": [
-  "footballi.net"
+  "footballi.net",
+  "bartarinha.ir"
  ],
  "smoothie.tavoos.net": [
   "ecoiran.com",
@@ -1618,7 +1623,8 @@
   "ecoiran.com"
  ],
  "l.24d.ir": [
-  "techrato.com"
+  "techrato.com",
+  "bartarinha.ir"
  ],
  "pandora-iran.ir": [
   "techrato.com"
@@ -1913,5 +1919,17 @@
  ],
  "digikalacars.com": [
   "digikala.com"
+ ],
+ "bartarinha.com": [
+  "bartarinha.ir"
+ ],
+ "play.google.com": [
+  "bartarinha.ir"
+ ],
+ "didehbanbazar.ir": [
+  "didbaniran.ir"
+ ],
+ "tgju.org": [
+  "didbaniran.ir"
  ]
 }
