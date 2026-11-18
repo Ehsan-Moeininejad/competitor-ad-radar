@@ -76,7 +76,10 @@
   "rasekhoon.net",
   "ilna.ir",
   "khabarvarzeshi.com",
-  "jobvision.ir"
+  "jobvision.ir",
+  "snn.ir",
+  "mizanonline.ir",
+  "iribnews.ir"
  ],
  "my.tlyn.ir": [
   "tgju.org"
@@ -540,7 +543,10 @@
   "yjc.ir",
   "aftabnews.ir",
   "jamejamonline.ir",
-  "asriran.com"
+  "asriran.com",
+  "snn.ir",
+  "mizanonline.ir",
+  "iribnews.ir"
  ],
  "diginoy.com": [
   "gamefa.com"
@@ -885,14 +891,16 @@
   "tebyan.net",
   "yjc.ir",
   "mehrnews.com",
-  "rasekhoon.net"
+  "rasekhoon.net",
+  "iribnews.ir"
  ],
  "namasha.com": [
   "khabarfoori.com"
  ],
  "gap.im": [
   "khabarfoori.com",
-  "shahraranews.ir"
+  "shahraranews.ir",
+  "iribnews.ir"
  ],
  "sornakhabar.com": [
   "khabarfoori.com"
@@ -1321,7 +1329,8 @@
   "delgarm.com"
  ],
  "igap.net": [
-  "mehrnews.com"
+  "mehrnews.com",
+  "iribnews.ir"
  ],
  "nujanco.com": [
   "mehrnews.com"
@@ -1931,5 +1940,9 @@
  ],
  "tgju.org": [
   "didbaniran.ir"
+ ],
+ "virasty.com": [
+  "mizanonline.ir",
+  "iribnews.ir"
  ]
 }
