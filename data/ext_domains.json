@@ -79,7 +79,8 @@
   "jobvision.ir",
   "snn.ir",
   "mizanonline.ir",
-  "iribnews.ir"
+  "iribnews.ir",
+  "nournews.ir"
  ],
  "my.tlyn.ir": [
   "tgju.org"
@@ -285,7 +286,8 @@
   "mehrnews.com",
   "sharghdaily.com",
   "ettelaat.com",
-  "hamshahrionline.ir"
+  "hamshahrionline.ir",
+  "asriran.com"
  ],
  "br.charisma.ir": [
   "iranbroker.net"
@@ -377,7 +379,8 @@
   "zoomit.ir"
  ],
  "wa.me": [
-  "bitfa.io"
+  "bitfa.io",
+  "newshanik.ir"
  ],
  "utotimes.com": [
   "utobrokers.com",
@@ -526,7 +529,8 @@
   "ettelaat.com",
   "khabarvarzeshi.com",
   "hamshahrionline.ir",
-  "mashreghnews.ir"
+  "mashreghnews.ir",
+  "imna.ir"
  ],
  "tara360.ir": [
   "technolife.com"
@@ -652,7 +656,8 @@
   "7sobh.com",
   "fararu.com",
   "bartarinha.ir",
-  "didbaniran.ir"
+  "didbaniran.ir",
+  "nournews.ir"
  ],
  "satiakhodro.com": [
   "jamaran.news"
@@ -838,7 +843,8 @@
  ],
  "talajat.net": [
   "rokna.net",
-  "namnak.com"
+  "namnak.com",
+  "alef.ir"
  ],
  "moshkestan.com": [
   "rokna.net",
@@ -892,7 +898,8 @@
   "yjc.ir",
   "mehrnews.com",
   "rasekhoon.net",
-  "iribnews.ir"
+  "iribnews.ir",
+  "nournews.ir"
  ],
  "namasha.com": [
   "khabarfoori.com"
@@ -979,7 +986,8 @@
   "shahrekhabar.com"
  ],
  "mofidx.com": [
-  "shahrekhabar.com"
+  "shahrekhabar.com",
+  "imna.ir"
  ],
  "alibaba.ir": [
   "shahrekhabar.com",
@@ -1706,7 +1714,8 @@
   "ettelaat.com"
  ],
  "megatowzin.com": [
-  "ettelaat.com"
+  "ettelaat.com",
+  "imna.ir"
  ],
  "bolurtarabar.ir": [
   "ettelaat.com"
@@ -1766,7 +1775,8 @@
   "ilna.ir"
  ],
  "shahrchem.com": [
-  "ilna.ir"
+  "ilna.ir",
+  "imna.ir"
  ],
  "ptmaham.ir": [
   "ilna.ir"
@@ -1915,7 +1925,9 @@
   "ettelaat.com",
   "khabarvarzeshi.com",
   "sharghdaily.com",
-  "mojnews.com"
+  "mojnews.com",
+  "rokna.net",
+  "footballi.net"
  ],
  "padmaan.com": [
   "ettelaat.com"
@@ -1943,6 +1955,50 @@
  ],
  "virasty.com": [
   "mizanonline.ir",
-  "iribnews.ir"
+  "iribnews.ir",
+  "nournews.ir"
+ ],
+ "rubino.ir": [
+  "nournews.ir"
+ ],
+ "threads.net": [
+  "nournews.ir"
+ ],
+ "shenoto.com": [
+  "nournews.ir"
+ ],
+ "castbox.fm": [
+  "nournews.ir"
+ ],
+ "liqvan.ir": [
+  "imna.ir"
+ ],
+ "ahvazrepair.com": [
+  "imna.ir"
+ ],
+ "mashhadservice.com": [
+  "imna.ir"
+ ],
+ "takhfifan.com": [
+  "imna.ir"
+ ],
+ "routinekala.com": [
+  "imna.ir"
+ ],
+ "tamirgahenissan.ir": [
+  "imna.ir"
+ ],
+ "easnaf.mimt.gov.ir": [
+  "newshanik.ir"
+ ],
+ "iranhoshdar.ir": [
+  "newshanik.ir"
+ ],
+ "uploadkon.ir": [
+  "newshanik.ir"
+ ],
+ "trip.ir": [
+  "gadgetnews.net",
+  "shahrekhabar.com"
  ]
 }

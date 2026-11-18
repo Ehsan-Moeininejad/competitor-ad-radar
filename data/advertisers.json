@@ -922,7 +922,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:dee30ca9fa": {
   "name": "t:dee30ca9fa",
@@ -1222,7 +1222,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "brand:جین‌وست": {
   "name": "جین‌وست",
@@ -1230,7 +1230,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "brand:دیجی‌کالا": {
   "name": "دیجی‌کالا",
@@ -3670,7 +3670,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:e5f6b99015": {
   "name": "t:e5f6b99015",
@@ -4560,7 +4560,7 @@
   "confidence": 0.1,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-12"
+  "last_seen": "2026-11-18"
  },
  "t:8af248fa16": {
   "name": "نامشخص",
@@ -4830,7 +4830,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-18"
  },
  "img:a81bb7ed3d7524": {
   "name": "شاپینو",
@@ -5362,7 +5362,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:8fdef83c85": {
   "name": "بای کیف",
@@ -5880,7 +5880,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-10-20",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-18"
  },
  "holootech.ir": {
   "name": "آکادمی هلو",
@@ -6054,7 +6054,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:4336b256e0": {
   "name": "استیم",
@@ -6144,7 +6144,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-21",
-  "last_seen": "2026-11-13"
+  "last_seen": "2026-11-18"
  },
  "t:56270d8945": {
   "name": "ازکی سلر",
@@ -7022,7 +7022,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-22",
-  "last_seen": "2026-11-03"
+  "last_seen": "2026-11-18"
  },
  "t:83122e66d7": {
   "name": "هلو اسپاد",
@@ -9086,7 +9086,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-28",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-18"
  },
  "t:de532dfac5": {
   "name": "اسپری چندمنظوره پاک‌کننده",
@@ -9630,7 +9630,7 @@
   "level": "core",
   "source": "name-match",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:26369e41ee": {
   "name": "بلو بانک",
@@ -9660,7 +9660,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:f9df4b7fad": {
   "name": "هاست ایران",
@@ -10194,7 +10194,7 @@
   "confidence": 0.95,
   "source": "vision",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "img:99d7dfa63f08a0": {
   "name": "پردیسان",
@@ -11310,7 +11310,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-18"
  },
  "miniqame.com": {
   "name": "مینی گیم",
@@ -12384,7 +12384,7 @@
   "level": "core",
   "source": "name-match",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-18"
  },
  "ganje.net": {
   "name": "گنجه",
@@ -13290,7 +13290,7 @@
   "confidence": 0.7,
   "source": "llm",
   "first_seen": "2026-11-03",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:81f179fedd": {
   "name": "کاریزما",
@@ -13610,7 +13610,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:842f7aa8c9": {
   "name": "بامداد خمار",
@@ -14246,7 +14246,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-18"
  },
  "pandora-iran.ir": {
   "name": "پاندورا",
@@ -14318,7 +14318,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "hoosha.ai": {
   "name": "هوشا",
@@ -14478,7 +14478,7 @@
   "level": "core",
   "source": "name-match",
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-18"
  },
  "img:7d450f1e8c46f8": {
   "name": "بادی اسپینر",
@@ -14790,7 +14790,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:f84eab86d4": {
   "name": "t:f84eab86d4",
@@ -15276,7 +15276,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-18"
  },
  "t:87db91679c": {
   "name": "یکتانت",
@@ -15774,7 +15774,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:53eeac44d7": {
   "name": "t:53eeac44d7",
@@ -15784,7 +15784,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "baharoil.com": {
   "name": "روغن بهار",
