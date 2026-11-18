@@ -1,9 +1,8 @@
 {
  "days": 31,
- "from": "2026-10-18",
- "to": "2026-11-17",
+ "from": "2026-10-19",
+ "to": "2026-11-18",
  "dates": [
-  "2026-10-18",
   "2026-10-19",
   "2026-10-20",
   "2026-10-21",
@@ -33,16 +32,13 @@
   "2026-11-14",
   "2026-11-15",
   "2026-11-16",
-  "2026-11-17"
+  "2026-11-17",
+  "2026-11-18"
  ],
  "competitors": {
   "اسنپ‌مارکت": {
-   "avg_sov": 0.1119,
+   "avg_sov": 0.1082,
    "series": [
-    [
-     "2026-10-18",
-     0.1865
-    ],
     [
      "2026-10-19",
      0.1442
@@ -125,19 +121,15 @@
     ]
    ],
    "avg_threat": 53,
-   "active_days": 21,
-   "sites": 43,
+   "active_days": 20,
+   "sites": 42,
    "level": "vertical",
    "vertical": "supermarket",
-   "trend": -0.1252
+   "trend": -0.1237
   },
   "ازکی‌وام": {
-   "avg_sov": 0.0544,
+   "avg_sov": 0.0554,
    "series": [
-    [
-     "2026-10-18",
-     0.0141
-    ],
     [
      "2026-10-19",
      0.0131
@@ -257,6 +249,10 @@
     [
      "2026-11-17",
      0.0416
+    ],
+    [
+     "2026-11-18",
+     0.0442
     ]
    ],
    "avg_threat": 33,
@@ -264,15 +260,11 @@
    "sites": 23,
    "level": "vertical",
    "vertical": "fintech_bnpl",
-   "trend": 0.0392
+   "trend": 0.0373
   },
   "ازکی": {
-   "avg_sov": 0.0468,
+   "avg_sov": 0.0465,
    "series": [
-    [
-     "2026-10-18",
-     0.0218
-    ],
     [
      "2026-10-19",
      0.0254
@@ -392,6 +384,10 @@
     [
      "2026-11-17",
      0.0264
+    ],
+    [
+     "2026-11-18",
+     0.0123
     ]
    ],
    "avg_threat": 32,
@@ -399,15 +395,11 @@
    "sites": 17,
    "level": "vertical",
    "vertical": "fintech_bnpl",
-   "trend": 0.0123
+   "trend": 0.0101
   },
   "دیجی‌کالا": {
-   "avg_sov": 0.04,
+   "avg_sov": 0.0421,
    "series": [
-    [
-     "2026-10-18",
-     0.0327
-    ],
     [
      "2026-10-19",
      0.0393
@@ -527,6 +519,10 @@
     [
      "2026-11-17",
      0.0659
+    ],
+    [
+     "2026-11-18",
+     0.0966
     ]
    ],
    "avg_threat": 0,
@@ -534,15 +530,122 @@
    "sites": 33,
    "level": "own",
    "vertical": "marketplace",
-   "trend": 0.0305
+   "trend": 0.0392
   },
-  "خودرو ۴۵": {
-   "avg_sov": 0.0326,
+  "تکنوپی": {
+   "avg_sov": 0.0421,
    "series": [
     [
-     "2026-10-18",
-     0.065
+     "2026-10-25",
+     0.0064
     ],
+    [
+     "2026-10-26",
+     0.0602
+    ],
+    [
+     "2026-10-27",
+     0.0792
+    ],
+    [
+     "2026-10-28",
+     0.0638
+    ],
+    [
+     "2026-10-29",
+     0.0573
+    ],
+    [
+     "2026-10-30",
+     0.0505
+    ],
+    [
+     "2026-10-31",
+     0.0578
+    ],
+    [
+     "2026-11-01",
+     0.0569
+    ],
+    [
+     "2026-11-02",
+     0.0494
+    ],
+    [
+     "2026-11-03",
+     0.0463
+    ],
+    [
+     "2026-11-04",
+     0.0525
+    ],
+    [
+     "2026-11-05",
+     0.053
+    ],
+    [
+     "2026-11-06",
+     0.0556
+    ],
+    [
+     "2026-11-07",
+     0.0678
+    ],
+    [
+     "2026-11-08",
+     0.0585
+    ],
+    [
+     "2026-11-09",
+     0.0408
+    ],
+    [
+     "2026-11-10",
+     0.0182
+    ],
+    [
+     "2026-11-11",
+     0.0188
+    ],
+    [
+     "2026-11-12",
+     0.017
+    ],
+    [
+     "2026-11-13",
+     0.0183
+    ],
+    [
+     "2026-11-14",
+     0.0167
+    ],
+    [
+     "2026-11-15",
+     0.0221
+    ],
+    [
+     "2026-11-16",
+     0.0194
+    ],
+    [
+     "2026-11-17",
+     0.0202
+    ],
+    [
+     "2026-11-18",
+     0.0459
+    ]
+   ],
+   "avg_threat": 19,
+   "active_days": 25,
+   "sites": 1,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "trend": -0.0308
+  },
+  "خودرو ۴۵": {
+   "avg_sov": 0.0312,
+   "series": [
     [
      "2026-10-19",
      0.0274
@@ -662,133 +765,153 @@
     [
      "2026-11-17",
      0.023
+    ],
+    [
+     "2026-11-18",
+     0.0226
     ]
    ],
    "avg_threat": 37,
    "active_days": 31,
-   "sites": 26,
+   "sites": 25,
    "level": "vertical",
    "vertical": "auto",
-   "trend": -0.0108
+   "trend": -0.0054
   },
-  "تکنوپی": {
-   "avg_sov": 0.0404,
+  "اسنپ‌پی": {
+   "avg_sov": 0.032,
    "series": [
     [
-     "2026-10-18",
-     0.0034
+     "2026-10-19",
+     0.015
+    ],
+    [
+     "2026-10-20",
+     0.0145
+    ],
+    [
+     "2026-10-21",
+     0.0141
+    ],
+    [
+     "2026-10-22",
+     0.0144
+    ],
+    [
+     "2026-10-23",
+     0.0112
+    ],
+    [
+     "2026-10-24",
+     0.0104
     ],
     [
      "2026-10-25",
-     0.0064
-    ],
-    [
-     "2026-10-26",
-     0.0602
+     0.0091
     ],
     [
      "2026-10-27",
-     0.0792
+     0.0054
     ],
     [
      "2026-10-28",
-     0.0638
+     0.0055
     ],
     [
      "2026-10-29",
-     0.0573
+     0.0138
     ],
     [
      "2026-10-30",
-     0.0505
+     0.0332
     ],
     [
      "2026-10-31",
-     0.0578
+     0.0119
     ],
     [
      "2026-11-01",
-     0.0569
+     0.0289
     ],
     [
      "2026-11-02",
-     0.0494
+     0.0094
     ],
     [
      "2026-11-03",
-     0.0463
+     0.0146
     ],
     [
      "2026-11-04",
-     0.0525
+     0.0181
     ],
     [
      "2026-11-05",
-     0.053
+     0.0118
     ],
     [
      "2026-11-06",
-     0.0556
+     0.0164
     ],
     [
      "2026-11-07",
-     0.0678
+     0.0082
     ],
     [
      "2026-11-08",
-     0.0585
+     0.0006
     ],
     [
      "2026-11-09",
-     0.0408
+     0.0037
     ],
     [
      "2026-11-10",
-     0.0182
+     0.0281
     ],
     [
      "2026-11-11",
-     0.0188
+     0.0754
     ],
     [
      "2026-11-12",
-     0.017
+     0.0747
     ],
     [
      "2026-11-13",
-     0.0183
+     0.0943
     ],
     [
      "2026-11-14",
-     0.0167
+     0.0999
     ],
     [
      "2026-11-15",
-     0.0221
+     0.0922
     ],
     [
      "2026-11-16",
-     0.0194
+     0.0549
     ],
     [
      "2026-11-17",
-     0.0202
+     0.0547
+    ],
+    [
+     "2026-11-18",
+     0.1155
     ]
    ],
-   "avg_threat": 18,
-   "active_days": 25,
-   "sites": 5,
+   "avg_threat": 28,
+   "active_days": 30,
+   "sites": 33,
    "level": "vertical",
    "vertical": "fintech_bnpl",
-   "trend": -0.0269
+   "trend": 0.0711
   },
   "ایکس گیم استور": {
-   "avg_sov": 0.0309,
+   "avg_sov": 0.0308,
    "series": [
-    [
-     "2026-10-18",
-     0.0365
-    ],
     [
      "2026-10-19",
      0.0255
@@ -908,153 +1031,351 @@
     [
      "2026-11-17",
      0.0365
+    ],
+    [
+     "2026-11-18",
+     0.0348
     ]
    ],
-   "avg_threat": 17,
+   "avg_threat": 18,
    "active_days": 31,
    "sites": 3,
    "level": "vertical",
    "vertical": "digital",
-   "trend": 0.0062
+   "trend": 0.0072
   },
-  "اسنپ‌پی": {
-   "avg_sov": 0.0285,
+  "تیرزکتو": {
+   "avg_sov": 0.0335,
    "series": [
     [
-     "2026-10-18",
-     0.0108
-    ],
-    [
-     "2026-10-19",
-     0.015
-    ],
-    [
-     "2026-10-20",
-     0.0145
-    ],
-    [
-     "2026-10-21",
-     0.0141
-    ],
-    [
-     "2026-10-22",
-     0.0144
-    ],
-    [
-     "2026-10-23",
-     0.0112
-    ],
-    [
-     "2026-10-24",
-     0.0104
-    ],
-    [
      "2026-10-25",
-     0.0091
+     0.006
+    ],
+    [
+     "2026-10-26",
+     0.0331
     ],
     [
      "2026-10-27",
-     0.0054
+     0.0308
     ],
     [
      "2026-10-28",
-     0.0055
+     0.0272
     ],
     [
      "2026-10-29",
-     0.0138
+     0.0244
     ],
     [
      "2026-10-30",
-     0.0332
+     0.0193
     ],
     [
      "2026-10-31",
-     0.0119
+     0.0304
     ],
     [
      "2026-11-01",
-     0.0289
+     0.025
     ],
     [
      "2026-11-02",
-     0.0094
+     0.026
     ],
     [
      "2026-11-03",
-     0.0146
+     0.0256
     ],
     [
      "2026-11-04",
-     0.0181
+     0.0252
     ],
     [
      "2026-11-05",
-     0.0118
+     0.025
     ],
     [
      "2026-11-06",
-     0.0164
+     0.0283
     ],
     [
      "2026-11-07",
-     0.0082
+     0.0317
     ],
     [
      "2026-11-08",
-     0.0006
+     0.0275
     ],
     [
      "2026-11-09",
-     0.0037
+     0.0422
     ],
     [
      "2026-11-10",
-     0.0281
+     0.0469
     ],
     [
      "2026-11-11",
-     0.0754
+     0.0448
     ],
     [
      "2026-11-12",
-     0.0747
+     0.0472
     ],
     [
      "2026-11-13",
-     0.0943
+     0.0408
     ],
     [
      "2026-11-14",
-     0.0999
+     0.0452
     ],
     [
      "2026-11-15",
-     0.0922
+     0.0472
     ],
     [
      "2026-11-16",
-     0.0549
+     0.0626
     ],
     [
      "2026-11-17",
-     0.0547
+     0.0421
+    ],
+    [
+     "2026-11-18",
+     0.0322
     ]
    ],
-   "avg_threat": 27,
-   "active_days": 30,
-   "sites": 33,
+   "avg_threat": 38,
+   "active_days": 25,
+   "sites": 1,
    "level": "vertical",
-   "vertical": "fintech_bnpl",
-   "trend": 0.0651
+   "vertical": "beauty_health",
+   "trend": 0.0209
   },
-  "پی اس نکس": {
-   "avg_sov": 0.027,
+  "تارا": {
+   "avg_sov": 0.0334,
    "series": [
     [
-     "2026-10-18",
-     0.0714
+     "2026-10-19",
+     0.0008
     ],
+    [
+     "2026-10-25",
+     0.001
+    ],
+    [
+     "2026-10-27",
+     0.0146
+    ],
+    [
+     "2026-10-28",
+     0.0469
+    ],
+    [
+     "2026-10-29",
+     0.0421
+    ],
+    [
+     "2026-10-30",
+     0.0408
+    ],
+    [
+     "2026-10-31",
+     0.0543
+    ],
+    [
+     "2026-11-01",
+     0.0534
+    ],
+    [
+     "2026-11-02",
+     0.0464
+    ],
+    [
+     "2026-11-03",
+     0.0434
+    ],
+    [
+     "2026-11-04",
+     0.0493
+    ],
+    [
+     "2026-11-05",
+     0.0554
+    ],
+    [
+     "2026-11-06",
+     0.0624
+    ],
+    [
+     "2026-11-07",
+     0.0684
+    ],
+    [
+     "2026-11-08",
+     0.0522
+    ],
+    [
+     "2026-11-09",
+     0.036
+    ],
+    [
+     "2026-11-10",
+     0.0151
+    ],
+    [
+     "2026-11-11",
+     0.0141
+    ],
+    [
+     "2026-11-12",
+     0.0128
+    ],
+    [
+     "2026-11-13",
+     0.0133
+    ],
+    [
+     "2026-11-14",
+     0.0122
+    ],
+    [
+     "2026-11-15",
+     0.0231
+    ],
+    [
+     "2026-11-16",
+     0.024
+    ],
+    [
+     "2026-11-17",
+     0.0266
+    ],
+    [
+     "2026-11-18",
+     0.0271
+    ]
+   ],
+   "avg_threat": 21,
+   "active_days": 25,
+   "sites": 11,
+   "level": "vertical",
+   "vertical": "fintech_bnpl",
+   "trend": -0.0088
+  },
+  "وایب": {
+   "avg_sov": 0.0346,
+   "series": [
+    [
+     "2026-10-19",
+     0.0038
+    ],
+    [
+     "2026-10-27",
+     0.0266
+    ],
+    [
+     "2026-10-28",
+     0.0485
+    ],
+    [
+     "2026-10-29",
+     0.0435
+    ],
+    [
+     "2026-10-30",
+     0.0449
+    ],
+    [
+     "2026-10-31",
+     0.0661
+    ],
+    [
+     "2026-11-01",
+     0.0652
+    ],
+    [
+     "2026-11-02",
+     0.0533
+    ],
+    [
+     "2026-11-03",
+     0.0436
+    ],
+    [
+     "2026-11-04",
+     0.0493
+    ],
+    [
+     "2026-11-05",
+     0.048
+    ],
+    [
+     "2026-11-06",
+     0.0498
+    ],
+    [
+     "2026-11-07",
+     0.061
+    ],
+    [
+     "2026-11-08",
+     0.0538
+    ],
+    [
+     "2026-11-09",
+     0.036
+    ],
+    [
+     "2026-11-10",
+     0.0124
+    ],
+    [
+     "2026-11-11",
+     0.0149
+    ],
+    [
+     "2026-11-12",
+     0.0152
+    ],
+    [
+     "2026-11-13",
+     0.0164
+    ],
+    [
+     "2026-11-14",
+     0.0159
+    ],
+    [
+     "2026-11-15",
+     0.0181
+    ],
+    [
+     "2026-11-16",
+     0.0133
+    ],
+    [
+     "2026-11-17",
+     0.0127
+    ],
+    [
+     "2026-11-18",
+     0.0176
+    ]
+   ],
+   "avg_threat": 49,
+   "active_days": 24,
+   "sites": 2,
+   "level": "vertical",
+   "vertical": "fashion",
+   "trend": -0.0271
+  },
+  "پی اس نکس": {
+   "avg_sov": 0.0253,
+   "series": [
     [
      "2026-10-19",
      0.0508
@@ -1174,6 +1495,10 @@
     [
      "2026-11-17",
      0.0201
+    ],
+    [
+     "2026-11-18",
+     0.018
     ]
    ],
    "avg_threat": 17,
@@ -1181,336 +1506,11 @@
    "sites": 3,
    "level": "vertical",
    "vertical": "digital",
-   "trend": -0.0349
-  },
-  "وایب": {
-   "avg_sov": 0.0339,
-   "series": [
-    [
-     "2026-10-18",
-     0.0018
-    ],
-    [
-     "2026-10-19",
-     0.0038
-    ],
-    [
-     "2026-10-27",
-     0.0266
-    ],
-    [
-     "2026-10-28",
-     0.0485
-    ],
-    [
-     "2026-10-29",
-     0.0435
-    ],
-    [
-     "2026-10-30",
-     0.0449
-    ],
-    [
-     "2026-10-31",
-     0.0661
-    ],
-    [
-     "2026-11-01",
-     0.0652
-    ],
-    [
-     "2026-11-02",
-     0.0533
-    ],
-    [
-     "2026-11-03",
-     0.0436
-    ],
-    [
-     "2026-11-04",
-     0.0493
-    ],
-    [
-     "2026-11-05",
-     0.048
-    ],
-    [
-     "2026-11-06",
-     0.0498
-    ],
-    [
-     "2026-11-07",
-     0.061
-    ],
-    [
-     "2026-11-08",
-     0.0538
-    ],
-    [
-     "2026-11-09",
-     0.036
-    ],
-    [
-     "2026-11-10",
-     0.0124
-    ],
-    [
-     "2026-11-11",
-     0.0149
-    ],
-    [
-     "2026-11-12",
-     0.0152
-    ],
-    [
-     "2026-11-13",
-     0.0164
-    ],
-    [
-     "2026-11-14",
-     0.0159
-    ],
-    [
-     "2026-11-15",
-     0.0181
-    ],
-    [
-     "2026-11-16",
-     0.0133
-    ],
-    [
-     "2026-11-17",
-     0.0127
-    ]
-   ],
-   "avg_threat": 47,
-   "active_days": 24,
-   "sites": 2,
-   "level": "vertical",
-   "vertical": "fashion",
-   "trend": -0.0184
-  },
-  "تارا": {
-   "avg_sov": 0.0337,
-   "series": [
-    [
-     "2026-10-19",
-     0.0008
-    ],
-    [
-     "2026-10-25",
-     0.001
-    ],
-    [
-     "2026-10-27",
-     0.0146
-    ],
-    [
-     "2026-10-28",
-     0.0469
-    ],
-    [
-     "2026-10-29",
-     0.0421
-    ],
-    [
-     "2026-10-30",
-     0.0408
-    ],
-    [
-     "2026-10-31",
-     0.0543
-    ],
-    [
-     "2026-11-01",
-     0.0534
-    ],
-    [
-     "2026-11-02",
-     0.0464
-    ],
-    [
-     "2026-11-03",
-     0.0434
-    ],
-    [
-     "2026-11-04",
-     0.0493
-    ],
-    [
-     "2026-11-05",
-     0.0554
-    ],
-    [
-     "2026-11-06",
-     0.0624
-    ],
-    [
-     "2026-11-07",
-     0.0684
-    ],
-    [
-     "2026-11-08",
-     0.0522
-    ],
-    [
-     "2026-11-09",
-     0.036
-    ],
-    [
-     "2026-11-10",
-     0.0151
-    ],
-    [
-     "2026-11-11",
-     0.0141
-    ],
-    [
-     "2026-11-12",
-     0.0128
-    ],
-    [
-     "2026-11-13",
-     0.0133
-    ],
-    [
-     "2026-11-14",
-     0.0122
-    ],
-    [
-     "2026-11-15",
-     0.0231
-    ],
-    [
-     "2026-11-16",
-     0.024
-    ],
-    [
-     "2026-11-17",
-     0.0266
-    ]
-   ],
-   "avg_threat": 21,
-   "active_days": 24,
-   "sites": 7,
-   "level": "vertical",
-   "vertical": "fintech_bnpl",
-   "trend": -0.0106
-  },
-  "تیرزکتو": {
-   "avg_sov": 0.0335,
-   "series": [
-    [
-     "2026-10-25",
-     0.006
-    ],
-    [
-     "2026-10-26",
-     0.0331
-    ],
-    [
-     "2026-10-27",
-     0.0308
-    ],
-    [
-     "2026-10-28",
-     0.0272
-    ],
-    [
-     "2026-10-29",
-     0.0244
-    ],
-    [
-     "2026-10-30",
-     0.0193
-    ],
-    [
-     "2026-10-31",
-     0.0304
-    ],
-    [
-     "2026-11-01",
-     0.025
-    ],
-    [
-     "2026-11-02",
-     0.026
-    ],
-    [
-     "2026-11-03",
-     0.0256
-    ],
-    [
-     "2026-11-04",
-     0.0252
-    ],
-    [
-     "2026-11-05",
-     0.025
-    ],
-    [
-     "2026-11-06",
-     0.0283
-    ],
-    [
-     "2026-11-07",
-     0.0317
-    ],
-    [
-     "2026-11-08",
-     0.0275
-    ],
-    [
-     "2026-11-09",
-     0.0422
-    ],
-    [
-     "2026-11-10",
-     0.0469
-    ],
-    [
-     "2026-11-11",
-     0.0448
-    ],
-    [
-     "2026-11-12",
-     0.0472
-    ],
-    [
-     "2026-11-13",
-     0.0408
-    ],
-    [
-     "2026-11-14",
-     0.0452
-    ],
-    [
-     "2026-11-15",
-     0.0472
-    ],
-    [
-     "2026-11-16",
-     0.0626
-    ],
-    [
-     "2026-11-17",
-     0.0421
-    ]
-   ],
-   "avg_threat": 38,
-   "active_days": 24,
-   "sites": 1,
-   "level": "vertical",
-   "vertical": "beauty_health",
-   "trend": 0.0227
+   "trend": -0.0289
   },
   "انتخاب": {
    "avg_sov": 0.0234,
    "series": [
-    [
-     "2026-10-18",
-     0.0209
-    ],
     [
      "2026-10-19",
      0.0325
@@ -1630,6 +1630,10 @@
     [
      "2026-11-17",
      0.0315
+    ],
+    [
+     "2026-11-18",
+     0.0208
     ]
    ],
    "avg_threat": 38,
@@ -1640,7 +1644,7 @@
    "trend": 0.0111
   },
   "وال‌گلد": {
-   "avg_sov": 0.0194,
+   "avg_sov": 0.0206,
    "series": [
     [
      "2026-10-21",
@@ -1753,22 +1757,133 @@
     [
      "2026-11-17",
      0.0774
+    ],
+    [
+     "2026-11-18",
+     0.0565
     ]
    ],
    "avg_threat": 28,
-   "active_days": 28,
-   "sites": 25,
+   "active_days": 29,
+   "sites": 27,
    "level": "vertical",
    "vertical": "digital_gold",
-   "trend": 0.0233
+   "trend": 0.0292
   },
-  "ملی گلد": {
-   "avg_sov": 0.0173,
+  "تکنوگلد": {
+   "avg_sov": 0.0236,
    "series": [
     [
-     "2026-10-18",
-     0.0195
+     "2026-10-25",
+     0.0038
     ],
+    [
+     "2026-10-26",
+     0.0212
+    ],
+    [
+     "2026-10-27",
+     0.0197
+    ],
+    [
+     "2026-10-28",
+     0.016
+    ],
+    [
+     "2026-10-29",
+     0.0144
+    ],
+    [
+     "2026-10-30",
+     0.0139
+    ],
+    [
+     "2026-10-31",
+     0.018
+    ],
+    [
+     "2026-11-01",
+     0.0175
+    ],
+    [
+     "2026-11-02",
+     0.0146
+    ],
+    [
+     "2026-11-03",
+     0.0129
+    ],
+    [
+     "2026-11-04",
+     0.0147
+    ],
+    [
+     "2026-11-05",
+     0.0146
+    ],
+    [
+     "2026-11-06",
+     0.0151
+    ],
+    [
+     "2026-11-07",
+     0.0184
+    ],
+    [
+     "2026-11-08",
+     0.016
+    ],
+    [
+     "2026-11-09",
+     0.0178
+    ],
+    [
+     "2026-11-10",
+     0.0182
+    ],
+    [
+     "2026-11-11",
+     0.0188
+    ],
+    [
+     "2026-11-12",
+     0.017
+    ],
+    [
+     "2026-11-13",
+     0.0183
+    ],
+    [
+     "2026-11-14",
+     0.0207
+    ],
+    [
+     "2026-11-15",
+     0.0685
+    ],
+    [
+     "2026-11-16",
+     0.053
+    ],
+    [
+     "2026-11-17",
+     0.0567
+    ],
+    [
+     "2026-11-18",
+     0.0701
+    ]
+   ],
+   "avg_threat": 19,
+   "active_days": 25,
+   "sites": 1,
+   "level": "vertical",
+   "vertical": "digital_gold",
+   "trend": 0.0282
+  },
+  "ملی گلد": {
+   "avg_sov": 0.0167,
+   "series": [
     [
      "2026-10-19",
      0.0139
@@ -1888,124 +2003,21 @@
     [
      "2026-11-17",
      0.0076
+    ],
+    [
+     "2026-11-18",
+     0.0012
     ]
    ],
-   "avg_threat": 21,
+   "avg_threat": 22,
    "active_days": 31,
    "sites": 26,
    "level": "vertical",
    "vertical": "digital_gold",
-   "trend": -0.0089
-  },
-  "تکنوگلد": {
-   "avg_sov": 0.0217,
-   "series": [
-    [
-     "2026-10-25",
-     0.0038
-    ],
-    [
-     "2026-10-26",
-     0.0212
-    ],
-    [
-     "2026-10-27",
-     0.0197
-    ],
-    [
-     "2026-10-28",
-     0.016
-    ],
-    [
-     "2026-10-29",
-     0.0144
-    ],
-    [
-     "2026-10-30",
-     0.0139
-    ],
-    [
-     "2026-10-31",
-     0.018
-    ],
-    [
-     "2026-11-01",
-     0.0175
-    ],
-    [
-     "2026-11-02",
-     0.0146
-    ],
-    [
-     "2026-11-03",
-     0.0129
-    ],
-    [
-     "2026-11-04",
-     0.0147
-    ],
-    [
-     "2026-11-05",
-     0.0146
-    ],
-    [
-     "2026-11-06",
-     0.0151
-    ],
-    [
-     "2026-11-07",
-     0.0184
-    ],
-    [
-     "2026-11-08",
-     0.016
-    ],
-    [
-     "2026-11-09",
-     0.0178
-    ],
-    [
-     "2026-11-10",
-     0.0182
-    ],
-    [
-     "2026-11-11",
-     0.0188
-    ],
-    [
-     "2026-11-12",
-     0.017
-    ],
-    [
-     "2026-11-13",
-     0.0183
-    ],
-    [
-     "2026-11-14",
-     0.0207
-    ],
-    [
-     "2026-11-15",
-     0.0685
-    ],
-    [
-     "2026-11-16",
-     0.053
-    ],
-    [
-     "2026-11-17",
-     0.0567
-    ]
-   ],
-   "avg_threat": 18,
-   "active_days": 24,
-   "sites": 1,
-   "level": "vertical",
-   "vertical": "digital_gold",
-   "trend": 0.0209
+   "trend": -0.0092
   },
   "کاریزما": {
-   "avg_sov": 0.0239,
+   "avg_sov": 0.0237,
    "series": [
     [
      "2026-10-29",
@@ -2086,22 +2098,22 @@
     [
      "2026-11-17",
      0.0099
+    ],
+    [
+     "2026-11-18",
+     0.0194
     ]
    ],
-   "avg_threat": 21,
-   "active_days": 20,
-   "sites": 20,
+   "avg_threat": 20,
+   "active_days": 21,
+   "sites": 21,
    "level": "vertical",
    "vertical": "fintech_bnpl",
-   "trend": 0.0043
+   "trend": 0.0048
   },
   "مایتندو": {
-   "avg_sov": 0.0142,
+   "avg_sov": 0.0137,
    "series": [
-    [
-     "2026-10-18",
-     0.0191
-    ],
     [
      "2026-10-19",
      0.0136
@@ -2221,6 +2233,10 @@
     [
      "2026-11-17",
      0.0064
+    ],
+    [
+     "2026-11-18",
+     0.0049
     ]
    ],
    "avg_threat": 13,
@@ -2228,15 +2244,11 @@
    "sites": 1,
    "level": "vertical",
    "vertical": "digital",
-   "trend": -0.0034
+   "trend": -0.0045
   },
   "کارنامه": {
-   "avg_sov": 0.0213,
+   "avg_sov": 0.0222,
    "series": [
-    [
-     "2026-10-18",
-     0.0027
-    ],
     [
      "2026-10-19",
      0.0066
@@ -2314,35 +2326,31 @@
      0.0034
     ]
    ],
-   "avg_threat": 31,
-   "active_days": 20,
+   "avg_threat": 32,
+   "active_days": 19,
    "sites": 18,
    "level": "vertical",
    "vertical": "auto",
-   "trend": 0.0454
+   "trend": 0.0447
   },
-  "فالنیک": {
-   "avg_sov": 0.0131,
+  "دینو": {
+   "avg_sov": 0.0133,
    "series": [
     [
-     "2026-10-18",
-     0.01
-    ],
-    [
      "2026-10-19",
-     0.0086
+     0.0115
     ],
     [
      "2026-10-20",
-     0.0091
+     0.0122
     ],
     [
      "2026-10-21",
-     0.0092
+     0.0119
     ],
     [
      "2026-10-22",
-     0.0072
+     0.0117
     ],
     [
      "2026-10-23",
@@ -2350,137 +2358,123 @@
     ],
     [
      "2026-10-24",
-     0.0118
+     0.0121
     ],
     [
      "2026-10-25",
-     0.0135
+     0.0139
     ],
     [
      "2026-10-26",
-     0.0168
+     0.0154
     ],
     [
      "2026-10-27",
-     0.0153
+     0.0143
     ],
     [
      "2026-10-28",
-     0.011
+     0.0126
     ],
     [
      "2026-10-29",
-     0.0091
+     0.0113
     ],
     [
      "2026-10-30",
-     0.0104
+     0.0119
     ],
     [
      "2026-10-31",
-     0.0182
+     0.0141
     ],
     [
      "2026-11-01",
-     0.0148
+     0.0127
     ],
     [
      "2026-11-02",
-     0.0123
+     0.0121
     ],
     [
      "2026-11-03",
-     0.0136
+     0.0119
     ],
     [
      "2026-11-04",
-     0.0142
+     0.0117
     ],
     [
      "2026-11-05",
-     0.0168
+     0.0116
     ],
     [
      "2026-11-06",
-     0.013
-    ],
-    [
-     "2026-11-07",
-     0.0134
-    ],
-    [
-     "2026-11-08",
-     0.0107
-    ],
-    [
-     "2026-11-09",
-     0.0161
-    ],
-    [
-     "2026-11-10",
-     0.0183
-    ],
-    [
-     "2026-11-11",
-     0.0128
-    ],
-    [
-     "2026-11-12",
-     0.0135
-    ],
-    [
-     "2026-11-13",
-     0.013
-    ],
-    [
-     "2026-11-14",
      0.0132
     ],
     [
+     "2026-11-07",
+     0.0147
+    ],
+    [
+     "2026-11-08",
+     0.0096
+    ],
+    [
+     "2026-11-09",
+     0.0143
+    ],
+    [
+     "2026-11-10",
+     0.0146
+    ],
+    [
+     "2026-11-11",
+     0.0139
+    ],
+    [
+     "2026-11-12",
+     0.0146
+    ],
+    [
+     "2026-11-13",
+     0.0126
+    ],
+    [
+     "2026-11-14",
+     0.014
+    ],
+    [
      "2026-11-15",
-     0.0162
+     0.0146
     ],
     [
      "2026-11-16",
-     0.0172
+     0.0194
     ],
     [
      "2026-11-17",
-     0.0157
+     0.0168
+    ],
+    [
+     "2026-11-18",
+     0.015
     ]
    ],
-   "avg_threat": 12,
+   "avg_threat": 39,
    "active_days": 31,
-   "sites": 3,
+   "sites": 1,
    "level": "vertical",
-   "vertical": "digital",
-   "trend": 0.0049
+   "vertical": "pet",
+   "trend": 0.0032
   }
  },
  "sites": {
-  "musicdel.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 85,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "namnak.com": {
-   "avg_pressure": 29,
-   "avg_opportunity": 75,
-   "days": 31,
+  "varzesh3.com": {
+   "avg_pressure": 64,
+   "avg_opportunity": 78,
+   "days": 19,
    "pressure_std": 4
-  },
-  "iranjib.ir": {
-   "avg_pressure": 29,
-   "avg_opportunity": 72,
-   "days": 31,
-   "pressure_std": 4
-  },
-  "mehrnews.com": {
-   "avg_pressure": 27,
-   "avg_opportunity": 79,
-   "days": 31,
-   "pressure_std": 6
   },
   "ninisite.com": {
    "avg_pressure": 55,
@@ -2488,41 +2482,41 @@
    "days": 31,
    "pressure_std": 6
   },
-  "delgarm.com": {
-   "avg_pressure": 31,
-   "avg_opportunity": 74,
-   "days": 31,
-   "pressure_std": 7
-  },
-  "aparat.com": {
-   "avg_pressure": 16,
-   "avg_opportunity": 71,
-   "days": 6,
-   "pressure_std": 8
-  },
   "tgju.org": {
    "avg_pressure": 56,
    "avg_opportunity": 80,
    "days": 31,
    "pressure_std": 5
   },
-  "varzesh3.com": {
-   "avg_pressure": 64,
-   "avg_opportunity": 78,
-   "days": 20,
-   "pressure_std": 3
+  "aparat.com": {
+   "avg_pressure": 15,
+   "avg_opportunity": 69,
+   "days": 5,
+   "pressure_std": 8
   },
-  "bama.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 77,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "tala.ir": {
-   "avg_pressure": 49,
-   "avg_opportunity": 70,
+  "mehrnews.com": {
+   "avg_pressure": 28,
+   "avg_opportunity": 79,
    "days": 31,
    "pressure_std": 5
+  },
+  "fardayetaze.ir": {
+   "avg_pressure": 31,
+   "avg_opportunity": 72,
+   "days": 31,
+   "pressure_std": 5
+  },
+  "delgarm.com": {
+   "avg_pressure": 31,
+   "avg_opportunity": 74,
+   "days": 31,
+   "pressure_std": 7
+  },
+  "namnak.com": {
+   "avg_pressure": 29,
+   "avg_opportunity": 75,
+   "days": 31,
+   "pressure_std": 4
   },
   "filimo.com": {
    "avg_pressure": 10,
@@ -2533,18 +2527,30 @@
   "tabnak.ir": {
    "avg_pressure": 12,
    "avg_opportunity": 74,
-   "days": 10,
+   "days": 9,
    "pressure_std": 6
-  },
-  "melody98.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 76,
-   "days": 1,
-   "pressure_std": 0
   },
   "donya-e-eqtesad.com": {
    "avg_pressure": 16,
+   "avg_opportunity": 71,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "tala.ir": {
+   "avg_pressure": 49,
+   "avg_opportunity": 70,
+   "days": 31,
+   "pressure_std": 5
+  },
+  "iranjib.ir": {
+   "avg_pressure": 29,
    "avg_opportunity": 72,
+   "days": 31,
+   "pressure_std": 4
+  },
+  "zoomit.ir": {
+   "avg_pressure": 69,
+   "avg_opportunity": 68,
    "days": 31,
    "pressure_std": 2
   },
@@ -2554,28 +2560,10 @@
    "days": 31,
    "pressure_std": 6
   },
-  "zoomit.ir": {
-   "avg_pressure": 68,
-   "avg_opportunity": 68,
-   "days": 31,
-   "pressure_std": 2
-  },
   "shahrekhabar.com": {
-   "avg_pressure": 31,
+   "avg_pressure": 30,
    "avg_opportunity": 68,
    "days": 30,
-   "pressure_std": 9
-  },
-  "fardayetaze.ir": {
-   "avg_pressure": 31,
-   "avg_opportunity": 72,
-   "days": 31,
-   "pressure_std": 5
-  },
-  "footballi.net": {
-   "avg_pressure": 34,
-   "avg_opportunity": 62,
-   "days": 31,
    "pressure_std": 9
   },
   "khabaronline.ir": {
@@ -2583,24 +2571,6 @@
    "avg_opportunity": 66,
    "days": 31,
    "pressure_std": 2
-  },
-  "setare.com": {
-   "avg_pressure": 28,
-   "avg_opportunity": 61,
-   "days": 31,
-   "pressure_std": 5
-  },
-  "bahalmag.ir": {
-   "avg_pressure": 63,
-   "avg_opportunity": 59,
-   "days": 31,
-   "pressure_std": 4
-  },
-  "iranpokht.ir": {
-   "avg_pressure": 34,
-   "avg_opportunity": 59,
-   "days": 31,
-   "pressure_std": 5
   },
   "techrato.com": {
    "avg_pressure": 6,
@@ -2614,11 +2584,17 @@
    "days": 31,
    "pressure_std": 4
   },
-  "testchi.ir": {
-   "avg_pressure": 35,
-   "avg_opportunity": 57,
+  "setare.com": {
+   "avg_pressure": 28,
+   "avg_opportunity": 61,
    "days": 31,
-   "pressure_std": 2
+   "pressure_std": 5
+  },
+  "bahalmag.ir": {
+   "avg_pressure": 62,
+   "avg_opportunity": 58,
+   "days": 31,
+   "pressure_std": 5
   },
   "fararu.com": {
    "avg_pressure": 45,
@@ -2626,63 +2602,33 @@
    "days": 31,
    "pressure_std": 5
   },
-  "khodro45.com": {
-   "avg_pressure": 0,
+  "musics-fa.com": {
+   "avg_pressure": 16,
+   "avg_opportunity": 68,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "footballi.net": {
+   "avg_pressure": 34,
    "avg_opportunity": 62,
-   "days": 1,
-   "pressure_std": 0
+   "days": 31,
+   "pressure_std": 9
   },
   "farsnews.ir": {
    "avg_pressure": 49,
-   "avg_opportunity": 57,
+   "avg_opportunity": 56,
    "days": 29,
    "pressure_std": 8
   },
-  "bartarinha.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 62,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "drdr.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 62,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "download1music.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 62,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "telewebion.ir": {
-   "avg_pressure": 20,
-   "avg_opportunity": 42,
-   "days": 3,
-   "pressure_std": 16
+  "testchi.ir": {
+   "avg_pressure": 35,
+   "avg_opportunity": 56,
+   "days": 31,
+   "pressure_std": 2
   },
   "asriran.com": {
    "avg_pressure": 18,
    "avg_opportunity": 64,
-   "days": 31,
-   "pressure_std": 2
-  },
-  "khabarfoori.com": {
-   "avg_pressure": 45,
-   "avg_opportunity": 54,
-   "days": 31,
-   "pressure_std": 4
-  },
-  "biamusic.ir": {
-   "avg_pressure": 12,
-   "avg_opportunity": 60,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "musics-fa.com": {
-   "avg_pressure": 16,
-   "avg_opportunity": 67,
    "days": 31,
    "pressure_std": 2
   },
@@ -2692,47 +2638,11 @@
    "days": 31,
    "pressure_std": 7
   },
-  "jobvision.ir": {
-   "avg_pressure": 17,
-   "avg_opportunity": 55,
-   "days": 31,
-   "pressure_std": 2
-  },
   "arzdigital.com": {
    "avg_pressure": 17,
    "avg_opportunity": 59,
-   "days": 11,
+   "days": 10,
    "pressure_std": 6
-  },
-  "ilna.ir": {
-   "avg_pressure": 47,
-   "avg_opportunity": 53,
-   "days": 31,
-   "pressure_std": 4
-  },
-  "entekhab.ir": {
-   "avg_pressure": 71,
-   "avg_opportunity": 59,
-   "days": 31,
-   "pressure_std": 2
-  },
-  "eghtesadnews.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 55,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "tarafdari.com": {
-   "avg_pressure": 30,
-   "avg_opportunity": 55,
-   "days": 31,
-   "pressure_std": 5
-  },
-  "ecoiran.com": {
-   "avg_pressure": 25,
-   "avg_opportunity": 52,
-   "days": 31,
-   "pressure_std": 4
   },
   "shahraranews.ir": {
    "avg_pressure": 33,
@@ -2740,47 +2650,47 @@
    "days": 31,
    "pressure_std": 5
   },
-  "imna.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 55,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "darooyab.ir": {
+  "teh-dl.ir": {
    "avg_pressure": 40,
-   "avg_opportunity": 50,
+   "avg_opportunity": 48,
    "days": 31,
-   "pressure_std": 11
+   "pressure_std": 10
   },
-  "gamefa.com": {
-   "avg_pressure": 56,
-   "avg_opportunity": 51,
+  "jobvision.ir": {
+   "avg_pressure": 17,
+   "avg_opportunity": 55,
    "days": 31,
    "pressure_std": 3
   },
-  "football360.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 54,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "tejaratnews.com": {
-   "avg_pressure": 43,
-   "avg_opportunity": 54,
+  "ilna.ir": {
+   "avg_pressure": 47,
+   "avg_opportunity": 53,
    "days": 31,
    "pressure_std": 4
   },
-  "namava.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 54,
-   "days": 1,
-   "pressure_std": 0
+  "iranpokht.ir": {
+   "avg_pressure": 34,
+   "avg_opportunity": 59,
+   "days": 31,
+   "pressure_std": 5
   },
-  "cinematicket.org": {
-   "avg_pressure": 0,
-   "avg_opportunity": 54,
-   "days": 1,
-   "pressure_std": 0
+  "tarafdari.com": {
+   "avg_pressure": 30,
+   "avg_opportunity": 55,
+   "days": 31,
+   "pressure_std": 5
+  },
+  "entekhab.ir": {
+   "avg_pressure": 71,
+   "avg_opportunity": 59,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "darooyab.ir": {
+   "avg_pressure": 41,
+   "avg_opportunity": 50,
+   "days": 31,
+   "pressure_std": 11
   },
   "yjc.ir": {
    "avg_pressure": 16,
@@ -2788,173 +2698,11 @@
    "days": 24,
    "pressure_std": 2
   },
-  "aparatsport.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 54,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "filmnet.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 54,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "mobile.ir": {
-   "avg_pressure": 38,
-   "avg_opportunity": 50,
-   "days": 31,
-   "pressure_std": 2
-  },
-  "webahang.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 53,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "rokna.net": {
-   "avg_pressure": 40,
-   "avg_opportunity": 50,
-   "days": 31,
-   "pressure_std": 4
-  },
-  "alef.ir": {
-   "avg_pressure": 64,
-   "avg_opportunity": 44,
-   "days": 29,
-   "pressure_std": 7
-  },
-  "sarzamindownload.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 52,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "hamshahrionline.ir": {
-   "avg_pressure": 81,
-   "avg_opportunity": 50,
-   "days": 30,
-   "pressure_std": 2
-  },
-  "tebyan.net": {
-   "avg_pressure": 49,
-   "avg_opportunity": 48,
-   "days": 31,
-   "pressure_std": 6
-  },
-  "niniban.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 51,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "isignal.ir": {
-   "avg_pressure": 60,
-   "avg_opportunity": 48,
-   "days": 9,
-   "pressure_std": 22
-  },
-  "footini.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 51,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "automoby.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 51,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "downloadly.ir": {
-   "avg_pressure": 32,
-   "avg_opportunity": 42,
-   "days": 31,
-   "pressure_std": 6
-  },
-  "digiato.com": {
-   "avg_pressure": 13,
-   "avg_opportunity": 48,
-   "days": 31,
-   "pressure_std": 3
-  },
-  "jamaran.news": {
-   "avg_pressure": 51,
-   "avg_opportunity": 51,
-   "days": 31,
-   "pressure_std": 3
-  },
-  "pedal.ir": {
-   "avg_pressure": 16,
-   "avg_opportunity": 48,
-   "days": 31,
-   "pressure_std": 6
-  },
-  "par30games.net": {
-   "avg_pressure": 58,
-   "avg_opportunity": 47,
-   "days": 31,
-   "pressure_std": 5
-  },
-  "akharinkhabar.ir": {
-   "avg_pressure": 9,
-   "avg_opportunity": 51,
-   "days": 31,
-   "pressure_std": 2
-  },
-  "nexload.ir": {
-   "avg_pressure": 53,
-   "avg_opportunity": 47,
-   "days": 30,
-   "pressure_std": 6
-  },
-  "daneshchi.ir": {
-   "avg_pressure": 24,
-   "avg_opportunity": 51,
-   "days": 31,
-   "pressure_std": 8
-  },
-  "sakhtafzarmag.com": {
-   "avg_pressure": 31,
-   "avg_opportunity": 45,
-   "days": 31,
-   "pressure_std": 3
-  },
-  "jamejamonline.ir": {
-   "avg_pressure": 36,
-   "avg_opportunity": 47,
-   "days": 31,
-   "pressure_std": 6
-  },
-  "sharghdaily.com": {
-   "avg_pressure": 15,
-   "avg_opportunity": 49,
-   "days": 31,
-   "pressure_std": 2
-  },
-  "gadgetnews.net": {
+  "telewebion.ir": {
    "avg_pressure": 20,
-   "avg_opportunity": 47,
-   "days": 31,
-   "pressure_std": 5
-  },
-  "vigiato.net": {
-   "avg_pressure": 17,
-   "avg_opportunity": 47,
-   "days": 31,
-   "pressure_std": 1
-  },
-  "filmzi.com": {
-   "avg_pressure": 11,
-   "avg_opportunity": 48,
-   "days": 31,
-   "pressure_std": 1
-  },
-  "chetor.com": {
-   "avg_pressure": 20,
-   "avg_opportunity": 43,
-   "days": 11,
-   "pressure_std": 7
+   "avg_opportunity": 32,
+   "days": 2,
+   "pressure_std": 20
   },
   "rasekhoon.net": {
    "avg_pressure": 34,
@@ -2962,15 +2710,123 @@
    "days": 31,
    "pressure_std": 8
   },
-  "drsaina.com": {
+  "tejaratnews.com": {
+   "avg_pressure": 43,
+   "avg_opportunity": 54,
+   "days": 31,
+   "pressure_std": 4
+  },
+  "gamefa.com": {
+   "avg_pressure": 56,
+   "avg_opportunity": 51,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "isignal.ir": {
+   "avg_pressure": 58,
+   "avg_opportunity": 47,
+   "days": 8,
+   "pressure_std": 23
+  },
+  "jamaran.news": {
+   "avg_pressure": 51,
+   "avg_opportunity": 51,
+   "days": 31,
+   "pressure_std": 3
+  },
+  "khabarfoori.com": {
+   "avg_pressure": 45,
+   "avg_opportunity": 54,
+   "days": 31,
+   "pressure_std": 4
+  },
+  "mobile.ir": {
+   "avg_pressure": 38,
+   "avg_opportunity": 50,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "akharinkhabar.ir": {
+   "avg_pressure": 8,
+   "avg_opportunity": 52,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "ecoiran.com": {
+   "avg_pressure": 25,
+   "avg_opportunity": 52,
+   "days": 31,
+   "pressure_std": 4
+  },
+  "digiato.com": {
+   "avg_pressure": 13,
+   "avg_opportunity": 48,
+   "days": 31,
+   "pressure_std": 4
+  },
+  "par30games.net": {
+   "avg_pressure": 58,
+   "avg_opportunity": 47,
+   "days": 31,
+   "pressure_std": 5
+  },
+  "rokna.net": {
+   "avg_pressure": 40,
+   "avg_opportunity": 50,
+   "days": 31,
+   "pressure_std": 4
+  },
+  "nexload.ir": {
+   "avg_pressure": 54,
+   "avg_opportunity": 47,
+   "days": 30,
+   "pressure_std": 5
+  },
+  "pedal.ir": {
+   "avg_pressure": 16,
+   "avg_opportunity": 48,
+   "days": 31,
+   "pressure_std": 6
+  },
+  "hamshahrionline.ir": {
+   "avg_pressure": 81,
+   "avg_opportunity": 50,
+   "days": 30,
+   "pressure_std": 2
+  },
+  "daneshchi.ir": {
+   "avg_pressure": 24,
+   "avg_opportunity": 51,
+   "days": 31,
+   "pressure_std": 8
+  },
+  "chishi.ir": {
+   "avg_pressure": 38,
+   "avg_opportunity": 51,
+   "days": 31,
+   "pressure_std": 7
+  },
+  "aftabnews.ir": {
+   "avg_pressure": 40,
+   "avg_opportunity": 48,
+   "days": 31,
+   "pressure_std": 5
+  },
+  "sharghdaily.com": {
    "avg_pressure": 15,
-   "avg_opportunity": 46,
+   "avg_opportunity": 49,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "filmzi.com": {
+   "avg_pressure": 11,
+   "avg_opportunity": 48,
    "days": 31,
    "pressure_std": 1
   },
-  "7sobh.com": {
-   "avg_pressure": 36,
-   "avg_opportunity": 45,
+  "gadgetnews.net": {
+   "avg_pressure": 21,
+   "avg_opportunity": 47,
    "days": 31,
    "pressure_std": 5
   },
@@ -2980,41 +2836,47 @@
    "days": 31,
    "pressure_std": 4
   },
-  "p30download.ir": {
-   "avg_pressure": 32,
+  "chetor.com": {
+   "avg_pressure": 20,
+   "avg_opportunity": 43,
+   "days": 10,
+   "pressure_std": 8
+  },
+  "vigiato.net": {
+   "avg_pressure": 17,
    "avg_opportunity": 47,
    "days": 31,
-   "pressure_std": 2
+   "pressure_std": 1
   },
-  "teh-dl.ir": {
-   "avg_pressure": 39,
-   "avg_opportunity": 48,
-   "days": 31,
-   "pressure_std": 10
-  },
-  "zoomg.ir": {
+  "ensafnews.com": {
    "avg_pressure": 46,
-   "avg_opportunity": 44,
-   "days": 31,
-   "pressure_std": 4
+   "avg_opportunity": 50,
+   "days": 30,
+   "pressure_std": 5
   },
-  "etemadonline.com": {
-   "avg_pressure": 62,
-   "avg_opportunity": 45,
+  "p30download.ir": {
+   "avg_pressure": 31,
+   "avg_opportunity": 47,
    "days": 31,
-   "pressure_std": 4
+   "pressure_std": 3
   },
-  "mojnews.com": {
-   "avg_pressure": 44,
+  "drsaina.com": {
+   "avg_pressure": 15,
    "avg_opportunity": 46,
    "days": 31,
-   "pressure_std": 6
+   "pressure_std": 1
   },
-  "aftabnews.ir": {
-   "avg_pressure": 39,
-   "avg_opportunity": 48,
+  "downloadha.com": {
+   "avg_pressure": 25,
+   "avg_opportunity": 46,
    "days": 31,
-   "pressure_std": 6
+   "pressure_std": 19
+  },
+  "p30day.ir": {
+   "avg_pressure": 67,
+   "avg_opportunity": 45,
+   "days": 31,
+   "pressure_std": 3
   },
   "vgdl.ir": {
    "avg_pressure": 39,
@@ -3028,169 +2890,79 @@
    "days": 31,
    "pressure_std": 2
   },
-  "downloadha.com": {
-   "avg_pressure": 26,
-   "avg_opportunity": 46,
+  "etemadonline.com": {
+   "avg_pressure": 62,
+   "avg_opportunity": 45,
    "days": 31,
-   "pressure_std": 20
+   "pressure_std": 4
   },
-  "chishi.ir": {
-   "avg_pressure": 38,
-   "avg_opportunity": 51,
-   "days": 31,
-   "pressure_std": 7
-  },
-  "parsine.com": {
-   "avg_pressure": 20,
+  "alef.ir": {
+   "avg_pressure": 65,
    "avg_opportunity": 44,
-   "days": 8,
-   "pressure_std": 8
+   "days": 29,
+   "pressure_std": 6
+  },
+  "sakhtafzarmag.com": {
+   "avg_pressure": 32,
+   "avg_opportunity": 45,
+   "days": 31,
+   "pressure_std": 2
+  },
+  "jamejamonline.ir": {
+   "avg_pressure": 36,
+   "avg_opportunity": 47,
+   "days": 31,
+   "pressure_std": 6
   },
   "mamifood.org": {
    "avg_pressure": 20,
    "avg_opportunity": 43,
-   "days": 23,
+   "days": 22,
    "pressure_std": 1
   },
-  "p30day.ir": {
-   "avg_pressure": 68,
+  "zoomg.ir": {
+   "avg_pressure": 46,
    "avg_opportunity": 44,
    "days": 31,
-   "pressure_std": 3
+   "pressure_std": 4
+  },
+  "tebyan.net": {
+   "avg_pressure": 49,
+   "avg_opportunity": 48,
+   "days": 31,
+   "pressure_std": 6
+  },
+  "7sobh.com": {
+   "avg_pressure": 36,
+   "avg_opportunity": 45,
+   "days": 31,
+   "pressure_std": 5
+  },
+  "parsine.com": {
+   "avg_pressure": 19,
+   "avg_opportunity": 44,
+   "days": 7,
+   "pressure_std": 8
+  },
+  "mojnews.com": {
+   "avg_pressure": 44,
+   "avg_opportunity": 46,
+   "days": 31,
+   "pressure_std": 6
+  },
+  "downloadly.ir": {
+   "avg_pressure": 32,
+   "avg_opportunity": 42,
+   "days": 31,
+   "pressure_std": 6
   },
   "ettelaat.com": {
-   "avg_pressure": 57,
+   "avg_pressure": 58,
    "avg_opportunity": 40,
    "days": 31,
-   "pressure_std": 9
+   "pressure_std": 8
   },
-  "abadis.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 28,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "bahesab.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 27,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "uptune.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 25,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "mt98.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 24,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "e-estekhdam.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 23,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "itiran.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 16,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "tejaratefarda.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 16,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "faazino.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 16,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "beytoote.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 12,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "blogfa.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 12,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "estjt.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 10,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "virgool.io": {
-   "avg_pressure": 0,
-   "avg_opportunity": 6,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "alanchand.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 6,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "time.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 6,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "mashreghnews.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 5,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "roozaneh.net": {
-   "avg_pressure": 0,
-   "avg_opportunity": 4,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "yasdl.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 4,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "anten.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 4,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "iranestekhdam.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 4,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "jobinja.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 4,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "uptvs.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "iribnews.ir": {
+  "akharinkhodro.ir": {
    "avg_pressure": 0,
    "avg_opportunity": 3,
    "days": 1,
@@ -3199,118 +2971,10 @@
   "film2movie.asia": {
    "avg_pressure": 0,
    "avg_opportunity": 3,
-   "days": 2,
-   "pressure_std": 0
-  },
-  "akharinkhodro.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 2,
-   "pressure_std": 0
-  },
-  "snn.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "nournews.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "newshanik.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "doctor-yab.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "golsarmusic.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "vajehyab.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 3,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "nabzebourse.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 2,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "mizanonline.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 2,
    "days": 1,
    "pressure_std": 0
   },
   "bourse24.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 2,
-   "days": 2,
-   "pressure_std": 0
-  },
-  "chartix.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 2,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "tamasha.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 1,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "upera.tv": {
-   "avg_pressure": 0,
-   "avg_opportunity": 1,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "aftabir.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 1,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "salamatnews.com": {
-   "avg_pressure": 0,
-   "avg_opportunity": 1,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "hidoctor.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 1,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "didbaniran.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 1,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "dailytec.ir": {
-   "avg_pressure": 0,
-   "avg_opportunity": 1,
-   "days": 1,
-   "pressure_std": 0
-  },
-  "farsfile.ir": {
    "avg_pressure": 0,
    "avg_opportunity": 1,
    "days": 1,
@@ -3319,14 +2983,8 @@
   "konkorsad.ir": {
    "avg_pressure": 0,
    "avg_opportunity": 1,
-   "days": 2,
+   "days": 1,
    "pressure_std": 0
-  },
-  "ensafnews.com": {
-   "avg_pressure": 46,
-   "avg_opportunity": 50,
-   "days": 29,
-   "pressure_std": 5
   },
   "khabarfarsi.com": {
    "avg_pressure": 7,
@@ -3343,13 +3001,13 @@
   "technolife.com": {
    "avg_pressure": 74,
    "avg_opportunity": 51,
-   "days": 24,
+   "days": 25,
    "pressure_std": 6
   },
   "zoomon.ir": {
    "avg_pressure": 13,
    "avg_opportunity": 46,
-   "days": 24,
+   "days": 25,
    "pressure_std": 3
   },
   "zoomapp.app": {
@@ -3373,7 +3031,7 @@
   "digikala.com": {
    "avg_pressure": 14,
    "avg_opportunity": 73,
-   "days": 16,
+   "days": 17,
    "pressure_std": 2
   },
   "a1.parto.media": {
@@ -3414,8 +3072,8 @@
   },
   "bitfa.io": {
    "avg_pressure": 14,
-   "avg_opportunity": 60,
-   "days": 2,
+   "avg_opportunity": 61,
+   "days": 3,
    "pressure_std": 0
   },
   "iranbroker.net": {
@@ -3423,21 +3081,93 @@
    "avg_opportunity": 16,
    "days": 1,
    "pressure_std": 0
+  },
+  "bartarinha.ir": {
+   "avg_pressure": 0,
+   "avg_opportunity": 55,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "eghtesadnews.com": {
+   "avg_pressure": 0,
+   "avg_opportunity": 54,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "alanchand.com": {
+   "avg_pressure": 51,
+   "avg_opportunity": 48,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "didbaniran.ir": {
+   "avg_pressure": 27,
+   "avg_opportunity": 46,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "imna.ir": {
+   "avg_pressure": 33,
+   "avg_opportunity": 43,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "mashreghnews.ir": {
+   "avg_pressure": 0,
+   "avg_opportunity": 7,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "snn.ir": {
+   "avg_pressure": 0,
+   "avg_opportunity": 5,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "iribnews.ir": {
+   "avg_pressure": 0,
+   "avg_opportunity": 4,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "mizanonline.ir": {
+   "avg_pressure": 0,
+   "avg_opportunity": 3,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "nournews.ir": {
+   "avg_pressure": 0,
+   "avg_opportunity": 3,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "newshanik.ir": {
+   "avg_pressure": 0,
+   "avg_opportunity": 3,
+   "days": 1,
+   "pressure_std": 0
+  },
+  "aftabir.com": {
+   "avg_pressure": 0,
+   "avg_opportunity": 1,
+   "days": 1,
+   "pressure_std": 0
   }
  },
  "campaign_mix": {
-  "promo": 11901,
-  "installment": 8793,
-  "unknown": 8148,
-  "native_content": 5233,
-  "lead_gen": 4087,
-  "product": 3254,
-  "app_install": 2095,
-  "gamified": 2002,
-  "brand": 1864,
-  "targeted": 1275,
-  "seasonal": 980,
-  "retargeting": 447,
+  "promo": 11689,
+  "installment": 8883,
+  "unknown": 8066,
+  "native_content": 4995,
+  "lead_gen": 4120,
+  "product": 3239,
+  "app_install": 2125,
+  "gamified": 1986,
+  "brand": 1888,
+  "targeted": 1217,
+  "seasonal": 1066,
+  "retargeting": 420,
   "campaign_landing": 1
  }
 }

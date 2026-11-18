@@ -1042,7 +1042,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-11-16"
+  "last_seen": "2026-11-18"
  },
  "t:37225d860f": {
   "name": "ردتون",
@@ -2706,7 +2706,7 @@
   "level": "vertical",
   "source": "name-match",
   "first_seen": "2026-10-18",
-  "last_seen": "2026-10-20"
+  "last_seen": "2026-11-18"
  },
  "sabaamc.ir": {
   "name": "سبدگردان اندیشه صبا",
@@ -3560,7 +3560,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-10-19",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-18"
  },
  "aryacoupling.com": {
   "name": "آریا کوپلینگ",
@@ -7722,7 +7722,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:592563505d": {
   "name": "پلی‌پاد",
@@ -7732,7 +7732,7 @@
   "confidence": 0.75,
   "source": "llm",
   "first_seen": "2026-10-24",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:dd5254cccd": {
   "name": "پلی‌پاد",
@@ -9790,7 +9790,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:f1cdd42c9c": {
   "name": "ال جی",
@@ -10138,7 +10138,7 @@
   "confidence": 0.3,
   "source": "llm",
   "first_seen": "2026-10-29",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:3bfb990c04": {
   "name": "نامشخص",
@@ -10436,7 +10436,7 @@
   "confidence": 0.6,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-18"
  },
  "t:3fc91fba1b": {
   "name": "نامشخص (کلینیک کاشت مو)",
@@ -10668,7 +10668,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-30",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-18"
  },
  "snappbimeh.ir": {
   "name": "اسنپ بیمه",
@@ -11410,7 +11410,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-10-31",
-  "last_seen": "2026-11-10"
+  "last_seen": "2026-11-18"
  },
  "t:26c18a8fdb": {
   "name": "کانکت چی",
@@ -11794,7 +11794,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-01",
-  "last_seen": "2026-11-14"
+  "last_seen": "2026-11-18"
  },
  "t:93e255ef8e": {
   "name": "فراز",
@@ -12670,7 +12670,7 @@
   "confidence": 0.95,
   "source": "llm",
   "first_seen": "2026-11-02",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:4559fc6094": {
   "name": "نامشخص",
@@ -14118,7 +14118,7 @@
   "confidence": 0.85,
   "source": "llm",
   "first_seen": "2026-11-08",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "firouzeh.com": {
   "name": "گروه فیروزه",
@@ -14652,7 +14652,7 @@
   "confidence": 0.9,
   "source": "llm",
   "first_seen": "2026-11-11",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:0b784f5723": {
   "name": "شاپینو",
@@ -15680,7 +15680,7 @@
   "confidence": 0.85,
   "source": "vision",
   "first_seen": "2026-11-15",
-  "last_seen": "2026-11-15"
+  "last_seen": "2026-11-18"
  },
  "img:33b8c1607c1fc8": {
   "name": "ژانومه",
@@ -16204,7 +16204,7 @@
   "confidence": 0.8,
   "source": "llm",
   "first_seen": "2026-11-17",
-  "last_seen": "2026-11-17"
+  "last_seen": "2026-11-18"
  },
  "t:e492222eab": {
   "name": "رسانه بازی و سرگرمی",
@@ -16293,6 +16293,14 @@
   "domain_guess": "parvaz.ir",
   "confidence": 0.95,
   "source": "vision",
+  "first_seen": "2026-11-18",
+  "last_seen": "2026-11-18"
+ },
+ "brand:اکالا": {
+  "name": "اکالا",
+  "vertical": "supermarket",
+  "level": "vertical",
+  "source": "name-match",
   "first_seen": "2026-11-18",
   "last_seen": "2026-11-18"
  }

@@ -573,7 +573,8 @@
   "ettelaat.com",
   "alef.ir",
   "hamshahrionline.ir",
-  "khabaronline.ir"
+  "khabaronline.ir",
+  "aftabir.com"
  ],
  "gamefa.net": [
   "gamefa.com"
@@ -657,7 +658,8 @@
   "fararu.com",
   "bartarinha.ir",
   "didbaniran.ir",
-  "nournews.ir"
+  "nournews.ir",
+  "eghtesadnews.com"
  ],
  "satiakhodro.com": [
   "jamaran.news"
@@ -1265,7 +1267,8 @@
   "jamejamonline.ir"
  ],
  "rapop.ir": [
-  "jamejamonline.ir"
+  "jamejamonline.ir",
+  "aftabir.com"
  ],
  "pandco.com": [
   "jamejamonline.ir"
@@ -1601,14 +1604,17 @@
  ],
  "smoothie.tavoos.net": [
   "ecoiran.com",
-  "donya-e-eqtesad.com"
+  "donya-e-eqtesad.com",
+  "eghtesadnews.com"
  ],
  "dengroup.org": [
   "ecoiran.com",
-  "donya-e-eqtesad.com"
+  "donya-e-eqtesad.com",
+  "eghtesadnews.com"
  ],
  "donya-e-eqtesad.com": [
-  "ecoiran.com"
+  "ecoiran.com",
+  "eghtesadnews.com"
  ],
  "eghtesadnews.com": [
   "ecoiran.com",
@@ -1617,24 +1623,29 @@
  ],
  "financialtribune.com": [
   "ecoiran.com",
-  "donya-e-eqtesad.com"
+  "donya-e-eqtesad.com",
+  "eghtesadnews.com"
  ],
  "events.donya-e-eqtesad.com": [
-  "ecoiran.com"
+  "ecoiran.com",
+  "eghtesadnews.com"
  ],
  "donyayebourse.com": [
   "ecoiran.com"
  ],
  "tejaratefarda.com": [
   "ecoiran.com",
-  "donya-e-eqtesad.com"
+  "donya-e-eqtesad.com",
+  "eghtesadnews.com"
  ],
  "book.donya-e-eqtesad.com": [
-  "ecoiran.com"
+  "ecoiran.com",
+  "eghtesadnews.com"
  ],
  "deic.vc": [
   "ecoiran.com",
-  "donya-e-eqtesad.com"
+  "donya-e-eqtesad.com",
+  "eghtesadnews.com"
  ],
  "barayand.net": [
   "ecoiran.com"
@@ -1655,7 +1666,8 @@
   "alef.ir"
  ],
  "ecoiran.com": [
-  "donya-e-eqtesad.com"
+  "donya-e-eqtesad.com",
+  "eghtesadnews.com"
  ],
  "clubhouse.com": [
   "sharghdaily.com"
@@ -1945,7 +1957,8 @@
   "bartarinha.ir"
  ],
  "play.google.com": [
-  "bartarinha.ir"
+  "bartarinha.ir",
+  "alanchand.com"
  ],
  "didehbanbazar.ir": [
   "didbaniran.ir"
@@ -2000,5 +2013,23 @@
  "trip.ir": [
   "gadgetnews.net",
   "shahrekhabar.com"
+ ],
+ "sanadara.ir": [
+  "aftabir.com"
+ ],
+ "meloram.ir": [
+  "aftabir.com"
+ ],
+ "roozaneh.net": [
+  "aftabir.com"
+ ],
+ "kopool.ir": [
+  "aftabir.com"
+ ],
+ "apps.apple.com": [
+  "alanchand.com"
+ ],
+ "nafasland.com": [
+  "tebyan.net"
  ]
 }
